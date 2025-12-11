@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Top 20 subidas de precios</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --panel: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --accent: #d65f3b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f6f7fb;
+      color: var(--text);
+      padding: 24px 16px 48px;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      width: 100%;
+      max-width: 1100px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+    }
+    h1 { margin: 0 0 8px; font-size: 22px; }
+    p.note { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
+    canvas { width: 100%; height: 520px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Top 20 subidas de precios</h1>
+    <canvas id="chartTopPrices"></canvas>
+    <p class="note">Inflación acumulada dic-2019 a ago-2024. Fuente: transcripción del gráfico de referencia.</p>
+  </div>
+
+  <script>
+    const labels = [
+      'Aceite de oliva',
+      'Azúcar',
+      'Patatas',
+      'Salsas y condimentos',
+      'Leche entera',
+      'Huevos',
+      'Otros aceites comestibles',
+      'Harina y otros cereales',
+      'Zumos de fruta y verdura',
+      'Mantequilla',
+      'Leche desnatada',
+      'Arroz',
+      'Cacao y chocolate en polvo',
+      'Conservas de fruta y productos a base de fruta',
+      'Otros productos de panadería',
+      'Legumbres y verduras congeladas',
+      'Pastas y cuscús',
+      'Chocolate',
+      'Fruta fresca o refrigerada',
+      'Legumbres y verduras secas o en conserva'
+    ];
+    const values = [183.0,66.5,57.4,49.8,49.3,48.5,48.4,47.0,44.9,43.8,43.3,43.0,42.5,40.6,40.6,40.5,38.9,38.4,38.3,36.0];
+
+    new Chart(document.getElementById('chartTopPrices'), {
+      type: 'bar',
+      data: {
+        labels,
+        datasets: [
+          { label: 'Inflación acumulada (%)', data: values, backgroundColor: varAccent() }
+        ]
+      },
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        interaction: { mode: 'index', intersect: false },
+        scales: {
+          x: {
+            beginAtZero: true,
+            suggestedMax: 190,
+            title: { display: true, text: 'Inflación acumulada (%)' },
+            grid: { color: '#e5e7eb' },
+            ticks: { callback: v => v + '%' }
+          },
+          y: {
+            grid: { display: false },
+            ticks: { autoSkip: false }
+          }
+        },
+        plugins: { legend: { position: 'bottom' } }
+      }
+    });
+
+    function varAccent() { return getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#d65f3b'; }
+  </script>
+</body>
+</html>
