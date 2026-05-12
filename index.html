@@ -2,103 +2,406 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Top 20 subidas de precios</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    :root {
-      --panel: #ffffff;
-      --text: #111827;
-      --muted: #6b7280;
-      --border: #e5e7eb;
-      --accent: #d65f3b;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background: #f6f7fb;
-      color: var(--text);
-      padding: 24px 16px 48px;
-      display: flex;
-      justify-content: center;
-    }
-    .card {
-      width: 100%;
-      max-width: 1100px;
-      background: var(--panel);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 16px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.05);
-    }
-    h1 { margin: 0 0 8px; font-size: 22px; }
-    p.note { margin: 8px 0 0; color: var(--muted); font-size: 13px; }
-    canvas { width: 100%; height: 520px; }
-  </style>
+  <title>Comunicación | El retraso de la maternidad con la vida digital en Estados Unidos</title>
+  <meta name="description" content="Un recorrido visual por 20 años de cambios en el uso del tiempo y la fecundidad estadounidense.">
+  <style>html,body{margin:0;background:#111;color:#f5f5f5}</style>
+  <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; if (!location.hash) scrollTo(0, 0);</script>
+  <link rel="stylesheet" href="wp-dark-article-v10.css?v=layout-fix-17">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <div class="card">
-    <h1>Top 20 subidas de precios</h1>
-    <canvas id="chartTopPrices"></canvas>
-    <p class="note">Inflación acumulada dic-2019 a ago-2024. Fuente: CaixaBank Research, basado en dato de INE.</p>
-  </div>
+  <a class="skip-link" href="#main">Saltar al contenido principal</a>
 
-  <script>
-    const labels = [
-      'Aceite de oliva',
-      'Azúcar',
-      'Patatas',
-      'Salsas y condimentos',
-      'Leche entera',
-      'Huevos',
-      'Otros aceites comestibles',
-      'Harina y otros cereales',
-      'Zumos de fruta y verdura',
-      'Mantequilla',
-      'Leche desnatada',
-      'Arroz',
-      'Cacao y chocolate en polvo',
-      'Conservas de fruta y productos a base de fruta',
-      'Otros productos de panadería',
-      'Legumbres y verduras congeladas',
-      'Pastas y cuscús',
-      'Chocolate',
-      'Fruta fresca o refrigerada',
-      'Legumbres y verduras secas o en conserva'
-    ];
-    const values = [183.0,66.5,57.4,49.8,49.3,48.5,48.4,47.0,44.9,43.8,43.3,43.0,42.5,40.6,40.6,40.5,38.9,38.4,38.3,36.0];
+  <header class="site-header">
+    <div class="topbar">
+      <button class="menu-search" aria-label="Abrir menú y búsqueda">
+        <span class="menu-one"></span>
+        <span class="menu-two"></span>
+        <span class="lens"></span>
+      </button>
 
-    new Chart(document.getElementById('chartTopPrices'), {
-      type: 'bar',
-      data: {
-        labels,
-        datasets: [
-          { label: 'Inflación acumulada (%)', data: values, backgroundColor: varAccent() }
-        ]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true,
-        interaction: { mode: 'index', intersect: false },
-        scales: {
-          x: {
-            beginAtZero: true,
-            suggestedMax: 190,
-            title: { display: true, text: 'Inflación acumulada (%)' },
-            grid: { color: '#e5e7eb' },
-            ticks: { callback: v => v + '%' }
-          },
-          y: {
-            grid: { display: false },
-            ticks: { autoSkip: false }
-          }
-        },
-        plugins: { legend: { position: 'bottom' } }
-      }
-    });
+      <a class="brand" href="/consumo.github.io/" aria-label="Comunicación home">
+        <span>Comunicación</span>
+        <em>Democracia y datos en contexto</em>
+      </a>
 
-    function varAccent() { return getComputedStyle(document.documentElement).getPropertyValue('--accent').trim() || '#d65f3b'; }
-  </script>
+      <nav class="account-nav" aria-label="Cuenta">
+        <a class="signin" href="#">Iniciar sesión</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="page">
+    <section class="globe-hero globe-intro" id="globe-hero" data-region="europe" aria-label="Prólogo interactivo sobre fecundidad comparada">
+      <div class="globe-stage">
+        <canvas id="globe-canvas" aria-hidden="true"></canvas>
+        <div class="globe-shade"></div>
+
+        <div class="globe-hud" aria-live="polite">
+          <p id="globe-stage-kicker">TFR · hijos por mujer</p>
+          <h2 id="globe-stage-title">Europa</h2>
+          <div class="globe-selected" id="globe-selected"></div>
+        </div>
+
+        <div class="globe-tooltip" id="globe-tooltip"></div>
+        <div class="globe-scroll-cue">Desplaza para empezar</div>
+      </div>
+
+      <div class="globe-scroll-chapters" aria-label="Relato guiado del prólogo">
+        <section class="globe-chapter" data-region="europe">
+          <span>01</span>
+          <h2>Europa abre el recorrido</h2>
+          <p>Las economías posindustriales entraron antes en la baja fecundidad, desde finales del siglo XX, con niveles por debajo del reemplazo generacional.</p>
+        </section>
+        <section class="globe-chapter" data-region="east_asia">
+          <span>02</span>
+          <h2>Después, el extremo asiático</h2>
+          <p>Las sociedades de alta urbanización llegaron más tarde a la baja fecundidad, pero con una caída intensa durante las últimas décadas.</p>
+        </section>
+        <section class="globe-chapter" data-region="united_states">
+          <span>03</span>
+          <h2>Finalmente, Estados Unidos por estados</h2>
+          <p>El caso más tardío del recorrido mantuvo durante más tiempo una fecundidad relativamente alta, aunque en los últimos años el descenso y el aplazamiento se volvieron más visibles.</p>
+        </section>
+        <section class="globe-chapter globe-title-chapter" data-region="title">
+          <span>Reportaje de datos</span>
+          <h2>El retraso de la maternidad con la vida digital en Estados Unidos</h2>
+          <p>Un recorrido visual por 20 años de cambios en el uso del tiempo y la fecundidad estadounidense.</p>
+        </section>
+      </div>
+    </section>
+
+    <article class="article" id="article-start">
+      <section class="chapter-gateway" aria-label="Índice del reportaje">
+        <nav class="chapter-nav" aria-label="Capítulos del reportaje">
+          <a href="#x-block"><span>Capítulo 1:</span><strong>Ocio digital</strong></a>
+          <a href="#m-block"><span>Capítulo 2:</span><strong>Tiempo exterior</strong></a>
+          <a href="#y-block"><span>Capítulo 3:</span><strong>Fecundidad</strong></a>
+        </nav>
+
+        <div class="chapter-copy">
+          <p class="chapter-lead">Pantallas, tiempo fuera del hogar y fecundidad por edades en Estados Unidos</p>
+          <p>En buena parte del mundo, la maternidad se desplaza lentamente hacia edades más tardías. No siempre cambia primero el deseo de tener hijos. A veces cambia antes la forma de vivir, de ocupar el tiempo y de permanecer fuera de casa.</p>
+          <p>Este reportaje sigue ese movimiento en Estados Unidos entre 2005 y 2024 a través de tres ejes conectados, el ocio digital, la actividad presencial fuera del hogar y la fecundidad por edades.</p>
+        </div>
+      </section>
+
+      <section class="us-map-widget" id="us-map-widget" aria-label="Gráficos interactivos del reportaje">
+        <section class="map-stack">
+
+          <section class="metric-block" id="x-block">
+            <header class="metric-heading">
+              <p class="metric-kicker">1. Variable independiente</p>
+              <h2>Ocio digital diario</h2>
+              <p>Horas diarias dedicadas a ocio digital, agregadas por estado y año a partir de ATUS.</p>
+            </header>
+            <div class="layout">
+              <div class="map-block">
+                <div class="map-shell">
+                  <button id="search-toggle-x" class="map-search-btn" title="Abrir o cerrar búsqueda de estados">🔍</button>
+                  <div id="search-panel-x" class="map-search-panel">
+                    <input id="search-input-x" type="text" placeholder="Introduzca el nombre del estado o selecciónelo de la lista inferior.">
+                    <div id="search-list-x" class="search-list"></div>
+                  </div>
+                  <div class="year-select" id="year-select-x">
+                    <button class="year-select-btn" id="year-select-btn-x">2024 ▼</button>
+                    <div class="year-dropdown" id="year-dropdown-x"></div>
+                  </div>
+                  <div class="map-zoom">
+                    <button class="zoom-btn" id="zoom-in-x" aria-label="Zoom In">+</button>
+                    <button class="zoom-btn" id="zoom-out-x" aria-label="Zoom Out">−</button>
+                  </div>
+                  <div id="map-x" class="map-target"></div>
+                </div>
+                <div id="legend-container-x" class="legend-steps">
+                  <div class="legend-title" id="legend-title-x">Ocio digital diario</div>
+                  <div class="legend-steps-row" id="legend-steps-row-x"></div>
+                  <div class="legend-caption">ATUS respondent files. Media ponderada estado-año.</div>
+                </div>
+              </div>
+              <aside class="state-card">
+                <div class="state-card-title" id="state-title-x">Estados Unidos</div>
+                <div class="state-card-subtitle" id="state-subtitle-x">Cuando seleccione un estado en el mapa de la izquierda o lo busque, el valor aparecerá en este recuadro.</div>
+                <div class="state-card-grid">
+                  <div class="state-card-box">
+                    <div class="state-card-label" id="state-label-x">Ocio digital diario</div>
+                    <div class="state-card-value" id="state-value-x">-</div>
+                  </div>
+                  <div class="state-card-box">
+                    <div class="state-card-label">Posición</div>
+                    <div class="state-card-rank" id="state-rank-x">-</div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+            <section class="ranking-section">
+              <div class="ranking-grid">
+                <div><div class="ranking-column-title">Valores más altos</div><ul class="ranking-list" id="top-states-list-x"></ul></div>
+                <div><div class="ranking-column-title">Valores más bajos</div><ul class="ranking-list" id="bottom-states-list-x"></ul></div>
+              </div>
+              <button id="view-all-btn-x" class="view-all-btn">Ver todos los estados</button>
+            </section>
+            <div id="all-states-modal-x" class="all-states-modal">
+              <div class="modal-panel">
+                <div class="modal-header"><div class="modal-title" id="modal-title-x">Ocio digital diario por estado</div><button class="modal-close" id="modal-close-btn-x" aria-label="Cerrar">&times;</button></div>
+                <div class="modal-body"><table><thead><tr><th>Estado</th><th class="td-right">Posición</th><th class="td-right">Valor</th></tr></thead><tbody id="all-states-table-body-x"></tbody></table></div>
+              </div>
+            </div>
+            <section class="trend-section">
+              <h2 id="trend-title-x">Tendencia de ocio digital diario (Estados Unidos)</h2>
+              <p id="trend-copy-x">Evolución media anual de las horas diarias de televisión, videojuegos y ordenador recreativo en todos los estados.</p>
+              <div id="trend-chart-x"></div>
+              <div class="trend-caption">Cada punto representa la media simple de los estados incluidos en ese año.</div>
+            </section>
+          </section>
+
+          <section class="reportage-interlude x-to-m-copy" aria-label="Interpretación del ocio digital">
+            <p>El ocio digital ocupa una parte cada vez más visible del día. Su crecimiento modifica la distribución cotidiana del tiempo y desplaza minutos hacia actividades realizadas frente a pantallas. Ese cambio afecta a rutinas concretas: estudiar, trabajar, comer fuera, practicar deporte, quedar con otras personas o permanecer en espacios compartidos.</p>
+            <p>Con el paso de los años, esos minutos forman una nueva geografía de la vida diaria. La pantalla concentra tiempo en el hogar y reduce la presencia en lugares donde se cruzan trayectorias sociales, educativas, laborales y cotidianas. La organización del día se vuelve más interior, más mediada y menos expuesta a encuentros presenciales.</p>
+            <p>El tiempo fuera del hogar permite observar esa transformación desde el otro lado. Reúne actividades laborales, educativas, sociales y recreativas que sitúan a las personas en espacios compartidos. Su evolución muestra cuánto espacio queda para la presencia cotidiana, las rutinas fuera de casa y los contactos que sostienen la vida social.</p>
+          </section>
+
+          <section class="metric-block" id="m-block">
+            <header class="metric-heading">
+              <p class="metric-kicker">2. Tiempo exterior</p>
+              <h2>Horas exteriores diarias</h2>
+              <p>Horas diarias dedicadas a actividades fuera de casa y sin viaje: trabajo, educación, comida, deporte y socialización básica.</p>
+            </header>
+            <div class="layout">
+              <div class="map-block">
+                <div class="map-shell">
+                  <button id="search-toggle-m" class="map-search-btn" title="Abrir o cerrar búsqueda de estados">🔍</button>
+                  <div id="search-panel-m" class="map-search-panel">
+                    <input id="search-input-m" type="text" placeholder="Introduzca el nombre del estado o selecciónelo de la lista inferior.">
+                    <div id="search-list-m" class="search-list"></div>
+                  </div>
+                  <div class="year-select" id="year-select-m">
+                    <button class="year-select-btn" id="year-select-btn-m">2024 ▼</button>
+                    <div class="year-dropdown" id="year-dropdown-m"></div>
+                  </div>
+                  <div class="map-zoom">
+                    <button class="zoom-btn" id="zoom-in-m" aria-label="Zoom In">+</button>
+                    <button class="zoom-btn" id="zoom-out-m" aria-label="Zoom Out">−</button>
+                  </div>
+                  <div id="map-m" class="map-target"></div>
+                </div>
+                <div id="legend-container-m" class="legend-steps">
+                  <div class="legend-title" id="legend-title-m">Horas exteriores diarias</div>
+                  <div class="legend-steps-row" id="legend-steps-row-m"></div>
+                  <div class="legend-caption">ATUS activity files. El valor se expresa como horas diarias.</div>
+                </div>
+              </div>
+              <aside class="state-card">
+                <div class="state-card-title" id="state-title-m">Estados Unidos</div>
+                <div class="state-card-subtitle" id="state-subtitle-m">Cuando seleccione un estado en el mapa de la izquierda o lo busque, el valor aparecerá en este recuadro.</div>
+                <div class="state-card-grid">
+                  <div class="state-card-box">
+                    <div class="state-card-label" id="state-label-m">Horas diarias</div>
+                    <div class="state-card-value" id="state-value-m">-</div>
+                  </div>
+                  <div class="state-card-box">
+                    <div class="state-card-label">Posición</div>
+                    <div class="state-card-rank" id="state-rank-m">-</div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+            <section class="ranking-section">
+              <div class="ranking-grid">
+                <div><div class="ranking-column-title">Valores más altos</div><ul class="ranking-list" id="top-states-list-m"></ul></div>
+                <div><div class="ranking-column-title">Valores más bajos</div><ul class="ranking-list" id="bottom-states-list-m"></ul></div>
+              </div>
+              <button id="view-all-btn-m" class="view-all-btn">Ver todos los estados</button>
+            </section>
+            <div id="all-states-modal-m" class="all-states-modal">
+              <div class="modal-panel">
+                <div class="modal-header"><div class="modal-title" id="modal-title-m">Horas exteriores diarias por estado</div><button class="modal-close" id="modal-close-btn-m" aria-label="Cerrar">&times;</button></div>
+                <div class="modal-body"><table><thead><tr><th>Estado</th><th class="td-right">Posición</th><th class="td-right">Valor</th></tr></thead><tbody id="all-states-table-body-m"></tbody></table></div>
+              </div>
+            </div>
+            <section class="trend-section">
+              <h2 id="trend-title-m">Tendencia de horas exteriores diarias (Estados Unidos)</h2>
+              <p id="trend-copy-m">Evolución media anual de las horas diarias dedicadas a actividades exteriores de trabajo, educación, comida, deporte y socialización básica.</p>
+              <div id="trend-chart-m"></div>
+              <div class="trend-caption">Cada punto representa la media simple de los estados incluidos en ese año.</div>
+            </section>
+          </section>
+
+          <section class="reportage-interlude m-to-y-copy" aria-label="Interpretación del tiempo exterior">
+            <p>El tiempo fuera del hogar deja una huella en la organización de la vida adulta. En esos espacios se repiten horarios, se forman rutinas, se sostienen vínculos y se abren posibilidades de encuentro. Trabajo, educación, comida, deporte y vida social componen una parte del día donde las decisiones personales se cruzan con la presencia de otros.</p>
+            <p>Cuando esa presencia cotidiana pierde peso, el cambio puede sentirse antes en el calendario que en el número total de nacimientos. La fecundidad empieza entonces a leerse por edades: quién tiene hijos antes, quién los retrasa y en qué grupos se desplaza el peso de la maternidad. La transformación del tiempo diario se convierte así en una pregunta sobre el momento de tener hijos.</p>
+          </section>
+
+          <section class="metric-block" id="y-block">
+            <header class="metric-heading">
+              <p class="metric-kicker">3. Variables dependientes</p>
+              <h2>Resultados de fecundidad</h2>
+              <p>Indicadores de fecundidad usados en el modelo. GFR, ASFR y primeros nacimientos son nacimientos por 1.000 mujeres, no porcentajes; BirthShare sí se expresa como porcentaje.</p>
+              <label class="metric-control" for="metric-select-y"><span>Resultado</span><select id="metric-select-y" class="metric-select"></select></label>
+            </header>
+            <div class="layout">
+              <div class="map-block">
+                <div class="map-shell">
+                  <button id="search-toggle-y" class="map-search-btn" title="Abrir o cerrar búsqueda de estados">🔍</button>
+                  <div id="search-panel-y" class="map-search-panel">
+                    <input id="search-input-y" type="text" placeholder="Introduzca el nombre del estado o selecciónelo de la lista inferior.">
+                    <div id="search-list-y" class="search-list"></div>
+                  </div>
+                  <div class="year-select" id="year-select-y">
+                    <button class="year-select-btn" id="year-select-btn-y">2024 ▼</button>
+                    <div class="year-dropdown" id="year-dropdown-y"></div>
+                  </div>
+                  <div class="map-zoom">
+                    <button class="zoom-btn" id="zoom-in-y" aria-label="Zoom In">+</button>
+                    <button class="zoom-btn" id="zoom-out-y" aria-label="Zoom Out">−</button>
+                  </div>
+                  <div id="map-y" class="map-target"></div>
+                </div>
+                <div id="legend-container-y" class="legend-steps">
+                  <div class="legend-title" id="legend-title-y">Fecundidad general</div>
+                  <div class="legend-steps-row" id="legend-steps-row-y"></div>
+                  <div class="legend-caption">CDC Natality / PEP. GFR, ASFR y primeros nacimientos: nacimientos por 1.000 mujeres; BirthShare: porcentaje.</div>
+                </div>
+              </div>
+              <aside class="state-card">
+                <div class="state-card-title" id="state-title-y">Estados Unidos</div>
+                <div class="state-card-subtitle" id="state-subtitle-y">Cuando seleccione un estado en el mapa de la izquierda o lo busque, el valor aparecerá en este recuadro.</div>
+                <div class="state-card-grid">
+                  <div class="state-card-box">
+                    <div class="state-card-label" id="state-label-y">Resultado de fecundidad</div>
+                    <div class="state-card-value" id="state-value-y">-</div>
+                  </div>
+                  <div class="state-card-box">
+                    <div class="state-card-label">Posición</div>
+                    <div class="state-card-rank" id="state-rank-y">-</div>
+                  </div>
+                </div>
+              </aside>
+            </div>
+            <section class="ranking-section">
+              <div class="ranking-grid">
+                <div><div class="ranking-column-title">Valores más altos</div><ul class="ranking-list" id="top-states-list-y"></ul></div>
+                <div><div class="ranking-column-title">Valores más bajos</div><ul class="ranking-list" id="bottom-states-list-y"></ul></div>
+              </div>
+              <button id="view-all-btn-y" class="view-all-btn">Ver todos los estados</button>
+            </section>
+            <div id="all-states-modal-y" class="all-states-modal">
+              <div class="modal-panel">
+                <div class="modal-header"><div class="modal-title" id="modal-title-y">Resultado de fecundidad por estado</div><button class="modal-close" id="modal-close-btn-y" aria-label="Cerrar">&times;</button></div>
+                <div class="modal-body"><table><thead><tr><th>Estado</th><th class="td-right">Posición</th><th class="td-right">Valor</th></tr></thead><tbody id="all-states-table-body-y"></tbody></table></div>
+              </div>
+            </div>
+            <section class="trend-section">
+              <h2 id="trend-title-y">Tendencia del resultado de fecundidad (Estados Unidos)</h2>
+              <p id="trend-copy-y">Evolución media anual del resultado seleccionado en todos los estados. Revise la unidad: las tasas de fecundidad son nacimientos por 1.000 mujeres, no porcentajes.</p>
+              <div id="trend-chart-y"></div>
+              <div class="trend-caption">Cada punto representa la media simple de los estados incluidos en ese año.</div>
+            </section>
+          </section>
+
+          <section class="reportage-interlude y-final-copy" aria-label="Interpretación de la fecundidad por edades">
+            <p>La fecundidad por edades muestra que el cambio demográfico se reparte de forma desigual a lo largo del calendario reproductivo. Las edades jóvenes pierden peso, mientras la maternidad se desplaza hacia etapas más tardías de la vida adulta. El descenso de los nacimientos adquiere así una forma temporal: cambia el momento, cambia la distribución y cambia la relación entre las edades.</p>
+            <p>En ese movimiento, el ocio digital y el tiempo fuera del hogar aparecen como piezas de una misma reorganización cotidiana. Las pantallas concentran tiempo, las actividades presenciales pierden espacio y la fecundidad se reordena por edades. La vida diaria y el calendario reproductivo avanzan juntos, unidos por una transformación silenciosa del tiempo.</p>
+          </section>
+        </section>
+      </section>
+    </article>
+
+    <section class="article-tail reveal-on-scroll" aria-label="Más contenido">
+      <div class="article-tail-tags">
+        <a class="article-tail-pill" href="#">Explorar más</a>
+        <a class="article-tail-pill" href="#">Opinión</a>
+        <a class="article-tail-pill" href="#">Columnas</a>
+        <a class="article-tail-pill" href="#">Noticia</a>
+        <a class="article-tail-pill" href="#">Sociedad</a>
+        <a class="article-tail-pill" href="#">Economía</a>
+      </div>
+
+      <div class="article-tail-edition">
+        <div class="article-tail-thumb">Edición</div>
+        <div class="article-tail-meta">
+          <h4>De la edición del 6 de diciembre de 2025</h4>
+          <p>Descubra historias de esta sección y más en el índice de contenidos.</p>
+          <a class="article-tail-pill" href="#">Explorar la edición</a>
+        </div>
+      </div>
+
+      <div class="article-tail-actions">
+        <button type="button">Guardar</button>
+        <button type="button">Compartir</button>
+        <button type="button">Reutilizar este contenido</button>
+      </div>
+
+      <div class="article-tail-newsletter">
+        <h4>Suscríbase a nuestro boletín</h4>
+        <p>Su guía para las agonías de la vida de oficina.</p>
+        <button type="button">Suscribirse</button>
+      </div>
+
+      <div class="article-tail-more">
+        <div class="article-tail-more-title">Más en Economía</div>
+        <div class="article-tail-grid">
+          <article class="article-tail-card">
+            <h5>¿Destruirá la ola de megafusiones valor para los accionistas?</h5>
+            <p>Es una moneda al aire.</p>
+          </article>
+          <article class="article-tail-card">
+            <h5>Para frenar su declive, Volkswagen y otros miran hacia China</h5>
+            <p>Los fabricantes de automóviles extranjeros están localizando sus operaciones.</p>
+          </article>
+          <article class="article-tail-card">
+            <h5>Patrick Drahi ha vuelto a imponerse a sus acreedores</h5>
+            <p>La reestructuración de deuda más caótica del mundo acaba de ponerse aún más fea.</p>
+          </article>
+          <article class="article-tail-card">
+            <h5>Hasta los fabricantes europeos de bolígrafos están en peligro</h5>
+            <p>Pero una peculiar marca italiana está prosperando.</p>
+          </article>
+          <article class="article-tail-card">
+            <h5>De los microdramas a los videojuegos, el entretenimiento chino vive un auge</h5>
+            <p>¿Cuánta libertad dará el Partido Comunista a los creadores?</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h4>Comunicación</h4>
+        <a href="#">Acerca de</a>
+        <a href="#">Reutilizar nuestro contenido</a>
+        <a href="#">Suscripción</a>
+        <a href="#">Comunicación Profesional</a>
+        <a href="#">Buzón seguro</a>
+      </div>
+      <div class="footer-col">
+        <h4>Grupo Comunicación</h4>
+        <a href="#">Análisis de Comunicación</a>
+        <a href="#">Impacto de Comunicación</a>
+        <a href="#">Eventos de impacto</a>
+        <a href="#">Cursos de formación</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="#">Ayuda y asistencia</a>
+        <a href="#">Publicidad</a>
+        <a href="#">Centro de prensa</a>
+        <a href="#">Programa de afiliados</a>
+      </div>
+      <div class="footer-col">
+        <h4>Empleo</h4>
+        <a href="#">Trabajar aquí</a>
+        <a href="#">Puestos directivos</a>
+      </div>
+    </div>
+    <div class="footer-meta">© Comunicación 2026 · Términos · Privacidad · Cookies</div>
+  </footer>
+
+  <script src="globe-hero.js?v=globe-intro-5"></script>
+  <script src="us-map-widget.js?v=time-format-1"></script>
 </body>
 </html>
