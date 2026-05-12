@@ -7,7 +7,7 @@
   <meta name="description" content="Reportaje de datos sobre ocio digital, tiempo fuera del hogar y fecundidad por edades en Estados Unidos entre 2005 y 2024.">
   <style>html,body{margin:0;background:#111;color:#f5f5f5}</style>
   <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; if (!location.hash) scrollTo(0, 0);</script>
-  <link rel="stylesheet" href="wp-dark-article-v10.css?v=reportage-body-5">
+  <link rel="stylesheet" href="wp-dark-article-v10.css?v=reportage-body-6">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
@@ -176,6 +176,10 @@
 
             <div class="chapter-copy-block chapter-after-widget">
               <p>El ocio digital ocupa una parte cada vez más visible del día. Su crecimiento redistribuye el tiempo disponible para otras actividades. La vida diaria se vuelve más interior, más mediada y menos dependiente de espacios compartidos.</p>
+
+              <aside class="data-note">
+                <strong>Qué mide esta variable.</strong> DigitalOcio_hours se construye con datos de la American Time Use Survey y agrega, por estado y año, el tiempo medio dedicado a televisión, vídeos, videojuegos y ordenador recreativo.
+              </aside>
             </div>
           </section>
 
@@ -250,6 +254,10 @@
 
             <div class="chapter-copy-block chapter-after-widget">
               <p>El tiempo fuera del hogar deja una huella concreta en la vida adulta. En esos espacios se repiten horarios, se sostienen rutinas y se producen encuentros. Trabajo, estudios, deporte, comida y sociabilidad cotidiana son lugares donde las trayectorias personales se cruzan con la presencia de otros.</p>
+
+              <aside class="data-note">
+                <strong>Por qué importa.</strong> M_share no mide directamente relaciones de pareja ni decisiones reproductivas. Mide una condición previa: la proporción del día dedicada a actividades presenciales fuera del hogar que pueden abrir o sostener oportunidades de interacción social.
+              </aside>
             </div>
           </section>
 
@@ -329,6 +337,10 @@
               <p>Al mirar la lectura más exigente del estudio, el cambio aparece sobre todo como una reorganización del calendario. Las edades jóvenes pierden peso con más claridad que el conjunto general, mientras las edades más tardías ayudan a entender el aplazamiento de la maternidad.</p>
 
               <p>La composición por edad de los nacimientos refuerza esa lectura. Los resultados sobre el peso de cada edad materna dentro del total de nacimientos son compatibles con una pérdida relativa en edades jóvenes y un desplazamiento hacia edades más tardías. Cuando la actividad presencial pierde espacio, la maternidad tiende a leerse como un calendario más retrasado.</p>
+
+              <aside class="result-callout">
+                <strong>El patrón principal.</strong> Los efectos directos del ocio digital sobre la fecundidad son heterogéneos. La relación es más ordenada cuando se observa la vía intermedia: más ocio digital, menos actividad presencial fuera del hogar y cambios en la fecundidad por edad, primeros nacimientos y edad media materna.
+              </aside>
             </div>
           </section>
         </section>
@@ -336,6 +348,38 @@
 
       <section class="interpretation" id="interpretacion">
         <p>Lo que sí muestra el estudio es que, cuando el ocio digital aumenta por encima de su nivel habitual, la proporción de tiempo dedicada a determinadas actividades presenciales fuera del hogar tiende a reducirse. Esa reducción se vincula con cambios en los indicadores de fecundidad por edades.</p>
+      </section>
+
+      <section class="methodology" id="metodologia">
+        <h2>Cómo se hizo</h2>
+
+        <details open>
+          <summary>Datos</summary>
+          <p>
+            El análisis combina datos de uso del tiempo de la American Time Use Survey, nacimientos del CDC Natality, estimaciones de población femenina del Population Estimates Program y controles estatales de desempleo, ingreso personal per cápita e índice de precios de la vivienda.
+          </p>
+        </details>
+
+        <details>
+          <summary>Variables</summary>
+          <p>
+            La variable principal es DigitalOcio_hours, que mide horas diarias de ocio digital. La variable mediadora es M_share, proporción del día dedicada a actividades presenciales fuera del hogar. Los resultados de fecundidad incluyen GFR, ASFR por grupos de edad, FirstBirthRate, MeanMaternalAge y la participación de nacimientos por edad materna.
+          </p>
+        </details>
+
+        <details>
+          <summary>Modelo</summary>
+          <p>
+            Se utilizan modelos de efectos fijos de estado y año. La especificación A incluye efectos fijos estatales y anuales. La especificación B añade controles macroeconómicos. La especificación C incorpora tendencias lineales específicas por estado. Los modelos se estiman con desfases de 0 a 8 años y con una muestra alternativa que excluye 2020.
+          </p>
+        </details>
+
+        <details>
+          <summary>Límites</summary>
+          <p>
+            Los resultados deben leerse como asociaciones condicionadas al modelo. El análisis trabaja con agregados estado-año y no con decisiones individuales. Además, el indicador de ocio digital permite comparar televisión, vídeos, videojuegos y ordenador recreativo, pero no capta por completo todas las formas actuales de uso del móvil, redes sociales o mensajería.
+          </p>
+        </details>
       </section>
     </article>
 
