@@ -7,7 +7,7 @@
   <meta name="description" content="Reportaje de datos sobre ocio digital, tiempo fuera del hogar y fecundidad por edades en Estados Unidos entre 2005 y 2024.">
   <style>html,body{margin:0;background:#111;color:#f5f5f5}</style>
   <script>if ('scrollRestoration' in history) history.scrollRestoration = 'manual'; if (!location.hash) scrollTo(0, 0);</script>
-  <link rel="stylesheet" href="wp-dark-article-v10.css?v=reportage-body-4">
+  <link rel="stylesheet" href="wp-dark-article-v10.css?v=reportage-body-5">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
@@ -74,19 +74,38 @@
     </section>
 
     <article class="article article-reportage" id="article-start">
+      <section class="chapter-gateway reveal-on-scroll" aria-label="Índice del reportaje">
+        <nav class="chapter-nav" aria-label="Capítulos del reportaje">
+          <a href="#ocio-digital"><span>Capítulo 1:</span><strong>Ocio digital</strong></a>
+          <a href="#tiempo-exterior"><span>Capítulo 2:</span><strong>Tiempo exterior</strong></a>
+          <a href="#fecundidad"><span>Capítulo 3:</span><strong>Fecundidad</strong></a>
+        </nav>
+
+        <div class="chapter-copy">
+          <p>La baja fecundidad no siempre empieza como una renuncia explícita a tener hijos. A veces aparece antes como una modificación más silenciosa. Cambia dónde transcurre el día, cuánto tiempo se pasa fuera de casa y qué espacios quedan para el encuentro presencial.</p>
+
+          <p>La hipótesis no es que las pantallas expliquen por sí solas el retraso de la maternidad. Cuando el ocio digital gana peso, parte del tiempo cotidiano se desplaza hacia actividades domésticas o mediadas por pantalla. Esa reducción de la presencia exterior puede alterar las oportunidades de encuentro, formación de pareja y transición hacia la maternidad.</p>
+        </div>
+
+        <div class="summary-grid summary-grid-flat" aria-label="Resumen del reportaje">
+          <article>
+            <span class="summary-label">Dato central</span>
+            <strong>Una hora más de ocio digital diario se asocia con 32–39 minutos menos de actividad presencial.</strong>
+          </article>
+          <article>
+            <span class="summary-label">Periodo</span>
+            <strong>2005–2024, 50 estados y Washington D. C.</strong>
+          </article>
+          <article>
+            <span class="summary-label">Lectura</span>
+            <strong>El estudio muestra una relación observada, no una prueba causal directa.</strong>
+          </article>
+        </div>
+      </section>
       <section class="us-map-widget" id="us-map-widget" aria-label="Gráficos interactivos del reportaje">
         <section class="map-stack">
 
           <section class="chapter" id="ocio-digital">
-            <div class="chapter-copy-block">
-              <p class="section-number">1. Variable independiente</p>
-              <h2>Las pantallas ganan tiempo</h2>
-
-              <p class="section-lead">
-                El ocio digital mide las horas diarias dedicadas a televisión y vídeos, videojuegos y uso recreativo del ordenador. No captura toda la vida digital contemporánea, pero permite observar una parte estable y comparable del tiempo de ocio basado en pantallas.
-              </p>
-            </div>
-
           <section class="metric-block" id="x-block">
             <header class="metric-heading">
               <p class="metric-kicker">1. Variable independiente</p>
@@ -156,32 +175,11 @@
 
 
             <div class="chapter-copy-block chapter-after-widget">
-              <h3>Tendencia de ocio digital diario en Estados Unidos</h3>
-
-              <p>
-                El ocio digital ocupa una parte cada vez más visible del día. Su crecimiento no solo añade minutos frente a una pantalla; también redistribuye el tiempo disponible para otras actividades. La vida diaria se vuelve más interior, más mediada y menos dependiente de espacios compartidos.
-              </p>
-
-              <p>
-                En el modelo de este estudio, ese cambio aparece de forma consistente. Una hora diaria adicional de ocio digital se asocia con una reducción aproximada de entre <strong>32 y 39 minutos diarios</strong> de actividad presencial fuera del hogar. El resultado se mantiene en las tres especificaciones del análisis y también al excluir el año 2020.
-              </p>
-
-              <aside class="data-note">
-                <strong>Qué mide esta variable.</strong> DigitalOcio_hours se construye con datos de la American Time Use Survey y agrega, por estado y año, el tiempo medio dedicado a televisión, vídeos, videojuegos y ordenador recreativo.
-              </aside>
+              <p>El ocio digital ocupa una parte cada vez más visible del día. Su crecimiento redistribuye el tiempo disponible para otras actividades. La vida diaria se vuelve más interior, más mediada y menos dependiente de espacios compartidos.</p>
             </div>
           </section>
 
           <section class="chapter" id="tiempo-exterior">
-            <div class="chapter-copy-block">
-              <p class="section-number">2. Variable mediadora</p>
-              <h2>El exterior pierde peso</h2>
-
-              <p class="section-lead">
-                El tiempo fuera del hogar reúne actividades de trabajo, educación, comida, deporte, recreación y una selección estricta de socialización básica. El indicador excluye desplazamientos y actividades realizadas en casa.
-              </p>
-            </div>
-
           <section class="metric-block" id="m-block">
             <header class="metric-heading">
               <p class="metric-kicker">2. Tiempo exterior</p>
@@ -251,37 +249,16 @@
 
 
             <div class="chapter-copy-block chapter-after-widget">
-              <h3>Tendencia de horas exteriores diarias en Estados Unidos</h3>
-
-              <p>
-                El tiempo fuera del hogar deja una huella concreta en la vida adulta. En esos espacios se repiten horarios, se sostienen rutinas y se producen encuentros. Trabajo, estudios, deporte, comida y sociabilidad cotidiana no son solo categorías de una encuesta: son lugares donde las trayectorias personales se cruzan con la presencia de otros.
-              </p>
-
-              <p>
-                Cuando esa presencia pierde peso, el cambio puede sentirse antes en el calendario que en el número total de nacimientos. La pregunta ya no es solo cuántos hijos se tienen, sino <strong>cuándo</strong> se tienen y qué grupos de edad concentran o pierden peso dentro de la fecundidad.
-              </p>
-
-              <aside class="data-note">
-                <strong>Por qué importa.</strong> M_share no mide directamente relaciones de pareja ni decisiones reproductivas. Mide una condición previa: la proporción del día dedicada a actividades presenciales fuera del hogar que pueden abrir o sostener oportunidades de interacción social.
-              </aside>
+              <p>El tiempo fuera del hogar deja una huella concreta en la vida adulta. En esos espacios se repiten horarios, se sostienen rutinas y se producen encuentros. Trabajo, estudios, deporte, comida y sociabilidad cotidiana son lugares donde las trayectorias personales se cruzan con la presencia de otros.</p>
             </div>
           </section>
 
           <section class="chapter" id="fecundidad">
-            <div class="chapter-copy-block">
-              <p class="section-number">3. Variables dependientes</p>
-              <h2>La fecundidad cambia de calendario</h2>
-
-              <p class="section-lead">
-                La fecundidad se analiza con varios indicadores: GFR, tasas específicas por edad, primeros nacimientos, edad media materna y participación de nacimientos por grupo de edad. Las tasas se expresan como nacimientos por cada 1.000 mujeres; BirthShare se expresa como porcentaje.
-              </p>
-            </div>
-
           <section class="metric-block" id="y-block">
             <header class="metric-heading">
               <p class="metric-kicker">3. Variables dependientes</p>
               <h2>Resultados de fecundidad</h2>
-              <p>Indicadores de fecundidad usados en el modelo. GFR, ASFR y primeros nacimientos son nacimientos por 1.000 mujeres, no porcentajes; BirthShare sí se expresa como porcentaje.</p>
+              <p>Indicadores de fecundidad usados en el estudio. La fecundidad general, la fecundidad por edades y los primeros nacimientos se expresan como nacimientos por 1.000 mujeres; la participación de cada edad materna en el total de nacimientos se expresa como porcentaje.</p>
               <label class="metric-control" for="metric-select-y"><span>Resultado</span><select id="metric-select-y" class="metric-select"></select></label>
             </header>
             <div class="layout">
@@ -305,7 +282,7 @@
                 <div id="legend-container-y" class="legend-steps">
                   <div class="legend-title" id="legend-title-y">Fecundidad general</div>
                   <div class="legend-steps-row" id="legend-steps-row-y"></div>
-                  <div class="legend-caption">CDC Natality / PEP. GFR, ASFR y primeros nacimientos: nacimientos por 1.000 mujeres; BirthShare: porcentaje.</div>
+                  <div class="legend-caption">CDC Natality / PEP. Fecundidad general, fecundidad por edades y primeros nacimientos: nacimientos por 1.000 mujeres; participación por edad materna: porcentaje.</div>
                 </div>
               </div>
               <aside class="state-card">
@@ -349,80 +326,16 @@
             <div class="chapter-copy-block chapter-after-widget">
               <h3>Tendencia del resultado de fecundidad seleccionado</h3>
 
-              <p>
-                La fecundidad por edades muestra que el cambio demográfico no se reparte de manera uniforme. En las especificaciones menos restrictivas, la actividad presencial fuera del hogar se asocia positivamente con varias tasas de fecundidad en los grupos de 20–24, 25–29 y 30–34 años. En edades más avanzadas aparecen asociaciones más selectivas y, en algunos casos, de signo contrario.
-              </p>
+              <p>Al mirar la lectura más exigente del estudio, el cambio aparece sobre todo como una reorganización del calendario. Las edades jóvenes pierden peso con más claridad que el conjunto general, mientras las edades más tardías ayudan a entender el aplazamiento de la maternidad.</p>
 
-              <p>
-                La composición por edad de los nacimientos refuerza esa lectura. Los resultados de BirthShare son compatibles con una pérdida relativa de peso en edades jóvenes y un desplazamiento hacia edades más tardías. La edad media materna también apunta en esa dirección: cuando la actividad presencial pierde espacio, la maternidad tiende a leerse como un calendario más retrasado.
-              </p>
-
-              <aside class="result-callout">
-                <strong>El patrón principal.</strong> Los efectos directos del ocio digital sobre la fecundidad son heterogéneos. La relación es más ordenada cuando se observa la vía intermedia: más ocio digital, menos actividad presencial fuera del hogar y cambios en la fecundidad por edad, primeros nacimientos y edad media materna.
-              </aside>
+              <p>La composición por edad de los nacimientos refuerza esa lectura. Los resultados sobre el peso de cada edad materna dentro del total de nacimientos son compatibles con una pérdida relativa en edades jóvenes y un desplazamiento hacia edades más tardías. Cuando la actividad presencial pierde espacio, la maternidad tiende a leerse como un calendario más retrasado.</p>
             </div>
           </section>
         </section>
       </section>
 
       <section class="interpretation" id="interpretacion">
-        <h2>La relación no es una causa única</h2>
-
-        <p>
-          Este reportaje no afirma que las pantallas causen por sí solas el retraso de la maternidad. La fecundidad depende también de vivienda, empleo, ingresos, educación, pareja, políticas familiares, cultura local y condiciones económicas. El análisis estadístico controla parte de ese contexto, pero no convierte la asociación en una explicación total.
-        </p>
-
-        <p>
-          Lo que sí muestra el estudio es una regularidad empírica: dentro de los estados, cuando el ocio digital aumenta por encima de su nivel habitual, la proporción de tiempo dedicada a determinadas actividades presenciales fuera del hogar tiende a reducirse. Y esa reducción se vincula con cambios en los indicadores de fecundidad por edades.
-        </p>
-
-        <p>
-          La baja fecundidad, vista así, no es solo una cuestión de preferencias familiares. También es una cuestión de organización cotidiana del tiempo. Las pantallas concentran horas, las actividades presenciales pierden espacio y la maternidad se reordena en el calendario.
-        </p>
-      </section>
-
-      <section class="methodology" id="metodologia">
-        <h2>Cómo se hizo</h2>
-
-        <details open>
-          <summary>Datos</summary>
-          <p>
-            El análisis combina datos de uso del tiempo de la American Time Use Survey, nacimientos del CDC Natality, estimaciones de población femenina del Population Estimates Program y controles estatales de desempleo, ingreso personal per cápita e índice de precios de la vivienda.
-          </p>
-        </details>
-
-        <details>
-          <summary>Variables</summary>
-          <p>
-            La variable principal es DigitalOcio_hours, que mide horas diarias de ocio digital. La variable mediadora es M_share, proporción del día dedicada a actividades presenciales fuera del hogar. Los resultados de fecundidad incluyen GFR, ASFR por grupos de edad, FirstBirthRate, MeanMaternalAge y BirthShare por edad materna.
-          </p>
-        </details>
-
-        <details>
-          <summary>Modelo</summary>
-          <p>
-            Se utilizan modelos de efectos fijos de estado y año. La especificación A incluye efectos fijos estatales y anuales. La especificación B añade controles macroeconómicos. La especificación C incorpora tendencias lineales específicas por estado. Los modelos se estiman con desfases de 0 a 8 años y con una muestra alternativa que excluye 2020.
-          </p>
-        </details>
-
-        <details>
-          <summary>Límites</summary>
-          <p>
-            Los resultados deben leerse como asociaciones condicionadas al modelo. El análisis trabaja con agregados estado-año y no con decisiones individuales. Además, el indicador de ocio digital permite comparar televisión, vídeos, videojuegos y ordenador recreativo, pero no capta por completo todas las formas actuales de uso del móvil, redes sociales o mensajería.
-          </p>
-        </details>
-      </section>
-
-      <section class="closing">
-        <h2>Una política de fecundidad también es una política del tiempo</h2>
-
-        <p>
-          Las políticas de fecundidad suelen concentrarse en transferencias, incentivos fiscales, permisos, vivienda o conciliación. Esas medidas siguen siendo centrales. Pero los datos sugieren que también conviene mirar la arquitectura diaria de la vida adulta: cuánto tiempo queda fuera del hogar, qué espacios sostienen la presencia compartida y qué actividades mantienen abiertas las oportunidades de encuentro.
-        </p>
-
-        <p>
-          La digitalización no elimina por sí sola la vida presencial. Pero puede desplazarla. Por eso, observar el uso del tiempo permite añadir una capa al debate demográfico: la baja fecundidad no solo se mide en nacimientos. También se prepara, lentamente, en la forma en que se organiza cada día.
-        </p>
+        <p>Lo que sí muestra el estudio es que, cuando el ocio digital aumenta por encima de su nivel habitual, la proporción de tiempo dedicada a determinadas actividades presenciales fuera del hogar tiende a reducirse. Esa reducción se vincula con cambios en los indicadores de fecundidad por edades.</p>
       </section>
     </article>
 
