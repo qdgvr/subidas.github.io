@@ -3205,7 +3205,7 @@ a { color: inherit; }
 
 /* Reportage body refresh: scoped below the globe hero and outside map internals. */
 .article-reportage {
-  --report-max: 760px;
+  --report-max: 640px;
   --report-wide: 1120px;
   --report-accent: #30c0c0;
   --report-card: rgba(255,255,255,.055);
@@ -3226,15 +3226,15 @@ a { color: inherit; }
 }
 
 .article-reportage .reportage-intro {
-  padding: clamp(68px, 10vw, 126px) 0 clamp(42px, 7vw, 78px);
+  padding: clamp(44px, 6vw, 68px) 0 clamp(34px, 5vw, 52px);
 }
 
 .article-reportage .kicker,
 .article-reportage .section-number {
   margin: 0 0 14px;
   color: var(--report-accent);
-  font: 800 13px/1.15 var(--ui-font);
-  letter-spacing: .16em;
+  font: 800 12px/1.15 var(--ui-font);
+  letter-spacing: .14em;
   text-transform: uppercase;
 }
 
@@ -3251,22 +3251,22 @@ a { color: inherit; }
 }
 
 .article-reportage .reportage-intro h1 {
-  max-width: 920px;
-  font-size: clamp(42px, 7.4vw, 96px);
-  line-height: .96;
+  max-width: 680px;
+  font-size: clamp(34px, 4.5vw, 58px);
+  line-height: 1;
 }
 
 .article-reportage .dek {
-  max-width: 760px;
-  margin: 24px 0 0;
+  max-width: 640px;
+  margin: 20px 0 0;
   color: rgba(245,245,245,.86);
-  font: 500 clamp(19px, 2vw, 27px)/1.25 var(--ui-font);
+  font: 500 clamp(18px, 1.7vw, 21px)/1.34 var(--ui-font);
 }
 
 .article-reportage .byline {
-  margin: 28px 0 0;
+  margin: 22px 0 0;
   color: rgba(245,245,245,.58);
-  font: 700 15px/1.35 var(--ui-font);
+  font: 700 14px/1.35 var(--ui-font);
 }
 
 .article-reportage p {
@@ -3278,7 +3278,7 @@ a { color: inherit; }
 .article-reportage > .closing p,
 .article-reportage .chapter-copy-block p:not(.section-number):not(.section-lead) {
   margin: 20px 0 0;
-  font: 400 19px/1.62 var(--body-font);
+  font: 400 18px/1.55 var(--body-font);
 }
 
 .article-reportage strong {
@@ -3288,8 +3288,8 @@ a { color: inherit; }
 .article-reportage .chapter-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 30px 0 0;
+  gap: 8px;
+  margin: 24px 0 0;
   padding: 0;
   border: 0;
   color: #fff;
@@ -3299,13 +3299,13 @@ a { color: inherit; }
 .article-reportage .chapter-nav a {
   display: inline-flex;
   align-items: center;
-  min-height: 40px;
-  padding: 9px 14px;
+  min-height: 34px;
+  padding: 7px 12px;
   border: 1px solid rgba(255,255,255,.14);
   border-radius: 999px;
   background: rgba(255,255,255,.045);
   color: rgba(245,245,245,.9);
-  font: 700 13px/1.1 var(--ui-font);
+  font: 700 12px/1.1 var(--ui-font);
   text-decoration: none;
 }
 
@@ -3319,13 +3319,13 @@ a { color: inherit; }
 .article-reportage .summary-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin: 36px 0 34px;
+  gap: 10px;
+  margin: 28px 0 28px;
 }
 
 .article-reportage .summary-grid article {
-  min-height: 156px;
-  padding: 18px;
+  min-height: 116px;
+  padding: 14px;
   border: 1px solid var(--report-card-border);
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.035));
@@ -3333,29 +3333,29 @@ a { color: inherit; }
 
 .article-reportage .summary-label {
   display: block;
-  margin-bottom: 13px;
+  margin-bottom: 10px;
   color: rgba(48,192,192,.88);
-  font: 800 11px/1.2 var(--ui-font);
+  font: 800 10px/1.2 var(--ui-font);
   letter-spacing: .12em;
   text-transform: uppercase;
 }
 
 .article-reportage .summary-grid strong {
   display: block;
-  font: 800 17px/1.28 var(--ui-font);
+  font: 800 14px/1.32 var(--ui-font);
 }
 
 .article-reportage .reading-note,
 .article-reportage .data-note,
 .article-reportage .result-callout {
-  margin: 28px 0 0;
-  padding: 18px 20px;
+  margin: 24px 0 0;
+  padding: 14px 16px;
   border: 1px solid rgba(48,192,192,.24);
   border-left: 4px solid var(--report-accent);
   border-radius: 14px;
   background: rgba(48,192,192,.07);
   color: rgba(245,245,245,.78);
-  font: 500 15px/1.52 var(--ui-font);
+  font: 500 14px/1.5 var(--ui-font);
 }
 
 .article-reportage .result-callout {
@@ -3376,49 +3376,49 @@ a { color: inherit; }
 }
 
 .article-reportage .chapter-copy-block {
-  padding: clamp(56px, 8vw, 96px) 0 clamp(24px, 4vw, 44px);
+  padding: clamp(40px, 5vw, 58px) 0 clamp(20px, 3vw, 32px);
 }
 
 .article-reportage .chapter-after-widget {
-  padding-top: clamp(40px, 6vw, 78px);
-  padding-bottom: clamp(54px, 8vw, 96px);
+  padding-top: clamp(30px, 4vw, 46px);
+  padding-bottom: clamp(40px, 5vw, 62px);
 }
 
 .article-reportage .chapter-copy-block h2,
 .article-reportage > .interpretation h2,
 .article-reportage > .methodology h2,
 .article-reportage > .closing h2 {
-  font-size: clamp(38px, 5.4vw, 76px);
-  line-height: .96;
+  font-size: clamp(28px, 3.2vw, 42px);
+  line-height: 1.05;
 }
 
 .article-reportage .chapter-copy-block h3 {
-  margin: 0 0 18px;
+  margin: 0 0 14px;
   color: #fff;
-  font: 850 clamp(22px, 2.3vw, 30px)/1.15 var(--ui-font);
+  font: 850 clamp(20px, 2vw, 25px)/1.15 var(--ui-font);
   letter-spacing: -.02em;
 }
 
 .article-reportage .section-lead {
   max-width: 800px;
-  margin: 22px 0 0;
+  margin: 18px 0 0;
   color: rgba(245,245,245,.78);
-  font: 500 clamp(18px, 2vw, 24px)/1.38 var(--ui-font);
+  font: 500 clamp(17px, 1.7vw, 20px)/1.42 var(--ui-font);
 }
 
 .article-reportage > .interpretation,
 .article-reportage > .methodology,
 .article-reportage > .closing {
-  padding: clamp(64px, 9vw, 108px) 0;
+  padding: clamp(44px, 6vw, 72px) 0;
   border-top: 1px solid rgba(255,255,255,.10);
 }
 
 .article-reportage > .closing {
-  padding-bottom: clamp(84px, 12vw, 140px);
+  padding-bottom: clamp(58px, 8vw, 90px);
 }
 
 .article-reportage .methodology details {
-  margin: 14px 0 0;
+  margin: 10px 0 0;
   border: 1px solid var(--report-card-border);
   border-radius: 14px;
   background: rgba(255,255,255,.045);
@@ -3427,17 +3427,17 @@ a { color: inherit; }
 
 .article-reportage .methodology summary {
   cursor: pointer;
-  padding: 17px 18px;
+  padding: 13px 15px;
   color: #fff;
-  font: 800 16px/1.2 var(--ui-font);
+  font: 800 15px/1.2 var(--ui-font);
   list-style-position: inside;
 }
 
 .article-reportage .methodology details p {
   margin: 0;
-  padding: 0 18px 18px;
+  padding: 0 15px 15px;
   color: rgba(245,245,245,.76);
-  font: 500 15px/1.55 var(--ui-font);
+  font: 500 14px/1.5 var(--ui-font);
 }
 
 .article-reportage .methodology summary:focus-visible {
@@ -3483,15 +3483,15 @@ a { color: inherit; }
   }
 
   .article-reportage .reportage-intro {
-    padding-top: 56px;
+    padding-top: 44px;
   }
 
   .article-reportage .reportage-intro h1 {
-    font-size: clamp(38px, 12vw, 56px);
+    font-size: clamp(32px, 9vw, 44px);
   }
 
   .article-reportage .dek {
-    font-size: 19px;
+    font-size: 18px;
   }
 
   .article-reportage .chapter-nav {
