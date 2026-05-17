@@ -3671,6 +3671,35 @@ a { color: inherit; }
   font: 400 clamp(17px, 1.5vw, 21px)/1.45 var(--ui-font);
 }
 
+.article-reportage .relationship-lead p {
+  margin: 0 0 14px;
+}
+
+.article-reportage .relationship-lead p:last-child {
+  margin-bottom: 0;
+}
+
+.article-reportage .model-note {
+  width: min(760px, calc(100vw - 44px));
+  margin: 0 auto clamp(28px, 3.6vw, 42px);
+  padding: 14px 16px;
+  border-left: 3px solid rgba(48,192,192,.88);
+  background: rgba(48,192,192,.08);
+  color: rgba(245,245,245,.76);
+  font: 500 14px/1.45 var(--ui-font);
+}
+
+.article-reportage .model-note strong,
+.article-reportage .model-note span {
+  display: block;
+}
+
+.article-reportage .model-note strong {
+  margin-bottom: 4px;
+  color: #fff;
+  font-weight: 850;
+}
+
 .article-reportage .relationship-grid {
   width: min(1180px, calc(100vw - 44px));
   margin: 0 auto;
@@ -3923,4 +3952,16 @@ a { color: inherit; }
   .article-reportage .extra-chart {
     min-height: 260px;
   }
+}
+
+/* Keep reportage text sections on the same black field as the map interactives. */
+.article-reportage,
+.article-reportage .chapter-gateway,
+.article-reportage .chapter-copy-block,
+.article-reportage > .methodology {
+  background: #000;
+}
+
+.article-reportage .chapter-before-widget {
+  padding-top: clamp(42px, 5vw, 64px);
 }
