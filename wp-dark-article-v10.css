@@ -3635,3 +3635,292 @@ a { color: inherit; }
     gap: 16px;
   }
 }
+
+/* Spec C relationship graphs. */
+.article-reportage .relationship-section {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: clamp(54px, 7vw, 96px) clamp(22px, 4vw, 64px);
+  background: #000;
+  color: #fff;
+  border-top: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.article-reportage .relationship-kicker {
+  width: min(980px, calc(100vw - 44px));
+  margin: 0 auto 12px;
+  color: rgba(48,192,192,.82);
+  font: 800 13px/1.2 var(--ui-font);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.article-reportage .relationship-section h2 {
+  width: min(980px, calc(100vw - 44px));
+  margin: 0 auto 16px;
+  color: #fff;
+  font: 700 clamp(38px, 5.6vw, 78px)/.96 var(--headline-font);
+  letter-spacing: -.045em;
+}
+
+.article-reportage .relationship-lead {
+  width: min(760px, calc(100vw - 44px));
+  margin: 0 auto clamp(30px, 4vw, 48px);
+  color: rgba(245,245,245,.72);
+  font: 400 clamp(17px, 1.5vw, 21px)/1.45 var(--ui-font);
+}
+
+.article-reportage .relationship-grid {
+  width: min(1180px, calc(100vw - 44px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(16px, 2vw, 24px);
+}
+
+.article-reportage .relationship-grid.relationship-grid-single {
+  width: min(760px, calc(100vw - 44px));
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.article-reportage .relationship-card {
+  min-width: 0;
+  padding: 0;
+  background: #000;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-reportage .relationship-card-label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(48,192,192,.78);
+  font: 800 12px/1.2 var(--ui-font);
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.article-reportage .relationship-card h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  font: 800 clamp(20px, 2vw, 26px)/1.08 var(--ui-font);
+  letter-spacing: -.03em;
+}
+
+.article-reportage .relationship-card p {
+  margin: 0 0 16px;
+  color: rgba(245,245,245,.7);
+  font: 400 14px/1.48 var(--ui-font);
+}
+
+.article-reportage .relationship-chart {
+  width: 100%;
+  min-height: 260px;
+  margin: 18px 0 12px;
+  background: #000;
+}
+
+.article-reportage .relationship-axis-label {
+  fill: rgba(255,255,255,.62);
+  font: 700 11px/1 var(--ui-font);
+  letter-spacing: .01em;
+}
+
+.article-reportage .relationship-value-label {
+  fill: #f7f7f7;
+  font: 800 13px/1 var(--ui-font);
+  letter-spacing: .01em;
+}
+
+.article-reportage .relationship-sample-label {
+  fill: rgba(255,255,255,.78);
+  font: 800 12px/1 var(--ui-font);
+  letter-spacing: .01em;
+}
+
+.article-reportage .relationship-heatmap-star {
+  fill: #fff;
+  font: 900 18px/1 var(--ui-font);
+}
+
+.article-reportage .relationship-note {
+  margin: 12px 0 0;
+  color: rgba(245,245,245,.58);
+  font: 400 13px/1.45 var(--ui-font);
+}
+
+.article-reportage .relationship-error {
+  width: min(980px, calc(100vw - 44px));
+  margin: 0 auto;
+  color: #fff;
+}
+
+@media (max-width: 760px) {
+  .article-reportage .relationship-section {
+    padding: 42px 0 52px;
+  }
+
+  .article-reportage .relationship-grid {
+    width: calc(100vw - 32px);
+    grid-template-columns: 1fr;
+  }
+
+  .article-reportage .relationship-kicker,
+  .article-reportage .relationship-section h2,
+  .article-reportage .relationship-lead {
+    width: calc(100vw - 32px);
+  }
+
+  .article-reportage .relationship-card {
+    border-radius: 14px;
+  }
+}
+
+/* Additional visual readings. */
+.article-reportage .extra-graphs-section {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  padding: clamp(54px, 7vw, 96px) clamp(22px, 4vw, 64px);
+  background: #000;
+  color: #fff;
+  border-top: 1px solid rgba(255,255,255,.08);
+  border-bottom: 1px solid rgba(255,255,255,.08);
+}
+
+.article-reportage .extra-kicker {
+  width: min(1060px, calc(100vw - 44px));
+  margin: 0 auto 12px;
+  color: rgba(48,192,192,.82);
+  font: 800 13px/1.2 var(--ui-font);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+}
+
+.article-reportage .extra-graphs-section h2 {
+  width: min(1060px, calc(100vw - 44px));
+  margin: 0 auto 14px;
+  color: #fff;
+  font: 700 clamp(36px, 5.2vw, 72px)/.98 var(--headline-font);
+  letter-spacing: -.045em;
+}
+
+.article-reportage .extra-lead {
+  width: min(760px, calc(100vw - 44px));
+  margin: 0 auto clamp(30px, 4vw, 46px);
+  color: rgba(245,245,245,.72);
+  font: 400 clamp(16px, 1.35vw, 20px)/1.48 var(--ui-font);
+}
+
+.article-reportage .extra-graph-grid {
+  width: min(1180px, calc(100vw - 44px));
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(20px, 2.4vw, 32px);
+}
+
+.article-reportage .extra-graph-card {
+  min-width: 0;
+  padding: 0;
+  background: #000;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.article-reportage .extra-graph-wide {
+  grid-column: 1 / -1;
+}
+
+.article-reportage .extra-card-label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgba(48,192,192,.78);
+  font: 800 12px/1.2 var(--ui-font);
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+
+.article-reportage .extra-graph-card h3 {
+  margin: 0 0 10px;
+  color: #fff;
+  font: 800 clamp(20px, 2vw, 27px)/1.08 var(--ui-font);
+  letter-spacing: -.03em;
+}
+
+.article-reportage .extra-graph-card p {
+  margin: 0 0 14px;
+  color: rgba(245,245,245,.7);
+  font: 400 14px/1.48 var(--ui-font);
+}
+
+.article-reportage .extra-chart {
+  width: 100%;
+  min-height: 300px;
+  margin: 14px 0 0;
+  background: #000;
+}
+
+.article-reportage .extra-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.article-reportage .extra-axis-label {
+  fill: rgba(255,255,255,.62);
+  font: 700 11px/1 var(--ui-font);
+  letter-spacing: .01em;
+}
+
+.article-reportage .extra-legend-label {
+  fill: rgba(255,255,255,.76);
+  font: 800 12px/1 var(--ui-font);
+}
+
+.article-reportage .extra-value-label {
+  fill: #f7f7f7;
+  font: 800 13px/1 var(--ui-font);
+  letter-spacing: .01em;
+}
+
+.article-reportage .extra-chart-note {
+  fill: rgba(255,255,255,.5);
+  font: 700 11px/1 var(--ui-font);
+}
+
+.article-reportage .extra-error {
+  width: min(1060px, calc(100vw - 44px));
+  margin: 24px auto 0;
+  color: #fff;
+  font: 700 14px/1.4 var(--ui-font);
+}
+
+@media (max-width: 760px) {
+  .article-reportage .extra-graphs-section {
+    padding: 42px 0 52px;
+  }
+
+  .article-reportage .extra-kicker,
+  .article-reportage .extra-graphs-section h2,
+  .article-reportage .extra-lead,
+  .article-reportage .extra-graph-grid {
+    width: calc(100vw - 32px);
+  }
+
+  .article-reportage .extra-graph-grid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+
+  .article-reportage .extra-graph-wide {
+    grid-column: auto;
+  }
+
+  .article-reportage .extra-chart {
+    min-height: 260px;
+  }
+}

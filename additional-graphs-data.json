@@ -1,0 +1,8679 @@
+{
+  "note": "Simple mean of states by year, derived from research-map-data.csv.",
+  "years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "annual": [
+    {
+      "year": 2005,
+      "DigitalOcio_hours": 2.87788,
+      "M_hours": 3.802616,
+      "M_minutes": 228.156948,
+      "GFR": 65.984118,
+      "MeanMaternalAge": 27.275497,
+      "FirstBirthRate": 26.009546,
+      "ASFR_15_19": 38.618311,
+      "ASFR_20_24": 102.185788,
+      "ASFR_25_29": 121.085677,
+      "ASFR_30_34": 94.078751,
+      "ASFR_35_39": 43.493227,
+      "ASFR_40_44": 8.324923,
+      "BirthShare_15_19": 0.099447,
+      "BirthShare_20_24": 0.262001,
+      "BirthShare_25_29": 0.280692,
+      "BirthShare_30_34": 0.223748,
+      "BirthShare_35_39": 0.1105,
+      "BirthShare_40_44": 0.02361
+    },
+    {
+      "year": 2006,
+      "DigitalOcio_hours": 2.821947,
+      "M_hours": 4.709681,
+      "M_minutes": 282.58084,
+      "GFR": 68.237843,
+      "MeanMaternalAge": 27.207452,
+      "FirstBirthRate": 27.065118,
+      "ASFR_15_19": 40.331467,
+      "ASFR_20_24": 106.199939,
+      "ASFR_25_29": 123.0695,
+      "ASFR_30_34": 96.457929,
+      "ASFR_35_39": 44.726804,
+      "ASFR_40_44": 8.582876,
+      "BirthShare_15_19": 0.101262,
+      "BirthShare_20_24": 0.262813,
+      "BirthShare_25_29": 0.285181,
+      "BirthShare_30_34": 0.217004,
+      "BirthShare_35_39": 0.110655,
+      "BirthShare_40_44": 0.023086
+    },
+    {
+      "year": 2007,
+      "DigitalOcio_hours": 2.862472,
+      "M_hours": 4.768319,
+      "M_minutes": 286.099164,
+      "GFR": 69.080196,
+      "MeanMaternalAge": 27.189271,
+      "FirstBirthRate": 27.570563,
+      "ASFR_15_19": 41.025997,
+      "ASFR_20_24": 106.799183,
+      "ASFR_25_29": 122.382427,
+      "ASFR_30_34": 97.999264,
+      "ASFR_35_39": 44.826793,
+      "ASFR_40_44": 8.695953,
+      "BirthShare_15_19": 0.102539,
+      "BirthShare_20_24": 0.260402,
+      "BirthShare_25_29": 0.288289,
+      "BirthShare_30_34": 0.216794,
+      "BirthShare_35_39": 0.109458,
+      "BirthShare_40_44": 0.022519
+    },
+    {
+      "year": 2008,
+      "DigitalOcio_hours": 3.021977,
+      "M_hours": 4.712498,
+      "M_minutes": 282.749884,
+      "GFR": 68.280196,
+      "MeanMaternalAge": 27.221946,
+      "FirstBirthRate": 27.263296,
+      "ASFR_15_19": 40.075697,
+      "ASFR_20_24": 103.934225,
+      "ASFR_25_29": 119.470575,
+      "ASFR_30_34": 97.419809,
+      "ASFR_35_39": 44.029152,
+      "ASFR_40_44": 8.904526,
+      "BirthShare_15_19": 0.101849,
+      "BirthShare_20_24": 0.256961,
+      "BirthShare_25_29": 0.290536,
+      "BirthShare_30_34": 0.220169,
+      "BirthShare_35_39": 0.107823,
+      "BirthShare_40_44": 0.022663
+    },
+    {
+      "year": 2009,
+      "DigitalOcio_hours": 3.109218,
+      "M_hours": 4.367249,
+      "M_minutes": 262.034917,
+      "GFR": 66.482157,
+      "MeanMaternalAge": 27.321408,
+      "FirstBirthRate": 26.617179,
+      "ASFR_15_19": 37.893985,
+      "ASFR_20_24": 98.5655,
+      "ASFR_25_29": 115.467579,
+      "ASFR_30_34": 95.764635,
+      "ASFR_35_39": 43.429584,
+      "ASFR_40_44": 9.113934,
+      "BirthShare_15_19": 0.098703,
+      "BirthShare_20_24": 0.252201,
+      "BirthShare_25_29": 0.29126,
+      "BirthShare_30_34": 0.226959,
+      "BirthShare_35_39": 0.107515,
+      "BirthShare_40_44": 0.023363
+    },
+    {
+      "year": 2010,
+      "DigitalOcio_hours": 3.125413,
+      "M_hours": 4.339755,
+      "M_minutes": 260.385292,
+      "GFR": 64.630784,
+      "MeanMaternalAge": 27.488397,
+      "FirstBirthRate": 25.945409,
+      "ASFR_15_19": 34.39427,
+      "ASFR_20_24": 93.139871,
+      "ASFR_25_29": 113.033029,
+      "ASFR_30_34": 95.286029,
+      "ASFR_35_39": 43.541139,
+      "ASFR_40_44": 9.31046,
+      "BirthShare_15_19": 0.091139,
+      "BirthShare_20_24": 0.246758,
+      "BirthShare_25_29": 0.292673,
+      "BirthShare_30_34": 0.236934,
+      "BirthShare_35_39": 0.108219,
+      "BirthShare_40_44": 0.024276
+    },
+    {
+      "year": 2011,
+      "DigitalOcio_hours": 3.245302,
+      "M_hours": 4.307058,
+      "M_minutes": 258.423482,
+      "GFR": 63.880784,
+      "MeanMaternalAge": 27.642185,
+      "FirstBirthRate": 25.509673,
+      "ASFR_15_19": 31.51202,
+      "ASFR_20_24": 89.141621,
+      "ASFR_25_29": 112.363285,
+      "ASFR_30_34": 95.434896,
+      "ASFR_35_39": 44.549855,
+      "ASFR_40_44": 9.417171,
+      "BirthShare_15_19": 0.08286,
+      "BirthShare_20_24": 0.243437,
+      "BirthShare_25_29": 0.294415,
+      "BirthShare_30_34": 0.245551,
+      "BirthShare_35_39": 0.108894,
+      "BirthShare_40_44": 0.024842
+    },
+    {
+      "year": 2012,
+      "DigitalOcio_hours": 3.209538,
+      "M_hours": 4.391155,
+      "M_minutes": 263.46931,
+      "GFR": 63.67902,
+      "MeanMaternalAge": 27.774277,
+      "FirstBirthRate": 25.252185,
+      "ASFR_15_19": 29.717732,
+      "ASFR_20_24": 86.43288,
+      "ASFR_25_29": 112.104644,
+      "ASFR_30_34": 96.429192,
+      "ASFR_35_39": 45.650302,
+      "ASFR_40_44": 9.474681,
+      "BirthShare_15_19": 0.0771,
+      "BirthShare_20_24": 0.24036,
+      "BirthShare_25_29": 0.293404,
+      "BirthShare_30_34": 0.252982,
+      "BirthShare_35_39": 0.111243,
+      "BirthShare_40_44": 0.02491
+    },
+    {
+      "year": 2013,
+      "DigitalOcio_hours": 3.192126,
+      "M_hours": 4.299852,
+      "M_minutes": 257.991097,
+      "GFR": 63.23451,
+      "MeanMaternalAge": 27.951665,
+      "FirstBirthRate": 24.786578,
+      "ASFR_15_19": 26.799041,
+      "ASFR_20_24": 83.912138,
+      "ASFR_25_29": 111.932137,
+      "ASFR_30_34": 97.032316,
+      "ASFR_35_39": 46.596941,
+      "ASFR_40_44": 9.499282,
+      "BirthShare_15_19": 0.069241,
+      "BirthShare_20_24": 0.23593,
+      "BirthShare_25_29": 0.294591,
+      "BirthShare_30_34": 0.260348,
+      "BirthShare_35_39": 0.114981,
+      "BirthShare_40_44": 0.02491
+    },
+    {
+      "year": 2014,
+      "DigitalOcio_hours": 3.315155,
+      "M_hours": 4.272974,
+      "M_minutes": 256.378426,
+      "GFR": 63.591569,
+      "MeanMaternalAge": 28.133606,
+      "FirstBirthRate": 24.649012,
+      "ASFR_15_19": 24.591141,
+      "ASFR_20_24": 82.473183,
+      "ASFR_25_29": 112.406752,
+      "ASFR_30_34": 100.222152,
+      "ASFR_35_39": 47.988662,
+      "ASFR_40_44": 9.665226,
+      "BirthShare_15_19": 0.062523,
+      "BirthShare_20_24": 0.229327,
+      "BirthShare_25_29": 0.296319,
+      "BirthShare_30_34": 0.268102,
+      "BirthShare_35_39": 0.119079,
+      "BirthShare_40_44": 0.02465
+    },
+    {
+      "year": 2015,
+      "DigitalOcio_hours": 3.185365,
+      "M_hours": 4.172262,
+      "M_minutes": 250.335701,
+      "GFR": 63.282941,
+      "MeanMaternalAge": 28.303858,
+      "FirstBirthRate": 24.153815,
+      "ASFR_15_19": 22.772358,
+      "ASFR_20_24": 80.334242,
+      "ASFR_25_29": 111.257205,
+      "ASFR_30_34": 101.134167,
+      "ASFR_35_39": 49.311487,
+      "ASFR_40_44": 9.965834,
+      "BirthShare_15_19": 0.058,
+      "BirthShare_20_24": 0.221038,
+      "BirthShare_25_29": 0.298436,
+      "BirthShare_30_34": 0.272107,
+      "BirthShare_35_39": 0.125516,
+      "BirthShare_40_44": 0.024903
+    },
+    {
+      "year": 2016,
+      "DigitalOcio_hours": 3.103738,
+      "M_hours": 4.39197,
+      "M_minutes": 263.51819,
+      "GFR": 62.651765,
+      "MeanMaternalAge": 28.493918,
+      "FirstBirthRate": 23.544765,
+      "ASFR_15_19": 20.808394,
+      "ASFR_20_24": 77.026742,
+      "ASFR_25_29": 108.617376,
+      "ASFR_30_34": 102.089927,
+      "ASFR_35_39": 49.806407,
+      "ASFR_40_44": 10.424476,
+      "BirthShare_15_19": 0.053736,
+      "BirthShare_20_24": 0.210596,
+      "BirthShare_25_29": 0.30034,
+      "BirthShare_30_34": 0.278552,
+      "BirthShare_35_39": 0.131166,
+      "BirthShare_40_44": 0.02561
+    },
+    {
+      "year": 2017,
+      "DigitalOcio_hours": 3.316898,
+      "M_hours": 4.342199,
+      "M_minutes": 260.53195,
+      "GFR": 60.888235,
+      "MeanMaternalAge": 28.623523,
+      "FirstBirthRate": 22.830502,
+      "ASFR_15_19": 19.27029,
+      "ASFR_20_24": 74.220105,
+      "ASFR_25_29": 104.37882,
+      "ASFR_30_34": 100.188409,
+      "ASFR_35_39": 49.36031,
+      "ASFR_40_44": 10.589748,
+      "BirthShare_15_19": 0.050981,
+      "BirthShare_20_24": 0.205011,
+      "BirthShare_25_29": 0.300904,
+      "BirthShare_30_34": 0.280541,
+      "BirthShare_35_39": 0.135968,
+      "BirthShare_40_44": 0.026595
+    },
+    {
+      "year": 2018,
+      "DigitalOcio_hours": 3.284779,
+      "M_hours": 4.290286,
+      "M_minutes": 257.417177,
+      "GFR": 59.55902,
+      "MeanMaternalAge": 28.782734,
+      "FirstBirthRate": 22.32509,
+      "ASFR_15_19": 17.787263,
+      "ASFR_20_24": 71.406798,
+      "ASFR_25_29": 101.391134,
+      "ASFR_30_34": 99.684251,
+      "ASFR_35_39": 49.534056,
+      "ASFR_40_44": 10.725945,
+      "BirthShare_15_19": 0.047817,
+      "BirthShare_20_24": 0.198758,
+      "BirthShare_25_29": 0.299242,
+      "BirthShare_30_34": 0.285054,
+      "BirthShare_35_39": 0.141407,
+      "BirthShare_40_44": 0.027722
+    },
+    {
+      "year": 2019,
+      "DigitalOcio_hours": 3.335455,
+      "M_hours": 4.101481,
+      "M_minutes": 246.088878,
+      "GFR": 58.628235,
+      "MeanMaternalAge": 28.896741,
+      "FirstBirthRate": 21.765511,
+      "ASFR_15_19": 16.884224,
+      "ASFR_20_24": 69.613092,
+      "ASFR_25_29": 99.503293,
+      "ASFR_30_34": 98.315061,
+      "ASFR_35_39": 49.614938,
+      "ASFR_40_44": 10.9787,
+      "BirthShare_15_19": 0.045879,
+      "BirthShare_20_24": 0.194741,
+      "BirthShare_25_29": 0.29731,
+      "BirthShare_30_34": 0.287947,
+      "BirthShare_35_39": 0.144944,
+      "BirthShare_40_44": 0.02918
+    },
+    {
+      "year": 2020,
+      "DigitalOcio_hours": 3.649512,
+      "M_hours": 3.307963,
+      "M_minutes": 198.477792,
+      "GFR": 56.441961,
+      "MeanMaternalAge": 29.017613,
+      "FirstBirthRate": 21.197861,
+      "ASFR_15_19": 15.366162,
+      "ASFR_20_24": 66.468298,
+      "ASFR_25_29": 97.246011,
+      "ASFR_30_34": 95.21833,
+      "ASFR_35_39": 48.589412,
+      "ASFR_40_44": 10.757394,
+      "BirthShare_15_19": 0.043913,
+      "BirthShare_20_24": 0.190777,
+      "BirthShare_25_29": 0.292377,
+      "BirthShare_30_34": 0.293226,
+      "BirthShare_35_39": 0.149117,
+      "BirthShare_40_44": 0.03059
+    },
+    {
+      "year": 2021,
+      "DigitalOcio_hours": 3.5063,
+      "M_hours": 3.4216,
+      "M_minutes": 205.295996,
+      "GFR": 56.640961,
+      "MeanMaternalAge": 29.200986,
+      "FirstBirthRate": 21.34391,
+      "ASFR_15_19": 14.209429,
+      "ASFR_20_24": 64.305374,
+      "ASFR_25_29": 98.742483,
+      "ASFR_30_34": 98.361625,
+      "ASFR_35_39": 50.888291,
+      "ASFR_40_44": 11.075382,
+      "BirthShare_15_19": 0.040523,
+      "BirthShare_20_24": 0.183501,
+      "BirthShare_25_29": 0.288015,
+      "BirthShare_30_34": 0.301867,
+      "BirthShare_35_39": 0.154334,
+      "BirthShare_40_44": 0.03176
+    },
+    {
+      "year": 2022,
+      "DigitalOcio_hours": 3.456226,
+      "M_hours": 3.39183,
+      "M_minutes": 203.509772,
+      "GFR": 55.706627,
+      "MeanMaternalAge": 29.304585,
+      "FirstBirthRate": 21.248969,
+      "ASFR_15_19": 13.67084,
+      "ASFR_20_24": 62.360517,
+      "ASFR_25_29": 97.690592,
+      "ASFR_30_34": 96.488113,
+      "ASFR_35_39": 51.50983,
+      "ASFR_40_44": 11.41032,
+      "BirthShare_15_19": 0.039758,
+      "BirthShare_20_24": 0.180311,
+      "BirthShare_25_29": 0.284714,
+      "BirthShare_30_34": 0.302977,
+      "BirthShare_35_39": 0.158467,
+      "BirthShare_40_44": 0.033773
+    },
+    {
+      "year": 2023,
+      "DigitalOcio_hours": 3.256397,
+      "M_hours": 3.621967,
+      "M_minutes": 217.318006,
+      "GFR": 54.061627,
+      "MeanMaternalAge": 29.375385,
+      "FirstBirthRate": 20.931014,
+      "ASFR_15_19": 13.143895,
+      "ASFR_20_24": 59.597831,
+      "ASFR_25_29": 95.389378,
+      "ASFR_30_34": 93.823471,
+      "ASFR_35_39": 50.955926,
+      "ASFR_40_44": 11.317119,
+      "BirthShare_15_19": 0.039448,
+      "BirthShare_20_24": 0.177314,
+      "BirthShare_25_29": 0.283065,
+      "BirthShare_30_34": 0.303688,
+      "BirthShare_35_39": 0.161498,
+      "BirthShare_40_44": 0.034987
+    },
+    {
+      "year": 2024,
+      "DigitalOcio_hours": 3.161655,
+      "M_hours": 3.51902,
+      "M_minutes": 211.141222,
+      "GFR": 53.941294,
+      "MeanMaternalAge": 29.455633,
+      "FirstBirthRate": 20.926961,
+      "ASFR_15_19": 12.826011,
+      "ASFR_20_24": 58.20753,
+      "ASFR_25_29": 95.484407,
+      "ASFR_30_34": 94.021992,
+      "ASFR_35_39": 51.471869,
+      "ASFR_40_44": 11.641452,
+      "BirthShare_15_19": 0.038484,
+      "BirthShare_20_24": 0.17431,
+      "BirthShare_25_29": 0.282599,
+      "BirthShare_30_34": 0.303772,
+      "BirthShare_35_39": 0.164553,
+      "BirthShare_40_44": 0.036282
+    }
+  ],
+  "scatter_all": [
+    {
+      "state": "Alabama",
+      "year": 2005,
+      "DigitalOcio_hours": 3.046392,
+      "M_hours": 3.333333
+    },
+    {
+      "state": "Alabama",
+      "year": 2006,
+      "DigitalOcio_hours": 3.180072,
+      "M_hours": 4.221959
+    },
+    {
+      "state": "Alabama",
+      "year": 2007,
+      "DigitalOcio_hours": 2.924939,
+      "M_hours": 3.656939
+    },
+    {
+      "state": "Alabama",
+      "year": 2008,
+      "DigitalOcio_hours": 3.323264,
+      "M_hours": 4.355304
+    },
+    {
+      "state": "Alabama",
+      "year": 2009,
+      "DigitalOcio_hours": 3.519821,
+      "M_hours": 3.775464
+    },
+    {
+      "state": "Alabama",
+      "year": 2010,
+      "DigitalOcio_hours": 3.672337,
+      "M_hours": 3.53161
+    },
+    {
+      "state": "Alabama",
+      "year": 2011,
+      "DigitalOcio_hours": 3.295714,
+      "M_hours": 4.076445
+    },
+    {
+      "state": "Alabama",
+      "year": 2012,
+      "DigitalOcio_hours": 3.499536,
+      "M_hours": 3.97968
+    },
+    {
+      "state": "Alabama",
+      "year": 2013,
+      "DigitalOcio_hours": 4.349876,
+      "M_hours": 3.506867
+    },
+    {
+      "state": "Alabama",
+      "year": 2014,
+      "DigitalOcio_hours": 3.491054,
+      "M_hours": 3.795624
+    },
+    {
+      "state": "Alabama",
+      "year": 2015,
+      "DigitalOcio_hours": 3.890766,
+      "M_hours": 3.36319
+    },
+    {
+      "state": "Alabama",
+      "year": 2016,
+      "DigitalOcio_hours": 3.886765,
+      "M_hours": 4.214039
+    },
+    {
+      "state": "Alabama",
+      "year": 2017,
+      "DigitalOcio_hours": 4.029711,
+      "M_hours": 3.538881
+    },
+    {
+      "state": "Alabama",
+      "year": 2018,
+      "DigitalOcio_hours": 3.954486,
+      "M_hours": 3.968613
+    },
+    {
+      "state": "Alabama",
+      "year": 2019,
+      "DigitalOcio_hours": 4.302721,
+      "M_hours": 3.745259
+    },
+    {
+      "state": "Alabama",
+      "year": 2020,
+      "DigitalOcio_hours": 3.54431,
+      "M_hours": 3.648049
+    },
+    {
+      "state": "Alabama",
+      "year": 2021,
+      "DigitalOcio_hours": 4.376601,
+      "M_hours": 3.022445
+    },
+    {
+      "state": "Alabama",
+      "year": 2022,
+      "DigitalOcio_hours": 3.87071,
+      "M_hours": 3.582419
+    },
+    {
+      "state": "Alabama",
+      "year": 2023,
+      "DigitalOcio_hours": 3.108385,
+      "M_hours": 3.792744
+    },
+    {
+      "state": "Alabama",
+      "year": 2024,
+      "DigitalOcio_hours": 3.249567,
+      "M_hours": 3.801014
+    },
+    {
+      "state": "Alaska",
+      "year": 2005,
+      "DigitalOcio_hours": 3.090323,
+      "M_hours": 3.430645
+    },
+    {
+      "state": "Alaska",
+      "year": 2006,
+      "DigitalOcio_hours": 1.029835,
+      "M_hours": 5.638349
+    },
+    {
+      "state": "Alaska",
+      "year": 2007,
+      "DigitalOcio_hours": 2.913802,
+      "M_hours": 4.266221
+    },
+    {
+      "state": "Alaska",
+      "year": 2008,
+      "DigitalOcio_hours": 2.458627,
+      "M_hours": 4.838536
+    },
+    {
+      "state": "Alaska",
+      "year": 2009,
+      "DigitalOcio_hours": 3.099603,
+      "M_hours": 2.802349
+    },
+    {
+      "state": "Alaska",
+      "year": 2010,
+      "DigitalOcio_hours": 2.689656,
+      "M_hours": 5.411459
+    },
+    {
+      "state": "Alaska",
+      "year": 2011,
+      "DigitalOcio_hours": 3.229914,
+      "M_hours": 3.752492
+    },
+    {
+      "state": "Alaska",
+      "year": 2012,
+      "DigitalOcio_hours": 3.022382,
+      "M_hours": 5.918227
+    },
+    {
+      "state": "Alaska",
+      "year": 2013,
+      "DigitalOcio_hours": 1.876322,
+      "M_hours": 4.951149
+    },
+    {
+      "state": "Alaska",
+      "year": 2014,
+      "DigitalOcio_hours": 3.138065,
+      "M_hours": 4.314491
+    },
+    {
+      "state": "Alaska",
+      "year": 2015,
+      "DigitalOcio_hours": 1.689647,
+      "M_hours": 2.556462
+    },
+    {
+      "state": "Alaska",
+      "year": 2016,
+      "DigitalOcio_hours": 3.148274,
+      "M_hours": 5.063689
+    },
+    {
+      "state": "Alaska",
+      "year": 2017,
+      "DigitalOcio_hours": 2.844016,
+      "M_hours": 5.330482
+    },
+    {
+      "state": "Alaska",
+      "year": 2018,
+      "DigitalOcio_hours": 2.056094,
+      "M_hours": 3.728997
+    },
+    {
+      "state": "Alaska",
+      "year": 2019,
+      "DigitalOcio_hours": 3.009209,
+      "M_hours": 4.939365
+    },
+    {
+      "state": "Alaska",
+      "year": 2020,
+      "DigitalOcio_hours": 3.027887,
+      "M_hours": 3.735582
+    },
+    {
+      "state": "Alaska",
+      "year": 2021,
+      "DigitalOcio_hours": 3.202244,
+      "M_hours": 2.790627
+    },
+    {
+      "state": "Alaska",
+      "year": 2022,
+      "DigitalOcio_hours": 3.164355,
+      "M_hours": 2.006697
+    },
+    {
+      "state": "Alaska",
+      "year": 2023,
+      "DigitalOcio_hours": 3.222912,
+      "M_hours": 2.227252
+    },
+    {
+      "state": "Alaska",
+      "year": 2024,
+      "DigitalOcio_hours": 1.981958,
+      "M_hours": 4.783384
+    },
+    {
+      "state": "Arizona",
+      "year": 2005,
+      "DigitalOcio_hours": 2.820263,
+      "M_hours": 3.880775
+    },
+    {
+      "state": "Arizona",
+      "year": 2006,
+      "DigitalOcio_hours": 3.029414,
+      "M_hours": 4.997775
+    },
+    {
+      "state": "Arizona",
+      "year": 2007,
+      "DigitalOcio_hours": 2.962635,
+      "M_hours": 4.128183
+    },
+    {
+      "state": "Arizona",
+      "year": 2008,
+      "DigitalOcio_hours": 3.134701,
+      "M_hours": 4.491236
+    },
+    {
+      "state": "Arizona",
+      "year": 2009,
+      "DigitalOcio_hours": 2.944869,
+      "M_hours": 4.586515
+    },
+    {
+      "state": "Arizona",
+      "year": 2010,
+      "DigitalOcio_hours": 3.030785,
+      "M_hours": 4.189694
+    },
+    {
+      "state": "Arizona",
+      "year": 2011,
+      "DigitalOcio_hours": 3.21359,
+      "M_hours": 4.417549
+    },
+    {
+      "state": "Arizona",
+      "year": 2012,
+      "DigitalOcio_hours": 2.953776,
+      "M_hours": 3.833418
+    },
+    {
+      "state": "Arizona",
+      "year": 2013,
+      "DigitalOcio_hours": 3.726806,
+      "M_hours": 4.022356
+    },
+    {
+      "state": "Arizona",
+      "year": 2014,
+      "DigitalOcio_hours": 3.023608,
+      "M_hours": 4.396491
+    },
+    {
+      "state": "Arizona",
+      "year": 2015,
+      "DigitalOcio_hours": 3.404365,
+      "M_hours": 3.524503
+    },
+    {
+      "state": "Arizona",
+      "year": 2016,
+      "DigitalOcio_hours": 3.044744,
+      "M_hours": 3.46143
+    },
+    {
+      "state": "Arizona",
+      "year": 2017,
+      "DigitalOcio_hours": 3.199742,
+      "M_hours": 3.791731
+    },
+    {
+      "state": "Arizona",
+      "year": 2018,
+      "DigitalOcio_hours": 3.830942,
+      "M_hours": 4.207659
+    },
+    {
+      "state": "Arizona",
+      "year": 2019,
+      "DigitalOcio_hours": 3.044619,
+      "M_hours": 3.770587
+    },
+    {
+      "state": "Arizona",
+      "year": 2020,
+      "DigitalOcio_hours": 3.387538,
+      "M_hours": 3.116276
+    },
+    {
+      "state": "Arizona",
+      "year": 2021,
+      "DigitalOcio_hours": 3.147587,
+      "M_hours": 3.161265
+    },
+    {
+      "state": "Arizona",
+      "year": 2022,
+      "DigitalOcio_hours": 3.398415,
+      "M_hours": 3.27401
+    },
+    {
+      "state": "Arizona",
+      "year": 2023,
+      "DigitalOcio_hours": 2.927455,
+      "M_hours": 3.188334
+    },
+    {
+      "state": "Arizona",
+      "year": 2024,
+      "DigitalOcio_hours": 2.892934,
+      "M_hours": 3.431415
+    },
+    {
+      "state": "Arkansas",
+      "year": 2005,
+      "DigitalOcio_hours": 3.0822,
+      "M_hours": 2.664062
+    },
+    {
+      "state": "Arkansas",
+      "year": 2006,
+      "DigitalOcio_hours": 3.321962,
+      "M_hours": 4.014185
+    },
+    {
+      "state": "Arkansas",
+      "year": 2007,
+      "DigitalOcio_hours": 3.589367,
+      "M_hours": 4.530056
+    },
+    {
+      "state": "Arkansas",
+      "year": 2008,
+      "DigitalOcio_hours": 3.461307,
+      "M_hours": 4.19403
+    },
+    {
+      "state": "Arkansas",
+      "year": 2009,
+      "DigitalOcio_hours": 3.188634,
+      "M_hours": 4.44935
+    },
+    {
+      "state": "Arkansas",
+      "year": 2010,
+      "DigitalOcio_hours": 3.533543,
+      "M_hours": 4.465395
+    },
+    {
+      "state": "Arkansas",
+      "year": 2011,
+      "DigitalOcio_hours": 3.753895,
+      "M_hours": 4.336423
+    },
+    {
+      "state": "Arkansas",
+      "year": 2012,
+      "DigitalOcio_hours": 4.151857,
+      "M_hours": 3.495409
+    },
+    {
+      "state": "Arkansas",
+      "year": 2013,
+      "DigitalOcio_hours": 3.420859,
+      "M_hours": 4.671478
+    },
+    {
+      "state": "Arkansas",
+      "year": 2014,
+      "DigitalOcio_hours": 3.198929,
+      "M_hours": 4.239231
+    },
+    {
+      "state": "Arkansas",
+      "year": 2015,
+      "DigitalOcio_hours": 4.594879,
+      "M_hours": 3.744574
+    },
+    {
+      "state": "Arkansas",
+      "year": 2016,
+      "DigitalOcio_hours": 3.852943,
+      "M_hours": 3.204044
+    },
+    {
+      "state": "Arkansas",
+      "year": 2017,
+      "DigitalOcio_hours": 3.723599,
+      "M_hours": 3.845949
+    },
+    {
+      "state": "Arkansas",
+      "year": 2018,
+      "DigitalOcio_hours": 3.202593,
+      "M_hours": 4.818989
+    },
+    {
+      "state": "Arkansas",
+      "year": 2019,
+      "DigitalOcio_hours": 3.613838,
+      "M_hours": 3.488448
+    },
+    {
+      "state": "Arkansas",
+      "year": 2020,
+      "DigitalOcio_hours": 3.268034,
+      "M_hours": 4.538422
+    },
+    {
+      "state": "Arkansas",
+      "year": 2021,
+      "DigitalOcio_hours": 3.695225,
+      "M_hours": 2.508698
+    },
+    {
+      "state": "Arkansas",
+      "year": 2022,
+      "DigitalOcio_hours": 3.611322,
+      "M_hours": 3.201968
+    },
+    {
+      "state": "Arkansas",
+      "year": 2023,
+      "DigitalOcio_hours": 2.569154,
+      "M_hours": 3.062868
+    },
+    {
+      "state": "Arkansas",
+      "year": 2024,
+      "DigitalOcio_hours": 3.533384,
+      "M_hours": 3.223421
+    },
+    {
+      "state": "California",
+      "year": 2005,
+      "DigitalOcio_hours": 2.931324,
+      "M_hours": 3.618241
+    },
+    {
+      "state": "California",
+      "year": 2006,
+      "DigitalOcio_hours": 2.69031,
+      "M_hours": 4.683495
+    },
+    {
+      "state": "California",
+      "year": 2007,
+      "DigitalOcio_hours": 2.841829,
+      "M_hours": 4.783015
+    },
+    {
+      "state": "California",
+      "year": 2008,
+      "DigitalOcio_hours": 2.910496,
+      "M_hours": 4.25325
+    },
+    {
+      "state": "California",
+      "year": 2009,
+      "DigitalOcio_hours": 3.021368,
+      "M_hours": 4.045164
+    },
+    {
+      "state": "California",
+      "year": 2010,
+      "DigitalOcio_hours": 2.807918,
+      "M_hours": 4.319288
+    },
+    {
+      "state": "California",
+      "year": 2011,
+      "DigitalOcio_hours": 2.899237,
+      "M_hours": 4.491304
+    },
+    {
+      "state": "California",
+      "year": 2012,
+      "DigitalOcio_hours": 2.934742,
+      "M_hours": 4.415752
+    },
+    {
+      "state": "California",
+      "year": 2013,
+      "DigitalOcio_hours": 2.864514,
+      "M_hours": 4.238398
+    },
+    {
+      "state": "California",
+      "year": 2014,
+      "DigitalOcio_hours": 3.055213,
+      "M_hours": 4.02585
+    },
+    {
+      "state": "California",
+      "year": 2015,
+      "DigitalOcio_hours": 2.972376,
+      "M_hours": 4.079624
+    },
+    {
+      "state": "California",
+      "year": 2016,
+      "DigitalOcio_hours": 2.964394,
+      "M_hours": 4.272227
+    },
+    {
+      "state": "California",
+      "year": 2017,
+      "DigitalOcio_hours": 2.880748,
+      "M_hours": 4.505253
+    },
+    {
+      "state": "California",
+      "year": 2018,
+      "DigitalOcio_hours": 2.783651,
+      "M_hours": 4.122886
+    },
+    {
+      "state": "California",
+      "year": 2019,
+      "DigitalOcio_hours": 2.950069,
+      "M_hours": 4.20136
+    },
+    {
+      "state": "California",
+      "year": 2020,
+      "DigitalOcio_hours": 3.363779,
+      "M_hours": 2.784482
+    },
+    {
+      "state": "California",
+      "year": 2021,
+      "DigitalOcio_hours": 3.262068,
+      "M_hours": 3.026378
+    },
+    {
+      "state": "California",
+      "year": 2022,
+      "DigitalOcio_hours": 2.997777,
+      "M_hours": 3.194124
+    },
+    {
+      "state": "California",
+      "year": 2023,
+      "DigitalOcio_hours": 3.217486,
+      "M_hours": 3.404851
+    },
+    {
+      "state": "California",
+      "year": 2024,
+      "DigitalOcio_hours": 2.8572,
+      "M_hours": 3.546208
+    },
+    {
+      "state": "Colorado",
+      "year": 2005,
+      "DigitalOcio_hours": 2.692054,
+      "M_hours": 7.153125
+    },
+    {
+      "state": "Colorado",
+      "year": 2006,
+      "DigitalOcio_hours": 2.66548,
+      "M_hours": 4.582523
+    },
+    {
+      "state": "Colorado",
+      "year": 2007,
+      "DigitalOcio_hours": 2.544683,
+      "M_hours": 5.406043
+    },
+    {
+      "state": "Colorado",
+      "year": 2008,
+      "DigitalOcio_hours": 2.469023,
+      "M_hours": 5.418711
+    },
+    {
+      "state": "Colorado",
+      "year": 2009,
+      "DigitalOcio_hours": 2.734908,
+      "M_hours": 5.077967
+    },
+    {
+      "state": "Colorado",
+      "year": 2010,
+      "DigitalOcio_hours": 2.975278,
+      "M_hours": 4.296702
+    },
+    {
+      "state": "Colorado",
+      "year": 2011,
+      "DigitalOcio_hours": 2.358551,
+      "M_hours": 4.550076
+    },
+    {
+      "state": "Colorado",
+      "year": 2012,
+      "DigitalOcio_hours": 3.085733,
+      "M_hours": 5.131281
+    },
+    {
+      "state": "Colorado",
+      "year": 2013,
+      "DigitalOcio_hours": 2.814643,
+      "M_hours": 4.627132
+    },
+    {
+      "state": "Colorado",
+      "year": 2014,
+      "DigitalOcio_hours": 2.740171,
+      "M_hours": 4.616759
+    },
+    {
+      "state": "Colorado",
+      "year": 2015,
+      "DigitalOcio_hours": 3.063228,
+      "M_hours": 4.312333
+    },
+    {
+      "state": "Colorado",
+      "year": 2016,
+      "DigitalOcio_hours": 3.375782,
+      "M_hours": 5.104764
+    },
+    {
+      "state": "Colorado",
+      "year": 2017,
+      "DigitalOcio_hours": 2.885348,
+      "M_hours": 4.409449
+    },
+    {
+      "state": "Colorado",
+      "year": 2018,
+      "DigitalOcio_hours": 2.966403,
+      "M_hours": 4.912976
+    },
+    {
+      "state": "Colorado",
+      "year": 2019,
+      "DigitalOcio_hours": 2.990032,
+      "M_hours": 4.975011
+    },
+    {
+      "state": "Colorado",
+      "year": 2020,
+      "DigitalOcio_hours": 3.337644,
+      "M_hours": 3.471536
+    },
+    {
+      "state": "Colorado",
+      "year": 2021,
+      "DigitalOcio_hours": 2.776905,
+      "M_hours": 4.260645
+    },
+    {
+      "state": "Colorado",
+      "year": 2022,
+      "DigitalOcio_hours": 3.068857,
+      "M_hours": 4.133882
+    },
+    {
+      "state": "Colorado",
+      "year": 2023,
+      "DigitalOcio_hours": 2.750772,
+      "M_hours": 3.795168
+    },
+    {
+      "state": "Colorado",
+      "year": 2024,
+      "DigitalOcio_hours": 2.398707,
+      "M_hours": 3.777734
+    },
+    {
+      "state": "Connecticut",
+      "year": 2005,
+      "DigitalOcio_hours": 2.58905,
+      "M_hours": 3.0
+    },
+    {
+      "state": "Connecticut",
+      "year": 2006,
+      "DigitalOcio_hours": 2.644056,
+      "M_hours": 4.664343
+    },
+    {
+      "state": "Connecticut",
+      "year": 2007,
+      "DigitalOcio_hours": 2.433399,
+      "M_hours": 5.010246
+    },
+    {
+      "state": "Connecticut",
+      "year": 2008,
+      "DigitalOcio_hours": 2.955484,
+      "M_hours": 4.665375
+    },
+    {
+      "state": "Connecticut",
+      "year": 2009,
+      "DigitalOcio_hours": 3.195157,
+      "M_hours": 4.929239
+    },
+    {
+      "state": "Connecticut",
+      "year": 2010,
+      "DigitalOcio_hours": 2.999749,
+      "M_hours": 4.057398
+    },
+    {
+      "state": "Connecticut",
+      "year": 2011,
+      "DigitalOcio_hours": 3.379659,
+      "M_hours": 3.98882
+    },
+    {
+      "state": "Connecticut",
+      "year": 2012,
+      "DigitalOcio_hours": 3.091684,
+      "M_hours": 4.721514
+    },
+    {
+      "state": "Connecticut",
+      "year": 2013,
+      "DigitalOcio_hours": 2.765339,
+      "M_hours": 4.910821
+    },
+    {
+      "state": "Connecticut",
+      "year": 2014,
+      "DigitalOcio_hours": 4.088516,
+      "M_hours": 4.298347
+    },
+    {
+      "state": "Connecticut",
+      "year": 2015,
+      "DigitalOcio_hours": 2.956838,
+      "M_hours": 4.290691
+    },
+    {
+      "state": "Connecticut",
+      "year": 2016,
+      "DigitalOcio_hours": 3.122706,
+      "M_hours": 3.85775
+    },
+    {
+      "state": "Connecticut",
+      "year": 2017,
+      "DigitalOcio_hours": 2.987251,
+      "M_hours": 4.98554
+    },
+    {
+      "state": "Connecticut",
+      "year": 2018,
+      "DigitalOcio_hours": 3.120997,
+      "M_hours": 4.211275
+    },
+    {
+      "state": "Connecticut",
+      "year": 2019,
+      "DigitalOcio_hours": 3.399662,
+      "M_hours": 4.118804
+    },
+    {
+      "state": "Connecticut",
+      "year": 2020,
+      "DigitalOcio_hours": 3.163199,
+      "M_hours": 2.882131
+    },
+    {
+      "state": "Connecticut",
+      "year": 2021,
+      "DigitalOcio_hours": 3.29213,
+      "M_hours": 2.997334
+    },
+    {
+      "state": "Connecticut",
+      "year": 2022,
+      "DigitalOcio_hours": 2.829362,
+      "M_hours": 4.47113
+    },
+    {
+      "state": "Connecticut",
+      "year": 2023,
+      "DigitalOcio_hours": 3.66562,
+      "M_hours": 3.109664
+    },
+    {
+      "state": "Connecticut",
+      "year": 2024,
+      "DigitalOcio_hours": 2.820974,
+      "M_hours": 3.948607
+    },
+    {
+      "state": "Delaware",
+      "year": 2005,
+      "DigitalOcio_hours": 2.956667,
+      "M_hours": 3.836667
+    },
+    {
+      "state": "Delaware",
+      "year": 2006,
+      "DigitalOcio_hours": 3.887493,
+      "M_hours": 5.082114
+    },
+    {
+      "state": "Delaware",
+      "year": 2007,
+      "DigitalOcio_hours": 2.767196,
+      "M_hours": 5.65109
+    },
+    {
+      "state": "Delaware",
+      "year": 2008,
+      "DigitalOcio_hours": 3.127505,
+      "M_hours": 3.698065
+    },
+    {
+      "state": "Delaware",
+      "year": 2009,
+      "DigitalOcio_hours": 4.316779,
+      "M_hours": 3.269769
+    },
+    {
+      "state": "Delaware",
+      "year": 2010,
+      "DigitalOcio_hours": 2.232223,
+      "M_hours": 4.747205
+    },
+    {
+      "state": "Delaware",
+      "year": 2011,
+      "DigitalOcio_hours": 5.319204,
+      "M_hours": 3.524855
+    },
+    {
+      "state": "Delaware",
+      "year": 2012,
+      "DigitalOcio_hours": 3.129208,
+      "M_hours": 4.015088
+    },
+    {
+      "state": "Delaware",
+      "year": 2013,
+      "DigitalOcio_hours": 3.781117,
+      "M_hours": 3.86698
+    },
+    {
+      "state": "Delaware",
+      "year": 2014,
+      "DigitalOcio_hours": 4.313214,
+      "M_hours": 3.688282
+    },
+    {
+      "state": "Delaware",
+      "year": 2015,
+      "DigitalOcio_hours": 2.88943,
+      "M_hours": 3.112987
+    },
+    {
+      "state": "Delaware",
+      "year": 2016,
+      "DigitalOcio_hours": 2.495292,
+      "M_hours": 4.035276
+    },
+    {
+      "state": "Delaware",
+      "year": 2017,
+      "DigitalOcio_hours": 3.361927,
+      "M_hours": 5.762299
+    },
+    {
+      "state": "Delaware",
+      "year": 2018,
+      "DigitalOcio_hours": 3.640146,
+      "M_hours": 3.640334
+    },
+    {
+      "state": "Delaware",
+      "year": 2019,
+      "DigitalOcio_hours": 3.636019,
+      "M_hours": 2.601324
+    },
+    {
+      "state": "Delaware",
+      "year": 2020,
+      "DigitalOcio_hours": 4.369595,
+      "M_hours": 3.451275
+    },
+    {
+      "state": "Delaware",
+      "year": 2021,
+      "DigitalOcio_hours": 5.386684,
+      "M_hours": 2.414483
+    },
+    {
+      "state": "Delaware",
+      "year": 2022,
+      "DigitalOcio_hours": 4.57165,
+      "M_hours": 1.070324
+    },
+    {
+      "state": "Delaware",
+      "year": 2023,
+      "DigitalOcio_hours": 3.302111,
+      "M_hours": 3.450733
+    },
+    {
+      "state": "Delaware",
+      "year": 2024,
+      "DigitalOcio_hours": 3.253477,
+      "M_hours": 3.437253
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2005,
+      "DigitalOcio_hours": 3.84,
+      "M_hours": 3.879444
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2006,
+      "DigitalOcio_hours": 3.020615,
+      "M_hours": 3.339585
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2007,
+      "DigitalOcio_hours": 2.678541,
+      "M_hours": 6.016118
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2008,
+      "DigitalOcio_hours": 2.349856,
+      "M_hours": 3.305016
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2009,
+      "DigitalOcio_hours": 2.328483,
+      "M_hours": 5.020307
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2010,
+      "DigitalOcio_hours": 3.623778,
+      "M_hours": 4.336167
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2011,
+      "DigitalOcio_hours": 4.710107,
+      "M_hours": 2.066359
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2012,
+      "DigitalOcio_hours": 1.976175,
+      "M_hours": 5.760175
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2013,
+      "DigitalOcio_hours": 2.640007,
+      "M_hours": 6.683591
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2014,
+      "DigitalOcio_hours": 3.959759,
+      "M_hours": 3.675707
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2015,
+      "DigitalOcio_hours": 3.247086,
+      "M_hours": 4.323066
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2016,
+      "DigitalOcio_hours": 2.205927,
+      "M_hours": 6.204377
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2017,
+      "DigitalOcio_hours": 2.478641,
+      "M_hours": 5.067459
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2018,
+      "DigitalOcio_hours": 2.825886,
+      "M_hours": 5.382731
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2019,
+      "DigitalOcio_hours": 2.758735,
+      "M_hours": 4.224603
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2020,
+      "DigitalOcio_hours": 2.22613,
+      "M_hours": 1.406861
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2021,
+      "DigitalOcio_hours": 2.269002,
+      "M_hours": 3.433701
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2022,
+      "DigitalOcio_hours": 3.047089,
+      "M_hours": 1.232742
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2023,
+      "DigitalOcio_hours": 2.972718,
+      "M_hours": 2.014238
+    },
+    {
+      "state": "District of Columbia",
+      "year": 2024,
+      "DigitalOcio_hours": 2.661948,
+      "M_hours": 2.907088
+    },
+    {
+      "state": "Florida",
+      "year": 2005,
+      "DigitalOcio_hours": 3.090988,
+      "M_hours": 3.493229
+    },
+    {
+      "state": "Florida",
+      "year": 2006,
+      "DigitalOcio_hours": 3.146207,
+      "M_hours": 4.726775
+    },
+    {
+      "state": "Florida",
+      "year": 2007,
+      "DigitalOcio_hours": 3.312736,
+      "M_hours": 4.844807
+    },
+    {
+      "state": "Florida",
+      "year": 2008,
+      "DigitalOcio_hours": 3.365458,
+      "M_hours": 4.644083
+    },
+    {
+      "state": "Florida",
+      "year": 2009,
+      "DigitalOcio_hours": 3.505602,
+      "M_hours": 4.299911
+    },
+    {
+      "state": "Florida",
+      "year": 2010,
+      "DigitalOcio_hours": 3.132357,
+      "M_hours": 4.311545
+    },
+    {
+      "state": "Florida",
+      "year": 2011,
+      "DigitalOcio_hours": 3.32051,
+      "M_hours": 4.383056
+    },
+    {
+      "state": "Florida",
+      "year": 2012,
+      "DigitalOcio_hours": 3.352951,
+      "M_hours": 3.828203
+    },
+    {
+      "state": "Florida",
+      "year": 2013,
+      "DigitalOcio_hours": 3.406589,
+      "M_hours": 3.779605
+    },
+    {
+      "state": "Florida",
+      "year": 2014,
+      "DigitalOcio_hours": 3.311181,
+      "M_hours": 4.55265
+    },
+    {
+      "state": "Florida",
+      "year": 2015,
+      "DigitalOcio_hours": 3.251304,
+      "M_hours": 4.172087
+    },
+    {
+      "state": "Florida",
+      "year": 2016,
+      "DigitalOcio_hours": 3.291614,
+      "M_hours": 3.995712
+    },
+    {
+      "state": "Florida",
+      "year": 2017,
+      "DigitalOcio_hours": 3.481558,
+      "M_hours": 3.811714
+    },
+    {
+      "state": "Florida",
+      "year": 2018,
+      "DigitalOcio_hours": 3.688713,
+      "M_hours": 3.976897
+    },
+    {
+      "state": "Florida",
+      "year": 2019,
+      "DigitalOcio_hours": 3.248452,
+      "M_hours": 4.060626
+    },
+    {
+      "state": "Florida",
+      "year": 2020,
+      "DigitalOcio_hours": 4.031674,
+      "M_hours": 2.546959
+    },
+    {
+      "state": "Florida",
+      "year": 2021,
+      "DigitalOcio_hours": 3.704782,
+      "M_hours": 3.491335
+    },
+    {
+      "state": "Florida",
+      "year": 2022,
+      "DigitalOcio_hours": 3.626368,
+      "M_hours": 3.605231
+    },
+    {
+      "state": "Florida",
+      "year": 2023,
+      "DigitalOcio_hours": 3.186825,
+      "M_hours": 3.558211
+    },
+    {
+      "state": "Florida",
+      "year": 2024,
+      "DigitalOcio_hours": 3.088964,
+      "M_hours": 3.692826
+    },
+    {
+      "state": "Georgia",
+      "year": 2005,
+      "DigitalOcio_hours": 3.167235,
+      "M_hours": 10.777344
+    },
+    {
+      "state": "Georgia",
+      "year": 2006,
+      "DigitalOcio_hours": 3.252413,
+      "M_hours": 4.398365
+    },
+    {
+      "state": "Georgia",
+      "year": 2007,
+      "DigitalOcio_hours": 2.903523,
+      "M_hours": 4.914575
+    },
+    {
+      "state": "Georgia",
+      "year": 2008,
+      "DigitalOcio_hours": 3.295811,
+      "M_hours": 4.870799
+    },
+    {
+      "state": "Georgia",
+      "year": 2009,
+      "DigitalOcio_hours": 2.926536,
+      "M_hours": 4.824253
+    },
+    {
+      "state": "Georgia",
+      "year": 2010,
+      "DigitalOcio_hours": 2.988923,
+      "M_hours": 3.883256
+    },
+    {
+      "state": "Georgia",
+      "year": 2011,
+      "DigitalOcio_hours": 3.497419,
+      "M_hours": 3.696075
+    },
+    {
+      "state": "Georgia",
+      "year": 2012,
+      "DigitalOcio_hours": 3.41308,
+      "M_hours": 4.224231
+    },
+    {
+      "state": "Georgia",
+      "year": 2013,
+      "DigitalOcio_hours": 3.343413,
+      "M_hours": 3.825712
+    },
+    {
+      "state": "Georgia",
+      "year": 2014,
+      "DigitalOcio_hours": 3.051186,
+      "M_hours": 4.00571
+    },
+    {
+      "state": "Georgia",
+      "year": 2015,
+      "DigitalOcio_hours": 3.334447,
+      "M_hours": 3.927848
+    },
+    {
+      "state": "Georgia",
+      "year": 2016,
+      "DigitalOcio_hours": 3.379909,
+      "M_hours": 4.120437
+    },
+    {
+      "state": "Georgia",
+      "year": 2017,
+      "DigitalOcio_hours": 3.345465,
+      "M_hours": 4.10051
+    },
+    {
+      "state": "Georgia",
+      "year": 2018,
+      "DigitalOcio_hours": 3.241878,
+      "M_hours": 4.426594
+    },
+    {
+      "state": "Georgia",
+      "year": 2019,
+      "DigitalOcio_hours": 3.379163,
+      "M_hours": 3.763627
+    },
+    {
+      "state": "Georgia",
+      "year": 2020,
+      "DigitalOcio_hours": 3.793138,
+      "M_hours": 2.932936
+    },
+    {
+      "state": "Georgia",
+      "year": 2021,
+      "DigitalOcio_hours": 3.43156,
+      "M_hours": 3.111326
+    },
+    {
+      "state": "Georgia",
+      "year": 2022,
+      "DigitalOcio_hours": 3.328796,
+      "M_hours": 3.321608
+    },
+    {
+      "state": "Georgia",
+      "year": 2023,
+      "DigitalOcio_hours": 2.968349,
+      "M_hours": 3.618635
+    },
+    {
+      "state": "Georgia",
+      "year": 2024,
+      "DigitalOcio_hours": 3.942749,
+      "M_hours": 2.478753
+    },
+    {
+      "state": "Hawaii",
+      "year": 2005,
+      "DigitalOcio_hours": 2.861538,
+      "M_hours": 0.0
+    },
+    {
+      "state": "Hawaii",
+      "year": 2006,
+      "DigitalOcio_hours": 2.641722,
+      "M_hours": 5.37441
+    },
+    {
+      "state": "Hawaii",
+      "year": 2007,
+      "DigitalOcio_hours": 1.825974,
+      "M_hours": 5.055503
+    },
+    {
+      "state": "Hawaii",
+      "year": 2008,
+      "DigitalOcio_hours": 2.091895,
+      "M_hours": 5.208303
+    },
+    {
+      "state": "Hawaii",
+      "year": 2009,
+      "DigitalOcio_hours": 2.613836,
+      "M_hours": 4.256466
+    },
+    {
+      "state": "Hawaii",
+      "year": 2010,
+      "DigitalOcio_hours": 2.78238,
+      "M_hours": 4.436488
+    },
+    {
+      "state": "Hawaii",
+      "year": 2011,
+      "DigitalOcio_hours": 3.973538,
+      "M_hours": 3.996693
+    },
+    {
+      "state": "Hawaii",
+      "year": 2012,
+      "DigitalOcio_hours": 3.244068,
+      "M_hours": 3.852831
+    },
+    {
+      "state": "Hawaii",
+      "year": 2013,
+      "DigitalOcio_hours": 2.257567,
+      "M_hours": 4.797969
+    },
+    {
+      "state": "Hawaii",
+      "year": 2014,
+      "DigitalOcio_hours": 4.133636,
+      "M_hours": 4.255118
+    },
+    {
+      "state": "Hawaii",
+      "year": 2015,
+      "DigitalOcio_hours": 2.304875,
+      "M_hours": 5.138476
+    },
+    {
+      "state": "Hawaii",
+      "year": 2016,
+      "DigitalOcio_hours": 3.110714,
+      "M_hours": 3.76182
+    },
+    {
+      "state": "Hawaii",
+      "year": 2017,
+      "DigitalOcio_hours": 5.058343,
+      "M_hours": 4.222259
+    },
+    {
+      "state": "Hawaii",
+      "year": 2018,
+      "DigitalOcio_hours": 2.28035,
+      "M_hours": 4.520193
+    },
+    {
+      "state": "Hawaii",
+      "year": 2019,
+      "DigitalOcio_hours": 3.229659,
+      "M_hours": 1.514374
+    },
+    {
+      "state": "Hawaii",
+      "year": 2020,
+      "DigitalOcio_hours": 3.362782,
+      "M_hours": 3.80944
+    },
+    {
+      "state": "Hawaii",
+      "year": 2021,
+      "DigitalOcio_hours": 3.24721,
+      "M_hours": 3.45942
+    },
+    {
+      "state": "Hawaii",
+      "year": 2022,
+      "DigitalOcio_hours": 3.759945,
+      "M_hours": 3.834864
+    },
+    {
+      "state": "Hawaii",
+      "year": 2023,
+      "DigitalOcio_hours": 2.696439,
+      "M_hours": 3.53434
+    },
+    {
+      "state": "Hawaii",
+      "year": 2024,
+      "DigitalOcio_hours": 2.700459,
+      "M_hours": 2.188142
+    },
+    {
+      "state": "Idaho",
+      "year": 2005,
+      "DigitalOcio_hours": 2.740928,
+      "M_hours": 11.6
+    },
+    {
+      "state": "Idaho",
+      "year": 2006,
+      "DigitalOcio_hours": 2.69176,
+      "M_hours": 4.347268
+    },
+    {
+      "state": "Idaho",
+      "year": 2007,
+      "DigitalOcio_hours": 2.196748,
+      "M_hours": 5.733205
+    },
+    {
+      "state": "Idaho",
+      "year": 2008,
+      "DigitalOcio_hours": 3.062242,
+      "M_hours": 6.993044
+    },
+    {
+      "state": "Idaho",
+      "year": 2009,
+      "DigitalOcio_hours": 2.521194,
+      "M_hours": 4.068137
+    },
+    {
+      "state": "Idaho",
+      "year": 2010,
+      "DigitalOcio_hours": 2.804559,
+      "M_hours": 4.996796
+    },
+    {
+      "state": "Idaho",
+      "year": 2011,
+      "DigitalOcio_hours": 3.100162,
+      "M_hours": 3.103839
+    },
+    {
+      "state": "Idaho",
+      "year": 2012,
+      "DigitalOcio_hours": 2.919106,
+      "M_hours": 4.154842
+    },
+    {
+      "state": "Idaho",
+      "year": 2013,
+      "DigitalOcio_hours": 2.257619,
+      "M_hours": 5.8093
+    },
+    {
+      "state": "Idaho",
+      "year": 2014,
+      "DigitalOcio_hours": 3.298241,
+      "M_hours": 4.894883
+    },
+    {
+      "state": "Idaho",
+      "year": 2015,
+      "DigitalOcio_hours": 2.634411,
+      "M_hours": 3.697841
+    },
+    {
+      "state": "Idaho",
+      "year": 2016,
+      "DigitalOcio_hours": 2.19177,
+      "M_hours": 4.131997
+    },
+    {
+      "state": "Idaho",
+      "year": 2017,
+      "DigitalOcio_hours": 3.408193,
+      "M_hours": 3.931979
+    },
+    {
+      "state": "Idaho",
+      "year": 2018,
+      "DigitalOcio_hours": 2.347396,
+      "M_hours": 5.067845
+    },
+    {
+      "state": "Idaho",
+      "year": 2019,
+      "DigitalOcio_hours": 3.247149,
+      "M_hours": 3.337982
+    },
+    {
+      "state": "Idaho",
+      "year": 2020,
+      "DigitalOcio_hours": 3.71707,
+      "M_hours": 3.863541
+    },
+    {
+      "state": "Idaho",
+      "year": 2021,
+      "DigitalOcio_hours": 2.586205,
+      "M_hours": 5.079435
+    },
+    {
+      "state": "Idaho",
+      "year": 2022,
+      "DigitalOcio_hours": 3.271787,
+      "M_hours": 3.409378
+    },
+    {
+      "state": "Idaho",
+      "year": 2023,
+      "DigitalOcio_hours": 2.528117,
+      "M_hours": 3.763022
+    },
+    {
+      "state": "Idaho",
+      "year": 2024,
+      "DigitalOcio_hours": 2.728639,
+      "M_hours": 3.414743
+    },
+    {
+      "state": "Illinois",
+      "year": 2005,
+      "DigitalOcio_hours": 3.114569,
+      "M_hours": 1.08642
+    },
+    {
+      "state": "Illinois",
+      "year": 2006,
+      "DigitalOcio_hours": 2.695294,
+      "M_hours": 5.040191
+    },
+    {
+      "state": "Illinois",
+      "year": 2007,
+      "DigitalOcio_hours": 2.795807,
+      "M_hours": 4.933607
+    },
+    {
+      "state": "Illinois",
+      "year": 2008,
+      "DigitalOcio_hours": 3.454594,
+      "M_hours": 4.059102
+    },
+    {
+      "state": "Illinois",
+      "year": 2009,
+      "DigitalOcio_hours": 3.013014,
+      "M_hours": 4.80007
+    },
+    {
+      "state": "Illinois",
+      "year": 2010,
+      "DigitalOcio_hours": 3.442493,
+      "M_hours": 4.168575
+    },
+    {
+      "state": "Illinois",
+      "year": 2011,
+      "DigitalOcio_hours": 2.992147,
+      "M_hours": 4.42462
+    },
+    {
+      "state": "Illinois",
+      "year": 2012,
+      "DigitalOcio_hours": 3.339234,
+      "M_hours": 4.384739
+    },
+    {
+      "state": "Illinois",
+      "year": 2013,
+      "DigitalOcio_hours": 3.023028,
+      "M_hours": 4.614671
+    },
+    {
+      "state": "Illinois",
+      "year": 2014,
+      "DigitalOcio_hours": 3.306017,
+      "M_hours": 3.887648
+    },
+    {
+      "state": "Illinois",
+      "year": 2015,
+      "DigitalOcio_hours": 3.100227,
+      "M_hours": 4.216132
+    },
+    {
+      "state": "Illinois",
+      "year": 2016,
+      "DigitalOcio_hours": 2.986553,
+      "M_hours": 4.744686
+    },
+    {
+      "state": "Illinois",
+      "year": 2017,
+      "DigitalOcio_hours": 3.251254,
+      "M_hours": 4.525412
+    },
+    {
+      "state": "Illinois",
+      "year": 2018,
+      "DigitalOcio_hours": 3.579595,
+      "M_hours": 4.276312
+    },
+    {
+      "state": "Illinois",
+      "year": 2019,
+      "DigitalOcio_hours": 2.984016,
+      "M_hours": 4.780831
+    },
+    {
+      "state": "Illinois",
+      "year": 2020,
+      "DigitalOcio_hours": 3.785591,
+      "M_hours": 3.240403
+    },
+    {
+      "state": "Illinois",
+      "year": 2021,
+      "DigitalOcio_hours": 3.59629,
+      "M_hours": 3.403302
+    },
+    {
+      "state": "Illinois",
+      "year": 2022,
+      "DigitalOcio_hours": 2.965927,
+      "M_hours": 4.075717
+    },
+    {
+      "state": "Illinois",
+      "year": 2023,
+      "DigitalOcio_hours": 3.02709,
+      "M_hours": 4.181517
+    },
+    {
+      "state": "Illinois",
+      "year": 2024,
+      "DigitalOcio_hours": 3.553445,
+      "M_hours": 3.791069
+    },
+    {
+      "state": "Indiana",
+      "year": 2005,
+      "DigitalOcio_hours": 2.810185,
+      "M_hours": 2.827778
+    },
+    {
+      "state": "Indiana",
+      "year": 2006,
+      "DigitalOcio_hours": 2.626349,
+      "M_hours": 5.004992
+    },
+    {
+      "state": "Indiana",
+      "year": 2007,
+      "DigitalOcio_hours": 3.079688,
+      "M_hours": 4.837728
+    },
+    {
+      "state": "Indiana",
+      "year": 2008,
+      "DigitalOcio_hours": 3.151281,
+      "M_hours": 4.398729
+    },
+    {
+      "state": "Indiana",
+      "year": 2009,
+      "DigitalOcio_hours": 2.899422,
+      "M_hours": 4.786547
+    },
+    {
+      "state": "Indiana",
+      "year": 2010,
+      "DigitalOcio_hours": 3.125299,
+      "M_hours": 4.696666
+    },
+    {
+      "state": "Indiana",
+      "year": 2011,
+      "DigitalOcio_hours": 3.250931,
+      "M_hours": 4.715384
+    },
+    {
+      "state": "Indiana",
+      "year": 2012,
+      "DigitalOcio_hours": 3.003413,
+      "M_hours": 4.051943
+    },
+    {
+      "state": "Indiana",
+      "year": 2013,
+      "DigitalOcio_hours": 3.149918,
+      "M_hours": 4.353379
+    },
+    {
+      "state": "Indiana",
+      "year": 2014,
+      "DigitalOcio_hours": 3.363145,
+      "M_hours": 4.780161
+    },
+    {
+      "state": "Indiana",
+      "year": 2015,
+      "DigitalOcio_hours": 3.023273,
+      "M_hours": 3.948148
+    },
+    {
+      "state": "Indiana",
+      "year": 2016,
+      "DigitalOcio_hours": 3.2697,
+      "M_hours": 4.853645
+    },
+    {
+      "state": "Indiana",
+      "year": 2017,
+      "DigitalOcio_hours": 3.323909,
+      "M_hours": 3.978155
+    },
+    {
+      "state": "Indiana",
+      "year": 2018,
+      "DigitalOcio_hours": 3.867725,
+      "M_hours": 3.538077
+    },
+    {
+      "state": "Indiana",
+      "year": 2019,
+      "DigitalOcio_hours": 3.675307,
+      "M_hours": 4.500412
+    },
+    {
+      "state": "Indiana",
+      "year": 2020,
+      "DigitalOcio_hours": 3.212551,
+      "M_hours": 4.037921
+    },
+    {
+      "state": "Indiana",
+      "year": 2021,
+      "DigitalOcio_hours": 3.938541,
+      "M_hours": 2.775944
+    },
+    {
+      "state": "Indiana",
+      "year": 2022,
+      "DigitalOcio_hours": 3.652786,
+      "M_hours": 3.309347
+    },
+    {
+      "state": "Indiana",
+      "year": 2023,
+      "DigitalOcio_hours": 3.574868,
+      "M_hours": 3.642782
+    },
+    {
+      "state": "Indiana",
+      "year": 2024,
+      "DigitalOcio_hours": 3.37875,
+      "M_hours": 3.723749
+    },
+    {
+      "state": "Iowa",
+      "year": 2005,
+      "DigitalOcio_hours": 3.014898,
+      "M_hours": 0.0
+    },
+    {
+      "state": "Iowa",
+      "year": 2006,
+      "DigitalOcio_hours": 3.204118,
+      "M_hours": 4.897784
+    },
+    {
+      "state": "Iowa",
+      "year": 2007,
+      "DigitalOcio_hours": 2.805492,
+      "M_hours": 4.844616
+    },
+    {
+      "state": "Iowa",
+      "year": 2008,
+      "DigitalOcio_hours": 2.720852,
+      "M_hours": 4.718072
+    },
+    {
+      "state": "Iowa",
+      "year": 2009,
+      "DigitalOcio_hours": 2.91102,
+      "M_hours": 4.590774
+    },
+    {
+      "state": "Iowa",
+      "year": 2010,
+      "DigitalOcio_hours": 3.022569,
+      "M_hours": 5.0874
+    },
+    {
+      "state": "Iowa",
+      "year": 2011,
+      "DigitalOcio_hours": 2.405315,
+      "M_hours": 5.571963
+    },
+    {
+      "state": "Iowa",
+      "year": 2012,
+      "DigitalOcio_hours": 3.290658,
+      "M_hours": 3.768952
+    },
+    {
+      "state": "Iowa",
+      "year": 2013,
+      "DigitalOcio_hours": 3.337712,
+      "M_hours": 4.310816
+    },
+    {
+      "state": "Iowa",
+      "year": 2014,
+      "DigitalOcio_hours": 3.188287,
+      "M_hours": 4.523511
+    },
+    {
+      "state": "Iowa",
+      "year": 2015,
+      "DigitalOcio_hours": 3.998984,
+      "M_hours": 4.751982
+    },
+    {
+      "state": "Iowa",
+      "year": 2016,
+      "DigitalOcio_hours": 2.972055,
+      "M_hours": 4.580881
+    },
+    {
+      "state": "Iowa",
+      "year": 2017,
+      "DigitalOcio_hours": 3.70405,
+      "M_hours": 3.93965
+    },
+    {
+      "state": "Iowa",
+      "year": 2018,
+      "DigitalOcio_hours": 3.478488,
+      "M_hours": 4.188731
+    },
+    {
+      "state": "Iowa",
+      "year": 2019,
+      "DigitalOcio_hours": 3.127555,
+      "M_hours": 4.743357
+    },
+    {
+      "state": "Iowa",
+      "year": 2020,
+      "DigitalOcio_hours": 3.622361,
+      "M_hours": 3.70436
+    },
+    {
+      "state": "Iowa",
+      "year": 2021,
+      "DigitalOcio_hours": 3.464599,
+      "M_hours": 3.982339
+    },
+    {
+      "state": "Iowa",
+      "year": 2022,
+      "DigitalOcio_hours": 3.962911,
+      "M_hours": 4.298032
+    },
+    {
+      "state": "Iowa",
+      "year": 2023,
+      "DigitalOcio_hours": 3.42478,
+      "M_hours": 4.494355
+    },
+    {
+      "state": "Iowa",
+      "year": 2024,
+      "DigitalOcio_hours": 3.619918,
+      "M_hours": 3.817099
+    },
+    {
+      "state": "Kansas",
+      "year": 2005,
+      "DigitalOcio_hours": 2.917763,
+      "M_hours": 4.130263
+    },
+    {
+      "state": "Kansas",
+      "year": 2006,
+      "DigitalOcio_hours": 2.592622,
+      "M_hours": 4.749195
+    },
+    {
+      "state": "Kansas",
+      "year": 2007,
+      "DigitalOcio_hours": 2.812325,
+      "M_hours": 4.606067
+    },
+    {
+      "state": "Kansas",
+      "year": 2008,
+      "DigitalOcio_hours": 2.679308,
+      "M_hours": 4.753214
+    },
+    {
+      "state": "Kansas",
+      "year": 2009,
+      "DigitalOcio_hours": 3.043312,
+      "M_hours": 4.653489
+    },
+    {
+      "state": "Kansas",
+      "year": 2010,
+      "DigitalOcio_hours": 3.630734,
+      "M_hours": 3.827425
+    },
+    {
+      "state": "Kansas",
+      "year": 2011,
+      "DigitalOcio_hours": 2.996385,
+      "M_hours": 4.146326
+    },
+    {
+      "state": "Kansas",
+      "year": 2012,
+      "DigitalOcio_hours": 3.776253,
+      "M_hours": 4.061134
+    },
+    {
+      "state": "Kansas",
+      "year": 2013,
+      "DigitalOcio_hours": 3.603305,
+      "M_hours": 4.495463
+    },
+    {
+      "state": "Kansas",
+      "year": 2014,
+      "DigitalOcio_hours": 3.528445,
+      "M_hours": 4.123376
+    },
+    {
+      "state": "Kansas",
+      "year": 2015,
+      "DigitalOcio_hours": 2.543286,
+      "M_hours": 5.301851
+    },
+    {
+      "state": "Kansas",
+      "year": 2016,
+      "DigitalOcio_hours": 2.972736,
+      "M_hours": 4.837353
+    },
+    {
+      "state": "Kansas",
+      "year": 2017,
+      "DigitalOcio_hours": 3.417913,
+      "M_hours": 5.445931
+    },
+    {
+      "state": "Kansas",
+      "year": 2018,
+      "DigitalOcio_hours": 3.562513,
+      "M_hours": 4.670796
+    },
+    {
+      "state": "Kansas",
+      "year": 2019,
+      "DigitalOcio_hours": 2.835088,
+      "M_hours": 4.677799
+    },
+    {
+      "state": "Kansas",
+      "year": 2020,
+      "DigitalOcio_hours": 3.313199,
+      "M_hours": 2.802948
+    },
+    {
+      "state": "Kansas",
+      "year": 2021,
+      "DigitalOcio_hours": 3.870794,
+      "M_hours": 3.426073
+    },
+    {
+      "state": "Kansas",
+      "year": 2022,
+      "DigitalOcio_hours": 3.519712,
+      "M_hours": 3.245165
+    },
+    {
+      "state": "Kansas",
+      "year": 2023,
+      "DigitalOcio_hours": 3.363044,
+      "M_hours": 4.97847
+    },
+    {
+      "state": "Kansas",
+      "year": 2024,
+      "DigitalOcio_hours": 3.064046,
+      "M_hours": 3.776815
+    },
+    {
+      "state": "Kentucky",
+      "year": 2005,
+      "DigitalOcio_hours": 3.006481,
+      "M_hours": 1.368824
+    },
+    {
+      "state": "Kentucky",
+      "year": 2006,
+      "DigitalOcio_hours": 3.367457,
+      "M_hours": 4.170096
+    },
+    {
+      "state": "Kentucky",
+      "year": 2007,
+      "DigitalOcio_hours": 3.402119,
+      "M_hours": 4.921903
+    },
+    {
+      "state": "Kentucky",
+      "year": 2008,
+      "DigitalOcio_hours": 3.405567,
+      "M_hours": 4.593192
+    },
+    {
+      "state": "Kentucky",
+      "year": 2009,
+      "DigitalOcio_hours": 3.4588,
+      "M_hours": 4.171532
+    },
+    {
+      "state": "Kentucky",
+      "year": 2010,
+      "DigitalOcio_hours": 3.793592,
+      "M_hours": 3.491218
+    },
+    {
+      "state": "Kentucky",
+      "year": 2011,
+      "DigitalOcio_hours": 3.593902,
+      "M_hours": 4.077676
+    },
+    {
+      "state": "Kentucky",
+      "year": 2012,
+      "DigitalOcio_hours": 3.743317,
+      "M_hours": 4.159801
+    },
+    {
+      "state": "Kentucky",
+      "year": 2013,
+      "DigitalOcio_hours": 3.310949,
+      "M_hours": 4.577142
+    },
+    {
+      "state": "Kentucky",
+      "year": 2014,
+      "DigitalOcio_hours": 4.491144,
+      "M_hours": 3.297984
+    },
+    {
+      "state": "Kentucky",
+      "year": 2015,
+      "DigitalOcio_hours": 3.394582,
+      "M_hours": 4.893683
+    },
+    {
+      "state": "Kentucky",
+      "year": 2016,
+      "DigitalOcio_hours": 3.457629,
+      "M_hours": 3.944271
+    },
+    {
+      "state": "Kentucky",
+      "year": 2017,
+      "DigitalOcio_hours": 3.465149,
+      "M_hours": 3.419245
+    },
+    {
+      "state": "Kentucky",
+      "year": 2018,
+      "DigitalOcio_hours": 3.960834,
+      "M_hours": 3.615547
+    },
+    {
+      "state": "Kentucky",
+      "year": 2019,
+      "DigitalOcio_hours": 3.276519,
+      "M_hours": 4.170967
+    },
+    {
+      "state": "Kentucky",
+      "year": 2020,
+      "DigitalOcio_hours": 3.937841,
+      "M_hours": 2.359246
+    },
+    {
+      "state": "Kentucky",
+      "year": 2021,
+      "DigitalOcio_hours": 3.678093,
+      "M_hours": 3.968395
+    },
+    {
+      "state": "Kentucky",
+      "year": 2022,
+      "DigitalOcio_hours": 4.061921,
+      "M_hours": 3.276073
+    },
+    {
+      "state": "Kentucky",
+      "year": 2023,
+      "DigitalOcio_hours": 2.861602,
+      "M_hours": 4.318614
+    },
+    {
+      "state": "Kentucky",
+      "year": 2024,
+      "DigitalOcio_hours": 3.59091,
+      "M_hours": 2.770953
+    },
+    {
+      "state": "Louisiana",
+      "year": 2005,
+      "DigitalOcio_hours": 3.167677,
+      "M_hours": 0.0
+    },
+    {
+      "state": "Louisiana",
+      "year": 2006,
+      "DigitalOcio_hours": 3.411155,
+      "M_hours": 4.101772
+    },
+    {
+      "state": "Louisiana",
+      "year": 2007,
+      "DigitalOcio_hours": 2.926123,
+      "M_hours": 4.108815
+    },
+    {
+      "state": "Louisiana",
+      "year": 2008,
+      "DigitalOcio_hours": 3.895976,
+      "M_hours": 3.741462
+    },
+    {
+      "state": "Louisiana",
+      "year": 2009,
+      "DigitalOcio_hours": 3.541083,
+      "M_hours": 3.733945
+    },
+    {
+      "state": "Louisiana",
+      "year": 2010,
+      "DigitalOcio_hours": 3.982857,
+      "M_hours": 4.052388
+    },
+    {
+      "state": "Louisiana",
+      "year": 2011,
+      "DigitalOcio_hours": 3.47409,
+      "M_hours": 4.28711
+    },
+    {
+      "state": "Louisiana",
+      "year": 2012,
+      "DigitalOcio_hours": 3.516626,
+      "M_hours": 4.015604
+    },
+    {
+      "state": "Louisiana",
+      "year": 2013,
+      "DigitalOcio_hours": 3.611338,
+      "M_hours": 4.076558
+    },
+    {
+      "state": "Louisiana",
+      "year": 2014,
+      "DigitalOcio_hours": 3.762134,
+      "M_hours": 4.072094
+    },
+    {
+      "state": "Louisiana",
+      "year": 2015,
+      "DigitalOcio_hours": 3.728139,
+      "M_hours": 3.72334
+    },
+    {
+      "state": "Louisiana",
+      "year": 2016,
+      "DigitalOcio_hours": 3.444836,
+      "M_hours": 4.034686
+    },
+    {
+      "state": "Louisiana",
+      "year": 2017,
+      "DigitalOcio_hours": 3.868912,
+      "M_hours": 3.347657
+    },
+    {
+      "state": "Louisiana",
+      "year": 2018,
+      "DigitalOcio_hours": 4.27706,
+      "M_hours": 2.972557
+    },
+    {
+      "state": "Louisiana",
+      "year": 2019,
+      "DigitalOcio_hours": 3.794878,
+      "M_hours": 4.380873
+    },
+    {
+      "state": "Louisiana",
+      "year": 2020,
+      "DigitalOcio_hours": 3.805736,
+      "M_hours": 3.381726
+    },
+    {
+      "state": "Louisiana",
+      "year": 2021,
+      "DigitalOcio_hours": 3.405839,
+      "M_hours": 3.933743
+    },
+    {
+      "state": "Louisiana",
+      "year": 2022,
+      "DigitalOcio_hours": 3.099472,
+      "M_hours": 3.668279
+    },
+    {
+      "state": "Louisiana",
+      "year": 2023,
+      "DigitalOcio_hours": 3.713837,
+      "M_hours": 3.26277
+    },
+    {
+      "state": "Louisiana",
+      "year": 2024,
+      "DigitalOcio_hours": 2.979741,
+      "M_hours": 4.003311
+    },
+    {
+      "state": "Maine",
+      "year": 2005,
+      "DigitalOcio_hours": 3.080914,
+      "M_hours": 4.620833
+    },
+    {
+      "state": "Maine",
+      "year": 2006,
+      "DigitalOcio_hours": 2.224618,
+      "M_hours": 5.408169
+    },
+    {
+      "state": "Maine",
+      "year": 2007,
+      "DigitalOcio_hours": 2.291906,
+      "M_hours": 4.273716
+    },
+    {
+      "state": "Maine",
+      "year": 2008,
+      "DigitalOcio_hours": 3.19178,
+      "M_hours": 4.175511
+    },
+    {
+      "state": "Maine",
+      "year": 2009,
+      "DigitalOcio_hours": 2.725861,
+      "M_hours": 3.39114
+    },
+    {
+      "state": "Maine",
+      "year": 2010,
+      "DigitalOcio_hours": 2.559875,
+      "M_hours": 4.984498
+    },
+    {
+      "state": "Maine",
+      "year": 2011,
+      "DigitalOcio_hours": 2.989242,
+      "M_hours": 5.089489
+    },
+    {
+      "state": "Maine",
+      "year": 2012,
+      "DigitalOcio_hours": 3.428811,
+      "M_hours": 4.569361
+    },
+    {
+      "state": "Maine",
+      "year": 2013,
+      "DigitalOcio_hours": 2.237474,
+      "M_hours": 4.949477
+    },
+    {
+      "state": "Maine",
+      "year": 2014,
+      "DigitalOcio_hours": 2.958829,
+      "M_hours": 4.626142
+    },
+    {
+      "state": "Maine",
+      "year": 2015,
+      "DigitalOcio_hours": 2.802028,
+      "M_hours": 3.969391
+    },
+    {
+      "state": "Maine",
+      "year": 2016,
+      "DigitalOcio_hours": 2.520332,
+      "M_hours": 3.426817
+    },
+    {
+      "state": "Maine",
+      "year": 2017,
+      "DigitalOcio_hours": 3.325965,
+      "M_hours": 3.478786
+    },
+    {
+      "state": "Maine",
+      "year": 2018,
+      "DigitalOcio_hours": 4.213076,
+      "M_hours": 3.370631
+    },
+    {
+      "state": "Maine",
+      "year": 2019,
+      "DigitalOcio_hours": 3.583814,
+      "M_hours": 5.299897
+    },
+    {
+      "state": "Maine",
+      "year": 2020,
+      "DigitalOcio_hours": 3.170918,
+      "M_hours": 2.551196
+    },
+    {
+      "state": "Maine",
+      "year": 2021,
+      "DigitalOcio_hours": 5.242423,
+      "M_hours": 2.319321
+    },
+    {
+      "state": "Maine",
+      "year": 2022,
+      "DigitalOcio_hours": 4.248416,
+      "M_hours": 2.356025
+    },
+    {
+      "state": "Maine",
+      "year": 2023,
+      "DigitalOcio_hours": 3.36344,
+      "M_hours": 3.021102
+    },
+    {
+      "state": "Maine",
+      "year": 2024,
+      "DigitalOcio_hours": 3.071783,
+      "M_hours": 3.047142
+    },
+    {
+      "state": "Maryland",
+      "year": 2005,
+      "DigitalOcio_hours": 2.902,
+      "M_hours": 6.666667
+    },
+    {
+      "state": "Maryland",
+      "year": 2006,
+      "DigitalOcio_hours": 2.642174,
+      "M_hours": 5.251399
+    },
+    {
+      "state": "Maryland",
+      "year": 2007,
+      "DigitalOcio_hours": 2.706065,
+      "M_hours": 5.405939
+    },
+    {
+      "state": "Maryland",
+      "year": 2008,
+      "DigitalOcio_hours": 3.028572,
+      "M_hours": 4.667165
+    },
+    {
+      "state": "Maryland",
+      "year": 2009,
+      "DigitalOcio_hours": 3.135382,
+      "M_hours": 4.120668
+    },
+    {
+      "state": "Maryland",
+      "year": 2010,
+      "DigitalOcio_hours": 3.011782,
+      "M_hours": 4.56758
+    },
+    {
+      "state": "Maryland",
+      "year": 2011,
+      "DigitalOcio_hours": 3.162778,
+      "M_hours": 4.665667
+    },
+    {
+      "state": "Maryland",
+      "year": 2012,
+      "DigitalOcio_hours": 3.357745,
+      "M_hours": 4.52419
+    },
+    {
+      "state": "Maryland",
+      "year": 2013,
+      "DigitalOcio_hours": 3.178472,
+      "M_hours": 4.58405
+    },
+    {
+      "state": "Maryland",
+      "year": 2014,
+      "DigitalOcio_hours": 2.812451,
+      "M_hours": 5.008872
+    },
+    {
+      "state": "Maryland",
+      "year": 2015,
+      "DigitalOcio_hours": 3.790343,
+      "M_hours": 3.662625
+    },
+    {
+      "state": "Maryland",
+      "year": 2016,
+      "DigitalOcio_hours": 3.206349,
+      "M_hours": 4.564843
+    },
+    {
+      "state": "Maryland",
+      "year": 2017,
+      "DigitalOcio_hours": 2.794469,
+      "M_hours": 5.071649
+    },
+    {
+      "state": "Maryland",
+      "year": 2018,
+      "DigitalOcio_hours": 2.857846,
+      "M_hours": 4.778353
+    },
+    {
+      "state": "Maryland",
+      "year": 2019,
+      "DigitalOcio_hours": 3.110025,
+      "M_hours": 4.295924
+    },
+    {
+      "state": "Maryland",
+      "year": 2020,
+      "DigitalOcio_hours": 3.611229,
+      "M_hours": 3.374249
+    },
+    {
+      "state": "Maryland",
+      "year": 2021,
+      "DigitalOcio_hours": 2.969181,
+      "M_hours": 3.50268
+    },
+    {
+      "state": "Maryland",
+      "year": 2022,
+      "DigitalOcio_hours": 3.280983,
+      "M_hours": 3.784723
+    },
+    {
+      "state": "Maryland",
+      "year": 2023,
+      "DigitalOcio_hours": 2.862821,
+      "M_hours": 3.980859
+    },
+    {
+      "state": "Maryland",
+      "year": 2024,
+      "DigitalOcio_hours": 2.965036,
+      "M_hours": 2.958293
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2005,
+      "DigitalOcio_hours": 2.990853,
+      "M_hours": 3.166667
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2006,
+      "DigitalOcio_hours": 2.876606,
+      "M_hours": 4.551435
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2007,
+      "DigitalOcio_hours": 2.897114,
+      "M_hours": 4.970384
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2008,
+      "DigitalOcio_hours": 3.216543,
+      "M_hours": 4.200061
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2009,
+      "DigitalOcio_hours": 3.019041,
+      "M_hours": 3.73874
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2010,
+      "DigitalOcio_hours": 3.12969,
+      "M_hours": 4.030529
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2011,
+      "DigitalOcio_hours": 3.407918,
+      "M_hours": 4.583236
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2012,
+      "DigitalOcio_hours": 3.406373,
+      "M_hours": 3.961814
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2013,
+      "DigitalOcio_hours": 3.110083,
+      "M_hours": 4.436489
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2014,
+      "DigitalOcio_hours": 2.860221,
+      "M_hours": 4.672908
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2015,
+      "DigitalOcio_hours": 2.5761,
+      "M_hours": 4.443893
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2016,
+      "DigitalOcio_hours": 2.695873,
+      "M_hours": 4.58179
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2017,
+      "DigitalOcio_hours": 3.026159,
+      "M_hours": 4.340892
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2018,
+      "DigitalOcio_hours": 3.022015,
+      "M_hours": 4.843529
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2019,
+      "DigitalOcio_hours": 3.132102,
+      "M_hours": 3.812732
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2020,
+      "DigitalOcio_hours": 3.098856,
+      "M_hours": 3.077832
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2021,
+      "DigitalOcio_hours": 2.998477,
+      "M_hours": 3.465499
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2022,
+      "DigitalOcio_hours": 3.05035,
+      "M_hours": 3.431394
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2023,
+      "DigitalOcio_hours": 3.045541,
+      "M_hours": 3.771873
+    },
+    {
+      "state": "Massachusetts",
+      "year": 2024,
+      "DigitalOcio_hours": 2.445337,
+      "M_hours": 4.219404
+    },
+    {
+      "state": "Michigan",
+      "year": 2005,
+      "DigitalOcio_hours": 3.0892,
+      "M_hours": 4.057533
+    },
+    {
+      "state": "Michigan",
+      "year": 2006,
+      "DigitalOcio_hours": 3.296215,
+      "M_hours": 4.380408
+    },
+    {
+      "state": "Michigan",
+      "year": 2007,
+      "DigitalOcio_hours": 3.169851,
+      "M_hours": 4.688704
+    },
+    {
+      "state": "Michigan",
+      "year": 2008,
+      "DigitalOcio_hours": 3.266517,
+      "M_hours": 3.97506
+    },
+    {
+      "state": "Michigan",
+      "year": 2009,
+      "DigitalOcio_hours": 3.418376,
+      "M_hours": 4.308251
+    },
+    {
+      "state": "Michigan",
+      "year": 2010,
+      "DigitalOcio_hours": 2.975905,
+      "M_hours": 4.038931
+    },
+    {
+      "state": "Michigan",
+      "year": 2011,
+      "DigitalOcio_hours": 3.356615,
+      "M_hours": 4.081841
+    },
+    {
+      "state": "Michigan",
+      "year": 2012,
+      "DigitalOcio_hours": 3.47592,
+      "M_hours": 4.322542
+    },
+    {
+      "state": "Michigan",
+      "year": 2013,
+      "DigitalOcio_hours": 3.05593,
+      "M_hours": 4.166476
+    },
+    {
+      "state": "Michigan",
+      "year": 2014,
+      "DigitalOcio_hours": 3.004788,
+      "M_hours": 4.506258
+    },
+    {
+      "state": "Michigan",
+      "year": 2015,
+      "DigitalOcio_hours": 3.652863,
+      "M_hours": 4.419046
+    },
+    {
+      "state": "Michigan",
+      "year": 2016,
+      "DigitalOcio_hours": 3.659165,
+      "M_hours": 3.995342
+    },
+    {
+      "state": "Michigan",
+      "year": 2017,
+      "DigitalOcio_hours": 3.295224,
+      "M_hours": 3.946308
+    },
+    {
+      "state": "Michigan",
+      "year": 2018,
+      "DigitalOcio_hours": 2.940924,
+      "M_hours": 4.678426
+    },
+    {
+      "state": "Michigan",
+      "year": 2019,
+      "DigitalOcio_hours": 3.596815,
+      "M_hours": 3.844304
+    },
+    {
+      "state": "Michigan",
+      "year": 2020,
+      "DigitalOcio_hours": 3.588551,
+      "M_hours": 3.013893
+    },
+    {
+      "state": "Michigan",
+      "year": 2021,
+      "DigitalOcio_hours": 3.183194,
+      "M_hours": 3.598876
+    },
+    {
+      "state": "Michigan",
+      "year": 2022,
+      "DigitalOcio_hours": 3.404639,
+      "M_hours": 3.439914
+    },
+    {
+      "state": "Michigan",
+      "year": 2023,
+      "DigitalOcio_hours": 3.895826,
+      "M_hours": 2.851072
+    },
+    {
+      "state": "Michigan",
+      "year": 2024,
+      "DigitalOcio_hours": 3.664228,
+      "M_hours": 3.240758
+    },
+    {
+      "state": "Minnesota",
+      "year": 2005,
+      "DigitalOcio_hours": 2.60303,
+      "M_hours": 2.906667
+    },
+    {
+      "state": "Minnesota",
+      "year": 2006,
+      "DigitalOcio_hours": 2.502343,
+      "M_hours": 4.975355
+    },
+    {
+      "state": "Minnesota",
+      "year": 2007,
+      "DigitalOcio_hours": 2.628342,
+      "M_hours": 5.211425
+    },
+    {
+      "state": "Minnesota",
+      "year": 2008,
+      "DigitalOcio_hours": 2.769555,
+      "M_hours": 4.834243
+    },
+    {
+      "state": "Minnesota",
+      "year": 2009,
+      "DigitalOcio_hours": 2.727067,
+      "M_hours": 4.765287
+    },
+    {
+      "state": "Minnesota",
+      "year": 2010,
+      "DigitalOcio_hours": 2.848219,
+      "M_hours": 4.198379
+    },
+    {
+      "state": "Minnesota",
+      "year": 2011,
+      "DigitalOcio_hours": 2.929961,
+      "M_hours": 5.105173
+    },
+    {
+      "state": "Minnesota",
+      "year": 2012,
+      "DigitalOcio_hours": 2.801106,
+      "M_hours": 5.054538
+    },
+    {
+      "state": "Minnesota",
+      "year": 2013,
+      "DigitalOcio_hours": 2.942788,
+      "M_hours": 4.168277
+    },
+    {
+      "state": "Minnesota",
+      "year": 2014,
+      "DigitalOcio_hours": 3.301299,
+      "M_hours": 4.845609
+    },
+    {
+      "state": "Minnesota",
+      "year": 2015,
+      "DigitalOcio_hours": 2.749681,
+      "M_hours": 5.541503
+    },
+    {
+      "state": "Minnesota",
+      "year": 2016,
+      "DigitalOcio_hours": 2.733508,
+      "M_hours": 4.740147
+    },
+    {
+      "state": "Minnesota",
+      "year": 2017,
+      "DigitalOcio_hours": 2.895734,
+      "M_hours": 4.047142
+    },
+    {
+      "state": "Minnesota",
+      "year": 2018,
+      "DigitalOcio_hours": 2.439618,
+      "M_hours": 3.938059
+    },
+    {
+      "state": "Minnesota",
+      "year": 2019,
+      "DigitalOcio_hours": 3.15361,
+      "M_hours": 4.919533
+    },
+    {
+      "state": "Minnesota",
+      "year": 2020,
+      "DigitalOcio_hours": 3.229402,
+      "M_hours": 3.757253
+    },
+    {
+      "state": "Minnesota",
+      "year": 2021,
+      "DigitalOcio_hours": 3.016328,
+      "M_hours": 3.932036
+    },
+    {
+      "state": "Minnesota",
+      "year": 2022,
+      "DigitalOcio_hours": 3.061229,
+      "M_hours": 3.722393
+    },
+    {
+      "state": "Minnesota",
+      "year": 2023,
+      "DigitalOcio_hours": 2.949697,
+      "M_hours": 4.260398
+    },
+    {
+      "state": "Minnesota",
+      "year": 2024,
+      "DigitalOcio_hours": 3.04771,
+      "M_hours": 4.206549
+    },
+    {
+      "state": "Mississippi",
+      "year": 2005,
+      "DigitalOcio_hours": 3.053588,
+      "M_hours": 1.500667
+    },
+    {
+      "state": "Mississippi",
+      "year": 2006,
+      "DigitalOcio_hours": 2.977369,
+      "M_hours": 4.045229
+    },
+    {
+      "state": "Mississippi",
+      "year": 2007,
+      "DigitalOcio_hours": 2.91228,
+      "M_hours": 4.391004
+    },
+    {
+      "state": "Mississippi",
+      "year": 2008,
+      "DigitalOcio_hours": 3.293949,
+      "M_hours": 4.336391
+    },
+    {
+      "state": "Mississippi",
+      "year": 2009,
+      "DigitalOcio_hours": 3.708738,
+      "M_hours": 3.466489
+    },
+    {
+      "state": "Mississippi",
+      "year": 2010,
+      "DigitalOcio_hours": 3.419117,
+      "M_hours": 3.966729
+    },
+    {
+      "state": "Mississippi",
+      "year": 2011,
+      "DigitalOcio_hours": 3.374147,
+      "M_hours": 4.127059
+    },
+    {
+      "state": "Mississippi",
+      "year": 2012,
+      "DigitalOcio_hours": 3.252458,
+      "M_hours": 4.750215
+    },
+    {
+      "state": "Mississippi",
+      "year": 2013,
+      "DigitalOcio_hours": 4.525985,
+      "M_hours": 3.234399
+    },
+    {
+      "state": "Mississippi",
+      "year": 2014,
+      "DigitalOcio_hours": 2.972813,
+      "M_hours": 4.169279
+    },
+    {
+      "state": "Mississippi",
+      "year": 2015,
+      "DigitalOcio_hours": 3.244518,
+      "M_hours": 4.542303
+    },
+    {
+      "state": "Mississippi",
+      "year": 2016,
+      "DigitalOcio_hours": 3.219209,
+      "M_hours": 4.076787
+    },
+    {
+      "state": "Mississippi",
+      "year": 2017,
+      "DigitalOcio_hours": 3.710324,
+      "M_hours": 3.682963
+    },
+    {
+      "state": "Mississippi",
+      "year": 2018,
+      "DigitalOcio_hours": 4.610704,
+      "M_hours": 3.028783
+    },
+    {
+      "state": "Mississippi",
+      "year": 2019,
+      "DigitalOcio_hours": 4.385971,
+      "M_hours": 3.337158
+    },
+    {
+      "state": "Mississippi",
+      "year": 2020,
+      "DigitalOcio_hours": 4.114715,
+      "M_hours": 2.32663
+    },
+    {
+      "state": "Mississippi",
+      "year": 2021,
+      "DigitalOcio_hours": 3.647352,
+      "M_hours": 3.874559
+    },
+    {
+      "state": "Mississippi",
+      "year": 2022,
+      "DigitalOcio_hours": 3.682741,
+      "M_hours": 4.136873
+    },
+    {
+      "state": "Mississippi",
+      "year": 2023,
+      "DigitalOcio_hours": 3.830335,
+      "M_hours": 2.37668
+    },
+    {
+      "state": "Mississippi",
+      "year": 2024,
+      "DigitalOcio_hours": 3.990283,
+      "M_hours": 3.02359
+    },
+    {
+      "state": "Missouri",
+      "year": 2005,
+      "DigitalOcio_hours": 2.774972,
+      "M_hours": 8.463021
+    },
+    {
+      "state": "Missouri",
+      "year": 2006,
+      "DigitalOcio_hours": 2.95149,
+      "M_hours": 3.963792
+    },
+    {
+      "state": "Missouri",
+      "year": 2007,
+      "DigitalOcio_hours": 2.816684,
+      "M_hours": 5.191288
+    },
+    {
+      "state": "Missouri",
+      "year": 2008,
+      "DigitalOcio_hours": 3.280419,
+      "M_hours": 4.636894
+    },
+    {
+      "state": "Missouri",
+      "year": 2009,
+      "DigitalOcio_hours": 3.255261,
+      "M_hours": 4.061175
+    },
+    {
+      "state": "Missouri",
+      "year": 2010,
+      "DigitalOcio_hours": 3.488522,
+      "M_hours": 4.480532
+    },
+    {
+      "state": "Missouri",
+      "year": 2011,
+      "DigitalOcio_hours": 3.388631,
+      "M_hours": 4.038456
+    },
+    {
+      "state": "Missouri",
+      "year": 2012,
+      "DigitalOcio_hours": 3.312605,
+      "M_hours": 4.185801
+    },
+    {
+      "state": "Missouri",
+      "year": 2013,
+      "DigitalOcio_hours": 3.169704,
+      "M_hours": 4.572674
+    },
+    {
+      "state": "Missouri",
+      "year": 2014,
+      "DigitalOcio_hours": 3.310546,
+      "M_hours": 3.917322
+    },
+    {
+      "state": "Missouri",
+      "year": 2015,
+      "DigitalOcio_hours": 2.873678,
+      "M_hours": 4.303969
+    },
+    {
+      "state": "Missouri",
+      "year": 2016,
+      "DigitalOcio_hours": 3.299089,
+      "M_hours": 4.353021
+    },
+    {
+      "state": "Missouri",
+      "year": 2017,
+      "DigitalOcio_hours": 3.193761,
+      "M_hours": 4.237691
+    },
+    {
+      "state": "Missouri",
+      "year": 2018,
+      "DigitalOcio_hours": 3.635208,
+      "M_hours": 4.278001
+    },
+    {
+      "state": "Missouri",
+      "year": 2019,
+      "DigitalOcio_hours": 4.194983,
+      "M_hours": 3.886322
+    },
+    {
+      "state": "Missouri",
+      "year": 2020,
+      "DigitalOcio_hours": 3.605922,
+      "M_hours": 3.612835
+    },
+    {
+      "state": "Missouri",
+      "year": 2021,
+      "DigitalOcio_hours": 3.672423,
+      "M_hours": 3.312161
+    },
+    {
+      "state": "Missouri",
+      "year": 2022,
+      "DigitalOcio_hours": 3.384887,
+      "M_hours": 3.932649
+    },
+    {
+      "state": "Missouri",
+      "year": 2023,
+      "DigitalOcio_hours": 3.127931,
+      "M_hours": 4.428599
+    },
+    {
+      "state": "Missouri",
+      "year": 2024,
+      "DigitalOcio_hours": 3.398274,
+      "M_hours": 3.879798
+    },
+    {
+      "state": "Montana",
+      "year": 2005,
+      "DigitalOcio_hours": 2.663953,
+      "M_hours": 1.0
+    },
+    {
+      "state": "Montana",
+      "year": 2006,
+      "DigitalOcio_hours": 2.241251,
+      "M_hours": 4.028069
+    },
+    {
+      "state": "Montana",
+      "year": 2007,
+      "DigitalOcio_hours": 2.281512,
+      "M_hours": 5.142907
+    },
+    {
+      "state": "Montana",
+      "year": 2008,
+      "DigitalOcio_hours": 3.003441,
+      "M_hours": 5.089478
+    },
+    {
+      "state": "Montana",
+      "year": 2009,
+      "DigitalOcio_hours": 2.836766,
+      "M_hours": 3.042558
+    },
+    {
+      "state": "Montana",
+      "year": 2010,
+      "DigitalOcio_hours": 2.399467,
+      "M_hours": 4.472842
+    },
+    {
+      "state": "Montana",
+      "year": 2011,
+      "DigitalOcio_hours": 3.670458,
+      "M_hours": 3.579666
+    },
+    {
+      "state": "Montana",
+      "year": 2012,
+      "DigitalOcio_hours": 2.835275,
+      "M_hours": 5.890821
+    },
+    {
+      "state": "Montana",
+      "year": 2013,
+      "DigitalOcio_hours": 3.087534,
+      "M_hours": 3.018406
+    },
+    {
+      "state": "Montana",
+      "year": 2014,
+      "DigitalOcio_hours": 1.77335,
+      "M_hours": 5.072404
+    },
+    {
+      "state": "Montana",
+      "year": 2015,
+      "DigitalOcio_hours": 3.209588,
+      "M_hours": 3.616474
+    },
+    {
+      "state": "Montana",
+      "year": 2016,
+      "DigitalOcio_hours": 2.465787,
+      "M_hours": 3.268848
+    },
+    {
+      "state": "Montana",
+      "year": 2017,
+      "DigitalOcio_hours": 3.917133,
+      "M_hours": 3.256048
+    },
+    {
+      "state": "Montana",
+      "year": 2018,
+      "DigitalOcio_hours": 2.308204,
+      "M_hours": 5.318055
+    },
+    {
+      "state": "Montana",
+      "year": 2019,
+      "DigitalOcio_hours": 2.366899,
+      "M_hours": 6.06572
+    },
+    {
+      "state": "Montana",
+      "year": 2020,
+      "DigitalOcio_hours": 3.370785,
+      "M_hours": 2.486963
+    },
+    {
+      "state": "Montana",
+      "year": 2021,
+      "DigitalOcio_hours": 1.830274,
+      "M_hours": 5.143848
+    },
+    {
+      "state": "Montana",
+      "year": 2022,
+      "DigitalOcio_hours": 4.357173,
+      "M_hours": 2.177046
+    },
+    {
+      "state": "Montana",
+      "year": 2023,
+      "DigitalOcio_hours": 2.751937,
+      "M_hours": 4.261272
+    },
+    {
+      "state": "Montana",
+      "year": 2024,
+      "DigitalOcio_hours": 3.864653,
+      "M_hours": 1.911687
+    },
+    {
+      "state": "Nebraska",
+      "year": 2005,
+      "DigitalOcio_hours": 2.139333,
+      "M_hours": 0.926357
+    },
+    {
+      "state": "Nebraska",
+      "year": 2006,
+      "DigitalOcio_hours": 2.282556,
+      "M_hours": 4.704905
+    },
+    {
+      "state": "Nebraska",
+      "year": 2007,
+      "DigitalOcio_hours": 2.799758,
+      "M_hours": 5.394526
+    },
+    {
+      "state": "Nebraska",
+      "year": 2008,
+      "DigitalOcio_hours": 2.516055,
+      "M_hours": 5.090547
+    },
+    {
+      "state": "Nebraska",
+      "year": 2009,
+      "DigitalOcio_hours": 2.961404,
+      "M_hours": 4.473157
+    },
+    {
+      "state": "Nebraska",
+      "year": 2010,
+      "DigitalOcio_hours": 3.10839,
+      "M_hours": 5.160528
+    },
+    {
+      "state": "Nebraska",
+      "year": 2011,
+      "DigitalOcio_hours": 3.019109,
+      "M_hours": 5.291755
+    },
+    {
+      "state": "Nebraska",
+      "year": 2012,
+      "DigitalOcio_hours": 3.198857,
+      "M_hours": 3.857813
+    },
+    {
+      "state": "Nebraska",
+      "year": 2013,
+      "DigitalOcio_hours": 3.671975,
+      "M_hours": 3.521721
+    },
+    {
+      "state": "Nebraska",
+      "year": 2014,
+      "DigitalOcio_hours": 2.412287,
+      "M_hours": 4.368768
+    },
+    {
+      "state": "Nebraska",
+      "year": 2015,
+      "DigitalOcio_hours": 3.32008,
+      "M_hours": 4.540067
+    },
+    {
+      "state": "Nebraska",
+      "year": 2016,
+      "DigitalOcio_hours": 3.256542,
+      "M_hours": 3.993151
+    },
+    {
+      "state": "Nebraska",
+      "year": 2017,
+      "DigitalOcio_hours": 3.351248,
+      "M_hours": 5.166512
+    },
+    {
+      "state": "Nebraska",
+      "year": 2018,
+      "DigitalOcio_hours": 3.809331,
+      "M_hours": 4.264249
+    },
+    {
+      "state": "Nebraska",
+      "year": 2019,
+      "DigitalOcio_hours": 2.756215,
+      "M_hours": 4.697826
+    },
+    {
+      "state": "Nebraska",
+      "year": 2020,
+      "DigitalOcio_hours": 3.915458,
+      "M_hours": 3.187487
+    },
+    {
+      "state": "Nebraska",
+      "year": 2021,
+      "DigitalOcio_hours": 3.797848,
+      "M_hours": 2.710796
+    },
+    {
+      "state": "Nebraska",
+      "year": 2022,
+      "DigitalOcio_hours": 3.40113,
+      "M_hours": 2.758499
+    },
+    {
+      "state": "Nebraska",
+      "year": 2023,
+      "DigitalOcio_hours": 3.692368,
+      "M_hours": 2.975307
+    },
+    {
+      "state": "Nebraska",
+      "year": 2024,
+      "DigitalOcio_hours": 3.426694,
+      "M_hours": 3.762816
+    },
+    {
+      "state": "Nevada",
+      "year": 2005,
+      "DigitalOcio_hours": 3.002424,
+      "M_hours": 3.594242
+    },
+    {
+      "state": "Nevada",
+      "year": 2006,
+      "DigitalOcio_hours": 3.209656,
+      "M_hours": 5.107679
+    },
+    {
+      "state": "Nevada",
+      "year": 2007,
+      "DigitalOcio_hours": 2.954088,
+      "M_hours": 4.731956
+    },
+    {
+      "state": "Nevada",
+      "year": 2008,
+      "DigitalOcio_hours": 2.853127,
+      "M_hours": 4.201997
+    },
+    {
+      "state": "Nevada",
+      "year": 2009,
+      "DigitalOcio_hours": 3.355339,
+      "M_hours": 4.070767
+    },
+    {
+      "state": "Nevada",
+      "year": 2010,
+      "DigitalOcio_hours": 3.159818,
+      "M_hours": 4.414342
+    },
+    {
+      "state": "Nevada",
+      "year": 2011,
+      "DigitalOcio_hours": 3.267779,
+      "M_hours": 3.70169
+    },
+    {
+      "state": "Nevada",
+      "year": 2012,
+      "DigitalOcio_hours": 2.93273,
+      "M_hours": 5.453837
+    },
+    {
+      "state": "Nevada",
+      "year": 2013,
+      "DigitalOcio_hours": 3.483706,
+      "M_hours": 4.131835
+    },
+    {
+      "state": "Nevada",
+      "year": 2014,
+      "DigitalOcio_hours": 3.44696,
+      "M_hours": 4.209585
+    },
+    {
+      "state": "Nevada",
+      "year": 2015,
+      "DigitalOcio_hours": 3.304482,
+      "M_hours": 5.059729
+    },
+    {
+      "state": "Nevada",
+      "year": 2016,
+      "DigitalOcio_hours": 3.543362,
+      "M_hours": 4.172712
+    },
+    {
+      "state": "Nevada",
+      "year": 2017,
+      "DigitalOcio_hours": 3.49844,
+      "M_hours": 4.758295
+    },
+    {
+      "state": "Nevada",
+      "year": 2018,
+      "DigitalOcio_hours": 3.788633,
+      "M_hours": 2.957383
+    },
+    {
+      "state": "Nevada",
+      "year": 2019,
+      "DigitalOcio_hours": 3.831341,
+      "M_hours": 4.114498
+    },
+    {
+      "state": "Nevada",
+      "year": 2020,
+      "DigitalOcio_hours": 3.922223,
+      "M_hours": 3.709968
+    },
+    {
+      "state": "Nevada",
+      "year": 2021,
+      "DigitalOcio_hours": 4.264148,
+      "M_hours": 2.34543
+    },
+    {
+      "state": "Nevada",
+      "year": 2022,
+      "DigitalOcio_hours": 3.079522,
+      "M_hours": 4.820485
+    },
+    {
+      "state": "Nevada",
+      "year": 2023,
+      "DigitalOcio_hours": 2.951308,
+      "M_hours": 4.737056
+    },
+    {
+      "state": "Nevada",
+      "year": 2024,
+      "DigitalOcio_hours": 2.946777,
+      "M_hours": 3.018197
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2005,
+      "DigitalOcio_hours": 2.668873,
+      "M_hours": 0.0
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2006,
+      "DigitalOcio_hours": 2.829022,
+      "M_hours": 4.778343
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2007,
+      "DigitalOcio_hours": 2.752236,
+      "M_hours": 4.104926
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2008,
+      "DigitalOcio_hours": 2.667004,
+      "M_hours": 5.165026
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2009,
+      "DigitalOcio_hours": 2.312788,
+      "M_hours": 4.735564
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2010,
+      "DigitalOcio_hours": 4.501456,
+      "M_hours": 3.806843
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2011,
+      "DigitalOcio_hours": 2.923639,
+      "M_hours": 5.287993
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2012,
+      "DigitalOcio_hours": 2.022003,
+      "M_hours": 5.175312
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2013,
+      "DigitalOcio_hours": 3.484846,
+      "M_hours": 4.434792
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2014,
+      "DigitalOcio_hours": 3.383101,
+      "M_hours": 4.524833
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2015,
+      "DigitalOcio_hours": 2.999762,
+      "M_hours": 3.091558
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2016,
+      "DigitalOcio_hours": 2.636901,
+      "M_hours": 5.601564
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2017,
+      "DigitalOcio_hours": 2.786492,
+      "M_hours": 5.773348
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2018,
+      "DigitalOcio_hours": 3.239769,
+      "M_hours": 4.048588
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2019,
+      "DigitalOcio_hours": 3.526833,
+      "M_hours": 3.933723
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2020,
+      "DigitalOcio_hours": 3.259967,
+      "M_hours": 4.24756
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2021,
+      "DigitalOcio_hours": 3.219725,
+      "M_hours": 4.28416
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2022,
+      "DigitalOcio_hours": 3.480849,
+      "M_hours": 2.58549
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2023,
+      "DigitalOcio_hours": 3.36254,
+      "M_hours": 3.799976
+    },
+    {
+      "state": "New Hampshire",
+      "year": 2024,
+      "DigitalOcio_hours": 3.308062,
+      "M_hours": 2.437106
+    },
+    {
+      "state": "New Jersey",
+      "year": 2005,
+      "DigitalOcio_hours": 2.755457,
+      "M_hours": 5.083333
+    },
+    {
+      "state": "New Jersey",
+      "year": 2006,
+      "DigitalOcio_hours": 3.125355,
+      "M_hours": 4.29483
+    },
+    {
+      "state": "New Jersey",
+      "year": 2007,
+      "DigitalOcio_hours": 3.111303,
+      "M_hours": 4.631321
+    },
+    {
+      "state": "New Jersey",
+      "year": 2008,
+      "DigitalOcio_hours": 3.096408,
+      "M_hours": 4.592603
+    },
+    {
+      "state": "New Jersey",
+      "year": 2009,
+      "DigitalOcio_hours": 3.325866,
+      "M_hours": 4.029748
+    },
+    {
+      "state": "New Jersey",
+      "year": 2010,
+      "DigitalOcio_hours": 2.993355,
+      "M_hours": 4.376177
+    },
+    {
+      "state": "New Jersey",
+      "year": 2011,
+      "DigitalOcio_hours": 3.444681,
+      "M_hours": 4.162145
+    },
+    {
+      "state": "New Jersey",
+      "year": 2012,
+      "DigitalOcio_hours": 2.970899,
+      "M_hours": 4.722671
+    },
+    {
+      "state": "New Jersey",
+      "year": 2013,
+      "DigitalOcio_hours": 3.192045,
+      "M_hours": 4.44467
+    },
+    {
+      "state": "New Jersey",
+      "year": 2014,
+      "DigitalOcio_hours": 3.714899,
+      "M_hours": 3.599081
+    },
+    {
+      "state": "New Jersey",
+      "year": 2015,
+      "DigitalOcio_hours": 3.104836,
+      "M_hours": 3.745586
+    },
+    {
+      "state": "New Jersey",
+      "year": 2016,
+      "DigitalOcio_hours": 2.941053,
+      "M_hours": 4.803316
+    },
+    {
+      "state": "New Jersey",
+      "year": 2017,
+      "DigitalOcio_hours": 3.187447,
+      "M_hours": 4.411052
+    },
+    {
+      "state": "New Jersey",
+      "year": 2018,
+      "DigitalOcio_hours": 2.992299,
+      "M_hours": 4.451315
+    },
+    {
+      "state": "New Jersey",
+      "year": 2019,
+      "DigitalOcio_hours": 3.238141,
+      "M_hours": 3.985877
+    },
+    {
+      "state": "New Jersey",
+      "year": 2020,
+      "DigitalOcio_hours": 3.830451,
+      "M_hours": 2.975101
+    },
+    {
+      "state": "New Jersey",
+      "year": 2021,
+      "DigitalOcio_hours": 3.071206,
+      "M_hours": 2.788288
+    },
+    {
+      "state": "New Jersey",
+      "year": 2022,
+      "DigitalOcio_hours": 3.369951,
+      "M_hours": 2.628969
+    },
+    {
+      "state": "New Jersey",
+      "year": 2023,
+      "DigitalOcio_hours": 3.191812,
+      "M_hours": 3.686768
+    },
+    {
+      "state": "New Jersey",
+      "year": 2024,
+      "DigitalOcio_hours": 2.958629,
+      "M_hours": 3.359025
+    },
+    {
+      "state": "New Mexico",
+      "year": 2005,
+      "DigitalOcio_hours": 2.624851,
+      "M_hours": 4.016964
+    },
+    {
+      "state": "New Mexico",
+      "year": 2006,
+      "DigitalOcio_hours": 3.266157,
+      "M_hours": 4.704838
+    },
+    {
+      "state": "New Mexico",
+      "year": 2007,
+      "DigitalOcio_hours": 2.364564,
+      "M_hours": 5.191191
+    },
+    {
+      "state": "New Mexico",
+      "year": 2008,
+      "DigitalOcio_hours": 3.701061,
+      "M_hours": 4.325323
+    },
+    {
+      "state": "New Mexico",
+      "year": 2009,
+      "DigitalOcio_hours": 2.817431,
+      "M_hours": 4.465217
+    },
+    {
+      "state": "New Mexico",
+      "year": 2010,
+      "DigitalOcio_hours": 2.838188,
+      "M_hours": 3.872411
+    },
+    {
+      "state": "New Mexico",
+      "year": 2011,
+      "DigitalOcio_hours": 2.983712,
+      "M_hours": 4.662056
+    },
+    {
+      "state": "New Mexico",
+      "year": 2012,
+      "DigitalOcio_hours": 2.857817,
+      "M_hours": 3.643986
+    },
+    {
+      "state": "New Mexico",
+      "year": 2013,
+      "DigitalOcio_hours": 2.605229,
+      "M_hours": 4.075043
+    },
+    {
+      "state": "New Mexico",
+      "year": 2014,
+      "DigitalOcio_hours": 3.127819,
+      "M_hours": 4.178418
+    },
+    {
+      "state": "New Mexico",
+      "year": 2015,
+      "DigitalOcio_hours": 2.735723,
+      "M_hours": 3.950816
+    },
+    {
+      "state": "New Mexico",
+      "year": 2016,
+      "DigitalOcio_hours": 2.234926,
+      "M_hours": 5.590822
+    },
+    {
+      "state": "New Mexico",
+      "year": 2017,
+      "DigitalOcio_hours": 2.598584,
+      "M_hours": 4.912814
+    },
+    {
+      "state": "New Mexico",
+      "year": 2018,
+      "DigitalOcio_hours": 3.539293,
+      "M_hours": 3.358653
+    },
+    {
+      "state": "New Mexico",
+      "year": 2019,
+      "DigitalOcio_hours": 2.877423,
+      "M_hours": 4.099503
+    },
+    {
+      "state": "New Mexico",
+      "year": 2020,
+      "DigitalOcio_hours": 3.734092,
+      "M_hours": 2.852646
+    },
+    {
+      "state": "New Mexico",
+      "year": 2021,
+      "DigitalOcio_hours": 3.278407,
+      "M_hours": 4.075826
+    },
+    {
+      "state": "New Mexico",
+      "year": 2022,
+      "DigitalOcio_hours": 3.597771,
+      "M_hours": 3.410121
+    },
+    {
+      "state": "New Mexico",
+      "year": 2023,
+      "DigitalOcio_hours": 2.941916,
+      "M_hours": 3.686404
+    },
+    {
+      "state": "New Mexico",
+      "year": 2024,
+      "DigitalOcio_hours": 2.760943,
+      "M_hours": 4.385598
+    },
+    {
+      "state": "New York",
+      "year": 2005,
+      "DigitalOcio_hours": 3.05271,
+      "M_hours": 3.769595
+    },
+    {
+      "state": "New York",
+      "year": 2006,
+      "DigitalOcio_hours": 2.751044,
+      "M_hours": 5.146406
+    },
+    {
+      "state": "New York",
+      "year": 2007,
+      "DigitalOcio_hours": 3.107113,
+      "M_hours": 4.392549
+    },
+    {
+      "state": "New York",
+      "year": 2008,
+      "DigitalOcio_hours": 3.261347,
+      "M_hours": 3.985541
+    },
+    {
+      "state": "New York",
+      "year": 2009,
+      "DigitalOcio_hours": 3.223277,
+      "M_hours": 4.271764
+    },
+    {
+      "state": "New York",
+      "year": 2010,
+      "DigitalOcio_hours": 3.088592,
+      "M_hours": 4.359223
+    },
+    {
+      "state": "New York",
+      "year": 2011,
+      "DigitalOcio_hours": 3.076941,
+      "M_hours": 4.460328
+    },
+    {
+      "state": "New York",
+      "year": 2012,
+      "DigitalOcio_hours": 3.30776,
+      "M_hours": 4.701984
+    },
+    {
+      "state": "New York",
+      "year": 2013,
+      "DigitalOcio_hours": 3.27745,
+      "M_hours": 3.84902
+    },
+    {
+      "state": "New York",
+      "year": 2014,
+      "DigitalOcio_hours": 3.315729,
+      "M_hours": 4.345528
+    },
+    {
+      "state": "New York",
+      "year": 2015,
+      "DigitalOcio_hours": 3.029985,
+      "M_hours": 4.399455
+    },
+    {
+      "state": "New York",
+      "year": 2016,
+      "DigitalOcio_hours": 3.04151,
+      "M_hours": 4.408174
+    },
+    {
+      "state": "New York",
+      "year": 2017,
+      "DigitalOcio_hours": 3.28999,
+      "M_hours": 4.148475
+    },
+    {
+      "state": "New York",
+      "year": 2018,
+      "DigitalOcio_hours": 3.331588,
+      "M_hours": 3.982726
+    },
+    {
+      "state": "New York",
+      "year": 2019,
+      "DigitalOcio_hours": 3.178782,
+      "M_hours": 4.341004
+    },
+    {
+      "state": "New York",
+      "year": 2020,
+      "DigitalOcio_hours": 3.241017,
+      "M_hours": 2.738572
+    },
+    {
+      "state": "New York",
+      "year": 2021,
+      "DigitalOcio_hours": 3.428367,
+      "M_hours": 2.784772
+    },
+    {
+      "state": "New York",
+      "year": 2022,
+      "DigitalOcio_hours": 3.072972,
+      "M_hours": 3.889503
+    },
+    {
+      "state": "New York",
+      "year": 2023,
+      "DigitalOcio_hours": 3.049532,
+      "M_hours": 3.840639
+    },
+    {
+      "state": "New York",
+      "year": 2024,
+      "DigitalOcio_hours": 3.399775,
+      "M_hours": 3.417923
+    },
+    {
+      "state": "North Carolina",
+      "year": 2005,
+      "DigitalOcio_hours": 2.90929,
+      "M_hours": 4.165625
+    },
+    {
+      "state": "North Carolina",
+      "year": 2006,
+      "DigitalOcio_hours": 3.005638,
+      "M_hours": 4.122367
+    },
+    {
+      "state": "North Carolina",
+      "year": 2007,
+      "DigitalOcio_hours": 3.237939,
+      "M_hours": 3.9985
+    },
+    {
+      "state": "North Carolina",
+      "year": 2008,
+      "DigitalOcio_hours": 3.516516,
+      "M_hours": 4.136946
+    },
+    {
+      "state": "North Carolina",
+      "year": 2009,
+      "DigitalOcio_hours": 3.782751,
+      "M_hours": 3.776409
+    },
+    {
+      "state": "North Carolina",
+      "year": 2010,
+      "DigitalOcio_hours": 3.516063,
+      "M_hours": 3.991806
+    },
+    {
+      "state": "North Carolina",
+      "year": 2011,
+      "DigitalOcio_hours": 3.285106,
+      "M_hours": 4.461949
+    },
+    {
+      "state": "North Carolina",
+      "year": 2012,
+      "DigitalOcio_hours": 3.65537,
+      "M_hours": 3.904341
+    },
+    {
+      "state": "North Carolina",
+      "year": 2013,
+      "DigitalOcio_hours": 3.898226,
+      "M_hours": 4.072605
+    },
+    {
+      "state": "North Carolina",
+      "year": 2014,
+      "DigitalOcio_hours": 3.278411,
+      "M_hours": 4.319088
+    },
+    {
+      "state": "North Carolina",
+      "year": 2015,
+      "DigitalOcio_hours": 3.34391,
+      "M_hours": 4.203269
+    },
+    {
+      "state": "North Carolina",
+      "year": 2016,
+      "DigitalOcio_hours": 3.369801,
+      "M_hours": 3.968694
+    },
+    {
+      "state": "North Carolina",
+      "year": 2017,
+      "DigitalOcio_hours": 3.091126,
+      "M_hours": 4.674753
+    },
+    {
+      "state": "North Carolina",
+      "year": 2018,
+      "DigitalOcio_hours": 3.289137,
+      "M_hours": 4.233874
+    },
+    {
+      "state": "North Carolina",
+      "year": 2019,
+      "DigitalOcio_hours": 3.369832,
+      "M_hours": 3.998519
+    },
+    {
+      "state": "North Carolina",
+      "year": 2020,
+      "DigitalOcio_hours": 3.707658,
+      "M_hours": 3.599506
+    },
+    {
+      "state": "North Carolina",
+      "year": 2021,
+      "DigitalOcio_hours": 3.597508,
+      "M_hours": 3.343444
+    },
+    {
+      "state": "North Carolina",
+      "year": 2022,
+      "DigitalOcio_hours": 3.529441,
+      "M_hours": 3.588632
+    },
+    {
+      "state": "North Carolina",
+      "year": 2023,
+      "DigitalOcio_hours": 3.703928,
+      "M_hours": 3.6406
+    },
+    {
+      "state": "North Carolina",
+      "year": 2024,
+      "DigitalOcio_hours": 3.62175,
+      "M_hours": 3.042808
+    },
+    {
+      "state": "North Dakota",
+      "year": 2005,
+      "DigitalOcio_hours": 2.019192,
+      "M_hours": 4.342929
+    },
+    {
+      "state": "North Dakota",
+      "year": 2006,
+      "DigitalOcio_hours": 3.18082,
+      "M_hours": 7.389469
+    },
+    {
+      "state": "North Dakota",
+      "year": 2007,
+      "DigitalOcio_hours": 3.263681,
+      "M_hours": 6.333493
+    },
+    {
+      "state": "North Dakota",
+      "year": 2008,
+      "DigitalOcio_hours": 2.43044,
+      "M_hours": 8.136926
+    },
+    {
+      "state": "North Dakota",
+      "year": 2009,
+      "DigitalOcio_hours": 3.471635,
+      "M_hours": 4.711459
+    },
+    {
+      "state": "North Dakota",
+      "year": 2010,
+      "DigitalOcio_hours": 3.209728,
+      "M_hours": 5.44564
+    },
+    {
+      "state": "North Dakota",
+      "year": 2011,
+      "DigitalOcio_hours": 3.409329,
+      "M_hours": 3.981148
+    },
+    {
+      "state": "North Dakota",
+      "year": 2012,
+      "DigitalOcio_hours": 2.870661,
+      "M_hours": 4.956628
+    },
+    {
+      "state": "North Dakota",
+      "year": 2013,
+      "DigitalOcio_hours": 2.261651,
+      "M_hours": 4.619914
+    },
+    {
+      "state": "North Dakota",
+      "year": 2014,
+      "DigitalOcio_hours": 4.610141,
+      "M_hours": 3.241427
+    },
+    {
+      "state": "North Dakota",
+      "year": 2015,
+      "DigitalOcio_hours": 3.024236,
+      "M_hours": 5.389854
+    },
+    {
+      "state": "North Dakota",
+      "year": 2016,
+      "DigitalOcio_hours": 3.321086,
+      "M_hours": 4.73594
+    },
+    {
+      "state": "North Dakota",
+      "year": 2017,
+      "DigitalOcio_hours": 3.812702,
+      "M_hours": 3.386654
+    },
+    {
+      "state": "North Dakota",
+      "year": 2018,
+      "DigitalOcio_hours": 3.197706,
+      "M_hours": 5.983452
+    },
+    {
+      "state": "North Dakota",
+      "year": 2019,
+      "DigitalOcio_hours": 3.617014,
+      "M_hours": 4.265215
+    },
+    {
+      "state": "North Dakota",
+      "year": 2020,
+      "DigitalOcio_hours": 3.269388,
+      "M_hours": 5.390007
+    },
+    {
+      "state": "North Dakota",
+      "year": 2021,
+      "DigitalOcio_hours": 3.991633,
+      "M_hours": 3.797315
+    },
+    {
+      "state": "North Dakota",
+      "year": 2022,
+      "DigitalOcio_hours": 3.053258,
+      "M_hours": 2.70203
+    },
+    {
+      "state": "North Dakota",
+      "year": 2023,
+      "DigitalOcio_hours": 2.669024,
+      "M_hours": 5.233615
+    },
+    {
+      "state": "North Dakota",
+      "year": 2024,
+      "DigitalOcio_hours": 4.560888,
+      "M_hours": 5.103184
+    },
+    {
+      "state": "Ohio",
+      "year": 2005,
+      "DigitalOcio_hours": 3.080399,
+      "M_hours": 1.188679
+    },
+    {
+      "state": "Ohio",
+      "year": 2006,
+      "DigitalOcio_hours": 3.000089,
+      "M_hours": 4.873223
+    },
+    {
+      "state": "Ohio",
+      "year": 2007,
+      "DigitalOcio_hours": 2.99855,
+      "M_hours": 4.322643
+    },
+    {
+      "state": "Ohio",
+      "year": 2008,
+      "DigitalOcio_hours": 3.031738,
+      "M_hours": 4.882057
+    },
+    {
+      "state": "Ohio",
+      "year": 2009,
+      "DigitalOcio_hours": 3.742746,
+      "M_hours": 4.3065
+    },
+    {
+      "state": "Ohio",
+      "year": 2010,
+      "DigitalOcio_hours": 3.403751,
+      "M_hours": 4.072198
+    },
+    {
+      "state": "Ohio",
+      "year": 2011,
+      "DigitalOcio_hours": 3.192787,
+      "M_hours": 4.276358
+    },
+    {
+      "state": "Ohio",
+      "year": 2012,
+      "DigitalOcio_hours": 3.485105,
+      "M_hours": 4.616222
+    },
+    {
+      "state": "Ohio",
+      "year": 2013,
+      "DigitalOcio_hours": 3.341331,
+      "M_hours": 4.416341
+    },
+    {
+      "state": "Ohio",
+      "year": 2014,
+      "DigitalOcio_hours": 3.652665,
+      "M_hours": 4.120499
+    },
+    {
+      "state": "Ohio",
+      "year": 2015,
+      "DigitalOcio_hours": 3.232818,
+      "M_hours": 4.262947
+    },
+    {
+      "state": "Ohio",
+      "year": 2016,
+      "DigitalOcio_hours": 3.413163,
+      "M_hours": 3.967797
+    },
+    {
+      "state": "Ohio",
+      "year": 2017,
+      "DigitalOcio_hours": 3.263017,
+      "M_hours": 4.549814
+    },
+    {
+      "state": "Ohio",
+      "year": 2018,
+      "DigitalOcio_hours": 3.741004,
+      "M_hours": 4.485561
+    },
+    {
+      "state": "Ohio",
+      "year": 2019,
+      "DigitalOcio_hours": 3.327153,
+      "M_hours": 4.221241
+    },
+    {
+      "state": "Ohio",
+      "year": 2020,
+      "DigitalOcio_hours": 4.379034,
+      "M_hours": 3.237672
+    },
+    {
+      "state": "Ohio",
+      "year": 2021,
+      "DigitalOcio_hours": 3.550081,
+      "M_hours": 3.422823
+    },
+    {
+      "state": "Ohio",
+      "year": 2022,
+      "DigitalOcio_hours": 3.282603,
+      "M_hours": 4.159456
+    },
+    {
+      "state": "Ohio",
+      "year": 2023,
+      "DigitalOcio_hours": 3.751026,
+      "M_hours": 3.081166
+    },
+    {
+      "state": "Ohio",
+      "year": 2024,
+      "DigitalOcio_hours": 3.395342,
+      "M_hours": 3.389279
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2005,
+      "DigitalOcio_hours": 3.107229,
+      "M_hours": 0.0
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2006,
+      "DigitalOcio_hours": 2.736156,
+      "M_hours": 5.11786
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2007,
+      "DigitalOcio_hours": 3.056424,
+      "M_hours": 4.418813
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2008,
+      "DigitalOcio_hours": 3.196982,
+      "M_hours": 5.24963
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2009,
+      "DigitalOcio_hours": 3.501226,
+      "M_hours": 3.340244
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2010,
+      "DigitalOcio_hours": 3.366275,
+      "M_hours": 4.459548
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2011,
+      "DigitalOcio_hours": 3.557211,
+      "M_hours": 4.105271
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2012,
+      "DigitalOcio_hours": 3.289193,
+      "M_hours": 4.228686
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2013,
+      "DigitalOcio_hours": 3.43209,
+      "M_hours": 3.638215
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2014,
+      "DigitalOcio_hours": 3.650723,
+      "M_hours": 4.762866
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2015,
+      "DigitalOcio_hours": 3.275807,
+      "M_hours": 4.871222
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2016,
+      "DigitalOcio_hours": 3.110935,
+      "M_hours": 4.848581
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2017,
+      "DigitalOcio_hours": 4.484577,
+      "M_hours": 3.38837
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2018,
+      "DigitalOcio_hours": 2.963623,
+      "M_hours": 4.586886
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2019,
+      "DigitalOcio_hours": 3.086873,
+      "M_hours": 4.876922
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2020,
+      "DigitalOcio_hours": 3.727307,
+      "M_hours": 4.344134
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2021,
+      "DigitalOcio_hours": 4.520208,
+      "M_hours": 3.046176
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2022,
+      "DigitalOcio_hours": 4.536858,
+      "M_hours": 4.022885
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2023,
+      "DigitalOcio_hours": 3.503059,
+      "M_hours": 3.62826
+    },
+    {
+      "state": "Oklahoma",
+      "year": 2024,
+      "DigitalOcio_hours": 3.135378,
+      "M_hours": 3.759029
+    },
+    {
+      "state": "Oregon",
+      "year": 2005,
+      "DigitalOcio_hours": 2.834746,
+      "M_hours": 15.583333
+    },
+    {
+      "state": "Oregon",
+      "year": 2006,
+      "DigitalOcio_hours": 2.588829,
+      "M_hours": 4.330922
+    },
+    {
+      "state": "Oregon",
+      "year": 2007,
+      "DigitalOcio_hours": 3.326086,
+      "M_hours": 3.968383
+    },
+    {
+      "state": "Oregon",
+      "year": 2008,
+      "DigitalOcio_hours": 3.131997,
+      "M_hours": 3.817929
+    },
+    {
+      "state": "Oregon",
+      "year": 2009,
+      "DigitalOcio_hours": 3.235644,
+      "M_hours": 3.212689
+    },
+    {
+      "state": "Oregon",
+      "year": 2010,
+      "DigitalOcio_hours": 2.99771,
+      "M_hours": 3.713488
+    },
+    {
+      "state": "Oregon",
+      "year": 2011,
+      "DigitalOcio_hours": 3.12295,
+      "M_hours": 5.08363
+    },
+    {
+      "state": "Oregon",
+      "year": 2012,
+      "DigitalOcio_hours": 2.999726,
+      "M_hours": 4.403946
+    },
+    {
+      "state": "Oregon",
+      "year": 2013,
+      "DigitalOcio_hours": 2.79775,
+      "M_hours": 4.656112
+    },
+    {
+      "state": "Oregon",
+      "year": 2014,
+      "DigitalOcio_hours": 3.1486,
+      "M_hours": 4.552079
+    },
+    {
+      "state": "Oregon",
+      "year": 2015,
+      "DigitalOcio_hours": 2.600762,
+      "M_hours": 4.763481
+    },
+    {
+      "state": "Oregon",
+      "year": 2016,
+      "DigitalOcio_hours": 2.972455,
+      "M_hours": 4.257086
+    },
+    {
+      "state": "Oregon",
+      "year": 2017,
+      "DigitalOcio_hours": 3.560459,
+      "M_hours": 3.578981
+    },
+    {
+      "state": "Oregon",
+      "year": 2018,
+      "DigitalOcio_hours": 2.869762,
+      "M_hours": 4.373582
+    },
+    {
+      "state": "Oregon",
+      "year": 2019,
+      "DigitalOcio_hours": 2.503708,
+      "M_hours": 4.912231
+    },
+    {
+      "state": "Oregon",
+      "year": 2020,
+      "DigitalOcio_hours": 3.397564,
+      "M_hours": 3.531396
+    },
+    {
+      "state": "Oregon",
+      "year": 2021,
+      "DigitalOcio_hours": 2.986662,
+      "M_hours": 3.01214
+    },
+    {
+      "state": "Oregon",
+      "year": 2022,
+      "DigitalOcio_hours": 2.967967,
+      "M_hours": 3.908672
+    },
+    {
+      "state": "Oregon",
+      "year": 2023,
+      "DigitalOcio_hours": 2.784188,
+      "M_hours": 3.564624
+    },
+    {
+      "state": "Oregon",
+      "year": 2024,
+      "DigitalOcio_hours": 2.902703,
+      "M_hours": 3.002083
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2005,
+      "DigitalOcio_hours": 2.921736,
+      "M_hours": 1.487162
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2006,
+      "DigitalOcio_hours": 3.070279,
+      "M_hours": 4.620869
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2007,
+      "DigitalOcio_hours": 3.199776,
+      "M_hours": 4.327847
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2008,
+      "DigitalOcio_hours": 3.242547,
+      "M_hours": 4.738287
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2009,
+      "DigitalOcio_hours": 3.582209,
+      "M_hours": 4.642053
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2010,
+      "DigitalOcio_hours": 3.296117,
+      "M_hours": 4.209568
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2011,
+      "DigitalOcio_hours": 3.503632,
+      "M_hours": 4.298677
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2012,
+      "DigitalOcio_hours": 3.58051,
+      "M_hours": 4.517769
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2013,
+      "DigitalOcio_hours": 3.176994,
+      "M_hours": 3.886395
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2014,
+      "DigitalOcio_hours": 3.386467,
+      "M_hours": 4.655632
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2015,
+      "DigitalOcio_hours": 3.371529,
+      "M_hours": 3.890066
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2016,
+      "DigitalOcio_hours": 3.15177,
+      "M_hours": 4.472639
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2017,
+      "DigitalOcio_hours": 3.458984,
+      "M_hours": 4.155143
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2018,
+      "DigitalOcio_hours": 3.57719,
+      "M_hours": 3.964688
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2019,
+      "DigitalOcio_hours": 3.158835,
+      "M_hours": 4.64401
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2020,
+      "DigitalOcio_hours": 3.892562,
+      "M_hours": 2.97286
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2021,
+      "DigitalOcio_hours": 3.380834,
+      "M_hours": 2.826943
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2022,
+      "DigitalOcio_hours": 3.415591,
+      "M_hours": 3.307545
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2023,
+      "DigitalOcio_hours": 3.266422,
+      "M_hours": 3.696794
+    },
+    {
+      "state": "Pennsylvania",
+      "year": 2024,
+      "DigitalOcio_hours": 3.188543,
+      "M_hours": 3.817681
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2005,
+      "DigitalOcio_hours": 2.937107,
+      "M_hours": 4.201572
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2006,
+      "DigitalOcio_hours": 2.705005,
+      "M_hours": 3.912381
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2007,
+      "DigitalOcio_hours": 3.25772,
+      "M_hours": 2.994896
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2008,
+      "DigitalOcio_hours": 2.111075,
+      "M_hours": 5.80321
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2009,
+      "DigitalOcio_hours": 3.497344,
+      "M_hours": 4.816902
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2010,
+      "DigitalOcio_hours": 2.592065,
+      "M_hours": 4.573389
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2011,
+      "DigitalOcio_hours": 3.267456,
+      "M_hours": 5.622293
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2012,
+      "DigitalOcio_hours": 3.016469,
+      "M_hours": 4.068643
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2013,
+      "DigitalOcio_hours": 4.31969,
+      "M_hours": 3.898529
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2014,
+      "DigitalOcio_hours": 4.329634,
+      "M_hours": 2.622445
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2015,
+      "DigitalOcio_hours": 3.825722,
+      "M_hours": 2.902557
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2016,
+      "DigitalOcio_hours": 3.85194,
+      "M_hours": 4.04051
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2017,
+      "DigitalOcio_hours": 2.565237,
+      "M_hours": 4.15536
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2018,
+      "DigitalOcio_hours": 3.851801,
+      "M_hours": 2.652112
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2019,
+      "DigitalOcio_hours": 4.489111,
+      "M_hours": 2.035164
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2020,
+      "DigitalOcio_hours": 3.284465,
+      "M_hours": 4.019899
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2021,
+      "DigitalOcio_hours": 2.994905,
+      "M_hours": 3.926715
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2022,
+      "DigitalOcio_hours": 2.389781,
+      "M_hours": 3.764954
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2023,
+      "DigitalOcio_hours": 3.529118,
+      "M_hours": 4.196881
+    },
+    {
+      "state": "Rhode Island",
+      "year": 2024,
+      "DigitalOcio_hours": 3.360806,
+      "M_hours": 3.045653
+    },
+    {
+      "state": "South Carolina",
+      "year": 2005,
+      "DigitalOcio_hours": 3.109002,
+      "M_hours": 3.895811
+    },
+    {
+      "state": "South Carolina",
+      "year": 2006,
+      "DigitalOcio_hours": 3.01242,
+      "M_hours": 4.603655
+    },
+    {
+      "state": "South Carolina",
+      "year": 2007,
+      "DigitalOcio_hours": 3.336056,
+      "M_hours": 4.380849
+    },
+    {
+      "state": "South Carolina",
+      "year": 2008,
+      "DigitalOcio_hours": 4.024313,
+      "M_hours": 4.235735
+    },
+    {
+      "state": "South Carolina",
+      "year": 2009,
+      "DigitalOcio_hours": 3.536178,
+      "M_hours": 4.966418
+    },
+    {
+      "state": "South Carolina",
+      "year": 2010,
+      "DigitalOcio_hours": 3.223843,
+      "M_hours": 4.217526
+    },
+    {
+      "state": "South Carolina",
+      "year": 2011,
+      "DigitalOcio_hours": 3.290701,
+      "M_hours": 4.385665
+    },
+    {
+      "state": "South Carolina",
+      "year": 2012,
+      "DigitalOcio_hours": 3.477658,
+      "M_hours": 3.639055
+    },
+    {
+      "state": "South Carolina",
+      "year": 2013,
+      "DigitalOcio_hours": 3.228483,
+      "M_hours": 4.626372
+    },
+    {
+      "state": "South Carolina",
+      "year": 2014,
+      "DigitalOcio_hours": 4.17531,
+      "M_hours": 3.172012
+    },
+    {
+      "state": "South Carolina",
+      "year": 2015,
+      "DigitalOcio_hours": 3.082877,
+      "M_hours": 4.121835
+    },
+    {
+      "state": "South Carolina",
+      "year": 2016,
+      "DigitalOcio_hours": 3.089078,
+      "M_hours": 3.569853
+    },
+    {
+      "state": "South Carolina",
+      "year": 2017,
+      "DigitalOcio_hours": 3.657144,
+      "M_hours": 3.626122
+    },
+    {
+      "state": "South Carolina",
+      "year": 2018,
+      "DigitalOcio_hours": 3.570325,
+      "M_hours": 3.948158
+    },
+    {
+      "state": "South Carolina",
+      "year": 2019,
+      "DigitalOcio_hours": 3.123403,
+      "M_hours": 3.936412
+    },
+    {
+      "state": "South Carolina",
+      "year": 2020,
+      "DigitalOcio_hours": 3.551987,
+      "M_hours": 3.817114
+    },
+    {
+      "state": "South Carolina",
+      "year": 2021,
+      "DigitalOcio_hours": 3.754765,
+      "M_hours": 3.369891
+    },
+    {
+      "state": "South Carolina",
+      "year": 2022,
+      "DigitalOcio_hours": 3.885868,
+      "M_hours": 2.899334
+    },
+    {
+      "state": "South Carolina",
+      "year": 2023,
+      "DigitalOcio_hours": 4.189715,
+      "M_hours": 3.388592
+    },
+    {
+      "state": "South Carolina",
+      "year": 2024,
+      "DigitalOcio_hours": 3.932308,
+      "M_hours": 3.775645
+    },
+    {
+      "state": "South Dakota",
+      "year": 2005,
+      "DigitalOcio_hours": 2.165409,
+      "M_hours": 0.0
+    },
+    {
+      "state": "South Dakota",
+      "year": 2006,
+      "DigitalOcio_hours": 1.822764,
+      "M_hours": 5.145178
+    },
+    {
+      "state": "South Dakota",
+      "year": 2007,
+      "DigitalOcio_hours": 3.38242,
+      "M_hours": 4.384078
+    },
+    {
+      "state": "South Dakota",
+      "year": 2008,
+      "DigitalOcio_hours": 3.480663,
+      "M_hours": 3.038924
+    },
+    {
+      "state": "South Dakota",
+      "year": 2009,
+      "DigitalOcio_hours": 3.041069,
+      "M_hours": 5.955407
+    },
+    {
+      "state": "South Dakota",
+      "year": 2010,
+      "DigitalOcio_hours": 2.875063,
+      "M_hours": 4.844324
+    },
+    {
+      "state": "South Dakota",
+      "year": 2011,
+      "DigitalOcio_hours": 2.218885,
+      "M_hours": 4.190901
+    },
+    {
+      "state": "South Dakota",
+      "year": 2012,
+      "DigitalOcio_hours": 3.833618,
+      "M_hours": 3.781922
+    },
+    {
+      "state": "South Dakota",
+      "year": 2013,
+      "DigitalOcio_hours": 2.709819,
+      "M_hours": 5.08309
+    },
+    {
+      "state": "South Dakota",
+      "year": 2014,
+      "DigitalOcio_hours": 2.370458,
+      "M_hours": 5.329141
+    },
+    {
+      "state": "South Dakota",
+      "year": 2015,
+      "DigitalOcio_hours": 4.025723,
+      "M_hours": 3.333193
+    },
+    {
+      "state": "South Dakota",
+      "year": 2016,
+      "DigitalOcio_hours": 2.565541,
+      "M_hours": 5.99317
+    },
+    {
+      "state": "South Dakota",
+      "year": 2017,
+      "DigitalOcio_hours": 3.680298,
+      "M_hours": 6.440502
+    },
+    {
+      "state": "South Dakota",
+      "year": 2018,
+      "DigitalOcio_hours": 2.60353,
+      "M_hours": 6.226963
+    },
+    {
+      "state": "South Dakota",
+      "year": 2019,
+      "DigitalOcio_hours": 4.573278,
+      "M_hours": 3.279703
+    },
+    {
+      "state": "South Dakota",
+      "year": 2020,
+      "DigitalOcio_hours": 3.542919,
+      "M_hours": 4.038462
+    },
+    {
+      "state": "South Dakota",
+      "year": 2021,
+      "DigitalOcio_hours": 5.182982,
+      "M_hours": 2.430697
+    },
+    {
+      "state": "South Dakota",
+      "year": 2022,
+      "DigitalOcio_hours": 3.255341,
+      "M_hours": 4.132966
+    },
+    {
+      "state": "South Dakota",
+      "year": 2023,
+      "DigitalOcio_hours": 4.090333,
+      "M_hours": 4.692869
+    },
+    {
+      "state": "South Dakota",
+      "year": 2024,
+      "DigitalOcio_hours": 2.462384,
+      "M_hours": 4.179535
+    },
+    {
+      "state": "Tennessee",
+      "year": 2005,
+      "DigitalOcio_hours": 3.101144,
+      "M_hours": 3.880472
+    },
+    {
+      "state": "Tennessee",
+      "year": 2006,
+      "DigitalOcio_hours": 3.113473,
+      "M_hours": 4.215132
+    },
+    {
+      "state": "Tennessee",
+      "year": 2007,
+      "DigitalOcio_hours": 3.552327,
+      "M_hours": 3.930333
+    },
+    {
+      "state": "Tennessee",
+      "year": 2008,
+      "DigitalOcio_hours": 2.989782,
+      "M_hours": 4.243285
+    },
+    {
+      "state": "Tennessee",
+      "year": 2009,
+      "DigitalOcio_hours": 3.354504,
+      "M_hours": 3.52509
+    },
+    {
+      "state": "Tennessee",
+      "year": 2010,
+      "DigitalOcio_hours": 3.324532,
+      "M_hours": 4.40126
+    },
+    {
+      "state": "Tennessee",
+      "year": 2011,
+      "DigitalOcio_hours": 3.030469,
+      "M_hours": 4.104972
+    },
+    {
+      "state": "Tennessee",
+      "year": 2012,
+      "DigitalOcio_hours": 3.278469,
+      "M_hours": 4.189421
+    },
+    {
+      "state": "Tennessee",
+      "year": 2013,
+      "DigitalOcio_hours": 3.526486,
+      "M_hours": 4.600399
+    },
+    {
+      "state": "Tennessee",
+      "year": 2014,
+      "DigitalOcio_hours": 3.399755,
+      "M_hours": 4.743733
+    },
+    {
+      "state": "Tennessee",
+      "year": 2015,
+      "DigitalOcio_hours": 3.383509,
+      "M_hours": 3.677062
+    },
+    {
+      "state": "Tennessee",
+      "year": 2016,
+      "DigitalOcio_hours": 3.382431,
+      "M_hours": 4.632685
+    },
+    {
+      "state": "Tennessee",
+      "year": 2017,
+      "DigitalOcio_hours": 2.630132,
+      "M_hours": 4.843852
+    },
+    {
+      "state": "Tennessee",
+      "year": 2018,
+      "DigitalOcio_hours": 3.506225,
+      "M_hours": 3.69155
+    },
+    {
+      "state": "Tennessee",
+      "year": 2019,
+      "DigitalOcio_hours": 3.865822,
+      "M_hours": 3.786487
+    },
+    {
+      "state": "Tennessee",
+      "year": 2020,
+      "DigitalOcio_hours": 4.138053,
+      "M_hours": 3.114181
+    },
+    {
+      "state": "Tennessee",
+      "year": 2021,
+      "DigitalOcio_hours": 2.921045,
+      "M_hours": 3.915538
+    },
+    {
+      "state": "Tennessee",
+      "year": 2022,
+      "DigitalOcio_hours": 3.537578,
+      "M_hours": 3.486861
+    },
+    {
+      "state": "Tennessee",
+      "year": 2023,
+      "DigitalOcio_hours": 3.511,
+      "M_hours": 4.146595
+    },
+    {
+      "state": "Tennessee",
+      "year": 2024,
+      "DigitalOcio_hours": 3.191698,
+      "M_hours": 3.867117
+    },
+    {
+      "state": "Texas",
+      "year": 2005,
+      "DigitalOcio_hours": 3.175583,
+      "M_hours": 3.655249
+    },
+    {
+      "state": "Texas",
+      "year": 2006,
+      "DigitalOcio_hours": 2.996301,
+      "M_hours": 4.530467
+    },
+    {
+      "state": "Texas",
+      "year": 2007,
+      "DigitalOcio_hours": 2.829481,
+      "M_hours": 4.974032
+    },
+    {
+      "state": "Texas",
+      "year": 2008,
+      "DigitalOcio_hours": 2.796654,
+      "M_hours": 5.063462
+    },
+    {
+      "state": "Texas",
+      "year": 2009,
+      "DigitalOcio_hours": 3.118445,
+      "M_hours": 4.354372
+    },
+    {
+      "state": "Texas",
+      "year": 2010,
+      "DigitalOcio_hours": 3.037611,
+      "M_hours": 4.741795
+    },
+    {
+      "state": "Texas",
+      "year": 2011,
+      "DigitalOcio_hours": 3.238527,
+      "M_hours": 4.516625
+    },
+    {
+      "state": "Texas",
+      "year": 2012,
+      "DigitalOcio_hours": 3.172793,
+      "M_hours": 4.453674
+    },
+    {
+      "state": "Texas",
+      "year": 2013,
+      "DigitalOcio_hours": 3.141206,
+      "M_hours": 4.756422
+    },
+    {
+      "state": "Texas",
+      "year": 2014,
+      "DigitalOcio_hours": 3.222289,
+      "M_hours": 4.528377
+    },
+    {
+      "state": "Texas",
+      "year": 2015,
+      "DigitalOcio_hours": 3.25243,
+      "M_hours": 4.610312
+    },
+    {
+      "state": "Texas",
+      "year": 2016,
+      "DigitalOcio_hours": 2.888137,
+      "M_hours": 4.579224
+    },
+    {
+      "state": "Texas",
+      "year": 2017,
+      "DigitalOcio_hours": 3.175306,
+      "M_hours": 4.224344
+    },
+    {
+      "state": "Texas",
+      "year": 2018,
+      "DigitalOcio_hours": 3.489804,
+      "M_hours": 4.325877
+    },
+    {
+      "state": "Texas",
+      "year": 2019,
+      "DigitalOcio_hours": 3.104752,
+      "M_hours": 4.326177
+    },
+    {
+      "state": "Texas",
+      "year": 2020,
+      "DigitalOcio_hours": 3.42238,
+      "M_hours": 3.321022
+    },
+    {
+      "state": "Texas",
+      "year": 2021,
+      "DigitalOcio_hours": 3.240393,
+      "M_hours": 3.718891
+    },
+    {
+      "state": "Texas",
+      "year": 2022,
+      "DigitalOcio_hours": 3.416679,
+      "M_hours": 3.560349
+    },
+    {
+      "state": "Texas",
+      "year": 2023,
+      "DigitalOcio_hours": 3.006682,
+      "M_hours": 3.67612
+    },
+    {
+      "state": "Texas",
+      "year": 2024,
+      "DigitalOcio_hours": 3.060998,
+      "M_hours": 3.93186
+    },
+    {
+      "state": "Utah",
+      "year": 2005,
+      "DigitalOcio_hours": 2.195349,
+      "M_hours": 7.40566
+    },
+    {
+      "state": "Utah",
+      "year": 2006,
+      "DigitalOcio_hours": 2.579865,
+      "M_hours": 4.89834
+    },
+    {
+      "state": "Utah",
+      "year": 2007,
+      "DigitalOcio_hours": 2.524551,
+      "M_hours": 5.739193
+    },
+    {
+      "state": "Utah",
+      "year": 2008,
+      "DigitalOcio_hours": 2.628434,
+      "M_hours": 4.98196
+    },
+    {
+      "state": "Utah",
+      "year": 2009,
+      "DigitalOcio_hours": 2.203514,
+      "M_hours": 5.681953
+    },
+    {
+      "state": "Utah",
+      "year": 2010,
+      "DigitalOcio_hours": 2.594786,
+      "M_hours": 5.005324
+    },
+    {
+      "state": "Utah",
+      "year": 2011,
+      "DigitalOcio_hours": 2.0572,
+      "M_hours": 4.862765
+    },
+    {
+      "state": "Utah",
+      "year": 2012,
+      "DigitalOcio_hours": 3.093641,
+      "M_hours": 4.486827
+    },
+    {
+      "state": "Utah",
+      "year": 2013,
+      "DigitalOcio_hours": 2.400848,
+      "M_hours": 4.467939
+    },
+    {
+      "state": "Utah",
+      "year": 2014,
+      "DigitalOcio_hours": 2.583879,
+      "M_hours": 5.029477
+    },
+    {
+      "state": "Utah",
+      "year": 2015,
+      "DigitalOcio_hours": 2.067861,
+      "M_hours": 5.418175
+    },
+    {
+      "state": "Utah",
+      "year": 2016,
+      "DigitalOcio_hours": 2.559191,
+      "M_hours": 4.879181
+    },
+    {
+      "state": "Utah",
+      "year": 2017,
+      "DigitalOcio_hours": 2.708791,
+      "M_hours": 4.01997
+    },
+    {
+      "state": "Utah",
+      "year": 2018,
+      "DigitalOcio_hours": 2.27534,
+      "M_hours": 5.724409
+    },
+    {
+      "state": "Utah",
+      "year": 2019,
+      "DigitalOcio_hours": 2.526602,
+      "M_hours": 4.375596
+    },
+    {
+      "state": "Utah",
+      "year": 2020,
+      "DigitalOcio_hours": 2.661101,
+      "M_hours": 3.476472
+    },
+    {
+      "state": "Utah",
+      "year": 2021,
+      "DigitalOcio_hours": 3.739505,
+      "M_hours": 3.593571
+    },
+    {
+      "state": "Utah",
+      "year": 2022,
+      "DigitalOcio_hours": 3.28326,
+      "M_hours": 3.864218
+    },
+    {
+      "state": "Utah",
+      "year": 2023,
+      "DigitalOcio_hours": 2.713972,
+      "M_hours": 3.634643
+    },
+    {
+      "state": "Utah",
+      "year": 2024,
+      "DigitalOcio_hours": 2.653391,
+      "M_hours": 2.959274
+    },
+    {
+      "state": "Vermont",
+      "year": 2005,
+      "DigitalOcio_hours": 3.647222,
+      "M_hours": 2.868333
+    },
+    {
+      "state": "Vermont",
+      "year": 2006,
+      "DigitalOcio_hours": 1.542827,
+      "M_hours": 5.999354
+    },
+    {
+      "state": "Vermont",
+      "year": 2007,
+      "DigitalOcio_hours": 2.089671,
+      "M_hours": 3.489898
+    },
+    {
+      "state": "Vermont",
+      "year": 2008,
+      "DigitalOcio_hours": 2.081177,
+      "M_hours": 5.601539
+    },
+    {
+      "state": "Vermont",
+      "year": 2009,
+      "DigitalOcio_hours": 1.581833,
+      "M_hours": 5.896644
+    },
+    {
+      "state": "Vermont",
+      "year": 2010,
+      "DigitalOcio_hours": 2.238329,
+      "M_hours": 2.787365
+    },
+    {
+      "state": "Vermont",
+      "year": 2011,
+      "DigitalOcio_hours": 3.268426,
+      "M_hours": 3.024063
+    },
+    {
+      "state": "Vermont",
+      "year": 2012,
+      "DigitalOcio_hours": 1.957571,
+      "M_hours": 5.122887
+    },
+    {
+      "state": "Vermont",
+      "year": 2013,
+      "DigitalOcio_hours": 3.75346,
+      "M_hours": 2.491387
+    },
+    {
+      "state": "Vermont",
+      "year": 2014,
+      "DigitalOcio_hours": 1.969952,
+      "M_hours": 4.183345
+    },
+    {
+      "state": "Vermont",
+      "year": 2015,
+      "DigitalOcio_hours": 3.385769,
+      "M_hours": 3.588986
+    },
+    {
+      "state": "Vermont",
+      "year": 2016,
+      "DigitalOcio_hours": 3.048821,
+      "M_hours": 5.292466
+    },
+    {
+      "state": "Vermont",
+      "year": 2017,
+      "DigitalOcio_hours": 2.372991,
+      "M_hours": 4.604289
+    },
+    {
+      "state": "Vermont",
+      "year": 2018,
+      "DigitalOcio_hours": 2.618425,
+      "M_hours": 4.126457
+    },
+    {
+      "state": "Vermont",
+      "year": 2019,
+      "DigitalOcio_hours": 4.374829,
+      "M_hours": 3.3431
+    },
+    {
+      "state": "Vermont",
+      "year": 2020,
+      "DigitalOcio_hours": 4.482436,
+      "M_hours": 3.431638
+    },
+    {
+      "state": "Vermont",
+      "year": 2021,
+      "DigitalOcio_hours": 3.27525,
+      "M_hours": 4.149895
+    },
+    {
+      "state": "Vermont",
+      "year": 2022,
+      "DigitalOcio_hours": 2.477367,
+      "M_hours": 1.696638
+    },
+    {
+      "state": "Vermont",
+      "year": 2023,
+      "DigitalOcio_hours": 3.652777,
+      "M_hours": 2.42418
+    },
+    {
+      "state": "Vermont",
+      "year": 2024,
+      "DigitalOcio_hours": 3.833323,
+      "M_hours": 4.091864
+    },
+    {
+      "state": "Virginia",
+      "year": 2005,
+      "DigitalOcio_hours": 2.688157,
+      "M_hours": 5.105882
+    },
+    {
+      "state": "Virginia",
+      "year": 2006,
+      "DigitalOcio_hours": 2.781833,
+      "M_hours": 4.719121
+    },
+    {
+      "state": "Virginia",
+      "year": 2007,
+      "DigitalOcio_hours": 2.763286,
+      "M_hours": 5.041834
+    },
+    {
+      "state": "Virginia",
+      "year": 2008,
+      "DigitalOcio_hours": 3.019032,
+      "M_hours": 4.715727
+    },
+    {
+      "state": "Virginia",
+      "year": 2009,
+      "DigitalOcio_hours": 3.168897,
+      "M_hours": 5.10069
+    },
+    {
+      "state": "Virginia",
+      "year": 2010,
+      "DigitalOcio_hours": 3.114823,
+      "M_hours": 4.3472
+    },
+    {
+      "state": "Virginia",
+      "year": 2011,
+      "DigitalOcio_hours": 3.331152,
+      "M_hours": 4.325054
+    },
+    {
+      "state": "Virginia",
+      "year": 2012,
+      "DigitalOcio_hours": 3.207705,
+      "M_hours": 4.638446
+    },
+    {
+      "state": "Virginia",
+      "year": 2013,
+      "DigitalOcio_hours": 2.889265,
+      "M_hours": 4.723846
+    },
+    {
+      "state": "Virginia",
+      "year": 2014,
+      "DigitalOcio_hours": 2.9995,
+      "M_hours": 4.752662
+    },
+    {
+      "state": "Virginia",
+      "year": 2015,
+      "DigitalOcio_hours": 3.403704,
+      "M_hours": 4.040143
+    },
+    {
+      "state": "Virginia",
+      "year": 2016,
+      "DigitalOcio_hours": 3.2326,
+      "M_hours": 4.381475
+    },
+    {
+      "state": "Virginia",
+      "year": 2017,
+      "DigitalOcio_hours": 3.089765,
+      "M_hours": 4.825618
+    },
+    {
+      "state": "Virginia",
+      "year": 2018,
+      "DigitalOcio_hours": 2.870775,
+      "M_hours": 4.46863
+    },
+    {
+      "state": "Virginia",
+      "year": 2019,
+      "DigitalOcio_hours": 3.001004,
+      "M_hours": 4.269961
+    },
+    {
+      "state": "Virginia",
+      "year": 2020,
+      "DigitalOcio_hours": 3.536888,
+      "M_hours": 2.888622
+    },
+    {
+      "state": "Virginia",
+      "year": 2021,
+      "DigitalOcio_hours": 3.357954,
+      "M_hours": 3.26236
+    },
+    {
+      "state": "Virginia",
+      "year": 2022,
+      "DigitalOcio_hours": 3.062897,
+      "M_hours": 3.690296
+    },
+    {
+      "state": "Virginia",
+      "year": 2023,
+      "DigitalOcio_hours": 3.077947,
+      "M_hours": 3.304851
+    },
+    {
+      "state": "Virginia",
+      "year": 2024,
+      "DigitalOcio_hours": 3.06082,
+      "M_hours": 3.74295
+    },
+    {
+      "state": "Washington",
+      "year": 2005,
+      "DigitalOcio_hours": 2.673286,
+      "M_hours": 5.966667
+    },
+    {
+      "state": "Washington",
+      "year": 2006,
+      "DigitalOcio_hours": 2.532206,
+      "M_hours": 5.911216
+    },
+    {
+      "state": "Washington",
+      "year": 2007,
+      "DigitalOcio_hours": 2.490379,
+      "M_hours": 4.416277
+    },
+    {
+      "state": "Washington",
+      "year": 2008,
+      "DigitalOcio_hours": 2.896368,
+      "M_hours": 5.025881
+    },
+    {
+      "state": "Washington",
+      "year": 2009,
+      "DigitalOcio_hours": 3.020139,
+      "M_hours": 4.242553
+    },
+    {
+      "state": "Washington",
+      "year": 2010,
+      "DigitalOcio_hours": 2.779616,
+      "M_hours": 4.454235
+    },
+    {
+      "state": "Washington",
+      "year": 2011,
+      "DigitalOcio_hours": 2.880947,
+      "M_hours": 4.416146
+    },
+    {
+      "state": "Washington",
+      "year": 2012,
+      "DigitalOcio_hours": 3.015505,
+      "M_hours": 4.523993
+    },
+    {
+      "state": "Washington",
+      "year": 2013,
+      "DigitalOcio_hours": 2.947089,
+      "M_hours": 4.369498
+    },
+    {
+      "state": "Washington",
+      "year": 2014,
+      "DigitalOcio_hours": 3.34673,
+      "M_hours": 3.899797
+    },
+    {
+      "state": "Washington",
+      "year": 2015,
+      "DigitalOcio_hours": 2.909009,
+      "M_hours": 4.151593
+    },
+    {
+      "state": "Washington",
+      "year": 2016,
+      "DigitalOcio_hours": 2.765868,
+      "M_hours": 4.697159
+    },
+    {
+      "state": "Washington",
+      "year": 2017,
+      "DigitalOcio_hours": 2.591937,
+      "M_hours": 4.399899
+    },
+    {
+      "state": "Washington",
+      "year": 2018,
+      "DigitalOcio_hours": 3.091058,
+      "M_hours": 4.348098
+    },
+    {
+      "state": "Washington",
+      "year": 2019,
+      "DigitalOcio_hours": 2.90043,
+      "M_hours": 4.633102
+    },
+    {
+      "state": "Washington",
+      "year": 2020,
+      "DigitalOcio_hours": 4.100982,
+      "M_hours": 2.519513
+    },
+    {
+      "state": "Washington",
+      "year": 2021,
+      "DigitalOcio_hours": 3.421886,
+      "M_hours": 2.582564
+    },
+    {
+      "state": "Washington",
+      "year": 2022,
+      "DigitalOcio_hours": 3.3182,
+      "M_hours": 4.002773
+    },
+    {
+      "state": "Washington",
+      "year": 2023,
+      "DigitalOcio_hours": 3.562173,
+      "M_hours": 3.098895
+    },
+    {
+      "state": "Washington",
+      "year": 2024,
+      "DigitalOcio_hours": 2.60363,
+      "M_hours": 3.429182
+    },
+    {
+      "state": "West Virginia",
+      "year": 2005,
+      "DigitalOcio_hours": 3.199283,
+      "M_hours": 0.833333
+    },
+    {
+      "state": "West Virginia",
+      "year": 2006,
+      "DigitalOcio_hours": 3.750526,
+      "M_hours": 3.325217
+    },
+    {
+      "state": "West Virginia",
+      "year": 2007,
+      "DigitalOcio_hours": 2.887317,
+      "M_hours": 4.811195
+    },
+    {
+      "state": "West Virginia",
+      "year": 2008,
+      "DigitalOcio_hours": 2.995225,
+      "M_hours": 4.716683
+    },
+    {
+      "state": "West Virginia",
+      "year": 2009,
+      "DigitalOcio_hours": 4.369325,
+      "M_hours": 3.904089
+    },
+    {
+      "state": "West Virginia",
+      "year": 2010,
+      "DigitalOcio_hours": 3.952403,
+      "M_hours": 3.286905
+    },
+    {
+      "state": "West Virginia",
+      "year": 2011,
+      "DigitalOcio_hours": 3.594729,
+      "M_hours": 3.518147
+    },
+    {
+      "state": "West Virginia",
+      "year": 2012,
+      "DigitalOcio_hours": 4.005554,
+      "M_hours": 3.773887
+    },
+    {
+      "state": "West Virginia",
+      "year": 2013,
+      "DigitalOcio_hours": 4.269061,
+      "M_hours": 2.902659
+    },
+    {
+      "state": "West Virginia",
+      "year": 2014,
+      "DigitalOcio_hours": 3.625944,
+      "M_hours": 2.840753
+    },
+    {
+      "state": "West Virginia",
+      "year": 2015,
+      "DigitalOcio_hours": 4.078066,
+      "M_hours": 5.159353
+    },
+    {
+      "state": "West Virginia",
+      "year": 2016,
+      "DigitalOcio_hours": 4.706242,
+      "M_hours": 2.994216
+    },
+    {
+      "state": "West Virginia",
+      "year": 2017,
+      "DigitalOcio_hours": 4.432852,
+      "M_hours": 3.590365
+    },
+    {
+      "state": "West Virginia",
+      "year": 2018,
+      "DigitalOcio_hours": 4.224637,
+      "M_hours": 4.015942
+    },
+    {
+      "state": "West Virginia",
+      "year": 2019,
+      "DigitalOcio_hours": 3.752611,
+      "M_hours": 4.409112
+    },
+    {
+      "state": "West Virginia",
+      "year": 2020,
+      "DigitalOcio_hours": 5.342306,
+      "M_hours": 2.773098
+    },
+    {
+      "state": "West Virginia",
+      "year": 2021,
+      "DigitalOcio_hours": 3.99694,
+      "M_hours": 3.654175
+    },
+    {
+      "state": "West Virginia",
+      "year": 2022,
+      "DigitalOcio_hours": 5.897833,
+      "M_hours": 2.521376
+    },
+    {
+      "state": "West Virginia",
+      "year": 2023,
+      "DigitalOcio_hours": 3.509087,
+      "M_hours": 3.299162
+    },
+    {
+      "state": "West Virginia",
+      "year": 2024,
+      "DigitalOcio_hours": 2.903546,
+      "M_hours": 2.337502
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2005,
+      "DigitalOcio_hours": 2.719615,
+      "M_hours": 2.166667
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2006,
+      "DigitalOcio_hours": 2.785925,
+      "M_hours": 4.573235
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2007,
+      "DigitalOcio_hours": 2.924659,
+      "M_hours": 4.476842
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2008,
+      "DigitalOcio_hours": 3.317447,
+      "M_hours": 4.931565
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2009,
+      "DigitalOcio_hours": 2.943882,
+      "M_hours": 4.473413
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2010,
+      "DigitalOcio_hours": 3.134802,
+      "M_hours": 4.425999
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2011,
+      "DigitalOcio_hours": 3.229071,
+      "M_hours": 4.710198
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2012,
+      "DigitalOcio_hours": 3.072087,
+      "M_hours": 4.874203
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2013,
+      "DigitalOcio_hours": 3.270448,
+      "M_hours": 4.199021
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2014,
+      "DigitalOcio_hours": 3.114345,
+      "M_hours": 4.565403
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2015,
+      "DigitalOcio_hours": 3.351331,
+      "M_hours": 4.401917
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2016,
+      "DigitalOcio_hours": 3.262561,
+      "M_hours": 4.481963
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2017,
+      "DigitalOcio_hours": 2.97261,
+      "M_hours": 4.730045
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2018,
+      "DigitalOcio_hours": 3.411399,
+      "M_hours": 5.352401
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2019,
+      "DigitalOcio_hours": 3.280668,
+      "M_hours": 3.469435
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2020,
+      "DigitalOcio_hours": 3.696567,
+      "M_hours": 3.212027
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2021,
+      "DigitalOcio_hours": 3.408016,
+      "M_hours": 3.50022
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2022,
+      "DigitalOcio_hours": 3.922152,
+      "M_hours": 3.883624
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2023,
+      "DigitalOcio_hours": 3.543459,
+      "M_hours": 3.070572
+    },
+    {
+      "state": "Wisconsin",
+      "year": 2024,
+      "DigitalOcio_hours": 3.001837,
+      "M_hours": 4.764517
+    },
+    {
+      "state": "Wyoming",
+      "year": 2005,
+      "DigitalOcio_hours": 1.945455,
+      "M_hours": 7.333333
+    },
+    {
+      "state": "Wyoming",
+      "year": 2006,
+      "DigitalOcio_hours": 2.440148,
+      "M_hours": 4.529673
+    },
+    {
+      "state": "Wyoming",
+      "year": 2007,
+      "DigitalOcio_hours": 2.356014,
+      "M_hours": 7.204613
+    },
+    {
+      "state": "Wyoming",
+      "year": 2008,
+      "DigitalOcio_hours": 2.771428,
+      "M_hours": 6.542289
+    },
+    {
+      "state": "Wyoming",
+      "year": 2009,
+      "DigitalOcio_hours": 1.812727,
+      "M_hours": 6.741022
+    },
+    {
+      "state": "Wyoming",
+      "year": 2010,
+      "DigitalOcio_hours": 2.945145,
+      "M_hours": 5.313712
+    },
+    {
+      "state": "Wyoming",
+      "year": 2011,
+      "DigitalOcio_hours": 2.27196,
+      "M_hours": 5.332478
+    },
+    {
+      "state": "Wyoming",
+      "year": 2012,
+      "DigitalOcio_hours": 4.070619,
+      "M_hours": 3.180651
+    },
+    {
+      "state": "Wyoming",
+      "year": 2013,
+      "DigitalOcio_hours": 2.870396,
+      "M_hours": 4.176972
+    },
+    {
+      "state": "Wyoming",
+      "year": 2014,
+      "DigitalOcio_hours": 3.371087,
+      "M_hours": 5.114
+    },
+    {
+      "state": "Wyoming",
+      "year": 2015,
+      "DigitalOcio_hours": 3.422747,
+      "M_hours": 3.634146
+    },
+    {
+      "state": "Wyoming",
+      "year": 2016,
+      "DigitalOcio_hours": 2.971087,
+      "M_hours": 4.197407
+    },
+    {
+      "state": "Wyoming",
+      "year": 2017,
+      "DigitalOcio_hours": 4.027153,
+      "M_hours": 5.066545
+    },
+    {
+      "state": "Wyoming",
+      "year": 2018,
+      "DigitalOcio_hours": 2.977709,
+      "M_hours": 4.751203
+    },
+    {
+      "state": "Wyoming",
+      "year": 2019,
+      "DigitalOcio_hours": 2.616645,
+      "M_hours": 3.763526
+    },
+    {
+      "state": "Wyoming",
+      "year": 2020,
+      "DigitalOcio_hours": 6.027859,
+      "M_hours": 3.392222
+    },
+    {
+      "state": "Wyoming",
+      "year": 2021,
+      "DigitalOcio_hours": 3.549032,
+      "M_hours": 4.563097
+    },
+    {
+      "state": "Wyoming",
+      "year": 2022,
+      "DigitalOcio_hours": 2.753098,
+      "M_hours": 4.505623
+    },
+    {
+      "state": "Wyoming",
+      "year": 2023,
+      "DigitalOcio_hours": 3.913771,
+      "M_hours": 3.86531
+    },
+    {
+      "state": "Wyoming",
+      "year": 2024,
+      "DigitalOcio_hours": 2.829077,
+      "M_hours": 3.849405
+    }
+  ],
+  "annual_scatter": [
+    {
+      "year": 2005,
+      "DigitalOcio_hours": 2.877880357019608,
+      "M_hours": 3.8026157956699347
+    },
+    {
+      "year": 2006,
+      "DigitalOcio_hours": 2.8219469449999997,
+      "M_hours": 4.709680660784313
+    },
+    {
+      "year": 2007,
+      "DigitalOcio_hours": 2.8624720706666666,
+      "M_hours": 4.768319408071895
+    },
+    {
+      "year": 2008,
+      "DigitalOcio_hours": 3.0219772691764706,
+      "M_hours": 4.712498068071896
+    },
+    {
+      "year": 2009,
+      "DigitalOcio_hours": 3.1092178118235294,
+      "M_hours": 4.367248612254902
+    },
+    {
+      "year": 2010,
+      "DigitalOcio_hours": 3.1254131418039215,
+      "M_hours": 4.3397548694444446
+    },
+    {
+      "year": 2011,
+      "DigitalOcio_hours": 3.245302334254902,
+      "M_hours": 4.307058028169934
+    },
+    {
+      "year": 2012,
+      "DigitalOcio_hours": 3.209537523607843,
+      "M_hours": 4.3911551629411765
+    },
+    {
+      "year": 2013,
+      "DigitalOcio_hours": 3.1921261576470585,
+      "M_hours": 4.299851615522876
+    },
+    {
+      "year": 2014,
+      "DigitalOcio_hours": 3.315155399372549,
+      "M_hours": 4.272973772320261
+    },
+    {
+      "year": 2015,
+      "DigitalOcio_hours": 3.1853651461764705,
+      "M_hours": 4.172261679411765
+    },
+    {
+      "year": 2016,
+      "DigitalOcio_hours": 3.10373833554902,
+      "M_hours": 4.391969837647059
+    },
+    {
+      "year": 2017,
+      "DigitalOcio_hours": 3.316897656333333,
+      "M_hours": 4.342199164379085
+    },
+    {
+      "year": 2018,
+      "DigitalOcio_hours": 3.284778660137255,
+      "M_hours": 4.290286281078432
+    },
+    {
+      "year": 2019,
+      "DigitalOcio_hours": 3.3354551928431375,
+      "M_hours": 4.101481295316994
+    },
+    {
+      "year": 2020,
+      "DigitalOcio_hours": 3.6495118507058826,
+      "M_hours": 3.307963206794118
+    },
+    {
+      "year": 2021,
+      "DigitalOcio_hours": 3.506300251862745,
+      "M_hours": 3.4215999253921567
+    },
+    {
+      "year": 2022,
+      "DigitalOcio_hours": 3.4562264283529416,
+      "M_hours": 3.3918295405424836
+    },
+    {
+      "year": 2023,
+      "DigitalOcio_hours": 3.2563970971764706,
+      "M_hours": 3.621966761633987
+    },
+    {
+      "year": 2024,
+      "DigitalOcio_hours": 3.1616545089411763,
+      "M_hours": 3.519020365555556
+    }
+  ],
+  "change_arrows": [
+    {
+      "state": "Alabama",
+      "x0": 3.046392496,
+      "y0": 3.3333333333333335,
+      "x1": 3.249566857,
+      "y1": 3.8010144666666665
+    },
+    {
+      "state": "Alaska",
+      "x0": 3.090322581,
+      "y0": 3.430645161666667,
+      "x1": 1.98195761,
+      "y1": 4.7833844150000004
+    },
+    {
+      "state": "Arizona",
+      "x0": 2.820262794,
+      "y0": 3.88077455,
+      "x1": 2.892934134,
+      "y1": 3.4314152183333335
+    },
+    {
+      "state": "Arkansas",
+      "x0": 3.082199546,
+      "y0": 2.6640625,
+      "x1": 3.533384066,
+      "y1": 3.2234209983333333
+    },
+    {
+      "state": "California",
+      "x0": 2.931324278,
+      "y0": 3.61824147,
+      "x1": 2.857199909,
+      "y1": 3.54620832
+    },
+    {
+      "state": "Colorado",
+      "x0": 2.692054264,
+      "y0": 7.153125,
+      "x1": 2.398707371,
+      "y1": 3.777734371666667
+    },
+    {
+      "state": "Connecticut",
+      "x0": 2.589050388,
+      "y0": 3.0,
+      "x1": 2.820974405,
+      "y1": 3.94860685
+    },
+    {
+      "state": "Delaware",
+      "x0": 2.956666667,
+      "y0": 3.8366666666666664,
+      "x1": 3.253476544,
+      "y1": 3.4372525533333333
+    },
+    {
+      "state": "District of Columbia",
+      "x0": 3.84,
+      "y0": 3.879444445,
+      "x1": 2.661948212,
+      "y1": 2.9070877766666663
+    },
+    {
+      "state": "Florida",
+      "x0": 3.090987828,
+      "y0": 3.4932291666666666,
+      "x1": 3.088964013,
+      "y1": 3.6928256016666667
+    },
+    {
+      "state": "Georgia",
+      "x0": 3.167235495,
+      "y0": 10.77734375,
+      "x1": 3.942749036,
+      "y1": 2.4787532566666663
+    },
+    {
+      "state": "Hawaii",
+      "x0": 2.861538462,
+      "y0": 0.0,
+      "x1": 2.700459278,
+      "y1": 2.1881421766666667
+    },
+    {
+      "state": "Idaho",
+      "x0": 2.74092827,
+      "y0": 11.6,
+      "x1": 2.728639258,
+      "y1": 3.4147425583333333
+    },
+    {
+      "state": "Illinois",
+      "x0": 3.114569351,
+      "y0": 1.0864197531666666,
+      "x1": 3.553444723,
+      "y1": 3.7910687383333337
+    },
+    {
+      "state": "Indiana",
+      "x0": 2.810185185,
+      "y0": 2.8277777783333335,
+      "x1": 3.378750228,
+      "y1": 3.7237489816666667
+    },
+    {
+      "state": "Iowa",
+      "x0": 3.014897579,
+      "y0": 0.0,
+      "x1": 3.619917886,
+      "y1": 3.8170994633333333
+    },
+    {
+      "state": "Kansas",
+      "x0": 2.917763158,
+      "y0": 4.130263158333333,
+      "x1": 3.064046001,
+      "y1": 3.7768153433333334
+    },
+    {
+      "state": "Kentucky",
+      "x0": 3.006481481,
+      "y0": 1.3688235293333333,
+      "x1": 3.59091034,
+      "y1": 2.7709531766666666
+    },
+    {
+      "state": "Louisiana",
+      "x0": 3.167676768,
+      "y0": 0.0,
+      "x1": 2.979741027,
+      "y1": 4.003310506666667
+    },
+    {
+      "state": "Maine",
+      "x0": 3.080913978,
+      "y0": 4.620833333333334,
+      "x1": 3.071783385,
+      "y1": 3.0471415916666666
+    },
+    {
+      "state": "Maryland",
+      "x0": 2.902,
+      "y0": 6.666666666666667,
+      "x1": 2.96503628,
+      "y1": 2.958292755
+    },
+    {
+      "state": "Massachusetts",
+      "x0": 2.990852974,
+      "y0": 3.1666666666666665,
+      "x1": 2.44533721,
+      "y1": 4.219403763333333
+    },
+    {
+      "state": "Michigan",
+      "x0": 3.0892,
+      "y0": 4.057533333333334,
+      "x1": 3.664228353,
+      "y1": 3.2407579133333333
+    },
+    {
+      "state": "Minnesota",
+      "x0": 2.603030303,
+      "y0": 2.9066666666666667,
+      "x1": 3.047709779,
+      "y1": 4.206549465
+    },
+    {
+      "state": "Mississippi",
+      "x0": 3.053587963,
+      "y0": 1.5006666666666668,
+      "x1": 3.990282893,
+      "y1": 3.0235895266666666
+    },
+    {
+      "state": "Missouri",
+      "x0": 2.774972129,
+      "y0": 8.463020833333333,
+      "x1": 3.398273669,
+      "y1": 3.87979845
+    },
+    {
+      "state": "Montana",
+      "x0": 2.663953488,
+      "y0": 1.0,
+      "x1": 3.864653482,
+      "y1": 1.9116871733333334
+    },
+    {
+      "state": "Nebraska",
+      "x0": 2.139333333,
+      "y0": 0.9263565891666666,
+      "x1": 3.426693743,
+      "y1": 3.7628163416666665
+    },
+    {
+      "state": "Nevada",
+      "x0": 3.002424242,
+      "y0": 3.594242425,
+      "x1": 2.946777463,
+      "y1": 3.01819676
+    },
+    {
+      "state": "New Hampshire",
+      "x0": 2.668872549,
+      "y0": 0.0,
+      "x1": 3.308062268,
+      "y1": 2.4371062816666664
+    },
+    {
+      "state": "New Jersey",
+      "x0": 2.755456853,
+      "y0": 5.083333333333333,
+      "x1": 2.95862911,
+      "y1": 3.3590254766666665
+    },
+    {
+      "state": "New Mexico",
+      "x0": 2.62485119,
+      "y0": 4.016964284999999,
+      "x1": 2.760942538,
+      "y1": 4.385597765
+    },
+    {
+      "state": "New York",
+      "x0": 3.052710027,
+      "y0": 3.769594595,
+      "x1": 3.399775393,
+      "y1": 3.4179228566666664
+    },
+    {
+      "state": "North Carolina",
+      "x0": 2.909290271,
+      "y0": 4.165625,
+      "x1": 3.621750179,
+      "y1": 3.0428079616666666
+    },
+    {
+      "state": "North Dakota",
+      "x0": 2.019191919,
+      "y0": 4.3429292933333326,
+      "x1": 4.560888457,
+      "y1": 5.103184043333333
+    },
+    {
+      "state": "Ohio",
+      "x0": 3.08039886,
+      "y0": 1.1886792453333332,
+      "x1": 3.395342001,
+      "y1": 3.3892787833333333
+    },
+    {
+      "state": "Oklahoma",
+      "x0": 3.107228916,
+      "y0": 0.0,
+      "x1": 3.135378322,
+      "y1": 3.75902905
+    },
+    {
+      "state": "Oregon",
+      "x0": 2.834745763,
+      "y0": 15.583333333333334,
+      "x1": 2.902703131,
+      "y1": 3.0020834366666667
+    },
+    {
+      "state": "Pennsylvania",
+      "x0": 2.921735669,
+      "y0": 1.4871621621666666,
+      "x1": 3.188542679,
+      "y1": 3.81768112
+    },
+    {
+      "state": "Rhode Island",
+      "x0": 2.937106918,
+      "y0": 4.201572326666667,
+      "x1": 3.36080562,
+      "y1": 3.0456525966666663
+    },
+    {
+      "state": "South Carolina",
+      "x0": 3.109001783,
+      "y0": 3.8958110516666666,
+      "x1": 3.932308414,
+      "y1": 3.775645056666667
+    },
+    {
+      "state": "South Dakota",
+      "x0": 2.165408805,
+      "y0": 0.0,
+      "x1": 2.462383623,
+      "y1": 4.179535075
+    },
+    {
+      "state": "Tennessee",
+      "x0": 3.101144492,
+      "y0": 3.880472103333333,
+      "x1": 3.191697675,
+      "y1": 3.867117428333333
+    },
+    {
+      "state": "Texas",
+      "x0": 3.175582822,
+      "y0": 3.6552493433333333,
+      "x1": 3.060997658,
+      "y1": 3.9318599216666663
+    },
+    {
+      "state": "Utah",
+      "x0": 2.195348837,
+      "y0": 7.405660376666666,
+      "x1": 2.653391412,
+      "y1": 2.959273885
+    },
+    {
+      "state": "Vermont",
+      "x0": 3.647222222,
+      "y0": 2.868333333333333,
+      "x1": 3.833323174,
+      "y1": 4.091863621666667
+    },
+    {
+      "state": "Virginia",
+      "x0": 2.688156638,
+      "y0": 5.105882353333333,
+      "x1": 3.060820425,
+      "y1": 3.74295037
+    },
+    {
+      "state": "Washington",
+      "x0": 2.673286052,
+      "y0": 5.966666666666667,
+      "x1": 2.603630433,
+      "y1": 3.4291819033333337
+    },
+    {
+      "state": "West Virginia",
+      "x0": 3.199283154,
+      "y0": 0.8333333333333334,
+      "x1": 2.903546106,
+      "y1": 2.337501598333333
+    },
+    {
+      "state": "Wisconsin",
+      "x0": 2.719614922,
+      "y0": 2.1666666666666665,
+      "x1": 3.001837162,
+      "y1": 4.764516571666666
+    },
+    {
+      "state": "Wyoming",
+      "x0": 1.945454545,
+      "y0": 7.333333333333333,
+      "x1": 2.829077021,
+      "y1": 3.849405326666667
+    }
+  ],
+  "slope_age": [
+    {
+      "age": "15-19",
+      "v2005": 38.618311290980394,
+      "v2024": 12.826011496666666,
+      "change": -25.792299794313728
+    },
+    {
+      "age": "20-24",
+      "v2005": 102.18578829784313,
+      "v2024": 58.20753036921569,
+      "change": -43.97825792862744
+    },
+    {
+      "age": "25-29",
+      "v2005": 121.08567699607843,
+      "v2024": 95.48440708392157,
+      "change": -25.601269912156866
+    },
+    {
+      "age": "30-34",
+      "v2005": 94.07875077745098,
+      "v2024": 94.0219915464706,
+      "change": -0.05675923098037572
+    },
+    {
+      "age": "35-39",
+      "v2005": 43.49322740627451,
+      "v2024": 51.4718688754902,
+      "change": 7.978641469215695
+    },
+    {
+      "age": "40-44",
+      "v2005": 8.324923103764705,
+      "v2024": 11.641452362156864,
+      "change": 3.3165292583921584
+    }
+  ],
+  "birthshare_area": [
+    {
+      "year": 2005,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 9.944720672372549
+        },
+        {
+          "age": "20-24",
+          "value": 26.200135478431374
+        },
+        {
+          "age": "25-29",
+          "value": 28.069234571764706
+        },
+        {
+          "age": "30-34",
+          "value": 22.374838386666667
+        },
+        {
+          "age": "35-39",
+          "value": 11.050037344313726
+        },
+        {
+          "age": "40-44",
+          "value": 2.361033546490196
+        }
+      ]
+    },
+    {
+      "year": 2006,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 10.126178027431372
+        },
+        {
+          "age": "20-24",
+          "value": 26.281319308235297
+        },
+        {
+          "age": "25-29",
+          "value": 28.518075965490198
+        },
+        {
+          "age": "30-34",
+          "value": 21.700367031568625
+        },
+        {
+          "age": "35-39",
+          "value": 11.06549960335294
+        },
+        {
+          "age": "40-44",
+          "value": 2.3085600640980393
+        }
+      ]
+    },
+    {
+      "year": 2007,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 10.25387069617647
+        },
+        {
+          "age": "20-24",
+          "value": 26.040175331372552
+        },
+        {
+          "age": "25-29",
+          "value": 28.828872241568625
+        },
+        {
+          "age": "30-34",
+          "value": 21.67935857627451
+        },
+        {
+          "age": "35-39",
+          "value": 10.945816534882352
+        },
+        {
+          "age": "40-44",
+          "value": 2.2519066195490196
+        }
+      ]
+    },
+    {
+      "year": 2008,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 10.184925489392157
+        },
+        {
+          "age": "20-24",
+          "value": 25.696050605686278
+        },
+        {
+          "age": "25-29",
+          "value": 29.053561228431374
+        },
+        {
+          "age": "30-34",
+          "value": 22.016893250784314
+        },
+        {
+          "age": "35-39",
+          "value": 10.782296776490197
+        },
+        {
+          "age": "40-44",
+          "value": 2.266272649294118
+        }
+      ]
+    },
+    {
+      "year": 2009,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 9.87028947109804
+        },
+        {
+          "age": "20-24",
+          "value": 25.220061812549023
+        },
+        {
+          "age": "25-29",
+          "value": 29.125979402941176
+        },
+        {
+          "age": "30-34",
+          "value": 22.69590301431373
+        },
+        {
+          "age": "35-39",
+          "value": 10.751472810058825
+        },
+        {
+          "age": "40-44",
+          "value": 2.3362934887058824
+        }
+      ]
+    },
+    {
+      "year": 2010,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 9.113942195627452
+        },
+        {
+          "age": "20-24",
+          "value": 24.67584806235294
+        },
+        {
+          "age": "25-29",
+          "value": 29.2673155245098
+        },
+        {
+          "age": "30-34",
+          "value": 23.69340422901961
+        },
+        {
+          "age": "35-39",
+          "value": 10.821860106568629
+        },
+        {
+          "age": "40-44",
+          "value": 2.427629882862745
+        }
+      ]
+    },
+    {
+      "year": 2011,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 8.285990273254901
+        },
+        {
+          "age": "20-24",
+          "value": 24.343730158235292
+        },
+        {
+          "age": "25-29",
+          "value": 29.441521489411766
+        },
+        {
+          "age": "30-34",
+          "value": 24.555119443137254
+        },
+        {
+          "age": "35-39",
+          "value": 10.88942197347059
+        },
+        {
+          "age": "40-44",
+          "value": 2.4842166626078432
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 7.710021646509804
+        },
+        {
+          "age": "20-24",
+          "value": 24.035962214313727
+        },
+        {
+          "age": "25-29",
+          "value": 29.34044835647059
+        },
+        {
+          "age": "30-34",
+          "value": 25.298236612745097
+        },
+        {
+          "age": "35-39",
+          "value": 11.124308122745099
+        },
+        {
+          "age": "40-44",
+          "value": 2.491023047078431
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 6.924145383980393
+        },
+        {
+          "age": "20-24",
+          "value": 23.5929634972549
+        },
+        {
+          "age": "25-29",
+          "value": 29.459062539215687
+        },
+        {
+          "age": "30-34",
+          "value": 26.034752868235294
+        },
+        {
+          "age": "35-39",
+          "value": 11.498070315705881
+        },
+        {
+          "age": "40-44",
+          "value": 2.49100539572549
+        }
+      ]
+    },
+    {
+      "year": 2014,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 6.252261712156863
+        },
+        {
+          "age": "20-24",
+          "value": 22.932683063333332
+        },
+        {
+          "age": "25-29",
+          "value": 29.631938735490195
+        },
+        {
+          "age": "30-34",
+          "value": 26.81022597392157
+        },
+        {
+          "age": "35-39",
+          "value": 11.907940378431372
+        },
+        {
+          "age": "40-44",
+          "value": 2.4649501371568627
+        }
+      ]
+    },
+    {
+      "year": 2015,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 5.800032535843138
+        },
+        {
+          "age": "20-24",
+          "value": 22.103845037843136
+        },
+        {
+          "age": "25-29",
+          "value": 29.84355365686275
+        },
+        {
+          "age": "30-34",
+          "value": 27.210674761764707
+        },
+        {
+          "age": "35-39",
+          "value": 12.551576727019608
+        },
+        {
+          "age": "40-44",
+          "value": 2.4903172795686275
+        }
+      ]
+    },
+    {
+      "year": 2016,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 5.37361603745098
+        },
+        {
+          "age": "20-24",
+          "value": 21.059629033921567
+        },
+        {
+          "age": "25-29",
+          "value": 30.033981119215685
+        },
+        {
+          "age": "30-34",
+          "value": 27.855161615490196
+        },
+        {
+          "age": "35-39",
+          "value": 13.116581042686274
+        },
+        {
+          "age": "40-44",
+          "value": 2.561031151019608
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 5.098102969862746
+        },
+        {
+          "age": "20-24",
+          "value": 20.501052571960784
+        },
+        {
+          "age": "25-29",
+          "value": 30.090352796274512
+        },
+        {
+          "age": "30-34",
+          "value": 28.054107875686274
+        },
+        {
+          "age": "35-39",
+          "value": 13.596836091235293
+        },
+        {
+          "age": "40-44",
+          "value": 2.6595476956274506
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 4.7816931873333335
+        },
+        {
+          "age": "20-24",
+          "value": 19.87577318117647
+        },
+        {
+          "age": "25-29",
+          "value": 29.924234264117644
+        },
+        {
+          "age": "30-34",
+          "value": 28.50543243137255
+        },
+        {
+          "age": "35-39",
+          "value": 14.140690729215684
+        },
+        {
+          "age": "40-44",
+          "value": 2.772176207254902
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 4.5878579568823525
+        },
+        {
+          "age": "20-24",
+          "value": 19.474147795294115
+        },
+        {
+          "age": "25-29",
+          "value": 29.73095495235294
+        },
+        {
+          "age": "30-34",
+          "value": 28.794665747843133
+        },
+        {
+          "age": "35-39",
+          "value": 14.49439613972549
+        },
+        {
+          "age": "40-44",
+          "value": 2.9179774079999996
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 4.391298278784314
+        },
+        {
+          "age": "20-24",
+          "value": 19.077663390588235
+        },
+        {
+          "age": "25-29",
+          "value": 29.237732633137252
+        },
+        {
+          "age": "30-34",
+          "value": 29.322593626666666
+        },
+        {
+          "age": "35-39",
+          "value": 14.91170098792157
+        },
+        {
+          "age": "40-44",
+          "value": 3.0590110821764704
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 4.052349613745098
+        },
+        {
+          "age": "20-24",
+          "value": 18.350099511764704
+        },
+        {
+          "age": "25-29",
+          "value": 28.801465778235297
+        },
+        {
+          "age": "30-34",
+          "value": 30.18666742843137
+        },
+        {
+          "age": "35-39",
+          "value": 15.433394410019607
+        },
+        {
+          "age": "40-44",
+          "value": 3.1760232579607846
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 3.975779038078431
+        },
+        {
+          "age": "20-24",
+          "value": 18.03105623872549
+        },
+        {
+          "age": "25-29",
+          "value": 28.471430013333332
+        },
+        {
+          "age": "30-34",
+          "value": 30.297718975294117
+        },
+        {
+          "age": "35-39",
+          "value": 15.846708885274511
+        },
+        {
+          "age": "40-44",
+          "value": 3.3773068488823528
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 3.944789660784313
+        },
+        {
+          "age": "20-24",
+          "value": 17.73143869809804
+        },
+        {
+          "age": "25-29",
+          "value": 28.30651702490196
+        },
+        {
+          "age": "30-34",
+          "value": 30.36877691509804
+        },
+        {
+          "age": "35-39",
+          "value": 16.149783985549018
+        },
+        {
+          "age": "40-44",
+          "value": 3.4986937155490194
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "values": [
+        {
+          "age": "15-19",
+          "value": 3.8483833357058828
+        },
+        {
+          "age": "20-24",
+          "value": 17.43103378147059
+        },
+        {
+          "age": "25-29",
+          "value": 28.259924261764706
+        },
+        {
+          "age": "30-34",
+          "value": 30.377199803137255
+        },
+        {
+          "age": "35-39",
+          "value": 16.455264408039213
+        },
+        {
+          "age": "40-44",
+          "value": 3.6281944107647055
+        }
+      ]
+    }
+  ],
+  "mean_maternal_age": [
+    {
+      "year": 2005,
+      "value": 27.275496612941176
+    },
+    {
+      "year": 2006,
+      "value": 27.20745224372549
+    },
+    {
+      "year": 2007,
+      "value": 27.189270631764707
+    },
+    {
+      "year": 2008,
+      "value": 27.221946349803922
+    },
+    {
+      "year": 2009,
+      "value": 27.321407833137254
+    },
+    {
+      "year": 2010,
+      "value": 27.488397263529414
+    },
+    {
+      "year": 2011,
+      "value": 27.642184947647056
+    },
+    {
+      "year": 2012,
+      "value": 27.77427667627451
+    },
+    {
+      "year": 2013,
+      "value": 27.9516646627451
+    },
+    {
+      "year": 2014,
+      "value": 28.13360585666667
+    },
+    {
+      "year": 2015,
+      "value": 28.303858002745102
+    },
+    {
+      "year": 2016,
+      "value": 28.493917920196075
+    },
+    {
+      "year": 2017,
+      "value": 28.623522957254902
+    },
+    {
+      "year": 2018,
+      "value": 28.782733796862747
+    },
+    {
+      "year": 2019,
+      "value": 28.89674105117647
+    },
+    {
+      "year": 2020,
+      "value": 29.0176134054902
+    },
+    {
+      "year": 2021,
+      "value": 29.200986104313728
+    },
+    {
+      "year": 2022,
+      "value": 29.30458547117647
+    },
+    {
+      "year": 2023,
+      "value": 29.375385454509807
+    },
+    {
+      "year": 2024,
+      "value": 29.455633345882354
+    }
+  ],
+  "first_birth_rate": [
+    {
+      "year": 2005,
+      "value": 26.009546183333335
+    },
+    {
+      "year": 2006,
+      "value": 27.065118042352942
+    },
+    {
+      "year": 2007,
+      "value": 27.570562945490195
+    },
+    {
+      "year": 2008,
+      "value": 27.263295812941177
+    },
+    {
+      "year": 2009,
+      "value": 26.617179002745097
+    },
+    {
+      "year": 2010,
+      "value": 25.94540896392157
+    },
+    {
+      "year": 2011,
+      "value": 25.509673118431373
+    },
+    {
+      "year": 2012,
+      "value": 25.252185158235292
+    },
+    {
+      "year": 2013,
+      "value": 24.78657839843137
+    },
+    {
+      "year": 2014,
+      "value": 24.6490116927451
+    },
+    {
+      "year": 2015,
+      "value": 24.153815419411764
+    },
+    {
+      "year": 2016,
+      "value": 23.54476534294118
+    },
+    {
+      "year": 2017,
+      "value": 22.830502325882353
+    },
+    {
+      "year": 2018,
+      "value": 22.325089809215687
+    },
+    {
+      "year": 2019,
+      "value": 21.765510659215686
+    },
+    {
+      "year": 2020,
+      "value": 21.197861036666666
+    },
+    {
+      "year": 2021,
+      "value": 21.343910085490194
+    },
+    {
+      "year": 2022,
+      "value": 21.248969155294116
+    },
+    {
+      "year": 2023,
+      "value": 20.931013698235294
+    },
+    {
+      "year": 2024,
+      "value": 20.926960965098036
+    }
+  ],
+  "asfr_heat": [
+    {
+      "year": 2005,
+      "age": "15-19",
+      "value": 38.618311290980394
+    },
+    {
+      "year": 2005,
+      "age": "20-24",
+      "value": 102.18578829784313
+    },
+    {
+      "year": 2005,
+      "age": "25-29",
+      "value": 121.08567699607843
+    },
+    {
+      "year": 2005,
+      "age": "30-34",
+      "value": 94.07875077745098
+    },
+    {
+      "year": 2005,
+      "age": "35-39",
+      "value": 43.49322740627451
+    },
+    {
+      "year": 2005,
+      "age": "40-44",
+      "value": 8.324923103764705
+    },
+    {
+      "year": 2006,
+      "age": "15-19",
+      "value": 40.33146706607843
+    },
+    {
+      "year": 2006,
+      "age": "20-24",
+      "value": 106.19993887607843
+    },
+    {
+      "year": 2006,
+      "age": "25-29",
+      "value": 123.06949952156862
+    },
+    {
+      "year": 2006,
+      "age": "30-34",
+      "value": 96.45792865686275
+    },
+    {
+      "year": 2006,
+      "age": "35-39",
+      "value": 44.72680415647059
+    },
+    {
+      "year": 2006,
+      "age": "40-44",
+      "value": 8.58287610582353
+    },
+    {
+      "year": 2007,
+      "age": "15-19",
+      "value": 41.025996969999994
+    },
+    {
+      "year": 2007,
+      "age": "20-24",
+      "value": 106.79918284784314
+    },
+    {
+      "year": 2007,
+      "age": "25-29",
+      "value": 122.38242667196079
+    },
+    {
+      "year": 2007,
+      "age": "30-34",
+      "value": 97.99926398843138
+    },
+    {
+      "year": 2007,
+      "age": "35-39",
+      "value": 44.82679340039216
+    },
+    {
+      "year": 2007,
+      "age": "40-44",
+      "value": 8.695953389058824
+    },
+    {
+      "year": 2008,
+      "age": "15-19",
+      "value": 40.075697330784315
+    },
+    {
+      "year": 2008,
+      "age": "20-24",
+      "value": 103.93422488333334
+    },
+    {
+      "year": 2008,
+      "age": "25-29",
+      "value": 119.47057462000001
+    },
+    {
+      "year": 2008,
+      "age": "30-34",
+      "value": 97.41980923058823
+    },
+    {
+      "year": 2008,
+      "age": "35-39",
+      "value": 44.02915198294117
+    },
+    {
+      "year": 2008,
+      "age": "40-44",
+      "value": 8.904525763607843
+    },
+    {
+      "year": 2009,
+      "age": "15-19",
+      "value": 37.89398476215686
+    },
+    {
+      "year": 2009,
+      "age": "20-24",
+      "value": 98.56550013705882
+    },
+    {
+      "year": 2009,
+      "age": "25-29",
+      "value": 115.4675788882353
+    },
+    {
+      "year": 2009,
+      "age": "30-34",
+      "value": 95.7646354345098
+    },
+    {
+      "year": 2009,
+      "age": "35-39",
+      "value": 43.429583655098035
+    },
+    {
+      "year": 2009,
+      "age": "40-44",
+      "value": 9.113933968137255
+    },
+    {
+      "year": 2010,
+      "age": "15-19",
+      "value": 34.39427001647059
+    },
+    {
+      "year": 2010,
+      "age": "20-24",
+      "value": 93.13987067862745
+    },
+    {
+      "year": 2010,
+      "age": "25-29",
+      "value": 113.03302918784314
+    },
+    {
+      "year": 2010,
+      "age": "30-34",
+      "value": 95.28602944431373
+    },
+    {
+      "year": 2010,
+      "age": "35-39",
+      "value": 43.54113918901961
+    },
+    {
+      "year": 2010,
+      "age": "40-44",
+      "value": 9.310460145294119
+    },
+    {
+      "year": 2011,
+      "age": "15-19",
+      "value": 31.512020223137252
+    },
+    {
+      "year": 2011,
+      "age": "20-24",
+      "value": 89.14162109411764
+    },
+    {
+      "year": 2011,
+      "age": "25-29",
+      "value": 112.36328454745097
+    },
+    {
+      "year": 2011,
+      "age": "30-34",
+      "value": 95.43489579999999
+    },
+    {
+      "year": 2011,
+      "age": "35-39",
+      "value": 44.549854909607845
+    },
+    {
+      "year": 2011,
+      "age": "40-44",
+      "value": 9.417171036568627
+    },
+    {
+      "year": 2012,
+      "age": "15-19",
+      "value": 29.71773222
+    },
+    {
+      "year": 2012,
+      "age": "20-24",
+      "value": 86.43287954254902
+    },
+    {
+      "year": 2012,
+      "age": "25-29",
+      "value": 112.10464358588236
+    },
+    {
+      "year": 2012,
+      "age": "30-34",
+      "value": 96.42919168607843
+    },
+    {
+      "year": 2012,
+      "age": "35-39",
+      "value": 45.65030243333334
+    },
+    {
+      "year": 2012,
+      "age": "40-44",
+      "value": 9.474681422980392
+    },
+    {
+      "year": 2013,
+      "age": "15-19",
+      "value": 26.79904092921569
+    },
+    {
+      "year": 2013,
+      "age": "20-24",
+      "value": 83.91213841372549
+    },
+    {
+      "year": 2013,
+      "age": "25-29",
+      "value": 111.9321367317647
+    },
+    {
+      "year": 2013,
+      "age": "30-34",
+      "value": 97.03231596431374
+    },
+    {
+      "year": 2013,
+      "age": "35-39",
+      "value": 46.59694058156863
+    },
+    {
+      "year": 2013,
+      "age": "40-44",
+      "value": 9.499281999058823
+    },
+    {
+      "year": 2014,
+      "age": "15-19",
+      "value": 24.591140595294117
+    },
+    {
+      "year": 2014,
+      "age": "20-24",
+      "value": 82.47318302117647
+    },
+    {
+      "year": 2014,
+      "age": "25-29",
+      "value": 112.4067518262745
+    },
+    {
+      "year": 2014,
+      "age": "30-34",
+      "value": 100.2221518207843
+    },
+    {
+      "year": 2014,
+      "age": "35-39",
+      "value": 47.98866227921568
+    },
+    {
+      "year": 2014,
+      "age": "40-44",
+      "value": 9.66522610117647
+    },
+    {
+      "year": 2015,
+      "age": "15-19",
+      "value": 22.772357971882354
+    },
+    {
+      "year": 2015,
+      "age": "20-24",
+      "value": 80.33424232607844
+    },
+    {
+      "year": 2015,
+      "age": "25-29",
+      "value": 111.25720549392156
+    },
+    {
+      "year": 2015,
+      "age": "30-34",
+      "value": 101.13416662529413
+    },
+    {
+      "year": 2015,
+      "age": "35-39",
+      "value": 49.311487298627455
+    },
+    {
+      "year": 2015,
+      "age": "40-44",
+      "value": 9.965833961333333
+    },
+    {
+      "year": 2016,
+      "age": "15-19",
+      "value": 20.808394101666668
+    },
+    {
+      "year": 2016,
+      "age": "20-24",
+      "value": 77.0267422727451
+    },
+    {
+      "year": 2016,
+      "age": "25-29",
+      "value": 108.6173763245098
+    },
+    {
+      "year": 2016,
+      "age": "30-34",
+      "value": 102.08992748803921
+    },
+    {
+      "year": 2016,
+      "age": "35-39",
+      "value": 49.806407129215685
+    },
+    {
+      "year": 2016,
+      "age": "40-44",
+      "value": 10.424475512568627
+    },
+    {
+      "year": 2017,
+      "age": "15-19",
+      "value": 19.270289767647057
+    },
+    {
+      "year": 2017,
+      "age": "20-24",
+      "value": 74.2201045072549
+    },
+    {
+      "year": 2017,
+      "age": "25-29",
+      "value": 104.37881998666666
+    },
+    {
+      "year": 2017,
+      "age": "30-34",
+      "value": 100.18840880078432
+    },
+    {
+      "year": 2017,
+      "age": "35-39",
+      "value": 49.36031041588235
+    },
+    {
+      "year": 2017,
+      "age": "40-44",
+      "value": 10.589748415431373
+    },
+    {
+      "year": 2018,
+      "age": "15-19",
+      "value": 17.787263462470587
+    },
+    {
+      "year": 2018,
+      "age": "20-24",
+      "value": 71.40679814529412
+    },
+    {
+      "year": 2018,
+      "age": "25-29",
+      "value": 101.39113436980392
+    },
+    {
+      "year": 2018,
+      "age": "30-34",
+      "value": 99.68425087803922
+    },
+    {
+      "year": 2018,
+      "age": "35-39",
+      "value": 49.534055905098036
+    },
+    {
+      "year": 2018,
+      "age": "40-44",
+      "value": 10.725945188980393
+    },
+    {
+      "year": 2019,
+      "age": "15-19",
+      "value": 16.884224290666666
+    },
+    {
+      "year": 2019,
+      "age": "20-24",
+      "value": 69.61309154745098
+    },
+    {
+      "year": 2019,
+      "age": "25-29",
+      "value": 99.50329335960785
+    },
+    {
+      "year": 2019,
+      "age": "30-34",
+      "value": 98.31506061980392
+    },
+    {
+      "year": 2019,
+      "age": "35-39",
+      "value": 49.61493772235294
+    },
+    {
+      "year": 2019,
+      "age": "40-44",
+      "value": 10.97870049019608
+    },
+    {
+      "year": 2020,
+      "age": "15-19",
+      "value": 15.36616187280392
+    },
+    {
+      "year": 2020,
+      "age": "20-24",
+      "value": 66.4682983927451
+    },
+    {
+      "year": 2020,
+      "age": "25-29",
+      "value": 97.24601062941176
+    },
+    {
+      "year": 2020,
+      "age": "30-34",
+      "value": 95.21833029941178
+    },
+    {
+      "year": 2020,
+      "age": "35-39",
+      "value": 48.58941177686275
+    },
+    {
+      "year": 2020,
+      "age": "40-44",
+      "value": 10.757393849666666
+    },
+    {
+      "year": 2021,
+      "age": "15-19",
+      "value": 14.209429157
+    },
+    {
+      "year": 2021,
+      "age": "20-24",
+      "value": 64.30537388784315
+    },
+    {
+      "year": 2021,
+      "age": "25-29",
+      "value": 98.74248335588234
+    },
+    {
+      "year": 2021,
+      "age": "30-34",
+      "value": 98.36162506333334
+    },
+    {
+      "year": 2021,
+      "age": "35-39",
+      "value": 50.88829059588235
+    },
+    {
+      "year": 2021,
+      "age": "40-44",
+      "value": 11.075381721686275
+    },
+    {
+      "year": 2022,
+      "age": "15-19",
+      "value": 13.670840021745098
+    },
+    {
+      "year": 2022,
+      "age": "20-24",
+      "value": 62.360517024509804
+    },
+    {
+      "year": 2022,
+      "age": "25-29",
+      "value": 97.6905924309804
+    },
+    {
+      "year": 2022,
+      "age": "30-34",
+      "value": 96.4881131307843
+    },
+    {
+      "year": 2022,
+      "age": "35-39",
+      "value": 51.50983035509804
+    },
+    {
+      "year": 2022,
+      "age": "40-44",
+      "value": 11.410320038941176
+    },
+    {
+      "year": 2023,
+      "age": "15-19",
+      "value": 13.143895201823529
+    },
+    {
+      "year": 2023,
+      "age": "20-24",
+      "value": 59.59783134470588
+    },
+    {
+      "year": 2023,
+      "age": "25-29",
+      "value": 95.38937808372549
+    },
+    {
+      "year": 2023,
+      "age": "30-34",
+      "value": 93.82347134529412
+    },
+    {
+      "year": 2023,
+      "age": "35-39",
+      "value": 50.95592622313726
+    },
+    {
+      "year": 2023,
+      "age": "40-44",
+      "value": 11.317118862000001
+    },
+    {
+      "year": 2024,
+      "age": "15-19",
+      "value": 12.826011496666666
+    },
+    {
+      "year": 2024,
+      "age": "20-24",
+      "value": 58.20753036921569
+    },
+    {
+      "year": 2024,
+      "age": "25-29",
+      "value": 95.48440708392157
+    },
+    {
+      "year": 2024,
+      "age": "30-34",
+      "value": 94.0219915464706
+    },
+    {
+      "year": 2024,
+      "age": "35-39",
+      "value": 51.4718688754902
+    },
+    {
+      "year": 2024,
+      "age": "40-44",
+      "value": 11.641452362156864
+    }
+  ],
+  "summary_lines": [
+    {
+      "key": "DigitalOcio_hours",
+      "label": "Ocio digital",
+      "unit": "h",
+      "values": [
+        {
+          "year": 2005,
+          "value": 2.877880357019608
+        },
+        {
+          "year": 2006,
+          "value": 2.8219469449999997
+        },
+        {
+          "year": 2007,
+          "value": 2.8624720706666666
+        },
+        {
+          "year": 2008,
+          "value": 3.0219772691764706
+        },
+        {
+          "year": 2009,
+          "value": 3.1092178118235294
+        },
+        {
+          "year": 2010,
+          "value": 3.1254131418039215
+        },
+        {
+          "year": 2011,
+          "value": 3.245302334254902
+        },
+        {
+          "year": 2012,
+          "value": 3.209537523607843
+        },
+        {
+          "year": 2013,
+          "value": 3.1921261576470585
+        },
+        {
+          "year": 2014,
+          "value": 3.315155399372549
+        },
+        {
+          "year": 2015,
+          "value": 3.1853651461764705
+        },
+        {
+          "year": 2016,
+          "value": 3.10373833554902
+        },
+        {
+          "year": 2017,
+          "value": 3.316897656333333
+        },
+        {
+          "year": 2018,
+          "value": 3.284778660137255
+        },
+        {
+          "year": 2019,
+          "value": 3.3354551928431375
+        },
+        {
+          "year": 2020,
+          "value": 3.6495118507058826
+        },
+        {
+          "year": 2021,
+          "value": 3.506300251862745
+        },
+        {
+          "year": 2022,
+          "value": 3.4562264283529416
+        },
+        {
+          "year": 2023,
+          "value": 3.2563970971764706
+        },
+        {
+          "year": 2024,
+          "value": 3.1616545089411763
+        }
+      ]
+    },
+    {
+      "key": "M_hours",
+      "label": "Tiempo exterior",
+      "unit": "h",
+      "values": [
+        {
+          "year": 2005,
+          "value": 3.8026157956699347
+        },
+        {
+          "year": 2006,
+          "value": 4.709680660784313
+        },
+        {
+          "year": 2007,
+          "value": 4.768319408071895
+        },
+        {
+          "year": 2008,
+          "value": 4.712498068071896
+        },
+        {
+          "year": 2009,
+          "value": 4.367248612254902
+        },
+        {
+          "year": 2010,
+          "value": 4.3397548694444446
+        },
+        {
+          "year": 2011,
+          "value": 4.307058028169934
+        },
+        {
+          "year": 2012,
+          "value": 4.3911551629411765
+        },
+        {
+          "year": 2013,
+          "value": 4.299851615522876
+        },
+        {
+          "year": 2014,
+          "value": 4.272973772320261
+        },
+        {
+          "year": 2015,
+          "value": 4.172261679411765
+        },
+        {
+          "year": 2016,
+          "value": 4.391969837647059
+        },
+        {
+          "year": 2017,
+          "value": 4.342199164379085
+        },
+        {
+          "year": 2018,
+          "value": 4.290286281078432
+        },
+        {
+          "year": 2019,
+          "value": 4.101481295316994
+        },
+        {
+          "year": 2020,
+          "value": 3.307963206794118
+        },
+        {
+          "year": 2021,
+          "value": 3.4215999253921567
+        },
+        {
+          "year": 2022,
+          "value": 3.3918295405424836
+        },
+        {
+          "year": 2023,
+          "value": 3.621966761633987
+        },
+        {
+          "year": 2024,
+          "value": 3.519020365555556
+        }
+      ]
+    },
+    {
+      "key": "MeanMaternalAge",
+      "label": "Edad media materna",
+      "unit": "años",
+      "values": [
+        {
+          "year": 2005,
+          "value": 27.275496612941176
+        },
+        {
+          "year": 2006,
+          "value": 27.20745224372549
+        },
+        {
+          "year": 2007,
+          "value": 27.189270631764707
+        },
+        {
+          "year": 2008,
+          "value": 27.221946349803922
+        },
+        {
+          "year": 2009,
+          "value": 27.321407833137254
+        },
+        {
+          "year": 2010,
+          "value": 27.488397263529414
+        },
+        {
+          "year": 2011,
+          "value": 27.642184947647056
+        },
+        {
+          "year": 2012,
+          "value": 27.77427667627451
+        },
+        {
+          "year": 2013,
+          "value": 27.9516646627451
+        },
+        {
+          "year": 2014,
+          "value": 28.13360585666667
+        },
+        {
+          "year": 2015,
+          "value": 28.303858002745102
+        },
+        {
+          "year": 2016,
+          "value": 28.493917920196075
+        },
+        {
+          "year": 2017,
+          "value": 28.623522957254902
+        },
+        {
+          "year": 2018,
+          "value": 28.782733796862747
+        },
+        {
+          "year": 2019,
+          "value": 28.89674105117647
+        },
+        {
+          "year": 2020,
+          "value": 29.0176134054902
+        },
+        {
+          "year": 2021,
+          "value": 29.200986104313728
+        },
+        {
+          "year": 2022,
+          "value": 29.30458547117647
+        },
+        {
+          "year": 2023,
+          "value": 29.375385454509807
+        },
+        {
+          "year": 2024,
+          "value": 29.455633345882354
+        }
+      ]
+    }
+  ]
+}

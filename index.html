@@ -261,6 +261,24 @@
             </div>
           </section>
 
+          <section class="relationship-section relationship-section-inline reveal-on-scroll" id="conexion-ocio-exterior" aria-labelledby="relationship-a-title">
+            <p class="relationship-kicker">Relación entre variables</p>
+            <h2 id="relationship-a-title">Ocio digital y tiempo fuera del hogar</h2>
+            <p class="relationship-lead">
+              Después de observar el ocio digital y el tiempo exterior por separado, este gráfico muestra el resultado de la especificación C: efectos fijos de estado y año, controles macroeconómicos y tendencia lineal por estado.
+            </p>
+
+            <div class="relationship-grid relationship-grid-single" id="relationship-graphs-a">
+              <article class="relationship-card">
+                <span class="relationship-card-label">Gráfico A</span>
+                <h3>Ocio digital → tiempo exterior</h3>
+                <p>Más tiempo de ocio basado en pantallas aparece asociado a menos tiempo dedicado a actividades presenciales fuera del hogar.</p>
+                <div class="relationship-chart" id="relationship-chart-a"></div>
+                <p class="relationship-note" id="relationship-note-a">Resultado de la especificación C.</p>
+              </article>
+            </div>
+          </section>
+
           <section class="chapter" id="fecundidad">
           <section class="metric-block" id="y-block">
             <header class="metric-heading">
@@ -344,6 +362,49 @@
             </div>
           </section>
         </section>
+      </section>
+
+
+      <section class="relationship-section reveal-on-scroll" id="como-se-conectan" aria-labelledby="relationship-title">
+        <p class="relationship-kicker">Interpretación visual</p>
+        <h2 id="relationship-title">Tiempo exterior y fecundidad por edad</h2>
+        <p class="relationship-lead">
+          Después de ver los tres mapas, esta relación muestra el resultado de la especificación C para cada edad y desfase: qué ocurre con la fecundidad cuando el tiempo presencial fuera del hogar pierde una hora diaria.
+        </p>
+
+        <div class="relationship-grid relationship-grid-single" id="relationship-graphs">
+          <article class="relationship-card">
+            <span class="relationship-card-label">Gráfico B</span>
+            <h3>Menos tiempo exterior → fecundidad por edad</h3>
+            <p>El vínculo con la fecundidad se lee aquí desde la pérdida de tiempo presencial: cambia según el tramo de edad de la madre.</p>
+            <div class="relationship-chart" id="relationship-chart-b"></div>
+            <p class="relationship-note">Cada barra muestra el mayor cambio estimado entre h0 y h8 para cada edad cuando el tiempo exterior baja una hora diaria.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="extra-graphs-section reveal-on-scroll" id="lecturas-visuales" aria-labelledby="extra-graphs-title">
+        <p class="extra-kicker">Más lecturas visuales</p>
+        <h2 id="extra-graphs-title">Dos señales del aplazamiento</h2>
+        <p class="extra-lead">
+          Después de los tres mapas, estas dos series resumen el desplazamiento del calendario reproductivo: la maternidad ocurre más tarde y la entrada en la maternidad pierde intensidad.
+        </p>
+
+        <div class="extra-graph-grid">
+          <article class="extra-graph-card">
+            <span class="extra-card-label">Edad media</span>
+            <h3>La maternidad ocurre más tarde</h3>
+            <p>La edad media materna resume el aplazamiento del calendario reproductivo.</p>
+            <div class="extra-chart" id="extra-mma-line" aria-label="Tendencia de edad media materna"></div>
+          </article>
+
+          <article class="extra-graph-card">
+            <span class="extra-card-label">Primer nacimiento</span>
+            <h3>La entrada en la maternidad pierde intensidad</h3>
+            <p>Los primeros nacimientos ayudan a leer cuándo se abre la trayectoria reproductiva.</p>
+            <div class="extra-chart" id="extra-firstbirth-line" aria-label="Tendencia de primeros nacimientos"></div>
+          </article>
+        </div>
       </section>
 
       <section class="interpretation" id="interpretacion">
@@ -470,5 +531,7 @@
 
   <script src="globe-hero.js?v=globe-intro-5"></script>
   <script src="us-map-widget.js?v=time-format-1"></script>
+  <script src="relationship-graphs.js?v=spec-c-4"></script>
+  <script src="additional-graphs.js?v=1"></script>
 </body>
 </html>

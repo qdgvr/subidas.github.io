@@ -1,0 +1,6875 @@
+{
+  "source_workbook": "/Users/macbookpro/Desktop/database/r_results/results.xlsx",
+  "created_for": "subidas.github.io relationship graphs",
+  "specification": "C",
+  "specification_note": "State fixed effects, year fixed effects, macro controls, and state-specific linear trends from the R results workbook.",
+  "graphA": [
+    {
+      "sample": "full",
+      "label": "Muestra completa",
+      "spec": "C",
+      "coef_share": -0.0253937553960917,
+      "se_share": 0.00261520414358238,
+      "p": 4.28614244874223e-13,
+      "nobs": 1020,
+      "coef_minutes_per_digital_hour": -36.56700777037205,
+      "se_minutes": 3.765893966758627,
+      "ci_low_minutes": -43.94815994521896,
+      "ci_high_minutes": -29.18585559552514
+    },
+    {
+      "sample": "no2020",
+      "label": "Sin 2020",
+      "spec": "C",
+      "coef_share": -0.0268896900668213,
+      "se_share": 0.00294830032318133,
+      "p": 3.24141232861106e-12,
+      "nobs": 969,
+      "coef_minutes_per_digital_hour": -38.72115369622267,
+      "se_minutes": 4.245552465381115,
+      "ci_low_minutes": -47.04243652836966,
+      "ci_high_minutes": -30.399870864075687
+    }
+  ],
+  "graphB": [
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.120335714200897,
+      "se_per_share": 1.47227726856402,
+      "p": 0.935184229533133,
+      "effect_asfr_per_one_fewer_outside_hour": 0.0050139880917040415,
+      "se_asfr_per_one_fewer_outside_hour": 0.0613448861901675,
+      "ci_low": -0.11522198884102426,
+      "ci_high": 0.12524996502443234,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 3.29322283352153,
+      "se_per_share": 2.48256077293114,
+      "p": 0.190687229260847,
+      "effect_asfr_per_one_fewer_outside_hour": -0.13721761806339708,
+      "se_asfr_per_one_fewer_outside_hour": 0.10344003220546416,
+      "ci_low": -0.3399600811861068,
+      "ci_high": 0.06552484505931266,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -2.13632180920982,
+      "se_per_share": 2.50561836437702,
+      "p": 0.397939967354835,
+      "effect_asfr_per_one_fewer_outside_hour": 0.08901340871707585,
+      "se_asfr_per_one_fewer_outside_hour": 0.10440076518237583,
+      "ci_low": -0.11561209104038077,
+      "ci_high": 0.29363890847453245,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -7.293445582561,
+      "se_per_share": 3.08670370599772,
+      "p": 0.0220654367194306,
+      "effect_asfr_per_one_fewer_outside_hour": 0.30389356594004163,
+      "se_asfr_per_one_fewer_outside_hour": 0.12861265441657166,
+      "ci_low": 0.05181276328356116,
+      "ci_high": 0.5559743685965222,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -2.83080616695405,
+      "se_per_share": 1.19379161600641,
+      "p": 0.0216202708465586,
+      "effect_asfr_per_one_fewer_outside_hour": 0.11795025695641875,
+      "se_asfr_per_one_fewer_outside_hour": 0.04974131733360041,
+      "ci_low": 0.020457274982561946,
+      "ci_high": 0.21544323893027556,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 0,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.106584576219703,
+      "se_per_share": 0.580202353074712,
+      "p": 0.854989880333946,
+      "effect_asfr_per_one_fewer_outside_hour": -0.004441024009154292,
+      "se_asfr_per_one_fewer_outside_hour": 0.02417509804477967,
+      "ci_low": -0.05182421617692244,
+      "ci_high": 0.04294216815861386,
+      "nobs": 1020
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.713279674333716,
+      "se_per_share": 1.4346473033794,
+      "p": 0.62124057155634,
+      "effect_asfr_per_one_fewer_outside_hour": -0.0297199864305715,
+      "se_asfr_per_one_fewer_outside_hour": 0.05977697097414167,
+      "ci_low": -0.14688284953988917,
+      "ci_high": 0.08744287667874617,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 5.22055675790061,
+      "se_per_share": 3.05215386377161,
+      "p": 0.0933816322491377,
+      "effect_asfr_per_one_fewer_outside_hour": -0.21752319824585875,
+      "se_asfr_per_one_fewer_outside_hour": 0.1271730776571504,
+      "ci_low": -0.4667824304538736,
+      "ci_high": 0.031736033962156046,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -5.28935678345471,
+      "se_per_share": 3.11614931421452,
+      "p": 0.0958377295984887,
+      "effect_asfr_per_one_fewer_outside_hour": 0.22038986597727958,
+      "se_asfr_per_one_fewer_outside_hour": 0.12983955475893832,
+      "ci_low": -0.03409566135023953,
+      "ci_high": 0.47487539330479867,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -2.77276084583012,
+      "se_per_share": 2.13574635126615,
+      "p": 0.20015352851239,
+      "effect_asfr_per_one_fewer_outside_hour": 0.11553170190958834,
+      "se_asfr_per_one_fewer_outside_hour": 0.08898943130275626,
+      "ci_low": -0.05888758344381392,
+      "ci_high": 0.2899509872629906,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -1.88694973777566,
+      "se_per_share": 1.25529901336767,
+      "p": 0.13908108438518,
+      "effect_asfr_per_one_fewer_outside_hour": 0.0786229057406525,
+      "se_asfr_per_one_fewer_outside_hour": 0.05230412555698625,
+      "ci_low": -0.023893180351040544,
+      "ci_high": 0.18113899183234555,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 1,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.00282766190622397,
+      "se_per_share": 0.581048377099991,
+      "p": 0.996136488814803,
+      "effect_asfr_per_one_fewer_outside_hour": -0.00011781924609266542,
+      "se_asfr_per_one_fewer_outside_hour": 0.024210349045832958,
+      "ci_low": -0.04757010337592526,
+      "ci_high": 0.04733446488373993,
+      "nobs": 969
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 2.23484226364548,
+      "se_per_share": 1.71706023607435,
+      "p": 0.199034970361949,
+      "effect_asfr_per_one_fewer_outside_hour": -0.093118427651895,
+      "se_asfr_per_one_fewer_outside_hour": 0.07154417650309793,
+      "ci_low": -0.23334501359796694,
+      "ci_high": 0.04710815829417693,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 5.24784927549285,
+      "se_per_share": 3.06577408070257,
+      "p": 0.0931391852242128,
+      "effect_asfr_per_one_fewer_outside_hour": -0.21866038647886876,
+      "se_asfr_per_one_fewer_outside_hour": 0.12774058669594043,
+      "ci_low": -0.469031936402912,
+      "ci_high": 0.031711163445174495,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -4.30994565553422,
+      "se_per_share": 3.1399461236997,
+      "p": 0.175997085970451,
+      "effect_asfr_per_one_fewer_outside_hour": 0.17958106898059248,
+      "se_asfr_per_one_fewer_outside_hour": 0.1308310884874875,
+      "ci_low": -0.07684786445488304,
+      "ci_high": 0.436010002416068,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.425706633113434,
+      "se_per_share": 2.15112312623423,
+      "p": 0.843925934139654,
+      "effect_asfr_per_one_fewer_outside_hour": 0.017737776379726417,
+      "se_asfr_per_one_fewer_outside_hour": 0.08963013025975958,
+      "ci_low": -0.15793727892940235,
+      "ci_high": 0.1934128316888552,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.302195713153425,
+      "se_per_share": 1.550642287034,
+      "p": 0.846273329397754,
+      "effect_asfr_per_one_fewer_outside_hour": 0.012591488048059376,
+      "se_asfr_per_one_fewer_outside_hour": 0.06461009529308333,
+      "ci_low": -0.11404429872638394,
+      "ci_high": 0.1392272748225027,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 2,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.230988159726842,
+      "se_per_share": 0.540334443206093,
+      "p": 0.670857187489385,
+      "effect_asfr_per_one_fewer_outside_hour": -0.009624506655285083,
+      "se_asfr_per_one_fewer_outside_hour": 0.02251393513358721,
+      "ci_low": -0.05375181951711601,
+      "ci_high": 0.03450280620654585,
+      "nobs": 918
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 2.97092427546015,
+      "se_per_share": 1.31177306135173,
+      "p": 0.0278906777367984,
+      "effect_asfr_per_one_fewer_outside_hour": -0.12378851147750625,
+      "se_asfr_per_one_fewer_outside_hour": 0.054657210889655417,
+      "ci_low": -0.23091664482123087,
+      "ci_high": -0.016660378133781628,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 7.12967390808294,
+      "se_per_share": 2.13101706893356,
+      "p": 0.00156362687356579,
+      "effect_asfr_per_one_fewer_outside_hour": -0.2970697461701225,
+      "se_asfr_per_one_fewer_outside_hour": 0.08879237787223167,
+      "ci_low": -0.47110280679969657,
+      "ci_high": -0.12303668554054842,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 2.06306618292145,
+      "se_per_share": 2.73924995627212,
+      "p": 0.454891530698779,
+      "effect_asfr_per_one_fewer_outside_hour": -0.08596109095506042,
+      "se_asfr_per_one_fewer_outside_hour": 0.11413541484467167,
+      "ci_low": -0.3096665040506169,
+      "ci_high": 0.13774432214049603,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -2.78729796974885,
+      "se_per_share": 2.28150406422297,
+      "p": 0.22755252387254,
+      "effect_asfr_per_one_fewer_outside_hour": 0.11613741540620208,
+      "se_asfr_per_one_fewer_outside_hour": 0.09506266934262375,
+      "ci_low": -0.07018541650534048,
+      "ci_high": 0.3024602473177446,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -1.23549070362103,
+      "se_per_share": 1.20514633680107,
+      "p": 0.310213148348345,
+      "effect_asfr_per_one_fewer_outside_hour": 0.05147877931754292,
+      "se_asfr_per_one_fewer_outside_hour": 0.05021443070004458,
+      "ci_low": -0.046941504854544465,
+      "ci_high": 0.1498990634896303,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 3,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.880604265247121,
+      "se_per_share": 0.538508786958225,
+      "p": 0.108274459621474,
+      "effect_asfr_per_one_fewer_outside_hour": 0.036691844385296705,
+      "se_asfr_per_one_fewer_outside_hour": 0.022437866123259376,
+      "ci_low": -0.007286373216291671,
+      "ci_high": 0.08067006198688509,
+      "nobs": 867
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.12943391998874,
+      "se_per_share": 1.45319974426671,
+      "p": 0.440699686247632,
+      "effect_asfr_per_one_fewer_outside_hour": -0.0470597466661975,
+      "se_asfr_per_one_fewer_outside_hour": 0.06054998934444625,
+      "ci_low": -0.16573772578131213,
+      "ci_high": 0.07161823244891714,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 4.11580675844178,
+      "se_per_share": 2.12868112435509,
+      "p": 0.0588460974593483,
+      "effect_asfr_per_one_fewer_outside_hour": -0.1714919482684075,
+      "se_asfr_per_one_fewer_outside_hour": 0.08869504684812875,
+      "ci_low": -0.3453342400907399,
+      "ci_high": 0.002350343553924855,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.915730397979656,
+      "se_per_share": 3.20472032278229,
+      "p": 0.776254500973748,
+      "effect_asfr_per_one_fewer_outside_hour": -0.03815543324915233,
+      "se_asfr_per_one_fewer_outside_hour": 0.13353001344926207,
+      "ci_low": -0.299874259609706,
+      "ci_high": 0.22356339311140133,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.278152175571773,
+      "se_per_share": 1.6544722424739,
+      "p": 0.867165992084284,
+      "effect_asfr_per_one_fewer_outside_hour": 0.01158967398215721,
+      "se_asfr_per_one_fewer_outside_hour": 0.0689363434364125,
+      "ci_low": -0.12352555915321128,
+      "ci_high": 0.1467049071175257,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -1.11079560388216,
+      "se_per_share": 1.47201436330212,
+      "p": 0.454023151979025,
+      "effect_asfr_per_one_fewer_outside_hour": 0.046283150161756666,
+      "se_asfr_per_one_fewer_outside_hour": 0.061333931804255004,
+      "ci_low": -0.07393135617458313,
+      "ci_high": 0.16649765649809647,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 4,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.906986990909412,
+      "se_per_share": 0.593567632727379,
+      "p": 0.132808027015707,
+      "effect_asfr_per_one_fewer_outside_hour": 0.037791124621225504,
+      "se_asfr_per_one_fewer_outside_hour": 0.024731984696974126,
+      "ci_low": -0.010683565384843781,
+      "ci_high": 0.0862658146272948,
+      "nobs": 816
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.74507532940356,
+      "se_per_share": 1.27447944454779,
+      "p": 0.177041872163581,
+      "effect_asfr_per_one_fewer_outside_hour": -0.07271147205848166,
+      "se_asfr_per_one_fewer_outside_hour": 0.05310331018949125,
+      "ci_low": -0.1767939600298845,
+      "ci_high": 0.031371015912921185,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.50063707153672,
+      "se_per_share": 2.36189429055011,
+      "p": 0.528095275370659,
+      "effect_asfr_per_one_fewer_outside_hour": -0.06252654464736333,
+      "se_asfr_per_one_fewer_outside_hour": 0.09841226210625459,
+      "ci_low": -0.2554145783756223,
+      "ci_high": 0.13036148908089568,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 5.89260999752548,
+      "se_per_share": 3.21455556818352,
+      "p": 0.0727442153375477,
+      "effect_asfr_per_one_fewer_outside_hour": -0.24552541656356167,
+      "se_asfr_per_one_fewer_outside_hour": 0.13393981534098,
+      "ci_low": -0.5080474546318825,
+      "ci_high": 0.01699662150475914,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -3.54675475744015,
+      "se_per_share": 1.51973926852348,
+      "p": 0.023667129450925,
+      "effect_asfr_per_one_fewer_outside_hour": 0.1477814482266729,
+      "se_asfr_per_one_fewer_outside_hour": 0.06332246952181167,
+      "ci_low": 0.023669407963922043,
+      "ci_high": 0.2718934884894238,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 2.06242442637036,
+      "se_per_share": 1.47636789749393,
+      "p": 0.168595668121642,
+      "effect_asfr_per_one_fewer_outside_hour": -0.085934351098765,
+      "se_asfr_per_one_fewer_outside_hour": 0.06151532906224708,
+      "ci_low": -0.20650439606076929,
+      "ci_high": 0.03463569386323928,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 5,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.149708767600643,
+      "se_per_share": 0.567303139035252,
+      "p": 0.792945055916713,
+      "effect_asfr_per_one_fewer_outside_hour": 0.006237865316693458,
+      "se_asfr_per_one_fewer_outside_hour": 0.023637630793135498,
+      "ci_low": -0.040091891037852115,
+      "ci_high": 0.05256762167123903,
+      "nobs": 765
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.80945057488948,
+      "se_per_share": 1.56390186381588,
+      "p": 0.607031057126751,
+      "effect_asfr_per_one_fewer_outside_hour": -0.033727107287061665,
+      "se_asfr_per_one_fewer_outside_hour": 0.065162577658995,
+      "ci_low": -0.16144575949869186,
+      "ci_high": 0.09399154492456854,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.8508952063667,
+      "se_per_share": 3.02252404219895,
+      "p": 0.543069756042587,
+      "effect_asfr_per_one_fewer_outside_hour": -0.0771206335986125,
+      "se_asfr_per_one_fewer_outside_hour": 0.12593850175828958,
+      "ci_low": -0.32396009704486006,
+      "ci_high": 0.1697188298476351,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 3.36511184787661,
+      "se_per_share": 2.81664081877957,
+      "p": 0.237830997546891,
+      "effect_asfr_per_one_fewer_outside_hour": -0.14021299366152543,
+      "se_asfr_per_one_fewer_outside_hour": 0.11736003411581541,
+      "ci_low": -0.3702386605285236,
+      "ci_high": 0.08981267320547279,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.297542957481645,
+      "se_per_share": 1.94208299122507,
+      "p": 0.878850775748651,
+      "effect_asfr_per_one_fewer_outside_hour": -0.012397623228401876,
+      "se_asfr_per_one_fewer_outside_hour": 0.08092012463437792,
+      "ci_low": -0.1710010675117826,
+      "ci_high": 0.14620582105497884,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.7714862876825,
+      "se_per_share": 1.07621088132037,
+      "p": 0.476799474587917,
+      "effect_asfr_per_one_fewer_outside_hour": 0.03214526198677083,
+      "se_asfr_per_one_fewer_outside_hour": 0.044842120055015415,
+      "ci_low": -0.05574529332105938,
+      "ci_high": 0.12003581729460105,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 6,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -1.31479736679228,
+      "se_per_share": 0.540180869550308,
+      "p": 0.0185479338262547,
+      "effect_asfr_per_one_fewer_outside_hour": 0.054783223616345,
+      "se_asfr_per_one_fewer_outside_hour": 0.022507536231262833,
+      "ci_low": 0.010668452603069846,
+      "ci_high": 0.09889799462962015,
+      "nobs": 714
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.0647590940203995,
+      "se_per_share": 1.40500004423562,
+      "p": 0.963420620372059,
+      "effect_asfr_per_one_fewer_outside_hour": -0.0026982955841833127,
+      "se_asfr_per_one_fewer_outside_hour": 0.058541668509817506,
+      "ci_low": -0.11743996586342563,
+      "ci_high": 0.112043374695059,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.23213501883456,
+      "se_per_share": 2.0745106004827,
+      "p": 0.55522998414597,
+      "effect_asfr_per_one_fewer_outside_hour": -0.05133895911810666,
+      "se_asfr_per_one_fewer_outside_hour": 0.08643794168677917,
+      "ci_low": -0.2207573248241938,
+      "ci_high": 0.1180794065879805,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 6.73815325979228,
+      "se_per_share": 3.06437822609274,
+      "p": 0.0325418037405904,
+      "effect_asfr_per_one_fewer_outside_hour": -0.2807563858246783,
+      "se_asfr_per_one_fewer_outside_hour": 0.12768242608719751,
+      "ci_low": -0.5310139409555854,
+      "ci_high": -0.030498830693771184,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.351824856634282,
+      "se_per_share": 2.29415855258505,
+      "p": 0.878734158768621,
+      "effect_asfr_per_one_fewer_outside_hour": 0.014659369026428415,
+      "se_asfr_per_one_fewer_outside_hour": 0.09558993969104375,
+      "ci_low": -0.17269691276801732,
+      "ci_high": 0.20201565082087417,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.41682244063845,
+      "se_per_share": 1.27715061005171,
+      "p": 0.272581311086892,
+      "effect_asfr_per_one_fewer_outside_hour": -0.059034268359935416,
+      "se_asfr_per_one_fewer_outside_hour": 0.053214608752154585,
+      "ci_low": -0.16333490151415841,
+      "ci_high": 0.04526636479428757,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 7,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.363881657264162,
+      "se_per_share": 0.639029671383827,
+      "p": 0.571614904636066,
+      "effect_asfr_per_one_fewer_outside_hour": -0.015161735719340083,
+      "se_asfr_per_one_fewer_outside_hour": 0.02662623630765946,
+      "ci_low": -0.06734915888235263,
+      "ci_high": 0.03702568744367246,
+      "nobs": 663
+    },
+    {
+      "outcome": "ASFR_15_19",
+      "age": "15-19",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.748636076408159,
+      "se_per_share": 0.846166100783654,
+      "p": 0.3805323941753,
+      "effect_asfr_per_one_fewer_outside_hour": 0.031193169850339958,
+      "se_asfr_per_one_fewer_outside_hour": 0.03525692086598558,
+      "ci_low": -0.03791039504699177,
+      "ci_high": 0.10029673474767169,
+      "nobs": 612
+    },
+    {
+      "outcome": "ASFR_20_24",
+      "age": "20-24",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.224873855920205,
+      "se_per_share": 3.16808266792728,
+      "p": 0.943695986330152,
+      "effect_asfr_per_one_fewer_outside_hour": 0.00936974399667521,
+      "se_asfr_per_one_fewer_outside_hour": 0.13200344449697002,
+      "ci_low": -0.24935700721738605,
+      "ci_high": 0.2680964952107365,
+      "nobs": 612
+    },
+    {
+      "outcome": "ASFR_25_29",
+      "age": "25-29",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 5.84987893609327,
+      "se_per_share": 2.83190454520478,
+      "p": 0.0440582231898541,
+      "effect_asfr_per_one_fewer_outside_hour": -0.2437449556705529,
+      "se_asfr_per_one_fewer_outside_hour": 0.11799602271686584,
+      "ci_low": -0.4750171601956099,
+      "ci_high": -0.01247275114549587,
+      "nobs": 612
+    },
+    {
+      "outcome": "ASFR_30_34",
+      "age": "30-34",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 1.95150419805116,
+      "se_per_share": 2.09865316645801,
+      "p": 0.356899018677729,
+      "effect_asfr_per_one_fewer_outside_hour": -0.08131267491879833,
+      "se_asfr_per_one_fewer_outside_hour": 0.08744388193575042,
+      "ci_low": -0.2527026835128692,
+      "ci_high": 0.0900773336752725,
+      "nobs": 612
+    },
+    {
+      "outcome": "ASFR_35_39",
+      "age": "35-39",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": -0.554908609786215,
+      "se_per_share": 1.0808313848847,
+      "p": 0.609926516922995,
+      "effect_asfr_per_one_fewer_outside_hour": 0.023121192074425628,
+      "se_asfr_per_one_fewer_outside_hour": 0.0450346410368625,
+      "ci_low": -0.06514670435782487,
+      "ci_high": 0.11138908850667613,
+      "nobs": 612
+    },
+    {
+      "outcome": "ASFR_40_44",
+      "age": "40-44",
+      "h": 8,
+      "spec": "C",
+      "sample": "full",
+      "b_per_share": 0.402296354880004,
+      "se_per_share": 0.714703960255392,
+      "p": 0.576028419583844,
+      "effect_asfr_per_one_fewer_outside_hour": -0.016762348120000166,
+      "se_asfr_per_one_fewer_outside_hour": 0.029779331677307997,
+      "ci_low": -0.07512983820752384,
+      "ci_high": 0.041605141967523504,
+      "nobs": 612
+    }
+  ],
+  "units": {
+    "graphA": "minutes of outside activity per additional daily hour of DigitalOcio_hours",
+    "graphB": "ASFR births per 1,000 women associated with one fewer daily hour outside, full sample, Spec C"
+  },
+  "graphA_scatter": {
+    "spec": "C",
+    "sample": "full",
+    "slope_minutes_per_hour": -36.56700777037205,
+    "partial_slope_check": -36.56700777037197,
+    "x_label": "Ocio digital ajustado (horas)",
+    "y_label": "Tiempo exterior ajustado (minutos)",
+    "points": [
+      {
+        "state_key": 1,
+        "year": 2005,
+        "x_resid_hours": -0.190482,
+        "y_resid_minutes": 22.900554
+      },
+      {
+        "state_key": 1,
+        "year": 2006,
+        "x_resid_hours": -0.010882,
+        "y_resid_minutes": 17.812103
+      },
+      {
+        "state_key": 1,
+        "year": 2007,
+        "x_resid_hours": -0.320803,
+        "y_resid_minutes": -24.386645
+      },
+      {
+        "state_key": 1,
+        "year": 2008,
+        "x_resid_hours": -0.095485,
+        "y_resid_minutes": 15.900003
+      },
+      {
+        "state_key": 1,
+        "year": 2009,
+        "x_resid_hours": 0.004242,
+        "y_resid_minutes": 0.507892
+      },
+      {
+        "state_key": 1,
+        "year": 2010,
+        "x_resid_hours": 0.140724,
+        "y_resid_minutes": -13.381333
+      },
+      {
+        "state_key": 1,
+        "year": 2011,
+        "x_resid_hours": -0.364015,
+        "y_resid_minutes": 16.525781
+      },
+      {
+        "state_key": 1,
+        "year": 2012,
+        "x_resid_hours": -0.135903,
+        "y_resid_minutes": 1.097772
+      },
+      {
+        "state_key": 1,
+        "year": 2013,
+        "x_resid_hours": 0.731537,
+        "y_resid_minutes": -22.138035
+      },
+      {
+        "state_key": 1,
+        "year": 2014,
+        "x_resid_hours": -0.2496,
+        "y_resid_minutes": -5.590071
+      },
+      {
+        "state_key": 1,
+        "year": 2015,
+        "x_resid_hours": 0.279368,
+        "y_resid_minutes": -26.300573
+      },
+      {
+        "state_key": 1,
+        "year": 2016,
+        "x_resid_hours": 0.355749,
+        "y_resid_minutes": 10.367599
+      },
+      {
+        "state_key": 1,
+        "year": 2017,
+        "x_resid_hours": 0.278238,
+        "y_resid_minutes": -30.074064
+      },
+      {
+        "state_key": 1,
+        "year": 2018,
+        "x_resid_hours": 0.230448,
+        "y_resid_minutes": -4.542992
+      },
+      {
+        "state_key": 1,
+        "year": 2019,
+        "x_resid_hours": 0.517029,
+        "y_resid_minutes": -10.340662
+      },
+      {
+        "state_key": 1,
+        "year": 2020,
+        "x_resid_hours": -0.564273,
+        "y_resid_minutes": 27.833356
+      },
+      {
+        "state_key": 1,
+        "year": 2021,
+        "x_resid_hours": 0.414909,
+        "y_resid_minutes": -17.676174
+      },
+      {
+        "state_key": 1,
+        "year": 2022,
+        "x_resid_hours": -0.03889,
+        "y_resid_minutes": 15.191151
+      },
+      {
+        "state_key": 1,
+        "year": 2023,
+        "x_resid_hours": -0.610833,
+        "y_resid_minutes": 10.132368
+      },
+      {
+        "state_key": 1,
+        "year": 2024,
+        "x_resid_hours": -0.371076,
+        "y_resid_minutes": 16.16197
+      },
+      {
+        "state_key": 2,
+        "year": 2005,
+        "x_resid_hours": 0.693069,
+        "y_resid_minutes": -27.165435
+      },
+      {
+        "state_key": 2,
+        "year": 2007,
+        "x_resid_hours": 0.531105,
+        "y_resid_minutes": -34.557068
+      },
+      {
+        "state_key": 2,
+        "year": 2008,
+        "x_resid_hours": -0.095827,
+        "y_resid_minutes": 6.007291
+      },
+      {
+        "state_key": 2,
+        "year": 2009,
+        "x_resid_hours": 0.439297,
+        "y_resid_minutes": -97.615853
+      },
+      {
+        "state_key": 2,
+        "year": 2010,
+        "x_resid_hours": 0.007373,
+        "y_resid_minutes": 61.348989
+      },
+      {
+        "state_key": 2,
+        "year": 2011,
+        "x_resid_hours": 0.418627,
+        "y_resid_minutes": -37.082436
+      },
+      {
+        "state_key": 2,
+        "year": 2012,
+        "x_resid_hours": 0.258588,
+        "y_resid_minutes": 88.074177
+      },
+      {
+        "state_key": 2,
+        "year": 2013,
+        "x_resid_hours": -0.858713,
+        "y_resid_minutes": 34.397621
+      },
+      {
+        "state_key": 2,
+        "year": 2014,
+        "x_resid_hours": 0.295603,
+        "y_resid_minutes": 2.405353
+      },
+      {
+        "state_key": 2,
+        "year": 2015,
+        "x_resid_hours": -1.012996,
+        "y_resid_minutes": -95.540589
+      },
+      {
+        "state_key": 2,
+        "year": 2016,
+        "x_resid_hours": 0.541487,
+        "y_resid_minutes": 39.413096
+      },
+      {
+        "state_key": 2,
+        "year": 2017,
+        "x_resid_hours": 0.043971,
+        "y_resid_minutes": 59.739404
+      },
+      {
+        "state_key": 2,
+        "year": 2018,
+        "x_resid_hours": -0.694473,
+        "y_resid_minutes": -29.710759
+      },
+      {
+        "state_key": 2,
+        "year": 2019,
+        "x_resid_hours": 0.215409,
+        "y_resid_minutes": 53.626006
+      },
+      {
+        "state_key": 2,
+        "year": 2020,
+        "x_resid_hours": -0.074997,
+        "y_resid_minutes": 24.79669
+      },
+      {
+        "state_key": 2,
+        "year": 2021,
+        "x_resid_hours": 0.277542,
+        "y_resid_minutes": -36.09898
+      },
+      {
+        "state_key": 2,
+        "year": 2022,
+        "x_resid_hours": 0.312374,
+        "y_resid_minutes": -74.215464
+      },
+      {
+        "state_key": 2,
+        "year": 2023,
+        "x_resid_hours": 0.573696,
+        "y_resid_minutes": -75.541957
+      },
+      {
+        "state_key": 2,
+        "year": 2024,
+        "x_resid_hours": -0.561361,
+        "y_resid_minutes": 87.430737
+      },
+      {
+        "state_key": 4,
+        "year": 2005,
+        "x_resid_hours": -0.2428,
+        "y_resid_minutes": -0.091375
+      },
+      {
+        "state_key": 4,
+        "year": 2006,
+        "x_resid_hours": 0.008632,
+        "y_resid_minutes": 8.259628
+      },
+      {
+        "state_key": 4,
+        "year": 2007,
+        "x_resid_hours": -0.063431,
+        "y_resid_minutes": -44.000812
+      },
+      {
+        "state_key": 4,
+        "year": 2008,
+        "x_resid_hours": 0.034335,
+        "y_resid_minutes": -8.092441
+      },
+      {
+        "state_key": 4,
+        "year": 2009,
+        "x_resid_hours": -0.164243,
+        "y_resid_minutes": 29.647882
+      },
+      {
+        "state_key": 4,
+        "year": 2010,
+        "x_resid_hours": -0.051682,
+        "y_resid_minutes": 11.642757
+      },
+      {
+        "state_key": 4,
+        "year": 2011,
+        "x_resid_hours": 0.045658,
+        "y_resid_minutes": 30.530142
+      },
+      {
+        "state_key": 4,
+        "year": 2012,
+        "x_resid_hours": -0.182905,
+        "y_resid_minutes": -13.296273
+      },
+      {
+        "state_key": 4,
+        "year": 2013,
+        "x_resid_hours": 0.604672,
+        "y_resid_minutes": 2.10405
+      },
+      {
+        "state_key": 4,
+        "year": 2014,
+        "x_resid_hours": -0.209546,
+        "y_resid_minutes": 25.448942
+      },
+      {
+        "state_key": 4,
+        "year": 2015,
+        "x_resid_hours": 0.316171,
+        "y_resid_minutes": -19.622215
+      },
+      {
+        "state_key": 4,
+        "year": 2016,
+        "x_resid_hours": 0.050242,
+        "y_resid_minutes": -34.741168
+      },
+      {
+        "state_key": 4,
+        "year": 2017,
+        "x_resid_hours": 0.003799,
+        "y_resid_minutes": -10.864094
+      },
+      {
+        "state_key": 4,
+        "year": 2018,
+        "x_resid_hours": 0.6787,
+        "y_resid_minutes": 17.069552
+      },
+      {
+        "state_key": 4,
+        "year": 2019,
+        "x_resid_hours": -0.146273,
+        "y_resid_minutes": 3.062436
+      },
+      {
+        "state_key": 4,
+        "year": 2020,
+        "x_resid_hours": -0.121201,
+        "y_resid_minutes": 10.8536
+      },
+      {
+        "state_key": 4,
+        "year": 2021,
+        "x_resid_hours": -0.252787,
+        "y_resid_minutes": -2.73788
+      },
+      {
+        "state_key": 4,
+        "year": 2022,
+        "x_resid_hours": 0.027452,
+        "y_resid_minutes": -0.565003
+      },
+      {
+        "state_key": 4,
+        "year": 2023,
+        "x_resid_hours": -0.207267,
+        "y_resid_minutes": -13.353976
+      },
+      {
+        "state_key": 4,
+        "year": 2024,
+        "x_resid_hours": -0.127525,
+        "y_resid_minutes": 8.74625
+      },
+      {
+        "state_key": 5,
+        "year": 2005,
+        "x_resid_hours": -0.363384,
+        "y_resid_minutes": -37.463819
+      },
+      {
+        "state_key": 5,
+        "year": 2006,
+        "x_resid_hours": -0.034577,
+        "y_resid_minutes": -12.392429
+      },
+      {
+        "state_key": 5,
+        "year": 2007,
+        "x_resid_hours": 0.218567,
+        "y_resid_minutes": 13.600715
+      },
+      {
+        "state_key": 5,
+        "year": 2008,
+        "x_resid_hours": -0.06123,
+        "y_resid_minutes": -8.598835
+      },
+      {
+        "state_key": 5,
+        "year": 2009,
+        "x_resid_hours": -0.411492,
+        "y_resid_minutes": 24.714574
+      },
+      {
+        "state_key": 5,
+        "year": 2010,
+        "x_resid_hours": -0.058428,
+        "y_resid_minutes": 25.018764
+      },
+      {
+        "state_key": 5,
+        "year": 2011,
+        "x_resid_hours": 0.065587,
+        "y_resid_minutes": 17.105736
+      },
+      {
+        "state_key": 5,
+        "year": 2012,
+        "x_resid_hours": 0.527808,
+        "y_resid_minutes": -37.560207
+      },
+      {
+        "state_key": 5,
+        "year": 2013,
+        "x_resid_hours": -0.148545,
+        "y_resid_minutes": 39.462944
+      },
+      {
+        "state_key": 5,
+        "year": 2014,
+        "x_resid_hours": -0.461644,
+        "y_resid_minutes": 15.602925
+      },
+      {
+        "state_key": 5,
+        "year": 2016,
+        "x_resid_hours": 0.464449,
+        "y_resid_minutes": -54.270671
+      },
+      {
+        "state_key": 5,
+        "year": 2017,
+        "x_resid_hours": 0.156684,
+        "y_resid_minutes": -13.353557
+      },
+      {
+        "state_key": 5,
+        "year": 2018,
+        "x_resid_hours": -0.296504,
+        "y_resid_minutes": 47.664092
+      },
+      {
+        "state_key": 5,
+        "year": 2019,
+        "x_resid_hours": 0.093282,
+        "y_resid_minutes": -24.600282
+      },
+      {
+        "state_key": 5,
+        "year": 2020,
+        "x_resid_hours": -0.539743,
+        "y_resid_minutes": 85.215566
+      },
+      {
+        "state_key": 5,
+        "year": 2021,
+        "x_resid_hours": 0.077506,
+        "y_resid_minutes": -38.485029
+      },
+      {
+        "state_key": 5,
+        "year": 2022,
+        "x_resid_hours": 0.076665,
+        "y_resid_minutes": 1.297878
+      },
+      {
+        "state_key": 5,
+        "year": 2023,
+        "x_resid_hours": -0.745851,
+        "y_resid_minutes": -24.694632
+      },
+      {
+        "state_key": 5,
+        "year": 2024,
+        "x_resid_hours": 0.344804,
+        "y_resid_minutes": -9.356987
+      },
+      {
+        "state_key": 6,
+        "year": 2005,
+        "x_resid_hours": 0.08934,
+        "y_resid_minutes": -14.368726
+      },
+      {
+        "state_key": 6,
+        "year": 2006,
+        "x_resid_hours": -0.079882,
+        "y_resid_minutes": -4.225982
+      },
+      {
+        "state_key": 6,
+        "year": 2007,
+        "x_resid_hours": 0.084437,
+        "y_resid_minutes": 4.163773
+      },
+      {
+        "state_key": 6,
+        "year": 2008,
+        "x_resid_hours": 0.083722,
+        "y_resid_minutes": -13.604538
+      },
+      {
+        "state_key": 6,
+        "year": 2009,
+        "x_resid_hours": 0.145599,
+        "y_resid_minutes": -3.02163
+      },
+      {
+        "state_key": 6,
+        "year": 2010,
+        "x_resid_hours": -0.075482,
+        "y_resid_minutes": 13.243473
+      },
+      {
+        "state_key": 6,
+        "year": 2011,
+        "x_resid_hours": -0.086741,
+        "y_resid_minutes": 25.508741
+      },
+      {
+        "state_key": 6,
+        "year": 2012,
+        "x_resid_hours": -0.010883,
+        "y_resid_minutes": 14.904539
+      },
+      {
+        "state_key": 6,
+        "year": 2013,
+        "x_resid_hours": -0.082788,
+        "y_resid_minutes": 2.847255
+      },
+      {
+        "state_key": 6,
+        "year": 2014,
+        "x_resid_hours": -0.020384,
+        "y_resid_minutes": -11.412372
+      },
+      {
+        "state_key": 6,
+        "year": 2015,
+        "x_resid_hours": 0.02999,
+        "y_resid_minutes": -1.307133
+      },
+      {
+        "state_key": 6,
+        "year": 2016,
+        "x_resid_hours": 0.108552,
+        "y_resid_minutes": -2.588228
+      },
+      {
+        "state_key": 6,
+        "year": 2017,
+        "x_resid_hours": -0.184049,
+        "y_resid_minutes": 12.756927
+      },
+      {
+        "state_key": 6,
+        "year": 2018,
+        "x_resid_hours": -0.240559,
+        "y_resid_minutes": -7.902886
+      },
+      {
+        "state_key": 6,
+        "year": 2019,
+        "x_resid_hours": -0.107516,
+        "y_resid_minutes": 10.107673
+      },
+      {
+        "state_key": 6,
+        "year": 2020,
+        "x_resid_hours": 0.02442,
+        "y_resid_minutes": -19.953399
+      },
+      {
+        "state_key": 6,
+        "year": 2021,
+        "x_resid_hours": 0.068359,
+        "y_resid_minutes": -11.797872
+      },
+      {
+        "state_key": 6,
+        "year": 2022,
+        "x_resid_hours": -0.138724,
+        "y_resid_minutes": -6.483492
+      },
+      {
+        "state_key": 6,
+        "year": 2023,
+        "x_resid_hours": 0.316574,
+        "y_resid_minutes": -3.561739
+      },
+      {
+        "state_key": 6,
+        "year": 2024,
+        "x_resid_hours": 0.076015,
+        "y_resid_minutes": 16.695616
+      },
+      {
+        "state_key": 8,
+        "year": 2006,
+        "x_resid_hours": 0.068844,
+        "y_resid_minutes": -62.023008
+      },
+      {
+        "state_key": 8,
+        "year": 2007,
+        "x_resid_hours": -0.062315,
+        "y_resid_minutes": -11.440838
+      },
+      {
+        "state_key": 8,
+        "year": 2008,
+        "x_resid_hours": -0.269065,
+        "y_resid_minutes": -4.140961
+      },
+      {
+        "state_key": 8,
+        "year": 2009,
+        "x_resid_hours": -0.077399,
+        "y_resid_minutes": -6.033044
+      },
+      {
+        "state_key": 8,
+        "year": 2010,
+        "x_resid_hours": 0.179671,
+        "y_resid_minutes": -48.088254
+      },
+      {
+        "state_key": 8,
+        "year": 2011,
+        "x_resid_hours": -0.522977,
+        "y_resid_minutes": -24.057834
+      },
+      {
+        "state_key": 8,
+        "year": 2012,
+        "x_resid_hours": 0.259971,
+        "y_resid_minutes": 8.792386
+      },
+      {
+        "state_key": 8,
+        "year": 2013,
+        "x_resid_hours": 0.017265,
+        "y_resid_minutes": -11.554073
+      },
+      {
+        "state_key": 8,
+        "year": 2014,
+        "x_resid_hours": -0.172975,
+        "y_resid_minutes": -7.298562
+      },
+      {
+        "state_key": 8,
+        "year": 2015,
+        "x_resid_hours": 0.272522,
+        "y_resid_minutes": -23.159225
+      },
+      {
+        "state_key": 8,
+        "year": 2016,
+        "x_resid_hours": 0.662315,
+        "y_resid_minutes": 7.160433
+      },
+      {
+        "state_key": 8,
+        "year": 2017,
+        "x_resid_hours": -0.039136,
+        "y_resid_minutes": -30.062702
+      },
+      {
+        "state_key": 8,
+        "year": 2018,
+        "x_resid_hours": 0.084502,
+        "y_resid_minutes": 6.930647
+      },
+      {
+        "state_key": 8,
+        "year": 2019,
+        "x_resid_hours": 0.074396,
+        "y_resid_minutes": 26.90586
+      },
+      {
+        "state_key": 8,
+        "year": 2020,
+        "x_resid_hours": 0.120305,
+        "y_resid_minutes": -15.010573
+      },
+      {
+        "state_key": 8,
+        "year": 2021,
+        "x_resid_hours": -0.309682,
+        "y_resid_minutes": 25.477851
+      },
+      {
+        "state_key": 8,
+        "year": 2022,
+        "x_resid_hours": 0.019947,
+        "y_resid_minutes": 22.356388
+      },
+      {
+        "state_key": 8,
+        "year": 2023,
+        "x_resid_hours": -0.046653,
+        "y_resid_minutes": -3.287746
+      },
+      {
+        "state_key": 8,
+        "year": 2024,
+        "x_resid_hours": -0.264167,
+        "y_resid_minutes": 7.69759
+      },
+      {
+        "state_key": 9,
+        "year": 2005,
+        "x_resid_hours": -0.166885,
+        "y_resid_minutes": -46.857776
+      },
+      {
+        "state_key": 9,
+        "year": 2006,
+        "x_resid_hours": -0.050815,
+        "y_resid_minutes": 1.894402
+      },
+      {
+        "state_key": 9,
+        "year": 2007,
+        "x_resid_hours": -0.300466,
+        "y_resid_minutes": 22.506809
+      },
+      {
+        "state_key": 9,
+        "year": 2008,
+        "x_resid_hours": 0.05508,
+        "y_resid_minutes": 6.434678
+      },
+      {
+        "state_key": 9,
+        "year": 2009,
+        "x_resid_hours": 0.196093,
+        "y_resid_minutes": 40.064758
+      },
+      {
+        "state_key": 9,
+        "year": 2010,
+        "x_resid_hours": -0.016219,
+        "y_resid_minutes": -11.300577
+      },
+      {
+        "state_key": 9,
+        "year": 2011,
+        "x_resid_hours": 0.233346,
+        "y_resid_minutes": -18.513718
+      },
+      {
+        "state_key": 9,
+        "year": 2012,
+        "x_resid_hours": -0.015471,
+        "y_resid_minutes": 17.327519
+      },
+      {
+        "state_key": 9,
+        "year": 2013,
+        "x_resid_hours": -0.320548,
+        "y_resid_minutes": 29.575516
+      },
+      {
+        "state_key": 9,
+        "year": 2014,
+        "x_resid_hours": 0.881229,
+        "y_resid_minutes": -5.204781
+      },
+      {
+        "state_key": 9,
+        "year": 2015,
+        "x_resid_hours": -0.117832,
+        "y_resid_minutes": -0.079498
+      },
+      {
+        "state_key": 9,
+        "year": 2016,
+        "x_resid_hours": 0.134224,
+        "y_resid_minutes": -38.321233
+      },
+      {
+        "state_key": 9,
+        "year": 2017,
+        "x_resid_hours": -0.208915,
+        "y_resid_minutes": 31.444443
+      },
+      {
+        "state_key": 9,
+        "year": 2018,
+        "x_resid_hours": -0.03531,
+        "y_resid_minutes": -10.041736
+      },
+      {
+        "state_key": 9,
+        "year": 2019,
+        "x_resid_hours": 0.196613,
+        "y_resid_minutes": -5.399612
+      },
+      {
+        "state_key": 9,
+        "year": 2020,
+        "x_resid_hours": -0.346196,
+        "y_resid_minutes": -34.209224
+      },
+      {
+        "state_key": 9,
+        "year": 2021,
+        "x_resid_hours": -0.049257,
+        "y_resid_minutes": -31.257106
+      },
+      {
+        "state_key": 9,
+        "year": 2022,
+        "x_resid_hours": -0.447684,
+        "y_resid_minutes": 63.327182
+      },
+      {
+        "state_key": 9,
+        "year": 2023,
+        "x_resid_hours": 0.569512,
+        "y_resid_minutes": -34.293589
+      },
+      {
+        "state_key": 9,
+        "year": 2024,
+        "x_resid_hours": -0.190499,
+        "y_resid_minutes": 22.903542
+      },
+      {
+        "state_key": 10,
+        "year": 2005,
+        "x_resid_hours": -0.231161,
+        "y_resid_minutes": 12.059942
+      },
+      {
+        "state_key": 10,
+        "year": 2006,
+        "x_resid_hours": 0.731177,
+        "y_resid_minutes": 31.574356
+      },
+      {
+        "state_key": 10,
+        "year": 2007,
+        "x_resid_hours": -0.44702,
+        "y_resid_minutes": 61.557866
+      },
+      {
+        "state_key": 10,
+        "year": 2008,
+        "x_resid_hours": -0.26369,
+        "y_resid_minutes": -54.984742
+      },
+      {
+        "state_key": 10,
+        "year": 2009,
+        "x_resid_hours": 0.820673,
+        "y_resid_minutes": -55.78956
+      },
+      {
+        "state_key": 10,
+        "year": 2012,
+        "x_resid_hours": -0.504283,
+        "y_resid_minutes": -9.389271
+      },
+      {
+        "state_key": 10,
+        "year": 2013,
+        "x_resid_hours": 0.154782,
+        "y_resid_minutes": -9.419177
+      },
+      {
+        "state_key": 10,
+        "year": 2014,
+        "x_resid_hours": 0.557285,
+        "y_resid_minutes": -15.610956
+      },
+      {
+        "state_key": 10,
+        "year": 2015,
+        "x_resid_hours": -0.747402,
+        "y_resid_minutes": -40.178336
+      },
+      {
+        "state_key": 10,
+        "year": 2016,
+        "x_resid_hours": -1.068331,
+        "y_resid_minutes": 6.090581
+      },
+      {
+        "state_key": 10,
+        "year": 2017,
+        "x_resid_hours": -0.41623,
+        "y_resid_minutes": 117.622375
+      },
+      {
+        "state_key": 10,
+        "year": 2018,
+        "x_resid_hours": -0.118897,
+        "y_resid_minutes": -2.781862
+      },
+      {
+        "state_key": 10,
+        "year": 2019,
+        "x_resid_hours": -0.183441,
+        "y_resid_minutes": -53.01573
+      },
+      {
+        "state_key": 10,
+        "year": 2020,
+        "x_resid_hours": 0.226188,
+        "y_resid_minutes": 44.682857
+      },
+      {
+        "state_key": 10,
+        "year": 2022,
+        "x_resid_hours": 0.631205,
+        "y_resid_minutes": -88.505253
+      },
+      {
+        "state_key": 10,
+        "year": 2023,
+        "x_resid_hours": -0.460624,
+        "y_resid_minutes": 34.440495
+      },
+      {
+        "state_key": 10,
+        "year": 2024,
+        "x_resid_hours": -0.438172,
+        "y_resid_minutes": 41.465997
+      },
+      {
+        "state_key": 11,
+        "year": 2005,
+        "x_resid_hours": 0.72709,
+        "y_resid_minutes": -10.853894
+      },
+      {
+        "state_key": 11,
+        "year": 2006,
+        "x_resid_hours": 0.027473,
+        "y_resid_minutes": -94.94969
+      },
+      {
+        "state_key": 11,
+        "year": 2007,
+        "x_resid_hours": -0.290775,
+        "y_resid_minutes": 68.512096
+      },
+      {
+        "state_key": 11,
+        "year": 2008,
+        "x_resid_hours": -0.710246,
+        "y_resid_minutes": -89.283402
+      },
+      {
+        "state_key": 11,
+        "year": 2009,
+        "x_resid_hours": -0.747758,
+        "y_resid_minutes": 38.728003
+      },
+      {
+        "state_key": 11,
+        "year": 2010,
+        "x_resid_hours": 0.580316,
+        "y_resid_minutes": 2.188499
+      },
+      {
+        "state_key": 11,
+        "year": 2012,
+        "x_resid_hours": -1.055543,
+        "y_resid_minutes": 82.284942
+      },
+      {
+        "state_key": 11,
+        "year": 2014,
+        "x_resid_hours": 0.8963,
+        "y_resid_minutes": -41.114921
+      },
+      {
+        "state_key": 11,
+        "year": 2015,
+        "x_resid_hours": 0.365023,
+        "y_resid_minutes": 9.027532
+      },
+      {
+        "state_key": 11,
+        "year": 2016,
+        "x_resid_hours": -0.5393,
+        "y_resid_minutes": 113.134556
+      },
+      {
+        "state_key": 11,
+        "year": 2017,
+        "x_resid_hours": -0.430855,
+        "y_resid_minutes": 46.903402
+      },
+      {
+        "state_key": 11,
+        "year": 2018,
+        "x_resid_hours": -0.003882,
+        "y_resid_minutes": 68.241256
+      },
+      {
+        "state_key": 11,
+        "year": 2019,
+        "x_resid_hours": -0.05648,
+        "y_resid_minutes": 9.899238
+      },
+      {
+        "state_key": 11,
+        "year": 2020,
+        "x_resid_hours": -0.851565,
+        "y_resid_minutes": -104.062036
+      },
+      {
+        "state_key": 11,
+        "year": 2021,
+        "x_resid_hours": -0.586938,
+        "y_resid_minutes": 19.193055
+      },
+      {
+        "state_key": 11,
+        "year": 2022,
+        "x_resid_hours": 0.351179,
+        "y_resid_minutes": -98.896522
+      },
+      {
+        "state_key": 11,
+        "year": 2023,
+        "x_resid_hours": 0.596692,
+        "y_resid_minutes": -48.297871
+      },
+      {
+        "state_key": 11,
+        "year": 2024,
+        "x_resid_hours": 0.474209,
+        "y_resid_minutes": 22.092118
+      },
+      {
+        "state_key": 12,
+        "year": 2005,
+        "x_resid_hours": -0.182762,
+        "y_resid_minutes": -23.483083
+      },
+      {
+        "state_key": 12,
+        "year": 2006,
+        "x_resid_hours": -0.076391,
+        "y_resid_minutes": -7.128925
+      },
+      {
+        "state_key": 12,
+        "year": 2007,
+        "x_resid_hours": 0.098675,
+        "y_resid_minutes": 1.642995
+      },
+      {
+        "state_key": 12,
+        "year": 2008,
+        "x_resid_hours": 0.087897,
+        "y_resid_minutes": 5.156028
+      },
+      {
+        "state_key": 12,
+        "year": 2009,
+        "x_resid_hours": 0.202675,
+        "y_resid_minutes": 11.932143
+      },
+      {
+        "state_key": 12,
+        "year": 2010,
+        "x_resid_hours": -0.156746,
+        "y_resid_minutes": 19.043249
+      },
+      {
+        "state_key": 12,
+        "year": 2011,
+        "x_resid_hours": -0.070053,
+        "y_resid_minutes": 25.190596
+      },
+      {
+        "state_key": 12,
+        "year": 2012,
+        "x_resid_hours": 0.001181,
+        "y_resid_minutes": -16.714683
+      },
+      {
+        "state_key": 12,
+        "year": 2013,
+        "x_resid_hours": 0.073296,
+        "y_resid_minutes": -17.661465
+      },
+      {
+        "state_key": 12,
+        "year": 2014,
+        "x_resid_hours": -0.136731,
+        "y_resid_minutes": 30.064204
+      },
+      {
+        "state_key": 12,
+        "year": 2015,
+        "x_resid_hours": -0.062407,
+        "y_resid_minutes": 12.818165
+      },
+      {
+        "state_key": 12,
+        "year": 2016,
+        "x_resid_hours": 0.060994,
+        "y_resid_minutes": -13.04149
+      },
+      {
+        "state_key": 12,
+        "year": 2017,
+        "x_resid_hours": 0.045051,
+        "y_resid_minutes": -20.077919
+      },
+      {
+        "state_key": 12,
+        "year": 2018,
+        "x_resid_hours": 0.292015,
+        "y_resid_minutes": -7.277031
+      },
+      {
+        "state_key": 12,
+        "year": 2019,
+        "x_resid_hours": -0.18713,
+        "y_resid_minutes": 9.888324
+      },
+      {
+        "state_key": 12,
+        "year": 2020,
+        "x_resid_hours": 0.29833,
+        "y_resid_minutes": -34.391942
+      },
+      {
+        "state_key": 12,
+        "year": 2021,
+        "x_resid_hours": 0.098017,
+        "y_resid_minutes": 11.172931
+      },
+      {
+        "state_key": 12,
+        "year": 2022,
+        "x_resid_hours": 0.021845,
+        "y_resid_minutes": 9.644736
+      },
+      {
+        "state_key": 12,
+        "year": 2023,
+        "x_resid_hours": -0.213568,
+        "y_resid_minutes": -6.289303
+      },
+      {
+        "state_key": 12,
+        "year": 2024,
+        "x_resid_hours": -0.194188,
+        "y_resid_minutes": 9.51247
+      },
+      {
+        "state_key": 13,
+        "year": 2006,
+        "x_resid_hours": 0.274722,
+        "y_resid_minutes": -87.504423
+      },
+      {
+        "state_key": 13,
+        "year": 2007,
+        "x_resid_hours": -0.109658,
+        "y_resid_minutes": -54.618052
+      },
+      {
+        "state_key": 13,
+        "year": 2008,
+        "x_resid_hours": 0.135042,
+        "y_resid_minutes": -49.111542
+      },
+      {
+        "state_key": 13,
+        "year": 2009,
+        "x_resid_hours": -0.309463,
+        "y_resid_minutes": -21.677043
+      },
+      {
+        "state_key": 13,
+        "year": 2010,
+        "x_resid_hours": -0.24811,
+        "y_resid_minutes": -68.525358
+      },
+      {
+        "state_key": 13,
+        "year": 2011,
+        "x_resid_hours": 0.155686,
+        "y_resid_minutes": -68.51725
+      },
+      {
+        "state_key": 13,
+        "year": 2012,
+        "x_resid_hours": 0.1114,
+        "y_resid_minutes": -36.613049
+      },
+      {
+        "state_key": 13,
+        "year": 2013,
+        "x_resid_hours": 0.059097,
+        "y_resid_minutes": -47.843025
+      },
+      {
+        "state_key": 13,
+        "year": 2014,
+        "x_resid_hours": -0.353683,
+        "y_resid_minutes": -27.671966
+      },
+      {
+        "state_key": 13,
+        "year": 2015,
+        "x_resid_hours": 0.062708,
+        "y_resid_minutes": -17.785311
+      },
+      {
+        "state_key": 13,
+        "year": 2016,
+        "x_resid_hours": 0.194361,
+        "y_resid_minutes": -10.497743
+      },
+      {
+        "state_key": 13,
+        "year": 2017,
+        "x_resid_hours": -0.047821,
+        "y_resid_minutes": -0.098453
+      },
+      {
+        "state_key": 13,
+        "year": 2018,
+        "x_resid_hours": -0.118631,
+        "y_resid_minutes": 28.575413
+      },
+      {
+        "state_key": 13,
+        "year": 2019,
+        "x_resid_hours": -0.027803,
+        "y_resid_minutes": 7.108012
+      },
+      {
+        "state_key": 13,
+        "year": 2020,
+        "x_resid_hours": 0.071652,
+        "y_resid_minutes": 10.476209
+      },
+      {
+        "state_key": 13,
+        "year": 2021,
+        "x_resid_hours": -0.138775,
+        "y_resid_minutes": 21.193276
+      },
+      {
+        "state_key": 13,
+        "year": 2022,
+        "x_resid_hours": -0.195328,
+        "y_resid_minutes": 39.344079
+      },
+      {
+        "state_key": 13,
+        "year": 2023,
+        "x_resid_hours": -0.356454,
+        "y_resid_minutes": 47.772904
+      },
+      {
+        "state_key": 13,
+        "year": 2024,
+        "x_resid_hours": 0.717733,
+        "y_resid_minutes": -6.783322
+      },
+      {
+        "state_key": 15,
+        "year": 2006,
+        "x_resid_hours": 0.115701,
+        "y_resid_minutes": 62.104319
+      },
+      {
+        "state_key": 15,
+        "year": 2007,
+        "x_resid_hours": -0.748638,
+        "y_resid_minutes": 40.136378
+      },
+      {
+        "state_key": 15,
+        "year": 2008,
+        "x_resid_hours": -0.656335,
+        "y_resid_minutes": 51.811945
+      },
+      {
+        "state_key": 15,
+        "year": 2009,
+        "x_resid_hours": -0.228033,
+        "y_resid_minutes": 17.644513
+      },
+      {
+        "state_key": 15,
+        "year": 2010,
+        "x_resid_hours": -0.090185,
+        "y_resid_minutes": 27.210286
+      },
+      {
+        "state_key": 15,
+        "year": 2011,
+        "x_resid_hours": 0.973831,
+        "y_resid_minutes": 1.107361
+      },
+      {
+        "state_key": 15,
+        "year": 2012,
+        "x_resid_hours": 0.257361,
+        "y_resid_minutes": -16.707519
+      },
+      {
+        "state_key": 15,
+        "year": 2013,
+        "x_resid_hours": -0.736407,
+        "y_resid_minutes": 42.71614
+      },
+      {
+        "state_key": 15,
+        "year": 2014,
+        "x_resid_hours": 1.002593,
+        "y_resid_minutes": 11.056344
+      },
+      {
+        "state_key": 15,
+        "year": 2015,
+        "x_resid_hours": -0.712706,
+        "y_resid_minutes": 69.352802
+      },
+      {
+        "state_key": 15,
+        "year": 2016,
+        "x_resid_hours": 0.166712,
+        "y_resid_minutes": -24.255549
+      },
+      {
+        "state_key": 15,
+        "year": 2018,
+        "x_resid_hours": -0.868143,
+        "y_resid_minutes": 24.462333
+      },
+      {
+        "state_key": 15,
+        "year": 2020,
+        "x_resid_hours": -0.122505,
+        "y_resid_minutes": 48.263992
+      },
+      {
+        "state_key": 15,
+        "year": 2021,
+        "x_resid_hours": -0.123444,
+        "y_resid_minutes": 15.040606
+      },
+      {
+        "state_key": 15,
+        "year": 2022,
+        "x_resid_hours": 0.405637,
+        "y_resid_minutes": 34.877003
+      },
+      {
+        "state_key": 15,
+        "year": 2023,
+        "x_resid_hours": -0.460506,
+        "y_resid_minutes": 5.906919
+      },
+      {
+        "state_key": 15,
+        "year": 2024,
+        "x_resid_hours": -0.379848,
+        "y_resid_minutes": -68.482889
+      },
+      {
+        "state_key": 16,
+        "year": 2007,
+        "x_resid_hours": -0.437425,
+        "y_resid_minutes": -46.794278
+      },
+      {
+        "state_key": 16,
+        "year": 2008,
+        "x_resid_hours": 0.301083,
+        "y_resid_minutes": 40.297944
+      },
+      {
+        "state_key": 16,
+        "year": 2009,
+        "x_resid_hours": -0.281985,
+        "y_resid_minutes": -101.112662
+      },
+      {
+        "state_key": 16,
+        "year": 2010,
+        "x_resid_hours": 0.03791,
+        "y_resid_minutes": -29.324511
+      },
+      {
+        "state_key": 16,
+        "year": 2011,
+        "x_resid_hours": 0.254923,
+        "y_resid_minutes": -129.183317
+      },
+      {
+        "state_key": 16,
+        "year": 2012,
+        "x_resid_hours": 0.122183,
+        "y_resid_minutes": -63.823145
+      },
+      {
+        "state_key": 16,
+        "year": 2013,
+        "x_resid_hours": -0.503835,
+        "y_resid_minutes": 51.576709
+      },
+      {
+        "state_key": 16,
+        "year": 2014,
+        "x_resid_hours": 0.424952,
+        "y_resid_minutes": 5.143048
+      },
+      {
+        "state_key": 16,
+        "year": 2015,
+        "x_resid_hours": -0.087704,
+        "y_resid_minutes": -50.901668
+      },
+      {
+        "state_key": 16,
+        "year": 2016,
+        "x_resid_hours": -0.432575,
+        "y_resid_minutes": -29.357816
+      },
+      {
+        "state_key": 16,
+        "year": 2017,
+        "x_resid_hours": 0.579708,
+        "y_resid_minutes": -31.912704
+      },
+      {
+        "state_key": 16,
+        "year": 2018,
+        "x_resid_hours": -0.451319,
+        "y_resid_minutes": 43.721097
+      },
+      {
+        "state_key": 16,
+        "year": 2019,
+        "x_resid_hours": 0.390332,
+        "y_resid_minutes": -44.039369
+      },
+      {
+        "state_key": 16,
+        "year": 2020,
+        "x_resid_hours": 0.519468,
+        "y_resid_minutes": 36.101821
+      },
+      {
+        "state_key": 16,
+        "year": 2021,
+        "x_resid_hours": -0.539417,
+        "y_resid_minutes": 94.362028
+      },
+      {
+        "state_key": 16,
+        "year": 2022,
+        "x_resid_hours": 0.194275,
+        "y_resid_minutes": -0.808628
+      },
+      {
+        "state_key": 16,
+        "year": 2023,
+        "x_resid_hours": -0.292765,
+        "y_resid_minutes": 19.665247
+      },
+      {
+        "state_key": 16,
+        "year": 2024,
+        "x_resid_hours": 0.027849,
+        "y_resid_minutes": 15.27577
+      },
+      {
+        "state_key": 17,
+        "year": 2005,
+        "x_resid_hours": 0.190185,
+        "y_resid_minutes": -123.387984
+      },
+      {
+        "state_key": 17,
+        "year": 2006,
+        "x_resid_hours": -0.173379,
+        "y_resid_minutes": 54.78885
+      },
+      {
+        "state_key": 17,
+        "year": 2007,
+        "x_resid_hours": -0.108364,
+        "y_resid_minutes": 41.175795
+      },
+      {
+        "state_key": 17,
+        "year": 2008,
+        "x_resid_hours": 0.392001,
+        "y_resid_minutes": -14.186553
+      },
+      {
+        "state_key": 17,
+        "year": 2009,
+        "x_resid_hours": -0.133581,
+        "y_resid_minutes": 44.361245
+      },
+      {
+        "state_key": 17,
+        "year": 2010,
+        "x_resid_hours": 0.279756,
+        "y_resid_minutes": 2.358632
+      },
+      {
+        "state_key": 17,
+        "year": 2011,
+        "x_resid_hours": -0.287829,
+        "y_resid_minutes": 14.54463
+      },
+      {
+        "state_key": 17,
+        "year": 2012,
+        "x_resid_hours": 0.103446,
+        "y_resid_minutes": 4.368505
+      },
+      {
+        "state_key": 17,
+        "year": 2013,
+        "x_resid_hours": -0.184198,
+        "y_resid_minutes": 22.196764
+      },
+      {
+        "state_key": 17,
+        "year": 2014,
+        "x_resid_hours": -0.028494,
+        "y_resid_minutes": -25.641582
+      },
+      {
+        "state_key": 17,
+        "year": 2015,
+        "x_resid_hours": -0.100907,
+        "y_resid_minutes": -2.807583
+      },
+      {
+        "state_key": 17,
+        "year": 2016,
+        "x_resid_hours": -0.125613,
+        "y_resid_minutes": 11.863016
+      },
+      {
+        "state_key": 17,
+        "year": 2017,
+        "x_resid_hours": -0.069689,
+        "y_resid_minutes": -2.633334
+      },
+      {
+        "state_key": 17,
+        "year": 2018,
+        "x_resid_hours": 0.301755,
+        "y_resid_minutes": -15.543325
+      },
+      {
+        "state_key": 17,
+        "year": 2019,
+        "x_resid_hours": -0.336734,
+        "y_resid_minutes": 21.268248
+      },
+      {
+        "state_key": 17,
+        "year": 2020,
+        "x_resid_hours": 0.177201,
+        "y_resid_minutes": -23.196926
+      },
+      {
+        "state_key": 17,
+        "year": 2021,
+        "x_resid_hours": 0.157751,
+        "y_resid_minutes": -20.264874
+      },
+      {
+        "state_key": 17,
+        "year": 2022,
+        "x_resid_hours": -0.397014,
+        "y_resid_minutes": 19.789775
+      },
+      {
+        "state_key": 17,
+        "year": 2023,
+        "x_resid_hours": -0.137848,
+        "y_resid_minutes": 7.1973
+      },
+      {
+        "state_key": 17,
+        "year": 2024,
+        "x_resid_hours": 0.481554,
+        "y_resid_minutes": -16.2506
+      },
+      {
+        "state_key": 18,
+        "year": 2005,
+        "x_resid_hours": 0.044289,
+        "y_resid_minutes": -53.210038
+      },
+      {
+        "state_key": 18,
+        "year": 2006,
+        "x_resid_hours": -0.089286,
+        "y_resid_minutes": 24.040464
+      },
+      {
+        "state_key": 18,
+        "year": 2007,
+        "x_resid_hours": 0.302738,
+        "y_resid_minutes": 7.904028
+      },
+      {
+        "state_key": 18,
+        "year": 2008,
+        "x_resid_hours": 0.187531,
+        "y_resid_minutes": -17.373047
+      },
+      {
+        "state_key": 18,
+        "year": 2009,
+        "x_resid_hours": -0.173172,
+        "y_resid_minutes": 26.107059
+      },
+      {
+        "state_key": 18,
+        "year": 2010,
+        "x_resid_hours": 0.007199,
+        "y_resid_minutes": 20.56644
+      },
+      {
+        "state_key": 18,
+        "year": 2011,
+        "x_resid_hours": -0.017535,
+        "y_resid_minutes": 21.120468
+      },
+      {
+        "state_key": 18,
+        "year": 2012,
+        "x_resid_hours": -0.244112,
+        "y_resid_minutes": -23.239031
+      },
+      {
+        "state_key": 18,
+        "year": 2013,
+        "x_resid_hours": -0.093508,
+        "y_resid_minutes": 1.802165
+      },
+      {
+        "state_key": 18,
+        "year": 2014,
+        "x_resid_hours": -0.02191,
+        "y_resid_minutes": 27.798489
+      },
+      {
+        "state_key": 18,
+        "year": 2015,
+        "x_resid_hours": -0.249124,
+        "y_resid_minutes": -16.032461
+      },
+      {
+        "state_key": 18,
+        "year": 2016,
+        "x_resid_hours": 0.063338,
+        "y_resid_minutes": 26.324887
+      },
+      {
+        "state_key": 18,
+        "year": 2017,
+        "x_resid_hours": -0.113556,
+        "y_resid_minutes": -23.888215
+      },
+      {
+        "state_key": 18,
+        "year": 2018,
+        "x_resid_hours": 0.445867,
+        "y_resid_minutes": -47.462001
+      },
+      {
+        "state_key": 18,
+        "year": 2019,
+        "x_resid_hours": 0.182334,
+        "y_resid_minutes": 20.034269
+      },
+      {
+        "state_key": 18,
+        "year": 2020,
+        "x_resid_hours": -0.609966,
+        "y_resid_minutes": 40.296033
+      },
+      {
+        "state_key": 18,
+        "year": 2021,
+        "x_resid_hours": 0.25285,
+        "y_resid_minutes": -39.249309
+      },
+      {
+        "state_key": 18,
+        "year": 2022,
+        "x_resid_hours": 0.014802,
+        "y_resid_minutes": -4.213395
+      },
+      {
+        "state_key": 18,
+        "year": 2023,
+        "x_resid_hours": 0.115546,
+        "y_resid_minutes": -0.678017
+      },
+      {
+        "state_key": 18,
+        "year": 2024,
+        "x_resid_hours": -0.004325,
+        "y_resid_minutes": 9.351211
+      },
+      {
+        "state_key": 19,
+        "year": 2006,
+        "x_resid_hours": 0.514488,
+        "y_resid_minutes": 48.091209
+      },
+      {
+        "state_key": 19,
+        "year": 2007,
+        "x_resid_hours": 0.054474,
+        "y_resid_minutes": 37.41407
+      },
+      {
+        "state_key": 19,
+        "year": 2008,
+        "x_resid_hours": -0.230189,
+        "y_resid_minutes": 26.024983
+      },
+      {
+        "state_key": 19,
+        "year": 2009,
+        "x_resid_hours": -0.167003,
+        "y_resid_minutes": 31.043114
+      },
+      {
+        "state_key": 19,
+        "year": 2010,
+        "x_resid_hours": -0.10587,
+        "y_resid_minutes": 54.645588
+      },
+      {
+        "state_key": 19,
+        "year": 2011,
+        "x_resid_hours": -0.869228,
+        "y_resid_minutes": 81.116127
+      },
+      {
+        "state_key": 19,
+        "year": 2012,
+        "x_resid_hours": 0.031913,
+        "y_resid_minutes": -36.317969
+      },
+      {
+        "state_key": 19,
+        "year": 2013,
+        "x_resid_hours": 0.084479,
+        "y_resid_minutes": -0.368447
+      },
+      {
+        "state_key": 19,
+        "year": 2014,
+        "x_resid_hours": -0.20225,
+        "y_resid_minutes": 8.835504
+      },
+      {
+        "state_key": 19,
+        "year": 2015,
+        "x_resid_hours": 0.721606,
+        "y_resid_minutes": 24.221961
+      },
+      {
+        "state_key": 19,
+        "year": 2016,
+        "x_resid_hours": -0.240668,
+        "y_resid_minutes": -4.248563
+      },
+      {
+        "state_key": 19,
+        "year": 2017,
+        "x_resid_hours": 0.261504,
+        "y_resid_minutes": -45.10989
+      },
+      {
+        "state_key": 19,
+        "year": 2018,
+        "x_resid_hours": 0.051364,
+        "y_resid_minutes": -31.317558
+      },
+      {
+        "state_key": 19,
+        "year": 2019,
+        "x_resid_hours": -0.364222,
+        "y_resid_minutes": 6.951288
+      },
+      {
+        "state_key": 19,
+        "year": 2020,
+        "x_resid_hours": -0.203571,
+        "y_resid_minutes": -13.142433
+      },
+      {
+        "state_key": 19,
+        "year": 2021,
+        "x_resid_hours": -0.202703,
+        "y_resid_minutes": -0.737703
+      },
+      {
+        "state_key": 19,
+        "year": 2022,
+        "x_resid_hours": 0.347097,
+        "y_resid_minutes": 21.768978
+      },
+      {
+        "state_key": 19,
+        "year": 2023,
+        "x_resid_hours": -0.016904,
+        "y_resid_minutes": 9.302249
+      },
+      {
+        "state_key": 19,
+        "year": 2024,
+        "x_resid_hours": 0.253996,
+        "y_resid_minutes": -30.545659
+      },
+      {
+        "state_key": 20,
+        "year": 2005,
+        "x_resid_hours": 0.067294,
+        "y_resid_minutes": 18.761392
+      },
+      {
+        "state_key": 20,
+        "year": 2006,
+        "x_resid_hours": -0.195242,
+        "y_resid_minutes": 4.127577
+      },
+      {
+        "state_key": 20,
+        "year": 2007,
+        "x_resid_hours": -0.020747,
+        "y_resid_minutes": -8.677739
+      },
+      {
+        "state_key": 20,
+        "year": 2008,
+        "x_resid_hours": -0.331682,
+        "y_resid_minutes": 3.12686
+      },
+      {
+        "state_key": 20,
+        "year": 2009,
+        "x_resid_hours": -0.075705,
+        "y_resid_minutes": 12.133753
+      },
+      {
+        "state_key": 20,
+        "year": 2010,
+        "x_resid_hours": 0.48522,
+        "y_resid_minutes": -40.512447
+      },
+      {
+        "state_key": 20,
+        "year": 2011,
+        "x_resid_hours": -0.271067,
+        "y_resid_minutes": -18.682036
+      },
+      {
+        "state_key": 20,
+        "year": 2012,
+        "x_resid_hours": 0.545275,
+        "y_resid_minutes": -28.465778
+      },
+      {
+        "state_key": 20,
+        "year": 2013,
+        "x_resid_hours": 0.400699,
+        "y_resid_minutes": 5.859959
+      },
+      {
+        "state_key": 20,
+        "year": 2014,
+        "x_resid_hours": 0.200941,
+        "y_resid_minutes": -18.979894
+      },
+      {
+        "state_key": 20,
+        "year": 2015,
+        "x_resid_hours": -0.650363,
+        "y_resid_minutes": 54.732223
+      },
+      {
+        "state_key": 20,
+        "year": 2016,
+        "x_resid_hours": -0.140099,
+        "y_resid_minutes": 11.240639
+      },
+      {
+        "state_key": 20,
+        "year": 2017,
+        "x_resid_hours": 0.09538,
+        "y_resid_minutes": 50.00154
+      },
+      {
+        "state_key": 20,
+        "year": 2018,
+        "x_resid_hours": 0.274131,
+        "y_resid_minutes": 5.638141
+      },
+      {
+        "state_key": 20,
+        "year": 2019,
+        "x_resid_hours": -0.504252,
+        "y_resid_minutes": 15.703458
+      },
+      {
+        "state_key": 20,
+        "year": 2020,
+        "x_resid_hours": -0.348453,
+        "y_resid_minutes": -52.425749
+      },
+      {
+        "state_key": 20,
+        "year": 2021,
+        "x_resid_hours": 0.365487,
+        "y_resid_minutes": -23.510229
+      },
+      {
+        "state_key": 20,
+        "year": 2022,
+        "x_resid_hours": 0.08303,
+        "y_resid_minutes": -28.553389
+      },
+      {
+        "state_key": 20,
+        "year": 2023,
+        "x_resid_hours": 0.115522,
+        "y_resid_minutes": 54.160555
+      },
+      {
+        "state_key": 20,
+        "year": 2024,
+        "x_resid_hours": -0.095367,
+        "y_resid_minutes": -15.678837
+      },
+      {
+        "state_key": 21,
+        "year": 2005,
+        "x_resid_hours": -0.353986,
+        "y_resid_minutes": -100.375931
+      },
+      {
+        "state_key": 21,
+        "year": 2006,
+        "x_resid_hours": 0.087811,
+        "y_resid_minutes": 12.072306
+      },
+      {
+        "state_key": 21,
+        "year": 2007,
+        "x_resid_hours": 0.091978,
+        "y_resid_minutes": 49.581294
+      },
+      {
+        "state_key": 21,
+        "year": 2008,
+        "x_resid_hours": -0.064632,
+        "y_resid_minutes": 28.10685
+      },
+      {
+        "state_key": 21,
+        "year": 2009,
+        "x_resid_hours": -0.089235,
+        "y_resid_minutes": 22.347535
+      },
+      {
+        "state_key": 21,
+        "year": 2010,
+        "x_resid_hours": 0.230566,
+        "y_resid_minutes": -21.320634
+      },
+      {
+        "state_key": 21,
+        "year": 2011,
+        "x_resid_hours": -0.083629,
+        "y_resid_minutes": 10.938511
+      },
+      {
+        "state_key": 21,
+        "year": 2012,
+        "x_resid_hours": 0.114054,
+        "y_resid_minutes": 7.97518
+      },
+      {
+        "state_key": 21,
+        "year": 2013,
+        "x_resid_hours": -0.276212,
+        "y_resid_minutes": 39.141105
+      },
+      {
+        "state_key": 21,
+        "year": 2014,
+        "x_resid_hours": 0.796384,
+        "y_resid_minutes": -37.945548
+      },
+      {
+        "state_key": 21,
+        "year": 2015,
+        "x_resid_hours": -0.156947,
+        "y_resid_minutes": 62.354564
+      },
+      {
+        "state_key": 21,
+        "year": 2016,
+        "x_resid_hours": 0.004814,
+        "y_resid_minutes": -9.063386
+      },
+      {
+        "state_key": 21,
+        "year": 2017,
+        "x_resid_hours": -0.185811,
+        "y_resid_minutes": -40.519921
+      },
+      {
+        "state_key": 21,
+        "year": 2018,
+        "x_resid_hours": 0.357816,
+        "y_resid_minutes": -28.938386
+      },
+      {
+        "state_key": 21,
+        "year": 2019,
+        "x_resid_hours": -0.360444,
+        "y_resid_minutes": 13.848703
+      },
+      {
+        "state_key": 21,
+        "year": 2020,
+        "x_resid_hours": -0.005614,
+        "y_resid_minutes": -49.404249
+      },
+      {
+        "state_key": 21,
+        "year": 2021,
+        "x_resid_hours": -0.08804,
+        "y_resid_minutes": 41.32778
+      },
+      {
+        "state_key": 21,
+        "year": 2022,
+        "x_resid_hours": 0.376518,
+        "y_resid_minutes": -0.012219
+      },
+      {
+        "state_key": 21,
+        "year": 2023,
+        "x_resid_hours": -0.617218,
+        "y_resid_minutes": 44.526315
+      },
+      {
+        "state_key": 21,
+        "year": 2024,
+        "x_resid_hours": 0.221827,
+        "y_resid_minutes": -44.639867
+      },
+      {
+        "state_key": 22,
+        "year": 2006,
+        "x_resid_hours": 0.067226,
+        "y_resid_minutes": 42.771802
+      },
+      {
+        "state_key": 22,
+        "year": 2007,
+        "x_resid_hours": -0.448288,
+        "y_resid_minutes": 34.426865
+      },
+      {
+        "state_key": 22,
+        "year": 2008,
+        "x_resid_hours": 0.365367,
+        "y_resid_minutes": 8.827092
+      },
+      {
+        "state_key": 22,
+        "year": 2009,
+        "x_resid_hours": -0.077425,
+        "y_resid_minutes": 19.808187
+      },
+      {
+        "state_key": 22,
+        "year": 2010,
+        "x_resid_hours": 0.362978,
+        "y_resid_minutes": 34.47401
+      },
+      {
+        "state_key": 22,
+        "year": 2011,
+        "x_resid_hours": -0.248392,
+        "y_resid_minutes": 41.928178
+      },
+      {
+        "state_key": 22,
+        "year": 2012,
+        "x_resid_hours": -0.149506,
+        "y_resid_minutes": 16.122854
+      },
+      {
+        "state_key": 22,
+        "year": 2013,
+        "x_resid_hours": -0.014517,
+        "y_resid_minutes": 21.423371
+      },
+      {
+        "state_key": 22,
+        "year": 2014,
+        "x_resid_hours": 0.040324,
+        "y_resid_minutes": 18.290736
+      },
+      {
+        "state_key": 22,
+        "year": 2015,
+        "x_resid_hours": 0.158437,
+        "y_resid_minutes": -4.949357
+      },
+      {
+        "state_key": 22,
+        "year": 2016,
+        "x_resid_hours": -0.021499,
+        "y_resid_minutes": -6.5013
+      },
+      {
+        "state_key": 22,
+        "year": 2017,
+        "x_resid_hours": 0.211641,
+        "y_resid_minutes": -50.09475
+      },
+      {
+        "state_key": 22,
+        "year": 2018,
+        "x_resid_hours": 0.682804,
+        "y_resid_minutes": -72.845573
+      },
+      {
+        "state_key": 22,
+        "year": 2019,
+        "x_resid_hours": 0.175912,
+        "y_resid_minutes": 17.73801
+      },
+      {
+        "state_key": 22,
+        "year": 2020,
+        "x_resid_hours": -0.095427,
+        "y_resid_minutes": 1.891833
+      },
+      {
+        "state_key": 22,
+        "year": 2021,
+        "x_resid_hours": -0.308128,
+        "y_resid_minutes": 27.022353
+      },
+      {
+        "state_key": 22,
+        "year": 2022,
+        "x_resid_hours": -0.527731,
+        "y_resid_minutes": 7.285568
+      },
+      {
+        "state_key": 22,
+        "year": 2023,
+        "x_resid_hours": 0.321718,
+        "y_resid_minutes": -32.696809
+      },
+      {
+        "state_key": 22,
+        "year": 2024,
+        "x_resid_hours": -0.271931,
+        "y_resid_minutes": 17.611352
+      },
+      {
+        "state_key": 23,
+        "year": 2005,
+        "x_resid_hours": 0.668154,
+        "y_resid_minutes": 25.531294
+      },
+      {
+        "state_key": 23,
+        "year": 2006,
+        "x_resid_hours": -0.16241,
+        "y_resid_minutes": 23.601118
+      },
+      {
+        "state_key": 23,
+        "year": 2007,
+        "x_resid_hours": -0.1765,
+        "y_resid_minutes": -44.736057
+      },
+      {
+        "state_key": 23,
+        "year": 2008,
+        "x_resid_hours": 0.508306,
+        "y_resid_minutes": -45.464065
+      },
+      {
+        "state_key": 23,
+        "year": 2009,
+        "x_resid_hours": -0.097494,
+        "y_resid_minutes": -66.051911
+      },
+      {
+        "state_key": 23,
+        "year": 2010,
+        "x_resid_hours": -0.327726,
+        "y_resid_minutes": 33.742805
+      },
+      {
+        "state_key": 23,
+        "year": 2011,
+        "x_resid_hours": -0.068172,
+        "y_resid_minutes": 43.309959
+      },
+      {
+        "state_key": 23,
+        "year": 2012,
+        "x_resid_hours": 0.370587,
+        "y_resid_minutes": 10.176906
+      },
+      {
+        "state_key": 23,
+        "year": 2013,
+        "x_resid_hours": -0.840013,
+        "y_resid_minutes": 43.731114
+      },
+      {
+        "state_key": 23,
+        "year": 2014,
+        "x_resid_hours": -0.281994,
+        "y_resid_minutes": 29.301975
+      },
+      {
+        "state_key": 23,
+        "year": 2015,
+        "x_resid_hours": -0.350583,
+        "y_resid_minutes": 1.250418
+      },
+      {
+        "state_key": 23,
+        "year": 2016,
+        "x_resid_hours": -0.594493,
+        "y_resid_minutes": -38.895462
+      },
+      {
+        "state_key": 23,
+        "year": 2017,
+        "x_resid_hours": -0.044611,
+        "y_resid_minutes": -28.665657
+      },
+      {
+        "state_key": 23,
+        "year": 2018,
+        "x_resid_hours": 0.829584,
+        "y_resid_minutes": -29.084437
+      },
+      {
+        "state_key": 23,
+        "year": 2019,
+        "x_resid_hours": 0.100461,
+        "y_resid_minutes": 101.258678
+      },
+      {
+        "state_key": 23,
+        "year": 2020,
+        "x_resid_hours": -0.685922,
+        "y_resid_minutes": -12.653217
+      },
+      {
+        "state_key": 23,
+        "year": 2022,
+        "x_resid_hours": 0.474984,
+        "y_resid_minutes": -26.298942
+      },
+      {
+        "state_key": 23,
+        "year": 2023,
+        "x_resid_hours": -0.277366,
+        "y_resid_minutes": 0.020549
+      },
+      {
+        "state_key": 23,
+        "year": 2024,
+        "x_resid_hours": -0.531676,
+        "y_resid_minutes": 10.204491
+      },
+      {
+        "state_key": 24,
+        "year": 2005,
+        "x_resid_hours": 0.022534,
+        "y_resid_minutes": 125.358104
+      },
+      {
+        "state_key": 24,
+        "year": 2006,
+        "x_resid_hours": -0.182203,
+        "y_resid_minutes": -14.408499
+      },
+      {
+        "state_key": 24,
+        "year": 2007,
+        "x_resid_hours": -0.151133,
+        "y_resid_minutes": -7.223323
+      },
+      {
+        "state_key": 24,
+        "year": 2008,
+        "x_resid_hours": 0.043187,
+        "y_resid_minutes": -40.98409
+      },
+      {
+        "state_key": 24,
+        "year": 2009,
+        "x_resid_hours": 0.079329,
+        "y_resid_minutes": -47.986691
+      },
+      {
+        "state_key": 24,
+        "year": 2010,
+        "x_resid_hours": -0.04718,
+        "y_resid_minutes": -17.123463
+      },
+      {
+        "state_key": 24,
+        "year": 2011,
+        "x_resid_hours": -0.003307,
+        "y_resid_minutes": -6.700187
+      },
+      {
+        "state_key": 24,
+        "year": 2012,
+        "x_resid_hours": 0.238604,
+        "y_resid_minutes": -19.958421
+      },
+      {
+        "state_key": 24,
+        "year": 2013,
+        "x_resid_hours": 0.086149,
+        "y_resid_minutes": -10.572956
+      },
+      {
+        "state_key": 24,
+        "year": 2014,
+        "x_resid_hours": -0.38855,
+        "y_resid_minutes": 17.958038
+      },
+      {
+        "state_key": 24,
+        "year": 2015,
+        "x_resid_hours": 0.738227,
+        "y_resid_minutes": -51.947311
+      },
+      {
+        "state_key": 24,
+        "year": 2016,
+        "x_resid_hours": 0.246222,
+        "y_resid_minutes": -6.695669
+      },
+      {
+        "state_key": 24,
+        "year": 2017,
+        "x_resid_hours": -0.362161,
+        "y_resid_minutes": 29.695919
+      },
+      {
+        "state_key": 24,
+        "year": 2018,
+        "x_resid_hours": -0.248065,
+        "y_resid_minutes": 17.699464
+      },
+      {
+        "state_key": 24,
+        "year": 2019,
+        "x_resid_hours": -0.029499,
+        "y_resid_minutes": 2.735466
+      },
+      {
+        "state_key": 24,
+        "year": 2020,
+        "x_resid_hours": 0.168814,
+        "y_resid_minutes": -3.339318
+      },
+      {
+        "state_key": 24,
+        "year": 2021,
+        "x_resid_hours": -0.29206,
+        "y_resid_minutes": 2.371272
+      },
+      {
+        "state_key": 24,
+        "year": 2022,
+        "x_resid_hours": 0.095662,
+        "y_resid_minutes": 25.39096
+      },
+      {
+        "state_key": 24,
+        "year": 2023,
+        "x_resid_hours": -0.115235,
+        "y_resid_minutes": 27.752537
+      },
+      {
+        "state_key": 24,
+        "year": 2024,
+        "x_resid_hours": 0.100666,
+        "y_resid_minutes": -22.021832
+      },
+      {
+        "state_key": 25,
+        "year": 2005,
+        "x_resid_hours": -0.066902,
+        "y_resid_minutes": -22.546801
+      },
+      {
+        "state_key": 25,
+        "year": 2006,
+        "x_resid_hours": -0.058149,
+        "y_resid_minutes": 10.968313
+      },
+      {
+        "state_key": 25,
+        "year": 2007,
+        "x_resid_hours": -0.025266,
+        "y_resid_minutes": 33.309746
+      },
+      {
+        "state_key": 25,
+        "year": 2008,
+        "x_resid_hours": 0.171173,
+        "y_resid_minutes": -12.497436
+      },
+      {
+        "state_key": 25,
+        "year": 2009,
+        "x_resid_hours": -0.087017,
+        "y_resid_minutes": -23.876417
+      },
+      {
+        "state_key": 25,
+        "year": 2010,
+        "x_resid_hours": 0.036872,
+        "y_resid_minutes": -8.084392
+      },
+      {
+        "state_key": 25,
+        "year": 2011,
+        "x_resid_hours": 0.226259,
+        "y_resid_minutes": 22.067801
+      },
+      {
+        "state_key": 25,
+        "year": 2012,
+        "x_resid_hours": 0.303781,
+        "y_resid_minutes": -22.69357
+      },
+      {
+        "state_key": 25,
+        "year": 2013,
+        "x_resid_hours": 0.065471,
+        "y_resid_minutes": 7.780175
+      },
+      {
+        "state_key": 25,
+        "year": 2014,
+        "x_resid_hours": -0.271159,
+        "y_resid_minutes": 20.251485
+      },
+      {
+        "state_key": 25,
+        "year": 2015,
+        "x_resid_hours": -0.388256,
+        "y_resid_minutes": 13.422208
+      },
+      {
+        "state_key": 25,
+        "year": 2016,
+        "x_resid_hours": -0.153736,
+        "y_resid_minutes": 7.191293
+      },
+      {
+        "state_key": 25,
+        "year": 2017,
+        "x_resid_hours": -0.000739,
+        "y_resid_minutes": -6.241078
+      },
+      {
+        "state_key": 25,
+        "year": 2018,
+        "x_resid_hours": 0.063571,
+        "y_resid_minutes": 25.447426
+      },
+      {
+        "state_key": 25,
+        "year": 2019,
+        "x_resid_hours": 0.159257,
+        "y_resid_minutes": -26.39671
+      },
+      {
+        "state_key": 25,
+        "year": 2020,
+        "x_resid_hours": -0.132251,
+        "y_resid_minutes": -19.741351
+      },
+      {
+        "state_key": 25,
+        "year": 2021,
+        "x_resid_hours": -0.063475,
+        "y_resid_minutes": -5.892409
+      },
+      {
+        "state_key": 25,
+        "year": 2022,
+        "x_resid_hours": 0.083102,
+        "y_resid_minutes": -9.697415
+      },
+      {
+        "state_key": 25,
+        "year": 2023,
+        "x_resid_hours": 0.30716,
+        "y_resid_minutes": -5.980939
+      },
+      {
+        "state_key": 25,
+        "year": 2024,
+        "x_resid_hours": -0.169696,
+        "y_resid_minutes": 23.210071
+      },
+      {
+        "state_key": 26,
+        "year": 2005,
+        "x_resid_hours": -0.023904,
+        "y_resid_minutes": 17.42733
+      },
+      {
+        "state_key": 26,
+        "year": 2006,
+        "x_resid_hours": 0.272757,
+        "y_resid_minutes": -14.548494
+      },
+      {
+        "state_key": 26,
+        "year": 2007,
+        "x_resid_hours": 0.132947,
+        "y_resid_minutes": 3.579641
+      },
+      {
+        "state_key": 26,
+        "year": 2008,
+        "x_resid_hours": 0.087151,
+        "y_resid_minutes": -33.953424
+      },
+      {
+        "state_key": 26,
+        "year": 2009,
+        "x_resid_hours": 0.168746,
+        "y_resid_minutes": 8.472962
+      },
+      {
+        "state_key": 26,
+        "year": 2010,
+        "x_resid_hours": -0.291883,
+        "y_resid_minutes": -6.220405
+      },
+      {
+        "state_key": 26,
+        "year": 2011,
+        "x_resid_hours": -0.045145,
+        "y_resid_minutes": -4.572932
+      },
+      {
+        "state_key": 26,
+        "year": 2012,
+        "x_resid_hours": 0.109072,
+        "y_resid_minutes": 3.993454
+      },
+      {
+        "state_key": 26,
+        "year": 2013,
+        "x_resid_hours": -0.290677,
+        "y_resid_minutes": 0.662397
+      },
+      {
+        "state_key": 26,
+        "year": 2014,
+        "x_resid_hours": -0.46792,
+        "y_resid_minutes": 21.153133
+      },
+      {
+        "state_key": 26,
+        "year": 2015,
+        "x_resid_hours": 0.307838,
+        "y_resid_minutes": 22.909712
+      },
+      {
+        "state_key": 26,
+        "year": 2016,
+        "x_resid_hours": 0.400234,
+        "y_resid_minutes": -14.212535
+      },
+      {
+        "state_key": 26,
+        "year": 2017,
+        "x_resid_hours": -0.174328,
+        "y_resid_minutes": -15.401015
+      },
+      {
+        "state_key": 26,
+        "year": 2018,
+        "x_resid_hours": -0.493585,
+        "y_resid_minutes": 30.982283
+      },
+      {
+        "state_key": 26,
+        "year": 2019,
+        "x_resid_hours": 0.116835,
+        "y_resid_minutes": -8.70716
+      },
+      {
+        "state_key": 26,
+        "year": 2020,
+        "x_resid_hours": -0.179203,
+        "y_resid_minutes": -5.03843
+      },
+      {
+        "state_key": 26,
+        "year": 2021,
+        "x_resid_hours": -0.436641,
+        "y_resid_minutes": 21.671205
+      },
+      {
+        "state_key": 26,
+        "year": 2022,
+        "x_resid_hours": -0.145574,
+        "y_resid_minutes": 14.905193
+      },
+      {
+        "state_key": 26,
+        "year": 2023,
+        "x_resid_hours": 0.542986,
+        "y_resid_minutes": -35.85348
+      },
+      {
+        "state_key": 26,
+        "year": 2024,
+        "x_resid_hours": 0.410295,
+        "y_resid_minutes": -7.249434
+      },
+      {
+        "state_key": 27,
+        "year": 2005,
+        "x_resid_hours": -0.002013,
+        "y_resid_minutes": -58.999197
+      },
+      {
+        "state_key": 27,
+        "year": 2006,
+        "x_resid_hours": -0.027433,
+        "y_resid_minutes": 10.164147
+      },
+      {
+        "state_key": 27,
+        "year": 2007,
+        "x_resid_hours": 0.076615,
+        "y_resid_minutes": 21.632662
+      },
+      {
+        "state_key": 27,
+        "year": 2008,
+        "x_resid_hours": 0.070064,
+        "y_resid_minutes": 1.946134
+      },
+      {
+        "state_key": 27,
+        "year": 2009,
+        "x_resid_hours": -0.064099,
+        "y_resid_minutes": 13.282639
+      },
+      {
+        "state_key": 27,
+        "year": 2010,
+        "x_resid_hours": 0.040165,
+        "y_resid_minutes": -21.235788
+      },
+      {
+        "state_key": 27,
+        "year": 2011,
+        "x_resid_hours": 0.011374,
+        "y_resid_minutes": 35.076364
+      },
+      {
+        "state_key": 27,
+        "year": 2012,
+        "x_resid_hours": -0.080925,
+        "y_resid_minutes": 26.008361
+      },
+      {
+        "state_key": 27,
+        "year": 2013,
+        "x_resid_hours": 0.075709,
+        "y_resid_minutes": -25.184309
+      },
+      {
+        "state_key": 27,
+        "year": 2014,
+        "x_resid_hours": 0.314188,
+        "y_resid_minutes": 14.960391
+      },
+      {
+        "state_key": 27,
+        "year": 2015,
+        "x_resid_hours": -0.100899,
+        "y_resid_minutes": 62.18163
+      },
+      {
+        "state_key": 27,
+        "year": 2016,
+        "x_resid_hours": -0.033047,
+        "y_resid_minutes": -1.775236
+      },
+      {
+        "state_key": 27,
+        "year": 2017,
+        "x_resid_hours": -0.083501,
+        "y_resid_minutes": -43.019047
+      },
+      {
+        "state_key": 27,
+        "year": 2018,
+        "x_resid_hours": -0.506653,
+        "y_resid_minutes": -48.787511
+      },
+      {
+        "state_key": 27,
+        "year": 2019,
+        "x_resid_hours": 0.160257,
+        "y_resid_minutes": 18.002706
+      },
+      {
+        "state_key": 27,
+        "year": 2020,
+        "x_resid_hours": -0.078486,
+        "y_resid_minutes": -7.027317
+      },
+      {
+        "state_key": 27,
+        "year": 2021,
+        "x_resid_hours": -0.131532,
+        "y_resid_minutes": -0.86128
+      },
+      {
+        "state_key": 27,
+        "year": 2022,
+        "x_resid_hours": -0.012485,
+        "y_resid_minutes": -10.251932
+      },
+      {
+        "state_key": 27,
+        "year": 2023,
+        "x_resid_hours": 0.085422,
+        "y_resid_minutes": 6.137612
+      },
+      {
+        "state_key": 27,
+        "year": 2024,
+        "x_resid_hours": 0.28728,
+        "y_resid_minutes": 7.74897
+      },
+      {
+        "state_key": 28,
+        "year": 2005,
+        "x_resid_hours": 0.061715,
+        "y_resid_minutes": -84.948813
+      },
+      {
+        "state_key": 28,
+        "year": 2006,
+        "x_resid_hours": 0.00278,
+        "y_resid_minutes": 8.060583
+      },
+      {
+        "state_key": 28,
+        "year": 2007,
+        "x_resid_hours": -0.140809,
+        "y_resid_minutes": 21.759898
+      },
+      {
+        "state_key": 28,
+        "year": 2008,
+        "x_resid_hours": 0.037774,
+        "y_resid_minutes": 17.184679
+      },
+      {
+        "state_key": 28,
+        "year": 2009,
+        "x_resid_hours": 0.329061,
+        "y_resid_minutes": -15.012679
+      },
+      {
+        "state_key": 28,
+        "year": 2010,
+        "x_resid_hours": -0.004171,
+        "y_resid_minutes": 14.951444
+      },
+      {
+        "state_key": 28,
+        "year": 2011,
+        "x_resid_hours": -0.204837,
+        "y_resid_minutes": 21.720106
+      },
+      {
+        "state_key": 28,
+        "year": 2012,
+        "x_resid_hours": -0.317517,
+        "y_resid_minutes": 52.107365
+      },
+      {
+        "state_key": 28,
+        "year": 2013,
+        "x_resid_hours": 0.956173,
+        "y_resid_minutes": -31.259142
+      },
+      {
+        "state_key": 28,
+        "year": 2014,
+        "x_resid_hours": -0.741708,
+        "y_resid_minutes": 23.895902
+      },
+      {
+        "state_key": 28,
+        "year": 2015,
+        "x_resid_hours": -0.368784,
+        "y_resid_minutes": 48.852825
+      },
+      {
+        "state_key": 28,
+        "year": 2016,
+        "x_resid_hours": -0.33493,
+        "y_resid_minutes": 7.480991
+      },
+      {
+        "state_key": 28,
+        "year": 2017,
+        "x_resid_hours": -0.077705,
+        "y_resid_minutes": -14.591143
+      },
+      {
+        "state_key": 28,
+        "year": 2018,
+        "x_resid_hours": 0.834721,
+        "y_resid_minutes": -52.910696
+      },
+      {
+        "state_key": 28,
+        "year": 2019,
+        "x_resid_hours": 0.543358,
+        "y_resid_minutes": -23.47535
+      },
+      {
+        "state_key": 28,
+        "year": 2020,
+        "x_resid_hours": -0.06897,
+        "y_resid_minutes": -37.439862
+      },
+      {
+        "state_key": 28,
+        "year": 2021,
+        "x_resid_hours": -0.39331,
+        "y_resid_minutes": 51.157913
+      },
+      {
+        "state_key": 28,
+        "year": 2022,
+        "x_resid_hours": -0.325505,
+        "y_resid_minutes": 64.952729
+      },
+      {
+        "state_key": 28,
+        "year": 2023,
+        "x_resid_hours": -0.014369,
+        "y_resid_minutes": -58.988588
+      },
+      {
+        "state_key": 28,
+        "year": 2024,
+        "x_resid_hours": 0.227035,
+        "y_resid_minutes": -13.498162
+      },
+      {
+        "state_key": 29,
+        "year": 2006,
+        "x_resid_hours": 0.058258,
+        "y_resid_minutes": -77.50719
+      },
+      {
+        "state_key": 29,
+        "year": 2007,
+        "x_resid_hours": -0.118254,
+        "y_resid_minutes": -5.603122
+      },
+      {
+        "state_key": 29,
+        "year": 2008,
+        "x_resid_hours": 0.177988,
+        "y_resid_minutes": -33.197882
+      },
+      {
+        "state_key": 29,
+        "year": 2009,
+        "x_resid_hours": 0.051812,
+        "y_resid_minutes": -45.39746
+      },
+      {
+        "state_key": 29,
+        "year": 2010,
+        "x_resid_hours": 0.26413,
+        "y_resid_minutes": -17.67247
+      },
+      {
+        "state_key": 29,
+        "year": 2011,
+        "x_resid_hours": 0.038728,
+        "y_resid_minutes": -41.831115
+      },
+      {
+        "state_key": 29,
+        "year": 2012,
+        "x_resid_hours": -0.008465,
+        "y_resid_minutes": -35.864988
+      },
+      {
+        "state_key": 29,
+        "year": 2013,
+        "x_resid_hours": -0.129436,
+        "y_resid_minutes": -2.95995
+      },
+      {
+        "state_key": 29,
+        "year": 2014,
+        "x_resid_hours": -0.110193,
+        "y_resid_minutes": -38.60836
+      },
+      {
+        "state_key": 29,
+        "year": 2015,
+        "x_resid_hours": -0.420271,
+        "y_resid_minutes": -7.200569
+      },
+      {
+        "state_key": 29,
+        "year": 2016,
+        "x_resid_hours": 0.082756,
+        "y_resid_minutes": -13.906823
+      },
+      {
+        "state_key": 29,
+        "year": 2017,
+        "x_resid_hours": -0.239399,
+        "y_resid_minutes": -17.147936
+      },
+      {
+        "state_key": 29,
+        "year": 2018,
+        "x_resid_hours": 0.230555,
+        "y_resid_minutes": -9.776083
+      },
+      {
+        "state_key": 29,
+        "year": 2019,
+        "x_resid_hours": 0.738059,
+        "y_resid_minutes": -20.114357
+      },
+      {
+        "state_key": 29,
+        "year": 2020,
+        "x_resid_hours": -0.172672,
+        "y_resid_minutes": 13.629068
+      },
+      {
+        "state_key": 29,
+        "year": 2021,
+        "x_resid_hours": 0.049444,
+        "y_resid_minutes": -7.337045
+      },
+      {
+        "state_key": 29,
+        "year": 2022,
+        "x_resid_hours": -0.183312,
+        "y_resid_minutes": 34.912924
+      },
+      {
+        "state_key": 29,
+        "year": 2023,
+        "x_resid_hours": -0.246616,
+        "y_resid_minutes": 53.53924
+      },
+      {
+        "state_key": 29,
+        "year": 2024,
+        "x_resid_hours": 0.113685,
+        "y_resid_minutes": 27.717497
+      },
+      {
+        "state_key": 30,
+        "year": 2006,
+        "x_resid_hours": -0.189961,
+        "y_resid_minutes": -9.621063
+      },
+      {
+        "state_key": 30,
+        "year": 2007,
+        "x_resid_hours": -0.206559,
+        "y_resid_minutes": 49.705941
+      },
+      {
+        "state_key": 30,
+        "year": 2008,
+        "x_resid_hours": 0.348065,
+        "y_resid_minutes": 47.472141
+      },
+      {
+        "state_key": 30,
+        "year": 2009,
+        "x_resid_hours": 0.089804,
+        "y_resid_minutes": -55.899063
+      },
+      {
+        "state_key": 30,
+        "year": 2010,
+        "x_resid_hours": -0.354063,
+        "y_resid_minutes": 33.050772
+      },
+      {
+        "state_key": 30,
+        "year": 2011,
+        "x_resid_hours": 0.802302,
+        "y_resid_minutes": -18.701869
+      },
+      {
+        "state_key": 30,
+        "year": 2012,
+        "x_resid_hours": 0.001003,
+        "y_resid_minutes": 114.77283
+      },
+      {
+        "state_key": 30,
+        "year": 2013,
+        "x_resid_hours": 0.267226,
+        "y_resid_minutes": -54.187199
+      },
+      {
+        "state_key": 30,
+        "year": 2015,
+        "x_resid_hours": 0.399796,
+        "y_resid_minutes": -13.171537
+      },
+      {
+        "state_key": 30,
+        "year": 2016,
+        "x_resid_hours": -0.261667,
+        "y_resid_minutes": -49.35289
+      },
+      {
+        "state_key": 30,
+        "year": 2017,
+        "x_resid_hours": 0.97619,
+        "y_resid_minutes": -47.65744
+      },
+      {
+        "state_key": 30,
+        "year": 2018,
+        "x_resid_hours": -0.605251,
+        "y_resid_minutes": 76.351647
+      },
+      {
+        "state_key": 30,
+        "year": 2019,
+        "x_resid_hours": -0.602616,
+        "y_resid_minutes": 131.033006
+      },
+      {
+        "state_key": 30,
+        "year": 2020,
+        "x_resid_hours": 0.050704,
+        "y_resid_minutes": -43.010534
+      },
+      {
+        "state_key": 30,
+        "year": 2023,
+        "x_resid_hours": -0.312259,
+        "y_resid_minutes": 17.968194
+      },
+      {
+        "state_key": 30,
+        "year": 2024,
+        "x_resid_hours": 0.876421,
+        "y_resid_minutes": -121.539665
+      },
+      {
+        "state_key": 31,
+        "year": 2006,
+        "x_resid_hours": -0.126985,
+        "y_resid_minutes": 10.442791
+      },
+      {
+        "state_key": 31,
+        "year": 2007,
+        "x_resid_hours": 0.313768,
+        "y_resid_minutes": 49.598126
+      },
+      {
+        "state_key": 31,
+        "year": 2008,
+        "x_resid_hours": -0.182265,
+        "y_resid_minutes": 32.652805
+      },
+      {
+        "state_key": 31,
+        "year": 2009,
+        "x_resid_hours": 0.110425,
+        "y_resid_minutes": 11.846251
+      },
+      {
+        "state_key": 31,
+        "year": 2010,
+        "x_resid_hours": 0.194908,
+        "y_resid_minutes": 53.585248
+      },
+      {
+        "state_key": 31,
+        "year": 2011,
+        "x_resid_hours": -0.054295,
+        "y_resid_minutes": 67.821141
+      },
+      {
+        "state_key": 31,
+        "year": 2012,
+        "x_resid_hours": 0.12275,
+        "y_resid_minutes": -25.666765
+      },
+      {
+        "state_key": 31,
+        "year": 2013,
+        "x_resid_hours": 0.58102,
+        "y_resid_minutes": -41.089975
+      },
+      {
+        "state_key": 31,
+        "year": 2014,
+        "x_resid_hours": -0.833647,
+        "y_resid_minutes": 12.906807
+      },
+      {
+        "state_key": 31,
+        "year": 2015,
+        "x_resid_hours": 0.169086,
+        "y_resid_minutes": 29.174985
+      },
+      {
+        "state_key": 31,
+        "year": 2016,
+        "x_resid_hours": 0.153071,
+        "y_resid_minutes": -20.64987
+      },
+      {
+        "state_key": 31,
+        "year": 2017,
+        "x_resid_hours": -0.004818,
+        "y_resid_minutes": 49.716783
+      },
+      {
+        "state_key": 31,
+        "year": 2018,
+        "x_resid_hours": 0.447654,
+        "y_resid_minutes": -2.557769
+      },
+      {
+        "state_key": 31,
+        "year": 2019,
+        "x_resid_hours": -0.690591,
+        "y_resid_minutes": 34.613953
+      },
+      {
+        "state_key": 31,
+        "year": 2020,
+        "x_resid_hours": 0.097527,
+        "y_resid_minutes": -12.228411
+      },
+      {
+        "state_key": 31,
+        "year": 2021,
+        "x_resid_hours": 0.10433,
+        "y_resid_minutes": -41.525517
+      },
+      {
+        "state_key": 31,
+        "year": 2022,
+        "x_resid_hours": -0.263209,
+        "y_resid_minutes": -32.710484
+      },
+      {
+        "state_key": 31,
+        "year": 2023,
+        "x_resid_hours": 0.186518,
+        "y_resid_minutes": -31.041206
+      },
+      {
+        "state_key": 31,
+        "year": 2024,
+        "x_resid_hours": -0.02799,
+        "y_resid_minutes": 16.447248
+      },
+      {
+        "state_key": 32,
+        "year": 2005,
+        "x_resid_hours": -0.130668,
+        "y_resid_minutes": -15.588669
+      },
+      {
+        "state_key": 32,
+        "year": 2006,
+        "x_resid_hours": 0.135195,
+        "y_resid_minutes": 18.892092
+      },
+      {
+        "state_key": 32,
+        "year": 2007,
+        "x_resid_hours": -0.127048,
+        "y_resid_minutes": -4.941786
+      },
+      {
+        "state_key": 32,
+        "year": 2008,
+        "x_resid_hours": -0.315971,
+        "y_resid_minutes": -27.102384
+      },
+      {
+        "state_key": 32,
+        "year": 2009,
+        "x_resid_hours": 0.159474,
+        "y_resid_minutes": -6.450815
+      },
+      {
+        "state_key": 32,
+        "year": 2010,
+        "x_resid_hours": -0.030758,
+        "y_resid_minutes": 18.345945
+      },
+      {
+        "state_key": 32,
+        "year": 2011,
+        "x_resid_hours": -0.030543,
+        "y_resid_minutes": -23.130383
+      },
+      {
+        "state_key": 32,
+        "year": 2012,
+        "x_resid_hours": -0.337766,
+        "y_resid_minutes": 73.621974
+      },
+      {
+        "state_key": 32,
+        "year": 2013,
+        "x_resid_hours": 0.200174,
+        "y_resid_minutes": -7.848925
+      },
+      {
+        "state_key": 32,
+        "year": 2014,
+        "x_resid_hours": 0.021452,
+        "y_resid_minutes": -6.125352
+      },
+      {
+        "state_key": 32,
+        "year": 2015,
+        "x_resid_hours": -0.001794,
+        "y_resid_minutes": 50.694267
+      },
+      {
+        "state_key": 32,
+        "year": 2016,
+        "x_resid_hours": 0.306488,
+        "y_resid_minutes": -18.354806
+      },
+      {
+        "state_key": 32,
+        "year": 2017,
+        "x_resid_hours": 0.039918,
+        "y_resid_minutes": 18.411162
+      },
+      {
+        "state_key": 32,
+        "year": 2018,
+        "x_resid_hours": 0.341508,
+        "y_resid_minutes": -91.284007
+      },
+      {
+        "state_key": 32,
+        "year": 2019,
+        "x_resid_hours": 0.331176,
+        "y_resid_minutes": -10.829924
+      },
+      {
+        "state_key": 32,
+        "year": 2020,
+        "x_resid_hours": 0.155139,
+        "y_resid_minutes": 17.478109
+      },
+      {
+        "state_key": 32,
+        "year": 2021,
+        "x_resid_hours": 0.601259,
+        "y_resid_minutes": -76.50242
+      },
+      {
+        "state_key": 32,
+        "year": 2022,
+        "x_resid_hours": -0.537348,
+        "y_resid_minutes": 71.336563
+      },
+      {
+        "state_key": 32,
+        "year": 2023,
+        "x_resid_hours": -0.432884,
+        "y_resid_minutes": 59.004825
+      },
+      {
+        "state_key": 32,
+        "year": 2024,
+        "x_resid_hours": -0.347002,
+        "y_resid_minutes": -39.625466
+      },
+      {
+        "state_key": 33,
+        "year": 2006,
+        "x_resid_hours": 0.185019,
+        "y_resid_minutes": 31.137918
+      },
+      {
+        "state_key": 33,
+        "year": 2007,
+        "x_resid_hours": 0.07377,
+        "y_resid_minutes": -14.69956
+      },
+      {
+        "state_key": 33,
+        "year": 2008,
+        "x_resid_hours": -0.179964,
+        "y_resid_minutes": 47.613985
+      },
+      {
+        "state_key": 33,
+        "year": 2009,
+        "x_resid_hours": -0.637381,
+        "y_resid_minutes": 38.860934
+      },
+      {
+        "state_key": 33,
+        "year": 2011,
+        "x_resid_hours": -0.176064,
+        "y_resid_minutes": 69.479425
+      },
+      {
+        "state_key": 33,
+        "year": 2012,
+        "x_resid_hours": -1.035153,
+        "y_resid_minutes": 56.676682
+      },
+      {
+        "state_key": 33,
+        "year": 2013,
+        "x_resid_hours": 0.44574,
+        "y_resid_minutes": 14.546653
+      },
+      {
+        "state_key": 33,
+        "year": 2014,
+        "x_resid_hours": 0.216149,
+        "y_resid_minutes": 17.600302
+      },
+      {
+        "state_key": 33,
+        "year": 2015,
+        "x_resid_hours": -0.044564,
+        "y_resid_minutes": -64.612739
+      },
+      {
+        "state_key": 33,
+        "year": 2016,
+        "x_resid_hours": -0.329241,
+        "y_resid_minutes": 71.698778
+      },
+      {
+        "state_key": 33,
+        "year": 2017,
+        "x_resid_hours": -0.398964,
+        "y_resid_minutes": 82.29248
+      },
+      {
+        "state_key": 33,
+        "year": 2018,
+        "x_resid_hours": 0.083758,
+        "y_resid_minutes": -20.462292
+      },
+      {
+        "state_key": 33,
+        "year": 2019,
+        "x_resid_hours": 0.314866,
+        "y_resid_minutes": -16.175455
+      },
+      {
+        "state_key": 33,
+        "year": 2020,
+        "x_resid_hours": -0.274517,
+        "y_resid_minutes": 46.343958
+      },
+      {
+        "state_key": 33,
+        "year": 2021,
+        "x_resid_hours": -0.189826,
+        "y_resid_minutes": 38.279295
+      },
+      {
+        "state_key": 33,
+        "year": 2022,
+        "x_resid_hours": 0.111502,
+        "y_resid_minutes": -67.834805
+      },
+      {
+        "state_key": 33,
+        "year": 2023,
+        "x_resid_hours": 0.167004,
+        "y_resid_minutes": -15.347689
+      },
+      {
+        "state_key": 33,
+        "year": 2024,
+        "x_resid_hours": 0.185264,
+        "y_resid_minutes": -95.600398
+      },
+      {
+        "state_key": 34,
+        "year": 2005,
+        "x_resid_hours": -0.270586,
+        "y_resid_minutes": 65.965203
+      },
+      {
+        "state_key": 34,
+        "year": 2006,
+        "x_resid_hours": 0.17281,
+        "y_resid_minutes": -32.430653
+      },
+      {
+        "state_key": 34,
+        "year": 2007,
+        "x_resid_hours": 0.136218,
+        "y_resid_minutes": -12.263562
+      },
+      {
+        "state_key": 34,
+        "year": 2008,
+        "x_resid_hours": -0.020197,
+        "y_resid_minutes": -10.285324
+      },
+      {
+        "state_key": 34,
+        "year": 2009,
+        "x_resid_hours": 0.138785,
+        "y_resid_minutes": -23.512386
+      },
+      {
+        "state_key": 34,
+        "year": 2010,
+        "x_resid_hours": -0.196179,
+        "y_resid_minutes": -1.072505
+      },
+      {
+        "state_key": 34,
+        "year": 2011,
+        "x_resid_hours": 0.154151,
+        "y_resid_minutes": -11.244712
+      },
+      {
+        "state_key": 34,
+        "year": 2012,
+        "x_resid_hours": -0.254832,
+        "y_resid_minutes": 20.262936
+      },
+      {
+        "state_key": 34,
+        "year": 2013,
+        "x_resid_hours": 0.000326,
+        "y_resid_minutes": 10.348999
+      },
+      {
+        "state_key": 34,
+        "year": 2014,
+        "x_resid_hours": 0.411685,
+        "y_resid_minutes": -38.161571
+      },
+      {
+        "state_key": 34,
+        "year": 2015,
+        "x_resid_hours": -0.050461,
+        "y_resid_minutes": -20.768681
+      },
+      {
+        "state_key": 34,
+        "year": 2016,
+        "x_resid_hours": -0.115143,
+        "y_resid_minutes": 32.380206
+      },
+      {
+        "state_key": 34,
+        "year": 2017,
+        "x_resid_hours": -0.062096,
+        "y_resid_minutes": 13.829537
+      },
+      {
+        "state_key": 34,
+        "year": 2018,
+        "x_resid_hours": -0.207122,
+        "y_resid_minutes": 21.348441
+      },
+      {
+        "state_key": 34,
+        "year": 2019,
+        "x_resid_hours": 0.005875,
+        "y_resid_minutes": 8.734508
+      },
+      {
+        "state_key": 34,
+        "year": 2020,
+        "x_resid_hours": 0.313574,
+        "y_resid_minutes": -2.727267
+      },
+      {
+        "state_key": 34,
+        "year": 2021,
+        "x_resid_hours": -0.281873,
+        "y_resid_minutes": -17.833904
+      },
+      {
+        "state_key": 34,
+        "year": 2022,
+        "x_resid_hours": 0.076832,
+        "y_resid_minutes": -27.575736
+      },
+      {
+        "state_key": 34,
+        "year": 2023,
+        "x_resid_hours": 0.097301,
+        "y_resid_minutes": 20.83104
+      },
+      {
+        "state_key": 34,
+        "year": 2024,
+        "x_resid_hours": -0.049068,
+        "y_resid_minutes": 4.175432
+      },
+      {
+        "state_key": 35,
+        "year": 2005,
+        "x_resid_hours": -0.086624,
+        "y_resid_minutes": 26.065514
+      },
+      {
+        "state_key": 35,
+        "year": 2006,
+        "x_resid_hours": 0.595523,
+        "y_resid_minutes": 6.963266
+      },
+      {
+        "state_key": 35,
+        "year": 2007,
+        "x_resid_hours": -0.35612,
+        "y_resid_minutes": 27.610732
+      },
+      {
+        "state_key": 35,
+        "year": 2008,
+        "x_resid_hours": 0.816522,
+        "y_resid_minutes": -23.515949
+      },
+      {
+        "state_key": 35,
+        "year": 2009,
+        "x_resid_hours": -0.148348,
+        "y_resid_minutes": 6.228529
+      },
+      {
+        "state_key": 35,
+        "year": 2010,
+        "x_resid_hours": -0.13127,
+        "y_resid_minutes": -28.656048
+      },
+      {
+        "state_key": 35,
+        "year": 2011,
+        "x_resid_hours": -0.092746,
+        "y_resid_minutes": 19.309776
+      },
+      {
+        "state_key": 35,
+        "year": 2012,
+        "x_resid_hours": -0.167499,
+        "y_resid_minutes": -48.122727
+      },
+      {
+        "state_key": 35,
+        "year": 2013,
+        "x_resid_hours": -0.383914,
+        "y_resid_minutes": -17.445703
+      },
+      {
+        "state_key": 35,
+        "year": 2014,
+        "x_resid_hours": 0.035038,
+        "y_resid_minutes": -7.67895
+      },
+      {
+        "state_key": 35,
+        "year": 2015,
+        "x_resid_hours": -0.208151,
+        "y_resid_minutes": -15.39732
+      },
+      {
+        "state_key": 35,
+        "year": 2016,
+        "x_resid_hours": -0.60866,
+        "y_resid_minutes": 71.298883
+      },
+      {
+        "state_key": 35,
+        "year": 2017,
+        "x_resid_hours": -0.450101,
+        "y_resid_minutes": 30.696031
+      },
+      {
+        "state_key": 35,
+        "year": 2018,
+        "x_resid_hours": 0.530223,
+        "y_resid_minutes": -60.859915
+      },
+      {
+        "state_key": 35,
+        "year": 2019,
+        "x_resid_hours": -0.173582,
+        "y_resid_minutes": -5.4005
+      },
+      {
+        "state_key": 35,
+        "year": 2020,
+        "x_resid_hours": 0.368182,
+        "y_resid_minutes": -35.094688
+      },
+      {
+        "state_key": 35,
+        "year": 2021,
+        "x_resid_hours": 0.088278,
+        "y_resid_minutes": 32.739092
+      },
+      {
+        "state_key": 35,
+        "year": 2022,
+        "x_resid_hours": 0.456433,
+        "y_resid_minutes": -6.816173
+      },
+      {
+        "state_key": 35,
+        "year": 2023,
+        "x_resid_hours": -0.003017,
+        "y_resid_minutes": -9.547794
+      },
+      {
+        "state_key": 35,
+        "year": 2024,
+        "x_resid_hours": -0.080167,
+        "y_resid_minutes": 37.623942
+      },
+      {
+        "state_key": 36,
+        "year": 2005,
+        "x_resid_hours": 0.064016,
+        "y_resid_minutes": 4.791472
+      },
+      {
+        "state_key": 36,
+        "year": 2006,
+        "x_resid_hours": -0.161685,
+        "y_resid_minutes": 35.094019
+      },
+      {
+        "state_key": 36,
+        "year": 2007,
+        "x_resid_hours": 0.17057,
+        "y_resid_minutes": -11.245457
+      },
+      {
+        "state_key": 36,
+        "year": 2008,
+        "x_resid_hours": 0.164318,
+        "y_resid_minutes": -38.239216
+      },
+      {
+        "state_key": 36,
+        "year": 2009,
+        "x_resid_hours": 0.044403,
+        "y_resid_minutes": -2.648799
+      },
+      {
+        "state_key": 36,
+        "year": 2010,
+        "x_resid_hours": -0.100575,
+        "y_resid_minutes": 2.153378
+      },
+      {
+        "state_key": 36,
+        "year": 2011,
+        "x_resid_hours": -0.221304,
+        "y_resid_minutes": 8.160756
+      },
+      {
+        "state_key": 36,
+        "year": 2012,
+        "x_resid_hours": 0.072385,
+        "y_resid_minutes": 19.318315
+      },
+      {
+        "state_key": 36,
+        "year": 2013,
+        "x_resid_hours": 0.079429,
+        "y_resid_minutes": -26.079399
+      },
+      {
+        "state_key": 36,
+        "year": 2014,
+        "x_resid_hours": 0.009774,
+        "y_resid_minutes": 3.838017
+      },
+      {
+        "state_key": 36,
+        "year": 2015,
+        "x_resid_hours": -0.130099,
+        "y_resid_minutes": 13.596427
+      },
+      {
+        "state_key": 36,
+        "year": 2016,
+        "x_resid_hours": -0.019058,
+        "y_resid_minutes": 2.889601
+      },
+      {
+        "state_key": 36,
+        "year": 2017,
+        "x_resid_hours": 0.036084,
+        "y_resid_minutes": -5.280813
+      },
+      {
+        "state_key": 36,
+        "year": 2018,
+        "x_resid_hours": 0.122432,
+        "y_resid_minutes": -14.119541
+      },
+      {
+        "state_key": 36,
+        "year": 2019,
+        "x_resid_hours": -0.064407,
+        "y_resid_minutes": 17.981719
+      },
+      {
+        "state_key": 36,
+        "year": 2020,
+        "x_resid_hours": -0.283332,
+        "y_resid_minutes": -27.792312
+      },
+      {
+        "state_key": 36,
+        "year": 2021,
+        "x_resid_hours": 0.071939,
+        "y_resid_minutes": -29.766454
+      },
+      {
+        "state_key": 36,
+        "year": 2022,
+        "x_resid_hours": -0.220334,
+        "y_resid_minutes": 34.998265
+      },
+      {
+        "state_key": 36,
+        "year": 2023,
+        "x_resid_hours": -0.0395,
+        "y_resid_minutes": 17.199979
+      },
+      {
+        "state_key": 36,
+        "year": 2024,
+        "x_resid_hours": 0.404942,
+        "y_resid_minutes": -4.849958
+      },
+      {
+        "state_key": 37,
+        "year": 2005,
+        "x_resid_hours": -0.286419,
+        "y_resid_minutes": 45.707236
+      },
+      {
+        "state_key": 37,
+        "year": 2006,
+        "x_resid_hours": -0.12315,
+        "y_resid_minutes": -12.081181
+      },
+      {
+        "state_key": 37,
+        "year": 2007,
+        "x_resid_hours": 0.071826,
+        "y_resid_minutes": -25.228853
+      },
+      {
+        "state_key": 37,
+        "year": 2008,
+        "x_resid_hours": 0.188918,
+        "y_resid_minutes": -16.122689
+      },
+      {
+        "state_key": 37,
+        "year": 2009,
+        "x_resid_hours": 0.381833,
+        "y_resid_minutes": -18.689132
+      },
+      {
+        "state_key": 37,
+        "year": 2010,
+        "x_resid_hours": 0.110316,
+        "y_resid_minutes": -7.501741
+      },
+      {
+        "state_key": 37,
+        "year": 2011,
+        "x_resid_hours": -0.22867,
+        "y_resid_minutes": 19.560528
+      },
+      {
+        "state_key": 37,
+        "year": 2012,
+        "x_resid_hours": 0.19582,
+        "y_resid_minutes": -16.688185
+      },
+      {
+        "state_key": 37,
+        "year": 2013,
+        "x_resid_hours": 0.461639,
+        "y_resid_minutes": -4.297736
+      },
+      {
+        "state_key": 37,
+        "year": 2014,
+        "x_resid_hours": -0.270908,
+        "y_resid_minutes": 11.640011
+      },
+      {
+        "state_key": 37,
+        "year": 2015,
+        "x_resid_hours": -0.062252,
+        "y_resid_minutes": 11.186406
+      },
+      {
+        "state_key": 37,
+        "year": 2016,
+        "x_resid_hours": 0.054804,
+        "y_resid_minutes": -16.11022
+      },
+      {
+        "state_key": 37,
+        "year": 2017,
+        "x_resid_hours": -0.426634,
+        "y_resid_minutes": 28.358744
+      },
+      {
+        "state_key": 37,
+        "year": 2018,
+        "x_resid_hours": -0.188382,
+        "y_resid_minutes": 3.181814
+      },
+      {
+        "state_key": 37,
+        "year": 2019,
+        "x_resid_hours": -0.148417,
+        "y_resid_minutes": 0.051707
+      },
+      {
+        "state_key": 37,
+        "year": 2020,
+        "x_resid_hours": -0.11647,
+        "y_resid_minutes": 22.640731
+      },
+      {
+        "state_key": 37,
+        "year": 2021,
+        "x_resid_hours": -0.074357,
+        "y_resid_minutes": -0.375426
+      },
+      {
+        "state_key": 37,
+        "year": 2022,
+        "x_resid_hours": -0.101843,
+        "y_resid_minutes": 11.215246
+      },
+      {
+        "state_key": 37,
+        "year": 2023,
+        "x_resid_hours": 0.270209,
+        "y_resid_minutes": -3.438643
+      },
+      {
+        "state_key": 37,
+        "year": 2024,
+        "x_resid_hours": 0.292136,
+        "y_resid_minutes": -33.008616
+      },
+      {
+        "state_key": 38,
+        "year": 2005,
+        "x_resid_hours": -0.672597,
+        "y_resid_minutes": -40.400648
+      },
+      {
+        "state_key": 38,
+        "year": 2006,
+        "x_resid_hours": 0.530079,
+        "y_resid_minutes": 89.233762
+      },
+      {
+        "state_key": 38,
+        "year": 2007,
+        "x_resid_hours": 0.547615,
+        "y_resid_minutes": 26.950419
+      },
+      {
+        "state_key": 38,
+        "year": 2009,
+        "x_resid_hours": 0.406869,
+        "y_resid_minutes": -45.761526
+      },
+      {
+        "state_key": 38,
+        "year": 2010,
+        "x_resid_hours": 0.093307,
+        "y_resid_minutes": 5.134635
+      },
+      {
+        "state_key": 38,
+        "year": 2011,
+        "x_resid_hours": 0.140633,
+        "y_resid_minutes": -75.235575
+      },
+      {
+        "state_key": 38,
+        "year": 2012,
+        "x_resid_hours": -0.388129,
+        "y_resid_minutes": -7.897794
+      },
+      {
+        "state_key": 38,
+        "year": 2013,
+        "x_resid_hours": -1.008327,
+        "y_resid_minutes": -26.556381
+      },
+      {
+        "state_key": 38,
+        "year": 2015,
+        "x_resid_hours": -0.292554,
+        "y_resid_minutes": 17.309088
+      },
+      {
+        "state_key": 38,
+        "year": 2016,
+        "x_resid_hours": 0.075294,
+        "y_resid_minutes": -36.861332
+      },
+      {
+        "state_key": 38,
+        "year": 2017,
+        "x_resid_hours": 0.3477,
+        "y_resid_minutes": -112.941788
+      },
+      {
+        "state_key": 38,
+        "year": 2018,
+        "x_resid_hours": -0.237415,
+        "y_resid_minutes": 54.073998
+      },
+      {
+        "state_key": 38,
+        "year": 2019,
+        "x_resid_hours": 0.115316,
+        "y_resid_minutes": -36.465386
+      },
+      {
+        "state_key": 38,
+        "year": 2020,
+        "x_resid_hours": -0.556439,
+        "y_resid_minutes": 83.488393
+      },
+      {
+        "state_key": 38,
+        "year": 2021,
+        "x_resid_hours": 0.321778,
+        "y_resid_minutes": -9.89518
+      },
+      {
+        "state_key": 38,
+        "year": 2022,
+        "x_resid_hours": -0.559705,
+        "y_resid_minutes": -60.106441
+      },
+      {
+        "state_key": 38,
+        "year": 2023,
+        "x_resid_hours": -0.766555,
+        "y_resid_minutes": 72.554026
+      },
+      {
+        "state_key": 39,
+        "year": 2005,
+        "x_resid_hours": 0.011148,
+        "y_resid_minutes": -124.778959
+      },
+      {
+        "state_key": 39,
+        "year": 2006,
+        "x_resid_hours": -0.002026,
+        "y_resid_minutes": 41.120169
+      },
+      {
+        "state_key": 39,
+        "year": 2007,
+        "x_resid_hours": -0.039942,
+        "y_resid_minutes": 2.597041
+      },
+      {
+        "state_key": 39,
+        "year": 2008,
+        "x_resid_hours": -0.176213,
+        "y_resid_minutes": 35.188662
+      },
+      {
+        "state_key": 39,
+        "year": 2009,
+        "x_resid_hours": 0.438351,
+        "y_resid_minutes": 18.293028
+      },
+      {
+        "state_key": 39,
+        "year": 2010,
+        "x_resid_hours": 0.06953,
+        "y_resid_minutes": 1.054262
+      },
+      {
+        "state_key": 39,
+        "year": 2011,
+        "x_resid_hours": -0.272189,
+        "y_resid_minutes": 12.030991
+      },
+      {
+        "state_key": 39,
+        "year": 2012,
+        "x_resid_hours": 0.04869,
+        "y_resid_minutes": 24.087997
+      },
+      {
+        "state_key": 39,
+        "year": 2013,
+        "x_resid_hours": -0.069849,
+        "y_resid_minutes": 18.250891
+      },
+      {
+        "state_key": 39,
+        "year": 2014,
+        "x_resid_hours": 0.111887,
+        "y_resid_minutes": -1.38215
+      },
+      {
+        "state_key": 39,
+        "year": 2015,
+        "x_resid_hours": -0.178704,
+        "y_resid_minutes": 11.462839
+      },
+      {
+        "state_key": 39,
+        "year": 2016,
+        "x_resid_hours": 0.08567,
+        "y_resid_minutes": -20.526669
+      },
+      {
+        "state_key": 39,
+        "year": 2017,
+        "x_resid_hours": -0.276076,
+        "y_resid_minutes": 15.414671
+      },
+      {
+        "state_key": 39,
+        "year": 2018,
+        "x_resid_hours": 0.23207,
+        "y_resid_minutes": 11.507637
+      },
+      {
+        "state_key": 39,
+        "year": 2019,
+        "x_resid_hours": -0.237338,
+        "y_resid_minutes": 3.004626
+      },
+      {
+        "state_key": 39,
+        "year": 2020,
+        "x_resid_hours": 0.501555,
+        "y_resid_minutes": -10.072451
+      },
+      {
+        "state_key": 39,
+        "year": 2021,
+        "x_resid_hours": -0.170658,
+        "y_resid_minutes": -6.37316
+      },
+      {
+        "state_key": 39,
+        "year": 2022,
+        "x_resid_hours": -0.374173,
+        "y_resid_minutes": 37.661434
+      },
+      {
+        "state_key": 39,
+        "year": 2023,
+        "x_resid_hours": 0.281883,
+        "y_resid_minutes": -44.920765
+      },
+      {
+        "state_key": 39,
+        "year": 2024,
+        "x_resid_hours": 0.016382,
+        "y_resid_minutes": -23.620093
+      },
+      {
+        "state_key": 40,
+        "year": 2006,
+        "x_resid_hours": -0.19128,
+        "y_resid_minutes": 76.439633
+      },
+      {
+        "state_key": 40,
+        "year": 2007,
+        "x_resid_hours": 0.065244,
+        "y_resid_minutes": 22.727849
+      },
+      {
+        "state_key": 40,
+        "year": 2008,
+        "x_resid_hours": 0.007111,
+        "y_resid_minutes": 72.057677
+      },
+      {
+        "state_key": 40,
+        "year": 2009,
+        "x_resid_hours": 0.188069,
+        "y_resid_minutes": -34.826653
+      },
+      {
+        "state_key": 40,
+        "year": 2010,
+        "x_resid_hours": 0.011515,
+        "y_resid_minutes": 27.913062
+      },
+      {
+        "state_key": 40,
+        "year": 2011,
+        "x_resid_hours": 0.061266,
+        "y_resid_minutes": 4.019077
+      },
+      {
+        "state_key": 40,
+        "year": 2012,
+        "x_resid_hours": -0.182436,
+        "y_resid_minutes": 4.346968
+      },
+      {
+        "state_key": 40,
+        "year": 2013,
+        "x_resid_hours": -0.024778,
+        "y_resid_minutes": -23.815435
+      },
+      {
+        "state_key": 40,
+        "year": 2014,
+        "x_resid_hours": 0.062135,
+        "y_resid_minutes": 43.231883
+      },
+      {
+        "state_key": 40,
+        "year": 2015,
+        "x_resid_hours": -0.197263,
+        "y_resid_minutes": 44.234801
+      },
+      {
+        "state_key": 40,
+        "year": 2016,
+        "x_resid_hours": -0.285396,
+        "y_resid_minutes": 20.502053
+      },
+      {
+        "state_key": 40,
+        "year": 2017,
+        "x_resid_hours": 0.865876,
+        "y_resid_minutes": -67.0844
+      },
+      {
+        "state_key": 40,
+        "year": 2018,
+        "x_resid_hours": -0.629777,
+        "y_resid_minutes": 5.279363
+      },
+      {
+        "state_key": 40,
+        "year": 2019,
+        "x_resid_hours": -0.56806,
+        "y_resid_minutes": 30.48346
+      },
+      {
+        "state_key": 40,
+        "year": 2020,
+        "x_resid_hours": -0.257774,
+        "y_resid_minutes": 37.888275
+      },
+      {
+        "state_key": 40,
+        "year": 2021,
+        "x_resid_hours": 0.682697,
+        "y_resid_minutes": -49.214711
+      },
+      {
+        "state_key": 40,
+        "year": 2022,
+        "x_resid_hours": 0.748915,
+        "y_resid_minutes": 12.688618
+      },
+      {
+        "state_key": 40,
+        "year": 2023,
+        "x_resid_hours": -0.103024,
+        "y_resid_minutes": -31.113832
+      },
+      {
+        "state_key": 40,
+        "year": 2024,
+        "x_resid_hours": -0.383903,
+        "y_resid_minutes": -20.328315
+      },
+      {
+        "state_key": 41,
+        "year": 2006,
+        "x_resid_hours": -0.329019,
+        "y_resid_minutes": -128.554121
+      },
+      {
+        "state_key": 41,
+        "year": 2010,
+        "x_resid_hours": -0.017251,
+        "y_resid_minutes": -99.883556
+      },
+      {
+        "state_key": 41,
+        "year": 2011,
+        "x_resid_hours": 0.042012,
+        "y_resid_minutes": -4.410831
+      },
+      {
+        "state_key": 41,
+        "year": 2012,
+        "x_resid_hours": -0.007467,
+        "y_resid_minutes": -40.658066
+      },
+      {
+        "state_key": 41,
+        "year": 2013,
+        "x_resid_hours": -0.174901,
+        "y_resid_minutes": -14.022479
+      },
+      {
+        "state_key": 41,
+        "year": 2014,
+        "x_resid_hours": 0.078218,
+        "y_resid_minutes": -10.878793
+      },
+      {
+        "state_key": 41,
+        "year": 2015,
+        "x_resid_hours": -0.322096,
+        "y_resid_minutes": 15.654513
+      },
+      {
+        "state_key": 41,
+        "year": 2016,
+        "x_resid_hours": 0.137576,
+        "y_resid_minutes": -23.214589
+      },
+      {
+        "state_key": 41,
+        "year": 2017,
+        "x_resid_hours": 0.533184,
+        "y_resid_minutes": -54.077895
+      },
+      {
+        "state_key": 41,
+        "year": 2018,
+        "x_resid_hours": -0.097674,
+        "y_resid_minutes": 5.014664
+      },
+      {
+        "state_key": 41,
+        "year": 2019,
+        "x_resid_hours": -0.481999,
+        "y_resid_minutes": 56.534709
+      },
+      {
+        "state_key": 41,
+        "year": 2020,
+        "x_resid_hours": 0.121704,
+        "y_resid_minutes": 30.115223
+      },
+      {
+        "state_key": 41,
+        "year": 2021,
+        "x_resid_hours": -0.149398,
+        "y_resid_minutes": -5.268852
+      },
+      {
+        "state_key": 41,
+        "year": 2022,
+        "x_resid_hours": -0.092192,
+        "y_resid_minutes": 54.945974
+      },
+      {
+        "state_key": 41,
+        "year": 2023,
+        "x_resid_hours": -0.010158,
+        "y_resid_minutes": 36.007077
+      },
+      {
+        "state_key": 41,
+        "year": 2024,
+        "x_resid_hours": 0.252023,
+        "y_resid_minutes": 20.692036
+      },
+      {
+        "state_key": 42,
+        "year": 2005,
+        "x_resid_hours": -0.213596,
+        "y_resid_minutes": -104.163238
+      },
+      {
+        "state_key": 42,
+        "year": 2006,
+        "x_resid_hours": 0.004509,
+        "y_resid_minutes": 25.923453
+      },
+      {
+        "state_key": 42,
+        "year": 2007,
+        "x_resid_hours": 0.10249,
+        "y_resid_minutes": 2.407901
+      },
+      {
+        "state_key": 42,
+        "year": 2008,
+        "x_resid_hours": -0.015351,
+        "y_resid_minutes": 24.909423
+      },
+      {
+        "state_key": 42,
+        "year": 2009,
+        "x_resid_hours": 0.238253,
+        "y_resid_minutes": 35.818598
+      },
+      {
+        "state_key": 42,
+        "year": 2010,
+        "x_resid_hours": -0.059904,
+        "y_resid_minutes": 8.273556
+      },
+      {
+        "state_key": 42,
+        "year": 2011,
+        "x_resid_hours": 0.037115,
+        "y_resid_minutes": 12.005637
+      },
+      {
+        "state_key": 42,
+        "year": 2012,
+        "x_resid_hours": 0.171609,
+        "y_resid_minutes": 19.221784
+      },
+      {
+        "state_key": 42,
+        "year": 2013,
+        "x_resid_hours": -0.194883,
+        "y_resid_minutes": -13.88007
+      },
+      {
+        "state_key": 42,
+        "year": 2014,
+        "x_resid_hours": -0.091786,
+        "y_resid_minutes": 31.566007
+      },
+      {
+        "state_key": 42,
+        "year": 2015,
+        "x_resid_hours": 0.043482,
+        "y_resid_minutes": -8.690452
+      },
+      {
+        "state_key": 42,
+        "year": 2016,
+        "x_resid_hours": -0.075185,
+        "y_resid_minutes": 13.203105
+      },
+      {
+        "state_key": 42,
+        "year": 2017,
+        "x_resid_hours": 0.036332,
+        "y_resid_minutes": -5.512599
+      },
+      {
+        "state_key": 42,
+        "year": 2018,
+        "x_resid_hours": 0.202947,
+        "y_resid_minutes": -14.706962
+      },
+      {
+        "state_key": 42,
+        "year": 2019,
+        "x_resid_hours": -0.251824,
+        "y_resid_minutes": 33.986191
+      },
+      {
+        "state_key": 42,
+        "year": 2020,
+        "x_resid_hours": 0.191616,
+        "y_resid_minutes": -17.770933
+      },
+      {
+        "state_key": 42,
+        "year": 2021,
+        "x_resid_hours": -0.149676,
+        "y_resid_minutes": -36.764988
+      },
+      {
+        "state_key": 42,
+        "year": 2022,
+        "x_resid_hours": -0.036747,
+        "y_resid_minutes": -7.725381
+      },
+      {
+        "state_key": 42,
+        "year": 2023,
+        "x_resid_hours": 0.018386,
+        "y_resid_minutes": -3.510749
+      },
+      {
+        "state_key": 42,
+        "year": 2024,
+        "x_resid_hours": 0.042212,
+        "y_resid_minutes": 5.409719
+      },
+      {
+        "state_key": 44,
+        "year": 2005,
+        "x_resid_hours": -0.099532,
+        "y_resid_minutes": 28.50751
+      },
+      {
+        "state_key": 44,
+        "year": 2006,
+        "x_resid_hours": -0.256079,
+        "y_resid_minutes": -39.481027
+      },
+      {
+        "state_key": 44,
+        "year": 2007,
+        "x_resid_hours": 0.273074,
+        "y_resid_minutes": -94.19748
+      },
+      {
+        "state_key": 44,
+        "year": 2008,
+        "x_resid_hours": -1.01436,
+        "y_resid_minutes": 79.702331
+      },
+      {
+        "state_key": 44,
+        "year": 2009,
+        "x_resid_hours": 0.288057,
+        "y_resid_minutes": 43.10904
+      },
+      {
+        "state_key": 44,
+        "year": 2010,
+        "x_resid_hours": -0.630943,
+        "y_resid_minutes": 32.816412
+      },
+      {
+        "state_key": 44,
+        "year": 2011,
+        "x_resid_hours": -0.075359,
+        "y_resid_minutes": 96.476618
+      },
+      {
+        "state_key": 44,
+        "year": 2012,
+        "x_resid_hours": -0.282406,
+        "y_resid_minutes": -0.473318
+      },
+      {
+        "state_key": 44,
+        "year": 2013,
+        "x_resid_hours": 1.043162,
+        "y_resid_minutes": -4.337961
+      },
+      {
+        "state_key": 44,
+        "year": 2014,
+        "x_resid_hours": 0.923624,
+        "y_resid_minutes": -80.642723
+      },
+      {
+        "state_key": 44,
+        "year": 2015,
+        "x_resid_hours": 0.54452,
+        "y_resid_minutes": -58.333086
+      },
+      {
+        "state_key": 44,
+        "year": 2016,
+        "x_resid_hours": 0.649147,
+        "y_resid_minutes": -3.842194
+      },
+      {
+        "state_key": 44,
+        "year": 2017,
+        "x_resid_hours": -0.854715,
+        "y_resid_minutes": 6.055666
+      },
+      {
+        "state_key": 44,
+        "year": 2018,
+        "x_resid_hours": 0.460597,
+        "y_resid_minutes": -82.375085
+      },
+      {
+        "state_key": 44,
+        "year": 2019,
+        "x_resid_hours": 1.047002,
+        "y_resid_minutes": -105.723241
+      },
+      {
+        "state_key": 44,
+        "year": 2020,
+        "x_resid_hours": -0.457024,
+        "y_resid_minutes": 65.22902
+      },
+      {
+        "state_key": 44,
+        "year": 2021,
+        "x_resid_hours": -0.61382,
+        "y_resid_minutes": 47.858663
+      },
+      {
+        "state_key": 44,
+        "year": 2023,
+        "x_resid_hours": 0.151166,
+        "y_resid_minutes": 47.34349
+      },
+      {
+        "state_key": 44,
+        "year": 2024,
+        "x_resid_hours": 0.070469,
+        "y_resid_minutes": -17.230484
+      },
+      {
+        "state_key": 45,
+        "year": 2005,
+        "x_resid_hours": -0.041416,
+        "y_resid_minutes": 18.513416
+      },
+      {
+        "state_key": 45,
+        "year": 2006,
+        "x_resid_hours": -0.083264,
+        "y_resid_minutes": 6.498206
+      },
+      {
+        "state_key": 45,
+        "year": 2007,
+        "x_resid_hours": 0.186694,
+        "y_resid_minutes": -12.590298
+      },
+      {
+        "state_key": 45,
+        "year": 2008,
+        "x_resid_hours": 0.702758,
+        "y_resid_minutes": -20.814002
+      },
+      {
+        "state_key": 45,
+        "year": 2009,
+        "x_resid_hours": 0.126343,
+        "y_resid_minutes": 44.890662
+      },
+      {
+        "state_key": 45,
+        "year": 2010,
+        "x_resid_hours": -0.202165,
+        "y_resid_minutes": 1.794939
+      },
+      {
+        "state_key": 45,
+        "year": 2011,
+        "x_resid_hours": -0.254154,
+        "y_resid_minutes": 14.133872
+      },
+      {
+        "state_key": 45,
+        "year": 2012,
+        "x_resid_hours": -0.032318,
+        "y_resid_minutes": -34.740048
+      },
+      {
+        "state_key": 45,
+        "year": 2013,
+        "x_resid_hours": -0.268168,
+        "y_resid_minutes": 30.832902
+      },
+      {
+        "state_key": 45,
+        "year": 2014,
+        "x_resid_hours": 0.555938,
+        "y_resid_minutes": -53.455258
+      },
+      {
+        "state_key": 45,
+        "year": 2015,
+        "x_resid_hours": -0.407806,
+        "y_resid_minutes": 11.251755
+      },
+      {
+        "state_key": 45,
+        "year": 2016,
+        "x_resid_hours": -0.325283,
+        "y_resid_minutes": -33.577438
+      },
+      {
+        "state_key": 45,
+        "year": 2017,
+        "x_resid_hours": 0.028071,
+        "y_resid_minutes": -26.507356
+      },
+      {
+        "state_key": 45,
+        "year": 2018,
+        "x_resid_hours": -0.033134,
+        "y_resid_minutes": -5.75385
+      },
+      {
+        "state_key": 45,
+        "year": 2019,
+        "x_resid_hours": -0.535612,
+        "y_resid_minutes": 5.632117
+      },
+      {
+        "state_key": 45,
+        "year": 2020,
+        "x_resid_hours": -0.425392,
+        "y_resid_minutes": 44.557831
+      },
+      {
+        "state_key": 45,
+        "year": 2021,
+        "x_resid_hours": -0.074867,
+        "y_resid_minutes": 11.141596
+      },
+      {
+        "state_key": 45,
+        "year": 2022,
+        "x_resid_hours": 0.093458,
+        "y_resid_minutes": -18.72253
+      },
+      {
+        "state_key": 45,
+        "year": 2023,
+        "x_resid_hours": 0.577309,
+        "y_resid_minutes": -6.565021
+      },
+      {
+        "state_key": 45,
+        "year": 2024,
+        "x_resid_hours": 0.413006,
+        "y_resid_minutes": 23.478505
+      },
+      {
+        "state_key": 46,
+        "year": 2006,
+        "x_resid_hours": -0.631299,
+        "y_resid_minutes": 66.165893
+      },
+      {
+        "state_key": 46,
+        "year": 2007,
+        "x_resid_hours": 0.847864,
+        "y_resid_minutes": 13.951835
+      },
+      {
+        "state_key": 46,
+        "year": 2008,
+        "x_resid_hours": 0.723804,
+        "y_resid_minutes": -71.942033
+      },
+      {
+        "state_key": 46,
+        "year": 2009,
+        "x_resid_hours": 0.133439,
+        "y_resid_minutes": 112.672312
+      },
+      {
+        "state_key": 46,
+        "year": 2010,
+        "x_resid_hours": -0.089712,
+        "y_resid_minutes": 42.312723
+      },
+      {
+        "state_key": 46,
+        "year": 2011,
+        "x_resid_hours": -0.907194,
+        "y_resid_minutes": 0.695856
+      },
+      {
+        "state_key": 46,
+        "year": 2012,
+        "x_resid_hours": 0.70742,
+        "y_resid_minutes": -37.073063
+      },
+      {
+        "state_key": 46,
+        "year": 2013,
+        "x_resid_hours": -0.431594,
+        "y_resid_minutes": 41.18895
+      },
+      {
+        "state_key": 46,
+        "year": 2014,
+        "x_resid_hours": -0.926883,
+        "y_resid_minutes": 52.090226
+      },
+      {
+        "state_key": 46,
+        "year": 2015,
+        "x_resid_hours": 0.82638,
+        "y_resid_minutes": -66.518471
+      },
+      {
+        "state_key": 46,
+        "year": 2016,
+        "x_resid_hours": -0.590098,
+        "y_resid_minutes": 72.076536
+      },
+      {
+        "state_key": 46,
+        "year": 2017,
+        "x_resid_hours": 0.279349,
+        "y_resid_minutes": 95.32695
+      },
+      {
+        "state_key": 46,
+        "year": 2018,
+        "x_resid_hours": -0.802884,
+        "y_resid_minutes": 79.491543
+      },
+      {
+        "state_key": 46,
+        "year": 2019,
+        "x_resid_hours": 1.082793,
+        "y_resid_minutes": -89.765131
+      },
+      {
+        "state_key": 46,
+        "year": 2020,
+        "x_resid_hours": -0.310985,
+        "y_resid_minutes": -0.483705
+      },
+      {
+        "state_key": 46,
+        "year": 2022,
+        "x_resid_hours": -0.479682,
+        "y_resid_minutes": -5.877624
+      },
+      {
+        "state_key": 46,
+        "year": 2023,
+        "x_resid_hours": 0.505781,
+        "y_resid_minutes": 7.551733
+      },
+      {
+        "state_key": 46,
+        "year": 2024,
+        "x_resid_hours": -1.063534,
+        "y_resid_minutes": -26.17059
+      },
+      {
+        "state_key": 47,
+        "year": 2005,
+        "x_resid_hours": -0.032563,
+        "y_resid_minutes": 32.439111
+      },
+      {
+        "state_key": 47,
+        "year": 2006,
+        "x_resid_hours": 0.054022,
+        "y_resid_minutes": -4.375993
+      },
+      {
+        "state_key": 47,
+        "year": 2007,
+        "x_resid_hours": 0.457714,
+        "y_resid_minutes": -30.097924
+      },
+      {
+        "state_key": 47,
+        "year": 2008,
+        "x_resid_hours": -0.2532,
+        "y_resid_minutes": -11.919628
+      },
+      {
+        "state_key": 47,
+        "year": 2009,
+        "x_resid_hours": 0.041787,
+        "y_resid_minutes": -33.82453
+      },
+      {
+        "state_key": 47,
+        "year": 2010,
+        "x_resid_hours": 0.00512,
+        "y_resid_minutes": 18.255958
+      },
+      {
+        "state_key": 47,
+        "year": 2011,
+        "x_resid_hours": -0.396929,
+        "y_resid_minutes": -0.374444
+      },
+      {
+        "state_key": 47,
+        "year": 2012,
+        "x_resid_hours": -0.096402,
+        "y_resid_minutes": -1.792056
+      },
+      {
+        "state_key": 47,
+        "year": 2013,
+        "x_resid_hours": 0.190786,
+        "y_resid_minutes": 27.92819
+      },
+      {
+        "state_key": 47,
+        "year": 2014,
+        "x_resid_hours": -0.042961,
+        "y_resid_minutes": 35.158699
+      },
+      {
+        "state_key": 47,
+        "year": 2015,
+        "x_resid_hours": 0.083984,
+        "y_resid_minutes": -24.179436
+      },
+      {
+        "state_key": 47,
+        "year": 2016,
+        "x_resid_hours": 0.175185,
+        "y_resid_minutes": 18.393524
+      },
+      {
+        "state_key": 47,
+        "year": 2017,
+        "x_resid_hours": -0.781725,
+        "y_resid_minutes": 30.666045
+      },
+      {
+        "state_key": 47,
+        "year": 2018,
+        "x_resid_hours": 0.140431,
+        "y_resid_minutes": -37.550106
+      },
+      {
+        "state_key": 47,
+        "year": 2019,
+        "x_resid_hours": 0.460896,
+        "y_resid_minutes": -22.151027
+      },
+      {
+        "state_key": 47,
+        "year": 2020,
+        "x_resid_hours": 0.432215,
+        "y_resid_minutes": -17.931286
+      },
+      {
+        "state_key": 47,
+        "year": 2021,
+        "x_resid_hours": -0.641566,
+        "y_resid_minutes": 19.71459
+      },
+      {
+        "state_key": 47,
+        "year": 2022,
+        "x_resid_hours": 0.014825,
+        "y_resid_minutes": -12.281858
+      },
+      {
+        "state_key": 47,
+        "year": 2023,
+        "x_resid_hours": 0.199635,
+        "y_resid_minutes": 13.16872
+      },
+      {
+        "state_key": 47,
+        "year": 2024,
+        "x_resid_hours": -0.011252,
+        "y_resid_minutes": 0.753452
+      },
+      {
+        "state_key": 48,
+        "year": 2005,
+        "x_resid_hours": 0.243525,
+        "y_resid_minutes": -13.575886
+      },
+      {
+        "state_key": 48,
+        "year": 2006,
+        "x_resid_hours": 0.143858,
+        "y_resid_minutes": -13.516602
+      },
+      {
+        "state_key": 48,
+        "year": 2007,
+        "x_resid_hours": -0.057791,
+        "y_resid_minutes": 6.845134
+      },
+      {
+        "state_key": 48,
+        "year": 2008,
+        "x_resid_hours": -0.25146,
+        "y_resid_minutes": 15.511951
+      },
+      {
+        "state_key": 48,
+        "year": 2009,
+        "x_resid_hours": -0.017055,
+        "y_resid_minutes": -12.372529
+      },
+      {
+        "state_key": 48,
+        "year": 2010,
+        "x_resid_hours": -0.100405,
+        "y_resid_minutes": 12.990551
+      },
+      {
+        "state_key": 48,
+        "year": 2011,
+        "x_resid_hours": -0.002896,
+        "y_resid_minutes": 3.461249
+      },
+      {
+        "state_key": 48,
+        "year": 2012,
+        "x_resid_hours": -0.021321,
+        "y_resid_minutes": -5.072101
+      },
+      {
+        "state_key": 48,
+        "year": 2013,
+        "x_resid_hours": -0.016493,
+        "y_resid_minutes": 20.263947
+      },
+      {
+        "state_key": 48,
+        "year": 2014,
+        "x_resid_hours": -0.047495,
+        "y_resid_minutes": 8.490539
+      },
+      {
+        "state_key": 48,
+        "year": 2015,
+        "x_resid_hours": 0.122513,
+        "y_resid_minutes": 14.855968
+      },
+      {
+        "state_key": 48,
+        "year": 2016,
+        "x_resid_hours": -0.146185,
+        "y_resid_minutes": -4.336643
+      },
+      {
+        "state_key": 48,
+        "year": 2017,
+        "x_resid_hours": -0.055865,
+        "y_resid_minutes": -20.508403
+      },
+      {
+        "state_key": 48,
+        "year": 2018,
+        "x_resid_hours": 0.308761,
+        "y_resid_minutes": -9.397716
+      },
+      {
+        "state_key": 48,
+        "year": 2019,
+        "x_resid_hours": -0.10934,
+        "y_resid_minutes": 1.797099
+      },
+      {
+        "state_key": 48,
+        "year": 2020,
+        "x_resid_hours": -0.083655,
+        "y_resid_minutes": -14.280804
+      },
+      {
+        "state_key": 48,
+        "year": 2021,
+        "x_resid_hours": -0.103594,
+        "y_resid_minutes": 3.676674
+      },
+      {
+        "state_key": 48,
+        "year": 2022,
+        "x_resid_hours": 0.127176,
+        "y_resid_minutes": -3.074847
+      },
+      {
+        "state_key": 48,
+        "year": 2023,
+        "x_resid_hours": -0.05614,
+        "y_resid_minutes": -7.345503
+      },
+      {
+        "state_key": 48,
+        "year": 2024,
+        "x_resid_hours": 0.123862,
+        "y_resid_minutes": 15.587921
+      },
+      {
+        "state_key": 49,
+        "year": 2006,
+        "x_resid_hours": 0.336617,
+        "y_resid_minutes": -69.217113
+      },
+      {
+        "state_key": 49,
+        "year": 2007,
+        "x_resid_hours": 0.210753,
+        "y_resid_minutes": -23.235695
+      },
+      {
+        "state_key": 49,
+        "year": 2008,
+        "x_resid_hours": 0.167736,
+        "y_resid_minutes": -59.491319
+      },
+      {
+        "state_key": 49,
+        "year": 2009,
+        "x_resid_hours": -0.296676,
+        "y_resid_minutes": 15.657448
+      },
+      {
+        "state_key": 49,
+        "year": 2010,
+        "x_resid_hours": 0.105859,
+        "y_resid_minutes": -15.362025
+      },
+      {
+        "state_key": 49,
+        "year": 2011,
+        "x_resid_hours": -0.52998,
+        "y_resid_minutes": -13.067498
+      },
+      {
+        "state_key": 49,
+        "year": 2012,
+        "x_resid_hours": 0.529136,
+        "y_resid_minutes": -37.597855
+      },
+      {
+        "state_key": 49,
+        "year": 2013,
+        "x_resid_hours": -0.15055,
+        "y_resid_minutes": -28.158461
+      },
+      {
+        "state_key": 49,
+        "year": 2014,
+        "x_resid_hours": -0.080392,
+        "y_resid_minutes": 13.291025
+      },
+      {
+        "state_key": 49,
+        "year": 2015,
+        "x_resid_hours": -0.457716,
+        "y_resid_minutes": 50.908291
+      },
+      {
+        "state_key": 49,
+        "year": 2016,
+        "x_resid_hours": 0.112498,
+        "y_resid_minutes": 11.459475
+      },
+      {
+        "state_key": 49,
+        "year": 2017,
+        "x_resid_hours": 0.042027,
+        "y_resid_minutes": -33.639639
+      },
+      {
+        "state_key": 49,
+        "year": 2018,
+        "x_resid_hours": -0.374011,
+        "y_resid_minutes": 74.321862
+      },
+      {
+        "state_key": 49,
+        "year": 2019,
+        "x_resid_hours": -0.185813,
+        "y_resid_minutes": 8.516147
+      },
+      {
+        "state_key": 49,
+        "year": 2020,
+        "x_resid_hours": -0.399324,
+        "y_resid_minutes": 1.08335
+      },
+      {
+        "state_key": 49,
+        "year": 2021,
+        "x_resid_hours": 0.739884,
+        "y_resid_minutes": -7.376921
+      },
+      {
+        "state_key": 49,
+        "year": 2022,
+        "x_resid_hours": 0.298906,
+        "y_resid_minutes": 9.472989
+      },
+      {
+        "state_key": 49,
+        "year": 2023,
+        "x_resid_hours": -0.014436,
+        "y_resid_minutes": -1.657501
+      },
+      {
+        "state_key": 49,
+        "year": 2024,
+        "x_resid_hours": 0.022578,
+        "y_resid_minutes": -31.090305
+      },
+      {
+        "state_key": 50,
+        "year": 2006,
+        "x_resid_hours": -0.472934,
+        "y_resid_minutes": 85.598459
+      },
+      {
+        "state_key": 50,
+        "year": 2007,
+        "x_resid_hours": -0.022897,
+        "y_resid_minutes": -67.656513
+      },
+      {
+        "state_key": 50,
+        "year": 2008,
+        "x_resid_hours": -0.262643,
+        "y_resid_minutes": 61.422925
+      },
+      {
+        "state_key": 50,
+        "year": 2009,
+        "x_resid_hours": -0.922651,
+        "y_resid_minutes": 99.383287
+      },
+      {
+        "state_key": 50,
+        "year": 2010,
+        "x_resid_hours": -0.345694,
+        "y_resid_minutes": -86.442688
+      },
+      {
+        "state_key": 50,
+        "year": 2011,
+        "x_resid_hours": 0.499763,
+        "y_resid_minutes": -71.090829
+      },
+      {
+        "state_key": 50,
+        "year": 2012,
+        "x_resid_hours": -0.828183,
+        "y_resid_minutes": 50.079007
+      },
+      {
+        "state_key": 50,
+        "year": 2013,
+        "x_resid_hours": 0.941086,
+        "y_resid_minutes": -98.50915
+      },
+      {
+        "state_key": 50,
+        "year": 2014,
+        "x_resid_hours": -1.006785,
+        "y_resid_minutes": 7.499988
+      },
+      {
+        "state_key": 50,
+        "year": 2015,
+        "x_resid_hours": 0.491655,
+        "y_resid_minutes": -20.511676
+      },
+      {
+        "state_key": 50,
+        "year": 2016,
+        "x_resid_hours": 0.191108,
+        "y_resid_minutes": 71.34962
+      },
+      {
+        "state_key": 50,
+        "year": 2017,
+        "x_resid_hours": -0.751713,
+        "y_resid_minutes": 32.701213
+      },
+      {
+        "state_key": 50,
+        "year": 2018,
+        "x_resid_hours": -0.520723,
+        "y_resid_minutes": 8.475673
+      },
+      {
+        "state_key": 50,
+        "year": 2020,
+        "x_resid_hours": 0.86957,
+        "y_resid_minutes": 29.541026
+      },
+      {
+        "state_key": 50,
+        "year": 2021,
+        "x_resid_hours": -0.248322,
+        "y_resid_minutes": 61.09755
+      },
+      {
+        "state_key": 50,
+        "year": 2022,
+        "x_resid_hours": -1.050009,
+        "y_resid_minutes": -81.787258
+      },
+      {
+        "state_key": 50,
+        "year": 2023,
+        "x_resid_hours": 0.242724,
+        "y_resid_minutes": -55.018848
+      },
+      {
+        "state_key": 50,
+        "year": 2024,
+        "x_resid_hours": 0.443397,
+        "y_resid_minutes": 48.967233
+      },
+      {
+        "state_key": 51,
+        "year": 2005,
+        "x_resid_hours": -0.159133,
+        "y_resid_minutes": 53.684269
+      },
+      {
+        "state_key": 51,
+        "year": 2006,
+        "x_resid_hours": -0.010259,
+        "y_resid_minutes": -24.362689
+      },
+      {
+        "state_key": 51,
+        "year": 2007,
+        "x_resid_hours": -0.060448,
+        "y_resid_minutes": -7.094148
+      },
+      {
+        "state_key": 51,
+        "year": 2008,
+        "x_resid_hours": 0.054033,
+        "y_resid_minutes": -20.552619
+      },
+      {
+        "state_key": 51,
+        "year": 2009,
+        "x_resid_hours": 0.119088,
+        "y_resid_minutes": 23.539208
+      },
+      {
+        "state_key": 51,
+        "year": 2010,
+        "x_resid_hours": 0.051569,
+        "y_resid_minutes": -19.50784
+      },
+      {
+        "state_key": 51,
+        "year": 2011,
+        "x_resid_hours": 0.155042,
+        "y_resid_minutes": -17.950325
+      },
+      {
+        "state_key": 51,
+        "year": 2012,
+        "x_resid_hours": 0.077378,
+        "y_resid_minutes": -2.675317
+      },
+      {
+        "state_key": 51,
+        "year": 2013,
+        "x_resid_hours": -0.211074,
+        "y_resid_minutes": 7.902712
+      },
+      {
+        "state_key": 51,
+        "year": 2014,
+        "x_resid_hours": -0.208081,
+        "y_resid_minutes": 13.291589
+      },
+      {
+        "state_key": 51,
+        "year": 2015,
+        "x_resid_hours": 0.341011,
+        "y_resid_minutes": -20.005937
+      },
+      {
+        "state_key": 51,
+        "year": 2016,
+        "x_resid_hours": 0.263015,
+        "y_resid_minutes": -9.930399
+      },
+      {
+        "state_key": 51,
+        "year": 2017,
+        "x_resid_hours": -0.079192,
+        "y_resid_minutes": 21.981362
+      },
+      {
+        "state_key": 51,
+        "year": 2018,
+        "x_resid_hours": -0.256603,
+        "y_resid_minutes": 4.259983
+      },
+      {
+        "state_key": 51,
+        "year": 2019,
+        "x_resid_hours": -0.167868,
+        "y_resid_minutes": 5.313948
+      },
+      {
+        "state_key": 51,
+        "year": 2020,
+        "x_resid_hours": 0.063028,
+        "y_resid_minutes": -29.461564
+      },
+      {
+        "state_key": 51,
+        "year": 2021,
+        "x_resid_hours": 0.048467,
+        "y_resid_minutes": -9.10483
+      },
+      {
+        "state_key": 51,
+        "year": 2022,
+        "x_resid_hours": -0.177272,
+        "y_resid_minutes": 22.501674
+      },
+      {
+        "state_key": 51,
+        "year": 2023,
+        "x_resid_hours": 0.038653,
+        "y_resid_minutes": -12.741505
+      },
+      {
+        "state_key": 51,
+        "year": 2024,
+        "x_resid_hours": 0.118647,
+        "y_resid_minutes": 20.912428
+      },
+      {
+        "state_key": 53,
+        "year": 2005,
+        "x_resid_hours": 0.057951,
+        "y_resid_minutes": 89.583997
+      },
+      {
+        "state_key": 53,
+        "year": 2006,
+        "x_resid_hours": -0.051149,
+        "y_resid_minutes": 31.762486
+      },
+      {
+        "state_key": 53,
+        "year": 2007,
+        "x_resid_hours": -0.150954,
+        "y_resid_minutes": -59.037539
+      },
+      {
+        "state_key": 53,
+        "year": 2008,
+        "x_resid_hours": 0.097137,
+        "y_resid_minutes": -15.094699
+      },
+      {
+        "state_key": 53,
+        "year": 2009,
+        "x_resid_hours": 0.153903,
+        "y_resid_minutes": -36.581965
+      },
+      {
+        "state_key": 53,
+        "year": 2010,
+        "x_resid_hours": -0.08983,
+        "y_resid_minutes": -17.644304
+      },
+      {
+        "state_key": 53,
+        "year": 2011,
+        "x_resid_hours": -0.089,
+        "y_resid_minutes": -11.064158
+      },
+      {
+        "state_key": 53,
+        "year": 2012,
+        "x_resid_hours": 0.085151,
+        "y_resid_minutes": -2.291192
+      },
+      {
+        "state_key": 53,
+        "year": 2013,
+        "x_resid_hours": 0.017663,
+        "y_resid_minutes": -4.592695
+      },
+      {
+        "state_key": 53,
+        "year": 2014,
+        "x_resid_hours": 0.292431,
+        "y_resid_minutes": -25.709132
+      },
+      {
+        "state_key": 53,
+        "year": 2015,
+        "x_resid_hours": -0.027967,
+        "y_resid_minutes": -2.015895
+      },
+      {
+        "state_key": 53,
+        "year": 2016,
+        "x_resid_hours": -0.107603,
+        "y_resid_minutes": 20.351899
+      },
+      {
+        "state_key": 53,
+        "year": 2017,
+        "x_resid_hours": -0.518332,
+        "y_resid_minutes": 6.205806
+      },
+      {
+        "state_key": 53,
+        "year": 2018,
+        "x_resid_hours": -0.006946,
+        "y_resid_minutes": 7.79773
+      },
+      {
+        "state_key": 53,
+        "year": 2019,
+        "x_resid_hours": -0.25772,
+        "y_resid_minutes": 41.296811
+      },
+      {
+        "state_key": 53,
+        "year": 2020,
+        "x_resid_hours": 0.610514,
+        "y_resid_minutes": -36.402017
+      },
+      {
+        "state_key": 53,
+        "year": 2021,
+        "x_resid_hours": 0.027256,
+        "y_resid_minutes": -42.830022
+      },
+      {
+        "state_key": 53,
+        "year": 2022,
+        "x_resid_hours": -0.043543,
+        "y_resid_minutes": 44.526699
+      },
+      {
+        "state_key": 53,
+        "year": 2023,
+        "x_resid_hours": 0.431683,
+        "y_resid_minutes": -10.316751
+      },
+      {
+        "state_key": 53,
+        "year": 2024,
+        "x_resid_hours": -0.430646,
+        "y_resid_minutes": 22.054943
+      },
+      {
+        "state_key": 54,
+        "year": 2005,
+        "x_resid_hours": -0.195324,
+        "y_resid_minutes": -105.914982
+      },
+      {
+        "state_key": 54,
+        "year": 2006,
+        "x_resid_hours": 0.392008,
+        "y_resid_minutes": -13.009617
+      },
+      {
+        "state_key": 54,
+        "year": 2007,
+        "x_resid_hours": -0.547126,
+        "y_resid_minutes": 66.547465
+      },
+      {
+        "state_key": 54,
+        "year": 2008,
+        "x_resid_hours": -0.649071,
+        "y_resid_minutes": 58.170716
+      },
+      {
+        "state_key": 54,
+        "year": 2009,
+        "x_resid_hours": 0.603663,
+        "y_resid_minutes": 29.428197
+      },
+      {
+        "state_key": 54,
+        "year": 2010,
+        "x_resid_hours": 0.133653,
+        "y_resid_minutes": -11.11573
+      },
+      {
+        "state_key": 54,
+        "year": 2011,
+        "x_resid_hours": -0.378762,
+        "y_resid_minutes": -0.116514
+      },
+      {
+        "state_key": 54,
+        "year": 2012,
+        "x_resid_hours": 0.037729,
+        "y_resid_minutes": 5.165496
+      },
+      {
+        "state_key": 54,
+        "year": 2013,
+        "x_resid_hours": 0.302372,
+        "y_resid_minutes": -42.564259
+      },
+      {
+        "state_key": 54,
+        "year": 2014,
+        "x_resid_hours": -0.484221,
+        "y_resid_minutes": -47.70765
+      },
+      {
+        "state_key": 54,
+        "year": 2015,
+        "x_resid_hours": 0.082632,
+        "y_resid_minutes": 95.407708
+      },
+      {
+        "state_key": 54,
+        "year": 2016,
+        "x_resid_hours": 0.772957,
+        "y_resid_minutes": -50.292107
+      },
+      {
+        "state_key": 54,
+        "year": 2017,
+        "x_resid_hours": 0.272143,
+        "y_resid_minutes": -11.477317
+      },
+      {
+        "state_key": 54,
+        "year": 2018,
+        "x_resid_hours": 0.084384,
+        "y_resid_minutes": 17.448351
+      },
+      {
+        "state_key": 54,
+        "year": 2019,
+        "x_resid_hours": -0.462025,
+        "y_resid_minutes": 49.162244
+      },
+      {
+        "state_key": 54,
+        "year": 2020,
+        "x_resid_hours": 0.799811,
+        "y_resid_minutes": -4.08772
+      },
+      {
+        "state_key": 54,
+        "year": 2021,
+        "x_resid_hours": -0.408128,
+        "y_resid_minutes": 40.523445
+      },
+      {
+        "state_key": 54,
+        "year": 2023,
+        "x_resid_hours": -0.681284,
+        "y_resid_minutes": 2.259345
+      },
+      {
+        "state_key": 55,
+        "year": 2005,
+        "x_resid_hours": -0.117945,
+        "y_resid_minutes": -81.611407
+      },
+      {
+        "state_key": 55,
+        "year": 2006,
+        "x_resid_hours": 0.009894,
+        "y_resid_minutes": 7.850114
+      },
+      {
+        "state_key": 55,
+        "year": 2007,
+        "x_resid_hours": 0.105877,
+        "y_resid_minutes": -3.645139
+      },
+      {
+        "state_key": 55,
+        "year": 2008,
+        "x_resid_hours": 0.317314,
+        "y_resid_minutes": 21.521325
+      },
+      {
+        "state_key": 55,
+        "year": 2009,
+        "x_resid_hours": -0.150645,
+        "y_resid_minutes": 13.624953
+      },
+      {
+        "state_key": 55,
+        "year": 2010,
+        "x_resid_hours": 0.012581,
+        "y_resid_minutes": 8.728499
+      },
+      {
+        "state_key": 55,
+        "year": 2011,
+        "x_resid_hours": -0.019666,
+        "y_resid_minutes": 25.320876
+      },
+      {
+        "state_key": 55,
+        "year": 2012,
+        "x_resid_hours": -0.140491,
+        "y_resid_minutes": 29.466834
+      },
+      {
+        "state_key": 55,
+        "year": 2013,
+        "x_resid_hours": 0.076729,
+        "y_resid_minutes": -6.227132
+      },
+      {
+        "state_key": 55,
+        "year": 2014,
+        "x_resid_hours": -0.208531,
+        "y_resid_minutes": 14.599641
+      },
+      {
+        "state_key": 55,
+        "year": 2015,
+        "x_resid_hours": 0.152563,
+        "y_resid_minutes": 9.514513
+      },
+      {
+        "state_key": 55,
+        "year": 2016,
+        "x_resid_hours": 0.137815,
+        "y_resid_minutes": -1.186755
+      },
+      {
+        "state_key": 55,
+        "year": 2017,
+        "x_resid_hours": -0.373339,
+        "y_resid_minutes": 14.214765
+      },
+      {
+        "state_key": 55,
+        "year": 2018,
+        "x_resid_hours": 0.089129,
+        "y_resid_minutes": 52.17858
+      },
+      {
+        "state_key": 55,
+        "year": 2019,
+        "x_resid_hours": -0.099725,
+        "y_resid_minutes": -52.624401
+      },
+      {
+        "state_key": 55,
+        "year": 2020,
+        "x_resid_hours": -0.008927,
+        "y_resid_minutes": -24.185662
+      },
+      {
+        "state_key": 55,
+        "year": 2021,
+        "x_resid_hours": -0.15028,
+        "y_resid_minutes": -14.192652
+      },
+      {
+        "state_key": 55,
+        "year": 2022,
+        "x_resid_hours": 0.414874,
+        "y_resid_minutes": 7.795915
+      },
+      {
+        "state_key": 55,
+        "year": 2023,
+        "x_resid_hours": 0.210747,
+        "y_resid_minutes": -61.764417
+      },
+      {
+        "state_key": 55,
+        "year": 2024,
+        "x_resid_hours": -0.257975,
+        "y_resid_minutes": 40.62155
+      },
+      {
+        "state_key": 56,
+        "year": 2005,
+        "x_resid_hours": -0.278062,
+        "y_resid_minutes": 124.984284
+      },
+      {
+        "state_key": 56,
+        "year": 2006,
+        "x_resid_hours": 0.200848,
+        "y_resid_minutes": -90.427491
+      },
+      {
+        "state_key": 56,
+        "year": 2007,
+        "x_resid_hours": -0.006707,
+        "y_resid_minutes": 65.166175
+      },
+      {
+        "state_key": 56,
+        "year": 2008,
+        "x_resid_hours": 0.176133,
+        "y_resid_minutes": 34.655405
+      },
+      {
+        "state_key": 56,
+        "year": 2009,
+        "x_resid_hours": -0.921284,
+        "y_resid_minutes": 63.567451
+      },
+      {
+        "state_key": 56,
+        "year": 2010,
+        "x_resid_hours": 0.147861,
+        "y_resid_minutes": -13.388348
+      },
+      {
+        "state_key": 56,
+        "year": 2011,
+        "x_resid_hours": -0.706114,
+        "y_resid_minutes": -2.563884
+      },
+      {
+        "state_key": 56,
+        "year": 2012,
+        "x_resid_hours": 1.075623,
+        "y_resid_minutes": -128.862396
+      },
+      {
+        "state_key": 56,
+        "year": 2013,
+        "x_resid_hours": -0.154526,
+        "y_resid_minutes": -59.872548
+      },
+      {
+        "state_key": 56,
+        "year": 2014,
+        "x_resid_hours": 0.171994,
+        "y_resid_minutes": 6.305578
+      },
+      {
+        "state_key": 56,
+        "year": 2015,
+        "x_resid_hours": 0.30305,
+        "y_resid_minutes": -75.451793
+      },
+      {
+        "state_key": 56,
+        "year": 2016,
+        "x_resid_hours": -0.103267,
+        "y_resid_minutes": -55.261986
+      },
+      {
+        "state_key": 56,
+        "year": 2017,
+        "x_resid_hours": 0.696893,
+        "y_resid_minutes": 9.251489
+      },
+      {
+        "state_key": 56,
+        "year": 2018,
+        "x_resid_hours": -0.365783,
+        "y_resid_minutes": 0.827087
+      },
+      {
+        "state_key": 56,
+        "year": 2019,
+        "x_resid_hours": -0.835396,
+        "y_resid_minutes": -42.441343
+      },
+      {
+        "state_key": 56,
+        "year": 2021,
+        "x_resid_hours": -0.184516,
+        "y_resid_minutes": 56.082219
+      },
+      {
+        "state_key": 56,
+        "year": 2022,
+        "x_resid_hours": -0.98916,
+        "y_resid_minutes": 67.593908
+      },
+      {
+        "state_key": 56,
+        "year": 2023,
+        "x_resid_hours": 0.315508,
+        "y_resid_minutes": 23.406151
+      },
+      {
+        "state_key": 56,
+        "year": 2024,
+        "x_resid_hours": -0.73643,
+        "y_resid_minutes": 32.271604
+      }
+    ],
+    "bins": [
+      {
+        "x_resid_hours": -0.794001,
+        "y_resid_minutes": 21.69713,
+        "n": 55
+      },
+      {
+        "x_resid_hours": -0.49677,
+        "y_resid_minutes": 31.236697,
+        "n": 54
+      },
+      {
+        "x_resid_hours": -0.358925,
+        "y_resid_minutes": 8.486544,
+        "n": 54
+      },
+      {
+        "x_resid_hours": -0.271609,
+        "y_resid_minutes": 12.50441,
+        "n": 55
+      },
+      {
+        "x_resid_hours": -0.205137,
+        "y_resid_minutes": 6.43295,
+        "n": 54
+      },
+      {
+        "x_resid_hours": -0.157637,
+        "y_resid_minutes": 7.059158,
+        "n": 54
+      },
+      {
+        "x_resid_hours": -0.108063,
+        "y_resid_minutes": 4.016931,
+        "n": 54
+      },
+      {
+        "x_resid_hours": -0.071276,
+        "y_resid_minutes": 7.437407,
+        "n": 55
+      },
+      {
+        "x_resid_hours": -0.031205,
+        "y_resid_minutes": -2.306725,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.00224,
+        "y_resid_minutes": 5.371117,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.043104,
+        "y_resid_minutes": -9.698955,
+        "n": 55
+      },
+      {
+        "x_resid_hours": 0.07654,
+        "y_resid_minutes": -2.378761,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.112437,
+        "y_resid_minutes": 1.761711,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.166927,
+        "y_resid_minutes": -12.790219,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.239403,
+        "y_resid_minutes": -12.41732,
+        "n": 55
+      },
+      {
+        "x_resid_hours": 0.332032,
+        "y_resid_minutes": -12.893115,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.482721,
+        "y_resid_minutes": -16.575314,
+        "n": 54
+      },
+      {
+        "x_resid_hours": 0.776095,
+        "y_resid_minutes": -30.209639,
+        "n": 55
+      }
+    ]
+  },
+  "graphB_bars": {
+    "spec": "C",
+    "sample": "full",
+    "selection_rule": "strongest absolute effect across h=0..8 for each age group",
+    "bars": [
+      {
+        "age": "15-19",
+        "h": 3,
+        "effect": -0.12378851147750625,
+        "p": 0.0278906777367984,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      },
+      {
+        "age": "20-24",
+        "h": 3,
+        "effect": -0.2970697461701225,
+        "p": 0.00156362687356579,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      },
+      {
+        "age": "25-29",
+        "h": 7,
+        "effect": -0.2807563858246783,
+        "p": 0.0325418037405904,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      },
+      {
+        "age": "30-34",
+        "h": 0,
+        "effect": 0.30389356594004163,
+        "p": 0.0220654367194306,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      },
+      {
+        "age": "35-39",
+        "h": 0,
+        "effect": 0.11795025695641875,
+        "p": 0.0216202708465586,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      },
+      {
+        "age": "40-44",
+        "h": 6,
+        "effect": 0.054783223616345,
+        "p": 0.0185479338262547,
+        "significant": true,
+        "unit": "nacimientos por 1.000 mujeres por -1 hora exterior diaria"
+      }
+    ]
+  }
+}
