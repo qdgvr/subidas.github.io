@@ -3430,7 +3430,30 @@ a { color: inherit; }
   padding: 13px 15px;
   color: #fff;
   font: 800 15px/1.2 var(--ui-font);
-  list-style-position: inside;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.article-reportage .methodology summary::-webkit-details-marker {
+  display: none;
+}
+
+.article-reportage .methodology summary::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 7px solid #fff;
+  transform-origin: 45% 50%;
+  transition: transform .16s ease;
+}
+
+.article-reportage .methodology details[open] summary::before {
+  transform: rotate(90deg);
 }
 
 .article-reportage .methodology details p {
@@ -3700,6 +3723,11 @@ a { color: inherit; }
   font-weight: 850;
 }
 
+.article-reportage .model-note-inline {
+  width: auto;
+  margin: 24px 0 0;
+}
+
 .article-reportage .relationship-grid {
   width: min(1180px, calc(100vw - 44px));
   margin: 0 auto;
@@ -3800,6 +3828,10 @@ a { color: inherit; }
   .article-reportage .relationship-section h2,
   .article-reportage .relationship-lead {
     width: calc(100vw - 32px);
+  }
+
+  .article-reportage .relationship-value-label {
+    font-size: 11px;
   }
 
   .article-reportage .relationship-card {

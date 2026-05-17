@@ -90,10 +90,6 @@
       ...d,
       y_resid_hours: d.y_resid_minutes / 60
     }));
-    const bins = (graph.bins || []).map(d => ({
-      ...d,
-      y_resid_hours: d.y_resid_minutes / 60
-    }));
     const slopeHours = graph.slope_minutes_per_hour / 60;
     const [xMin, xMax] = niceSymmetric(points.map(d => d.x_resid_hours), .5);
     const [yMin, yMax] = niceSymmetric(points.map(d => d.y_resid_hours), .5);
@@ -120,13 +116,8 @@
       </g>`).join("");
 
     const cloud = points.map(d => `
-      <circle cx="${x(d.x_resid_hours)}" cy="${y(d.y_resid_hours)}" r="1.8" fill="rgba(116,164,222,.14)">
+      <circle cx="${x(d.x_resid_hours)}" cy="${y(d.y_resid_hours)}" r="2.1" fill="rgba(116,164,222,.24)">
         <title>${esc(`Estado ${d.state_key}, ${d.year}: ${fmt1(d.x_resid_hours)} h, ${fmt1(d.y_resid_hours)} h`)}</title>
-      </circle>`).join("");
-
-    const binDots = bins.map(d => `
-      <circle cx="${x(d.x_resid_hours)}" cy="${y(d.y_resid_hours)}" r="${Math.min(7.5, 4 + Math.sqrt(d.n) / 4)}" fill="${cyan}" stroke="#000" stroke-width="1.2">
-        <title>${esc(`Promedio del grupo: ${fmt1(d.x_resid_hours)} h, ${fmt1(d.y_resid_hours)} h`)}</title>
       </circle>`).join("");
 
     target.innerHTML = `
@@ -138,7 +129,6 @@
         ${cloud}
         <path d="${path(linePoints)}" fill="none" stroke="rgba(53,207,211,.24)" stroke-width="12" stroke-linecap="round"/>
         <path d="${path(linePoints)}" fill="none" stroke="${cyan}" stroke-width="4.2" stroke-linecap="round"/>
-        ${binDots}
         <line x1="${margin.left}" x2="${width - margin.right}" y1="${height - margin.bottom}" y2="${height - margin.bottom}" stroke="rgba(255,255,255,.25)"/>
         <line x1="${margin.left}" x2="${margin.left}" y1="${margin.top}" y2="${height - margin.bottom}" stroke="rgba(255,255,255,.25)"/>
         ${xAxis}
@@ -176,12 +166,18 @@
       const left = Math.min(x0, xv);
       const w = Math.abs(x0 - xv);
       const fill = d.effect >= 0 ? blue : mutedBlue;
-      const valueX = d.effect >= 0 ? left + w + 8 : left - 8;
+      const compactInside = compact && w > 46;
+      const valueX = compactInside
+        ? (d.effect >= 0 ? left + w - 7 : left + 7)
+        : (d.effect >= 0 ? left + w + 8 : left - 8);
+      const valueAnchor = compactInside
+        ? (d.effect >= 0 ? "end" : "start")
+        : (d.effect >= 0 ? "start" : "end");
       return `
         <g>
           <text x="${margin.left - 14}" y="${cy + 5}" text-anchor="end" class="relationship-sample-label">${esc(d.age)}</text>
           <rect x="${left}" y="${cy - barH / 2}" width="${Math.max(2, w)}" height="${barH}" rx="4" fill="${fill}"/>
-          <text x="${valueX}" y="${cy + 5}" text-anchor="${d.effect >= 0 ? "start" : "end"}" class="relationship-value-label">${d.effect > 0 ? "+" : ""}${fmt1(d.effect)} · h${d.h}</text>
+          <text x="${valueX}" y="${cy + 5}" text-anchor="${valueAnchor}" class="relationship-value-label">${d.effect > 0 ? "+" : ""}${fmt1(d.effect)} · h${d.h}</text>
         </g>`;
     }).join("");
 
