@@ -78,7 +78,6 @@
     const first = sorted[0];
     const last = sorted[sorted.length - 1];
     svg.appendChild(el('text', { x: plot.right, y: plot.top + 16, 'text-anchor': 'end', class: 'extra-value-label' }, `${fmt(first.value, 1)}${unit} → ${fmt(last.value, 1)}${unit}`));
-    svg.appendChild(el('text', { x: 12, y: plot.top + 8, class: 'extra-axis-label', transform: `rotate(-90 12 ${plot.top + 8})` }, yLabel));
   }
 
   function init(data) {

@@ -1,5 +1,5 @@
 :root {
-  --bg: #141414;
+  --bg: #000000;
   --line: #2a2a2a;
   --text: #ffffff;
   --caption: #a1a1a1;
@@ -3996,4 +3996,106 @@ a { color: inherit; }
 
 .article-reportage .chapter-before-widget {
   padding-top: clamp(42px, 5vw, 64px);
+}
+
+/* Final visual unification: post-globe report should sit on one uninterrupted black field. */
+html,
+body,
+main,
+.article-reportage,
+.article-reportage .chapter-gateway,
+.article-reportage .chapter-copy-block,
+.article-reportage .chapter-before-widget,
+.article-reportage .chapter-after-widget,
+.article-reportage .relationship-section,
+.article-reportage .extra-graphs-section,
+.article-reportage > .methodology,
+.article-reportage .article-tail,
+.article-tail {
+  background: #000 !important;
+  background-image: none !important;
+}
+
+.article-reportage .us-map-widget,
+.article-reportage .us-map-widget .map-stack,
+.article-reportage .us-map-widget .metric-block,
+.article-reportage .us-map-widget .layout,
+.article-reportage .us-map-widget .map-block,
+.article-reportage .us-map-widget .map-shell,
+.article-reportage .us-map-widget .ranking-section,
+.article-reportage .us-map-widget .trend-section,
+.article-reportage .us-map-widget .legend-steps,
+.article-reportage .us-map-widget .state-card {
+  background: #000 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.article-reportage .us-map-widget .metric-block::before,
+.article-reportage .us-map-widget .metric-block::after {
+  display: none !important;
+}
+
+.article-reportage .us-map-widget .metric-block + .metric-block,
+.article-reportage .relationship-section,
+.article-reportage .extra-graphs-section,
+.article-reportage > .methodology,
+.article-reportage > .interpretation,
+.article-reportage > .closing,
+.article-reportage .chapter-copy-block,
+.article-reportage .relationship-card,
+.article-reportage .extra-graph-card,
+.article-tail-more {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  box-shadow: none !important;
+}
+
+.article-tail-edition,
+.article-tail-newsletter,
+.article-tail-card,
+.article-tail-pill,
+.article-tail-actions button,
+.site-footer {
+  background: #000 !important;
+  background-image: none !important;
+}
+
+.site-footer {
+  border-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+.article-reportage .relationship-chart,
+.article-reportage .extra-chart {
+  background: #000 !important;
+}
+
+.article-reportage .extra-graph-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.article-reportage .extra-card-label {
+  min-height: 1.2em;
+}
+
+.article-reportage .extra-graph-card h3 {
+  min-height: 2.2em;
+}
+
+.article-reportage .extra-graph-card p {
+  min-height: 3.1em;
+}
+
+.article-reportage .extra-chart {
+  margin-top: auto;
+}
+
+@media (max-width: 760px) {
+  .article-reportage .extra-graph-card h3,
+  .article-reportage .extra-graph-card p {
+    min-height: 0;
+  }
 }
