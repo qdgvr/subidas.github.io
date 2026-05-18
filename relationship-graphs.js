@@ -93,11 +93,14 @@
     const slopeHours = graph.slope_minutes_per_hour / 60;
     const [xMin, xMax] = niceSymmetric(points.map(d => d.x_resid_hours), .5);
     const [yMin, yMax] = niceSymmetric(points.map(d => d.y_resid_hours), .5);
+    const observedX = points.map(d => d.x_resid_hours).filter(Number.isFinite);
+    const observedXMin = Math.min(...observedX);
+    const observedXMax = Math.max(...observedX);
     const x = scaleLinear(xMin, xMax, margin.left, width - margin.right);
     const y = scaleLinear(yMin, yMax, height - margin.bottom, margin.top);
     const linePoints = [
-      { x: x(xMin), y: y(slopeHours * xMin) },
-      { x: x(xMax), y: y(slopeHours * xMax) }
+      { x: x(observedXMin), y: y(slopeHours * observedXMin) },
+      { x: x(observedXMax), y: y(slopeHours * observedXMax) }
     ];
 
     const xTicks = [xMin, xMin / 2, 0, xMax / 2, xMax];
