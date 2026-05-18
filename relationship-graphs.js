@@ -36,6 +36,17 @@
     return Number.isFinite(value) ? value.toFixed(1) : "-";
   }
 
+  function fmtHourMinute(value) {
+    if (!Number.isFinite(value)) return "-";
+    const sign = value < 0 ? "-" : "";
+    const totalMinutes = Math.round(Math.abs(value) * 60);
+    const hours = Math.floor(totalMinutes / 60);
+    const minutes = totalMinutes % 60;
+    if (hours === 0) return `${sign}${minutes} min`;
+    if (minutes === 0) return `${sign}${hours} h`;
+    return `${sign}${hours} h ${String(minutes).padStart(2, "0")} min`;
+  }
+
   function clear(target) {
     const node = document.querySelector(target);
     if (node) node.innerHTML = "";
@@ -109,18 +120,18 @@
     const grid = yTicks.map(t => `
       <g>
         <line x1="${margin.left}" x2="${width - margin.right}" y1="${y(t)}" y2="${y(t)}" stroke="rgba(255,255,255,.10)"/>
-        <text x="${margin.left - 10}" y="${y(t) + 4}" text-anchor="end" class="relationship-axis-label">${fmt1(t)}</text>
+        <text x="${margin.left - 10}" y="${y(t) + 4}" text-anchor="end" class="relationship-axis-label">${fmtHourMinute(t)}</text>
       </g>`).join("");
 
     const xAxis = xTicks.map(t => `
       <g>
         <line x1="${x(t)}" x2="${x(t)}" y1="${height - margin.bottom}" y2="${height - margin.bottom + 5}" stroke="rgba(255,255,255,.25)"/>
-        <text x="${x(t)}" y="${height - margin.bottom + 22}" text-anchor="middle" class="relationship-axis-label">${fmt1(t)} h</text>
+        <text x="${x(t)}" y="${height - margin.bottom + 22}" text-anchor="middle" class="relationship-axis-label">${fmtHourMinute(t)}</text>
       </g>`).join("");
 
     const cloud = points.map(d => `
       <circle cx="${x(d.x_resid_hours)}" cy="${y(d.y_resid_hours)}" r="2.1" fill="rgba(116,164,222,.24)">
-        <title>${esc(`Estado ${d.state_key}, ${d.year}: ${fmt1(d.x_resid_hours)} h, ${fmt1(d.y_resid_hours)} h`)}</title>
+        <title>${esc(`Estado ${d.state_key}, ${d.year}: ${fmtHourMinute(d.x_resid_hours)}, ${fmtHourMinute(d.y_resid_hours)}`)}</title>
       </circle>`).join("");
 
     target.innerHTML = `
@@ -135,9 +146,9 @@
         <line x1="${margin.left}" x2="${width - margin.right}" y1="${height - margin.bottom}" y2="${height - margin.bottom}" stroke="rgba(255,255,255,.25)"/>
         <line x1="${margin.left}" x2="${margin.left}" y1="${margin.top}" y2="${height - margin.bottom}" stroke="rgba(255,255,255,.25)"/>
         ${xAxis}
-        <text x="${margin.left}" y="20" class="relationship-axis-label">Tiempo exterior ajustado, horas</text>
-        <text x="${width / 2}" y="${height - 12}" text-anchor="middle" class="relationship-axis-label">Ocio digital ajustado, horas</text>
-        <text x="${width - margin.right}" y="${margin.top + 16}" text-anchor="end" class="relationship-value-label">−${fmt1(Math.abs(slopeHours))} h exterior por +1 h digital</text>
+        <text x="${margin.left}" y="20" class="relationship-axis-label">Tiempo exterior ajustado</text>
+        <text x="${width / 2}" y="${height - 12}" text-anchor="middle" class="relationship-axis-label">Ocio digital ajustado</text>
+        <text x="${width - margin.right}" y="${margin.top + 16}" text-anchor="end" class="relationship-value-label">−${fmtHourMinute(Math.abs(slopeHours))} exterior por +1 h digital</text>
       </svg>`;
   }
 
