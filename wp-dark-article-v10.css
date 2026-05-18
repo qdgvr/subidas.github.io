@@ -3341,3 +3341,68 @@ main,
     min-height: 0;
   }
 }
+
+/* Tighten the report rhythm: avoid large blank gaps between text, maps and charts. */
+.article-reportage .chapter-copy-block {
+  padding-top: clamp(24px, 2.8vw, 38px);
+  padding-bottom: clamp(18px, 2.2vw, 28px);
+}
+
+.article-reportage .chapter-before-widget {
+  padding-top: clamp(22px, 2.5vw, 34px);
+  padding-bottom: clamp(16px, 2vw, 24px);
+}
+
+.article-reportage .chapter-after-widget {
+  padding-top: clamp(22px, 2.6vw, 36px);
+  padding-bottom: clamp(24px, 2.8vw, 40px);
+}
+
+.article-reportage .relationship-section {
+  padding-top: clamp(30px, 3.4vw, 52px);
+  padding-bottom: clamp(30px, 3.4vw, 52px);
+}
+
+.article-reportage .relationship-section-inline {
+  padding-top: clamp(24px, 2.8vw, 42px);
+  padding-bottom: clamp(24px, 2.8vw, 42px);
+}
+
+.article-reportage .relationship-chart {
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.article-reportage .relationship-note {
+  margin-top: 8px;
+}
+
+.article-reportage .extra-graphs-section {
+  padding-top: clamp(30px, 3.4vw, 52px);
+  padding-bottom: clamp(38px, 4.4vw, 68px);
+}
+
+.article-reportage .extra-copy-block {
+  padding-top: 0;
+  padding-bottom: clamp(18px, 2.2vw, 30px);
+}
+
+@media (max-width: 760px) {
+  .article-reportage .chapter-copy-block,
+  .article-reportage .chapter-before-widget,
+  .article-reportage .chapter-after-widget {
+    padding-top: 22px;
+    padding-bottom: 24px;
+  }
+
+  .article-reportage .relationship-section,
+  .article-reportage .relationship-section-inline {
+    padding-top: 28px;
+    padding-bottom: 30px;
+  }
+
+  .article-reportage .extra-graphs-section {
+    padding-top: 28px;
+    padding-bottom: 40px;
+  }
+}
