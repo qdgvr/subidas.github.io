@@ -3406,3 +3406,89 @@ main,
     padding-bottom: 40px;
   }
 }
+
+/* Final compact pass: the text blocks should read as one continuous report. */
+.article-reportage .chapter-copy-block {
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+}
+
+.article-reportage .chapter-before-widget {
+  padding-top: 10px !important;
+  padding-bottom: 12px !important;
+}
+
+.article-reportage .chapter-after-widget {
+  padding-top: 14px !important;
+  padding-bottom: 12px !important;
+}
+
+.article-reportage .chapter-copy-block p {
+  margin-top: 12px !important;
+}
+
+.article-reportage .chapter-copy-block p:first-child {
+  margin-top: 0 !important;
+}
+
+.article-reportage .relationship-section {
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
+.article-reportage .relationship-section-inline {
+  padding-top: 16px !important;
+  padding-bottom: 12px !important;
+}
+
+.article-reportage .relationship-card p {
+  margin-bottom: 8px !important;
+}
+
+.article-reportage .relationship-chart {
+  margin-top: 10px !important;
+  margin-bottom: 6px !important;
+}
+
+.article-reportage .relationship-note {
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+}
+
+.article-reportage .model-note-inline {
+  margin-top: 14px !important;
+}
+
+.article-reportage .extra-graphs-section {
+  padding-top: 8px !important;
+  padding-bottom: 42px !important;
+}
+
+.article-reportage .extra-copy-block {
+  padding-top: 0 !important;
+  padding-bottom: 12px !important;
+}
+
+.article-reportage .extra-copy-block p {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 760px) {
+  .article-reportage .chapter-copy-block,
+  .article-reportage .chapter-before-widget,
+  .article-reportage .chapter-after-widget {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+
+  .article-reportage .relationship-section,
+  .article-reportage .relationship-section-inline {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+  }
+
+  .article-reportage .extra-graphs-section {
+    padding-top: 8px !important;
+    padding-bottom: 34px !important;
+  }
+}
