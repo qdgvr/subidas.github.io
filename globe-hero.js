@@ -153,6 +153,7 @@
     rowByCountryName: new Map(),
     rowByStateName: new Map(),
     selectedRow: null,
+    activeChapter: null,
     globalMin: 0.7,
     globalMax: 2.1,
     targetRotation: regionRotation(INTRO.startCenter),
@@ -354,19 +355,35 @@
     updateHud();
   }
 
-  function activateRegion(region) {
+  function chapterCenter(chapter, cfg) {
+    if (!chapter) return cfg.center;
+    const lat = Number(chapter.dataset.lat);
+    const lon = Number(chapter.dataset.lon);
+    if (Number.isFinite(lat) && Number.isFinite(lon)) return { lat, lon };
+    return cfg.center;
+  }
+
+  function chapterCamera(chapter, cfg) {
+    if (!chapter) return cfg.cameraZ;
+    const cameraZ = Number(chapter.dataset.camera);
+    return Number.isFinite(cameraZ) ? cameraZ : cfg.cameraZ;
+  }
+
+  function activateRegion(region, chapter = null) {
     if (!REGIONS[region]) return;
     state.activeRegion = region;
+    const activeChapter = chapter || chapters.find(item => item.dataset.region === region) || null;
+    state.activeChapter = activeChapter;
     if (state.selectedRow && region !== 'title' && state.selectedRow.region !== region) state.selectedRow = null;
     root.dataset.region = region;
-    chapters.forEach(chapter => chapter.classList.toggle('active', chapter.dataset.region === region));
+    chapters.forEach(item => item.classList.toggle('active', item === activeChapter));
 
     const cfg = REGIONS[region];
-    const nextRotation = regionRotation(cfg.center);
+    const nextRotation = regionRotation(chapterCenter(activeChapter, cfg));
     while (nextRotation.y - group.rotation.y > Math.PI) nextRotation.y -= Math.PI * 2;
     while (nextRotation.y - group.rotation.y < -Math.PI) nextRotation.y += Math.PI * 2;
     state.targetRotation = nextRotation;
-    state.targetCameraZ = cfg.cameraZ;
+    state.targetCameraZ = chapterCamera(activeChapter, cfg);
     state.pausedUntil = performance.now() + 900;
     if (ui.tooltip) ui.tooltip.classList.remove('show', 'fixed');
     updatePoints();
@@ -438,7 +455,8 @@
     state.targetRotation = to;
     state.targetCameraZ = REGIONS.europe.cameraZ;
     root.dataset.region = 'europe';
-    chapters.forEach(chapter => chapter.classList.toggle('active', chapter.dataset.region === 'europe'));
+    state.activeChapter = chapters.find(chapter => chapter.dataset.region === 'europe') || null;
+    chapters.forEach(chapter => chapter.classList.toggle('active', chapter === state.activeChapter));
     group.rotation.set(from.x, from.y, 0);
     camera.position.z = INTRO.cameraZ;
     updatePoints();
@@ -448,7 +466,7 @@
     updateGlobeExit();
     if (state.introActive) return;
     if (window.scrollY < root.offsetTop + 80) {
-      activateRegion('europe');
+      activateRegion('europe', chapters.find(chapter => chapter.dataset.region === 'europe') || null);
       applyExitRotation();
       return;
     }
@@ -464,7 +482,7 @@
         best = chapter;
       }
     });
-    activateRegion(best.dataset.region || 'europe');
+    activateRegion(best.dataset.region || 'europe', best);
     applyExitRotation();
   }
 

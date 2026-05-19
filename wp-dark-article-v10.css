@@ -3424,7 +3424,7 @@ main,
 }
 
 .article-reportage .chapter-copy-block p {
-  margin-top: 12px !important;
+  margin-top: 22px !important;
 }
 
 .article-reportage .chapter-copy-block p:first-child {
@@ -3470,6 +3470,10 @@ main,
 }
 
 .article-reportage .extra-copy-block p {
+  margin-top: 22px !important;
+}
+
+.article-reportage .extra-copy-block p:first-child {
   margin-top: 0 !important;
 }
 
